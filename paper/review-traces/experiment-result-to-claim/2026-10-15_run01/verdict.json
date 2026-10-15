@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-15",
+  "review_status": "pending external review",
+  "paper_claim_audit": "unavailable",
+  "claims": [
+    {
+      "id": "C1",
+      "claim_supported": "yes",
+      "scope": "computational feasibility only",
+      "confidence": "high for the solved models; low for extrapolation to real PE",
+      "routing_action": "confirm narrowly"
+    },
+    {
+      "id": "C2",
+      "claim_supported": "no",
+      "confidence": "high",
+      "routing_action": "pivot away from inevitable salt blocking"
+    },
+    {
+      "id": "C3",
+      "claim_supported": "no",
+      "confidence": "high",
+      "routing_action": "supplement with source and measurement closure"
+    },
+    {
+      "id": "C4",
+      "claim_supported": "partial",
+      "confidence": "high",
+      "routing_action": "supplement, then rerun result-to-claim"
+    }
+  ]
+}
