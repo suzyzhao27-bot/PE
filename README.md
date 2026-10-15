@@ -52,6 +52,22 @@ src/
 
 ## 模块说明与运行
 
+### 运行环境（Windows）
+
+已在 Python 3.14.7 下验证。建议在项目根目录创建隔离环境；Windows 请使用 `py -3.14`，而非可能指向 Microsoft Store 占位程序的 `python`。
+
+```powershell
+py -3.14 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+之后，所有需要科学计算库的命令均用 `..\..\.venv\Scripts\python.exe` 执行。绘图前，可在相应模块目录将 Matplotlib 缓存置于本地工作目录，避免默认缓存目录权限警告：
+
+```powershell
+New-Item -ItemType Directory -Force .mplconfig | Out-Null
+$env:MPLCONFIGDIR = (Resolve-Path .mplconfig).Path
+```
+
 ### `src/v2_training`
 
 这是标准库训练模块，提供圆柱 PB、Donnan/中性对照、储液池曲线、参数情景和训练/冻结演示。
@@ -123,5 +139,5 @@ python plot_multifiber_fields.py  # 可选，需要已有 matplotlib 和 refine_
 - 当前复制的主计算脚本未发现会打开原机绝对路径的代码。原始 README 中的 macOS 解释器路径仅是历史运行记录。
 - 代码使用同目录导入，例如 `from solver import ...` 和 `from models import ...`。请在对应模块目录内运行，或保持脚本与同目录模块一起移动。
 - 已有 `.gitignore` 会忽略 `*.npz`、原始 Office/PDF/Origin 文件、压缩包和 `原始资料/`。新运行产生的 CSV/JSON/PNG 是否进入版本库，须在代码审阅时按“可复现、小型、非敏感”原则逐项决定。
-- 没有新增 `requirements.txt`、虚拟环境或依赖安装。Python、NumPy、SciPy、matplotlib 的具体版本兼容范围仍为**待确认**。
+- 已提供 `requirements.txt`；在 Windows/Python 3.14.7 环境中已验证 NumPy 2.5.4、SciPy 1.18.1 与 Matplotlib 3.11.2。虚拟环境 `.venv/` 会被 Git 忽略。
 - 复制后代码与原始副本分别演化。每次共同修改前，应在提交说明中记录对应原始版本/文件哈希和物理假设变化。
