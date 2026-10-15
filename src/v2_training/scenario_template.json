@@ -1,0 +1,27 @@
+{
+  "scenario_id": "SYNTHETIC_TEACHING_001",
+  "evidence_status": "synthetic",
+  "temperature_k": 298.15,
+  "epsilon_r": 78.3,
+  "d_plus_m2_s": 1.33e-9,
+  "d_minus_m2_s": 2.03e-9,
+  "sigma_c_m2": -0.01,
+  "c_left0_mol_m3": 270.0,
+  "c_right0_mol_m3": 0.0,
+  "pb_reference_bulk_mol_m3": 270.0,
+  "pb_cells": 512,
+  "rk4_max_step_s": 5.0,
+  "times_s": [0, 1200, 2400, 3600, 4800, 6000, 7200],
+  "geometry": {
+    "radius_m": 2.5e-8,
+    "length_m": 3.5e-7,
+    "porosity": 0.4,
+    "wetted_fraction": 1.0,
+    "area_m2": 1e-4,
+    "volume_left_m3": 1e-5,
+    "volume_right_m3": 1e-5,
+    "layer_left_m": 1e-5,
+    "layer_right_m": 1e-5
+  },
+  "parameter_notes": "All inputs are synthetic assumptions, not measured film parameters. Do not enter KPFM or zeta as sigma."
+}

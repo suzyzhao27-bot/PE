@@ -1,0 +1,86 @@
+# Sensitive configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+*.crt
+*credential*
+*secret*
+*token*
+*password*
+*apikey*
+*api_key*
+
+# Python environments, caches, and local tooling
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# OS and editor artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Archives and packaged deliveries
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# Source documents and raw office files
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.xlsm
+*.csv~
+
+# Raw scientific, instrument, and large numerical data
+*.opju
+*.npz
+*.npy
+*.mat
+*.h5
+*.hdf5
+*.nc
+*.sqlite
+*.db
+
+# Project archives, raw material, and historical copies
+/原始资料/
+/90_历史与工作底稿/
+/03_发送用ZIP/
+/04_开题会_20261014/制作与核验/
+
+# Generated runtime output; keep reviewed, lightweight results only when explicitly needed
+*.log
+
+# Generated model outputs (recreate locally; do not publish)
+/src/outputs/
+/src/**/outputs/
+/src/**/demo_output/
