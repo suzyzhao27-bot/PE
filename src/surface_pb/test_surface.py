@@ -74,5 +74,7 @@ if __name__=='__main__':
   if isinstance(v,np.generic):return v.item()
   if isinstance(v,dict):return {k:convert(x) for k,x in v.items()}
   return v
- (Path(__file__).resolve().parent.parent/'qa/surface_tests.json').write_text(json.dumps(convert({'status':'PASS' if result.wasSuccessful() else 'FAIL','tests':result.testsRun,'failures':len(result.failures),'errors':len(result.errors),'metrics':METRICS}),ensure_ascii=False,indent=2))
+ qa_path=Path(__file__).resolve().parent.parent/'qa/surface_tests.json'
+ qa_path.parent.mkdir(parents=True,exist_ok=True)
+ qa_path.write_text(json.dumps(convert({'status':'PASS' if result.wasSuccessful() else 'FAIL','tests':result.testsRun,'failures':len(result.failures),'errors':len(result.errors),'metrics':METRICS}),ensure_ascii=False,indent=2))
  raise SystemExit(not result.wasSuccessful())

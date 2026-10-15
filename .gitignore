@@ -24,6 +24,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+.mplconfig/
 .mypy_cache/
 .ruff_cache/
 .tox/
@@ -84,3 +85,7 @@ Desktop.ini
 /src/outputs/
 /src/**/outputs/
 /src/**/demo_output/
+/src/**/demo_output_*/
+/src/**/scenario_*/
+/src/**/test_report.json
+/src/qa/
