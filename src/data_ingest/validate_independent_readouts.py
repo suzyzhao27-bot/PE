@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 from collections import Counter
 from pathlib import Path
 
@@ -18,9 +19,16 @@ FIELDS = [
     "calibration_id",
     "matrix",
     "sample_volume",
+    "max_sample_volume",
+    "sample_volume_unit",
     "dilution",
     "detection_limit",
     "quantification_limit",
+    "calibration_lower_bound",
+    "calibration_upper_bound",
+    "expected_min_signal",
+    "expected_max_signal",
+    "measurement_unit",
     "blank_id",
     "recovery_check",
     "adsorption_check",
@@ -42,7 +50,18 @@ ROLES = {
 REQUIRED_ROLES = {"independent_na", "independent_cl", "neutral_tracer"}
 INPUT_LEVELS = {"measured", "reported", "provisional", "unknown"}
 STATUSES = {"planned", "ready", "excluded"}
-REQUIRED_FOR_READY = FIELDS[:18]
+REQUIRED_FOR_READY = FIELDS[:25]
+NUMERIC_FIELDS = [
+    "sample_volume",
+    "max_sample_volume",
+    "dilution",
+    "detection_limit",
+    "quantification_limit",
+    "calibration_lower_bound",
+    "calibration_upper_bound",
+    "expected_min_signal",
+    "expected_max_signal",
+]
 
 
 def load_registry(path: Path) -> list[dict[str, str]]:
@@ -103,6 +122,47 @@ def validate_registry(rows: list[dict[str, str]]) -> dict[str, object]:
             ]
             if any(row[field].strip().lower() == "unknown" for field in tracer_checks):
                 errors.append(f"{method_id}: ready neutral tracer lacks required checks")
+
+        numeric_values: dict[str, float] = {}
+        for field in NUMERIC_FIELDS:
+            raw = row[field].strip().lower()
+            if raw == "unknown":
+                continue
+            try:
+                value = float(raw)
+                if not math.isfinite(value) or value < 0:
+                    raise ValueError
+                numeric_values[field] = value
+            except ValueError:
+                errors.append(f"{method_id}: {field} must be finite and nonnegative")
+
+        if status == "ready" and all(field in numeric_values for field in NUMERIC_FIELDS):
+            if numeric_values["sample_volume"] <= 0:
+                errors.append(f"{method_id}: sample_volume must be positive")
+            if numeric_values["dilution"] <= 0:
+                errors.append(f"{method_id}: dilution must be positive")
+            if numeric_values["sample_volume"] > numeric_values["max_sample_volume"]:
+                errors.append(f"{method_id}: sample volume exceeds the predeclared budget")
+            sensitivity_order = [
+                numeric_values["detection_limit"],
+                numeric_values["quantification_limit"],
+                numeric_values["expected_min_signal"],
+                numeric_values["expected_max_signal"],
+            ]
+            calibration_covers_expected = (
+                numeric_values["calibration_lower_bound"]
+                <= numeric_values["expected_min_signal"]
+                <= numeric_values["expected_max_signal"]
+                <= numeric_values["calibration_upper_bound"]
+            )
+            if (
+                sensitivity_order != sorted(sensitivity_order)
+                or not calibration_covers_expected
+            ):
+                errors.append(
+                    f"{method_id}: calibration, detection, quantification, and expected "
+                    "signal bounds are inconsistent"
+                )
 
         if role in ROLES and status == "ready":
             active_ready_roles.add(role)
