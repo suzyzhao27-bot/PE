@@ -9,6 +9,7 @@ from conductivity_calibration import (
     load_registry as load_calibration_registry,
     validate_registry as validate_calibration_registry,
 )
+from evaluate_liquid_compatibility import evaluate_records as evaluate_compatibility_records
 from validate_blank_registry import (
     TEMPLATE_PATH as BLANK_TEMPLATE_PATH,
     load_registry as load_blank_registry,
@@ -24,6 +25,11 @@ from validate_liquid_compatibility import (
     TEMPLATE_PATH as COMPATIBILITY_TEMPLATE_PATH,
     load_registry as load_compatibility_registry,
     validate_registry as validate_compatibility_registry,
+)
+from validate_liquid_compatibility_thresholds import (
+    TEMPLATE_PATH as COMPATIBILITY_THRESHOLD_TEMPLATE_PATH,
+    load_registry as load_compatibility_threshold_registry,
+    validate_registry as validate_compatibility_threshold_registry,
 )
 from validate_osw_protocol import (
     TEMPLATE_PATH as OSW_TEMPLATE_PATH,
@@ -71,6 +77,7 @@ def assess(
     *,
     salt_tracker_path: Path = TRACKER_PATH,
     compatibility_registry_path: Path = COMPATIBILITY_TEMPLATE_PATH,
+    compatibility_threshold_path: Path = COMPATIBILITY_THRESHOLD_TEMPLATE_PATH,
     osw_registry_path: Path = OSW_TEMPLATE_PATH,
     calibration_path: Path = CALIBRATION_TEMPLATE_PATH,
     run_log_path: Path = RUN_TEMPLATE_PATH,
@@ -81,6 +88,15 @@ def assess(
     salt = validate_tracker(load_tracker(salt_tracker_path))
     compatibility_rows = load_compatibility_registry(compatibility_registry_path)
     compatibility = validate_compatibility_registry(compatibility_rows)
+    compatibility_threshold_rows = load_compatibility_threshold_registry(
+        compatibility_threshold_path
+    )
+    compatibility_thresholds = validate_compatibility_threshold_registry(
+        compatibility_threshold_rows
+    )
+    compatibility_evaluation = evaluate_compatibility_records(
+        compatibility_rows, compatibility_threshold_rows
+    )
     osw_rows = load_osw_registry(osw_registry_path)
     osw = validate_osw_registry(osw_rows)
     readouts = validate_readout_registry(
@@ -101,7 +117,9 @@ def assess(
         and salt["status_counts"].get("complete", 0) == salt["curve_count"]
     )
     osw_compatibility_links_ready = compatibility_links_ready(
-        compatibility_rows, compatibility["ready_compatible_ids"], osw_rows
+        compatibility_rows,
+        compatibility_evaluation["evaluated_ready_compatible_ids"],
+        osw_rows,
     )
     osw_protocol_ready = osw["protocol_ready"] and osw_compatibility_links_ready
     next_actions: list[str] = []
@@ -115,7 +133,9 @@ def assess(
         next_actions.append("qualify no-membrane and impermeable salt-transport blanks")
     if not thresholds["threshold_set_ready"]:
         next_actions.append("predeclare and approve quality thresholds")
-    if not compatibility["compatibility_ready"]:
+    if not compatibility_thresholds["thresholds_ready"]:
+        next_actions.append("predeclare protocol-liquid compatibility thresholds")
+    if not compatibility_evaluation["compatibility_ready"]:
         next_actions.append("qualify protocol-liquid compatibility")
     if not osw_protocol_ready:
         next_actions.append("populate and review the O/S/W sample registry")
@@ -132,7 +152,16 @@ def assess(
         "liquid_compatibility": {
             "registry_valid": compatibility["valid"],
             "row_count": compatibility["row_count"],
-            "compatibility_ready": compatibility["compatibility_ready"],
+            "evaluation_valid": compatibility_evaluation["valid"],
+            "evaluated_ready_compatible_count": len(
+                compatibility_evaluation["evaluated_ready_compatible_ids"]
+            ),
+            "compatibility_ready": compatibility_evaluation["compatibility_ready"],
+        },
+        "liquid_compatibility_thresholds": {
+            "registry_valid": compatibility_thresholds["valid"],
+            "row_count": compatibility_thresholds["row_count"],
+            "thresholds_ready": compatibility_thresholds["thresholds_ready"],
         },
         "osw_protocol": {
             "registry_valid": osw["valid"],
@@ -182,6 +211,11 @@ def main() -> None:
     parser.add_argument(
         "--compatibility-registry", type=Path, default=COMPATIBILITY_TEMPLATE_PATH
     )
+    parser.add_argument(
+        "--compatibility-thresholds",
+        type=Path,
+        default=COMPATIBILITY_THRESHOLD_TEMPLATE_PATH,
+    )
     parser.add_argument("--osw-registry", type=Path, default=OSW_TEMPLATE_PATH)
     parser.add_argument("--calibration", type=Path, default=CALIBRATION_TEMPLATE_PATH)
     parser.add_argument("--run-log", type=Path, default=RUN_TEMPLATE_PATH)
@@ -192,6 +226,7 @@ def main() -> None:
     report = assess(
         salt_tracker_path=args.salt_tracker,
         compatibility_registry_path=args.compatibility_registry,
+        compatibility_threshold_path=args.compatibility_thresholds,
         osw_registry_path=args.osw_registry,
         calibration_path=args.calibration,
         run_log_path=args.run_log,

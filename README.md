@@ -167,6 +167,8 @@ $inputs = Get-ChildItem -LiteralPath $src -Filter '*.opju' | Select-Object -Expa
 .\.venv\Scripts\python.exe .\src\data_ingest\test_blank_registry.py
 .\.venv\Scripts\python.exe .\src\data_ingest\test_quality_thresholds.py
 .\.venv\Scripts\python.exe .\src\data_ingest\test_liquid_compatibility.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_liquid_compatibility_thresholds.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_evaluate_liquid_compatibility.py
 .\.venv\Scripts\python.exe .\src\data_ingest\validate_experiment_records.py
 .\.venv\Scripts\python.exe .\src\data_ingest\validate_osw_protocol.py
 .\.venv\Scripts\python.exe .\src\data_ingest\validate_independent_readouts.py
@@ -176,6 +178,8 @@ $inputs = Get-ChildItem -LiteralPath $src -Filter '*.opju' | Select-Object -Expa
 .\.venv\Scripts\python.exe .\src\data_ingest\validate_blank_registry.py
 .\.venv\Scripts\python.exe .\src\data_ingest\validate_quality_thresholds.py
 .\.venv\Scripts\python.exe .\src\data_ingest\validate_liquid_compatibility.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_liquid_compatibility_thresholds.py
+.\.venv\Scripts\python.exe .\src\data_ingest\evaluate_liquid_compatibility.py
 ```
 
 当前长表不具备机制拟合资格：缺失电导-浓度校准、温度、有效面积、两池体积、取样/补液、润湿历史和独立样品映射。`salt_transport_origin_qc.png` 不能解释为浓度、通量或渗透率结果。

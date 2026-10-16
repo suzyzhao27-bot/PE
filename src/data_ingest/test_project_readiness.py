@@ -11,6 +11,7 @@ class ProjectReadinessTests(unittest.TestCase):
         self.assertEqual(report["salt_transport"]["curve_count"], 17)
         self.assertEqual(report["salt_transport"]["unresolved_curve_count"], 17)
         self.assertEqual(report["liquid_compatibility"]["row_count"], 0)
+        self.assertEqual(report["liquid_compatibility_thresholds"]["row_count"], 0)
         self.assertEqual(report["osw_protocol"]["row_count"], 0)
         self.assertEqual(report["conductivity_calibration"]["row_count"], 0)
         self.assertEqual(report["salt_transport_runs"]["row_count"], 0)
@@ -20,9 +21,9 @@ class ProjectReadinessTests(unittest.TestCase):
         self.assertFalse(report["mechanistic_fit_authorized"])
         self.assertFalse(report["experiment_authorized"])
 
-    def test_current_repository_state_lists_eight_next_actions(self):
+    def test_current_repository_state_lists_nine_next_actions(self):
         report = assess()
-        self.assertEqual(len(report["next_actions"]), 8)
+        self.assertEqual(len(report["next_actions"]), 9)
 
     def test_osw_requires_matching_ready_compatible_liquid(self):
         compatibility = compatibility_row()

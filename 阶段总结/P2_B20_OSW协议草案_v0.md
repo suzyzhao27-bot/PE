@@ -125,7 +125,7 @@
 
 登记表同时要求协议液体身份/批次、兼容性记录 ID、裁片长宽/单位和实际仪器或夹具 ID。缺任一项的记录不能标记 ready，防止分组完成但样品无法装夹或处理液破坏膜结构。
 
-`src/data_ingest/liquid_compatibility_template.csv` 和 `validate_liquid_compatibility.py` 记录具体液体/批次、暴露条件、裁片、质量、尺寸、视觉损伤、润湿观察、原始文件和批准决定。`compatible` 只适用于已登记条件，不可跨液体、批次或暴露条件外推。
+`src/data_ingest/liquid_compatibility_threshold_template.csv` 先登记具体液体/批次、暴露条件、测量协议、质量与长宽变化上限、视觉损伤规则及失败处置；`liquid_compatibility_template.csv` 再记录裁片、暴露前后质量/尺寸、视觉损伤、润湿观察、原始文件和决定。`evaluate_liquid_compatibility.py` 以暴露前值为分母计算绝对变化率，条件或判据不匹配直接拒绝，人工填写的 `compatible` 不能覆盖预声明判据。通过结论只适用于已登记条件，不可跨液体、批次、暴露或测量协议外推。
 
 `src/data_ingest/validate_osw_protocol.py` 检查字段结构、裁片 ID 唯一性、两张母膜、每张母膜的 O/S/W 覆盖、`unknown`、排除理由和 ready 状态。结构完整仍不自动授权开测；兼容性、仪器、空白和签字审查继续保留。
 
