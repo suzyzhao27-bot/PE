@@ -51,6 +51,12 @@ class OswProtocolTests(unittest.TestCase):
         self.assertFalse(report["valid"])
         self.assertTrue(any("ready row still has unknown" in item for item in report["errors"]))
 
+    def test_ready_row_requires_liquid_compatibility_record(self):
+        row = complete_row("M1", "O", "M1-O")
+        row["compatibility_record_id"] = "unknown"
+        report = validate_registry([row])
+        self.assertFalse(report["valid"])
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

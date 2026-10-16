@@ -123,6 +123,10 @@
 
 `src/data_ingest/osw_sample_registry_template.csv` 固定了母膜、裁片、位置、O/S/W 分组、随机种子、处理条件、终末平衡、输入等级和来源记录字段。模板只含表头，不含虚构样品。
 
+登记表同时要求协议液体身份/批次、兼容性记录 ID、裁片长宽/单位和实际仪器或夹具 ID。缺任一项的记录不能标记 ready，防止分组完成但样品无法装夹或处理液破坏膜结构。
+
+`src/data_ingest/liquid_compatibility_template.csv` 和 `validate_liquid_compatibility.py` 记录具体液体/批次、暴露条件、裁片、质量、尺寸、视觉损伤、润湿观察、原始文件和批准决定。`compatible` 只适用于已登记条件，不可跨液体、批次或暴露条件外推。
+
 `src/data_ingest/validate_osw_protocol.py` 检查字段结构、裁片 ID 唯一性、两张母膜、每张母膜的 O/S/W 覆盖、`unknown`、排除理由和 ready 状态。结构完整仍不自动授权开测；兼容性、仪器、空白和签字审查继续保留。
 
 `src/data_ingest/osw_randomization.py` 对每张母膜的真实裁片 ID 使用研究者登记的随机种子生成可复现、近似平衡的 O/S/W 分配。函数不读取测量结果，不自动生成样品 ID；少于 3 个裁片、空 ID 或重复 ID 直接失败。若裁片数不是 3 的整数倍，各组数量最多相差 1。

@@ -20,7 +20,13 @@ FIELDS = [
     "treatment_group",
     "allocation_seed",
     "allocation_time",
+    "protocol_liquid_identity",
     "protocol_liquid_batch",
+    "compatibility_record_id",
+    "coupon_length",
+    "coupon_width",
+    "dimension_unit",
+    "instrument_or_fixture_id",
     "initial_liquid_volume",
     "membrane_exposed_area",
     "area_volume_ratio",
@@ -44,7 +50,7 @@ FIELDS = [
 TREATMENTS = {"O", "S", "W"}
 INPUT_LEVELS = {"measured", "reported", "provisional", "unknown"}
 STATUSES = {"planned", "ready", "excluded"}
-REQUIRED_FOR_READY = FIELDS[:26]
+REQUIRED_FOR_READY = FIELDS[:-3]
 
 
 def load_registry(path: Path) -> list[dict[str, str]]:
