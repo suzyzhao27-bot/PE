@@ -1,0 +1,5130 @@
+[
+  {
+    "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\AM_nanofiltration_origin.opju",
+    "source_sha256_before": "2e1f8d648725827dabd746bd6c63878d2cc8bc31b7575ad414ffe1854495d2c7",
+    "source_sha256_after": "2e1f8d648725827dabd746bd6c63878d2cc8bc31b7575ad414ffe1854495d2c7",
+    "extracted_at": "2026-10-16T01:19:43.9103249+08:00",
+    "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+    "worksheet_count": 2,
+    "worksheets": [
+      {
+        "sheet_range": "[Book1]Sheet1",
+        "workbook": "Book1",
+        "worksheet": "Sheet1",
+        "worksheet_long_name": "",
+        "origin_rows": 28,
+        "origin_columns": 2,
+        "exported_rows": 8,
+        "exported_columns": 2,
+        "csv_file": "Book1__Sheet1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 1
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book2]Sheet1",
+        "workbook": "Book2",
+        "worksheet": "Sheet1",
+        "worksheet_long_name": "",
+        "origin_rows": 28,
+        "origin_columns": 2,
+        "exported_rows": 8,
+        "exported_columns": 2,
+        "csv_file": "Book2__Sheet1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\Polymer_KPFM_origin.opju",
+    "source_sha256_before": "7f1a6aa7dd1775b968a2ebc8476fef33d40ccf2d3805952a5ad56d5ddfa1066b",
+    "source_sha256_after": "7f1a6aa7dd1775b968a2ebc8476fef33d40ccf2d3805952a5ad56d5ddfa1066b",
+    "extracted_at": "2026-10-16T01:19:53.5458611+08:00",
+    "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+    "worksheet_count": 1,
+    "worksheets": [
+      {
+        "sheet_range": "[Book1]Sheet1",
+        "workbook": "Book1",
+        "worksheet": "Sheet1",
+        "worksheet_long_name": "",
+        "origin_rows": 76,
+        "origin_columns": 2,
+        "exported_rows": 4,
+        "exported_columns": 2,
+        "csv_file": "Book1__Sheet1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\Polymer_salt_2h.opju",
+    "source_sha256_before": "c9446a965bac8b875bff135676b59352ae3e57a35d6f0be51ad860c20b5a596d",
+    "source_sha256_after": "c9446a965bac8b875bff135676b59352ae3e57a35d6f0be51ad860c20b5a596d",
+    "extracted_at": "2026-10-16T01:20:05.1606973+08:00",
+    "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+    "worksheet_count": 2,
+    "worksheets": [
+      {
+        "sheet_range": "[Book1]Sheet1",
+        "workbook": "Book1",
+        "worksheet": "Sheet1",
+        "worksheet_long_name": "",
+        "origin_rows": 54,
+        "origin_columns": 11,
+        "exported_rows": 7,
+        "exported_columns": 11,
+        "csv_file": "Book1__Sheet1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "Time",
+            "units": "min",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "Ionic conductivity",
+            "units": "μS/cm",
+            "comments": "65 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "Time",
+            "units": "min",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "Ionic conductivity",
+            "units": "μS/cm",
+            "comments": "120 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "",
+            "units": "",
+            "comments": "200 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "",
+            "units": "",
+            "comments": "350 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "",
+            "units": "",
+            "comments": "700 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "",
+            "units": "",
+            "comments": "2600 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "",
+            "units": "",
+            "comments": "PC滤膜（75μm 孔径200nm）",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "",
+            "units": "",
+            "comments": "四教滤纸（100μm 孔径200nm）",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book2]Sheet1",
+        "workbook": "Book2",
+        "worksheet": "Sheet1",
+        "worksheet_long_name": "",
+        "origin_rows": 32,
+        "origin_columns": 9,
+        "exported_rows": 7,
+        "exported_columns": 9,
+        "csv_file": "Book2__Sheet1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "Time",
+            "units": "min",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "Ionic conductivity",
+            "units": "μS/cm",
+            "comments": "R65 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "R700 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "",
+            "units": "",
+            "comments": "R2600 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "",
+            "units": "",
+            "comments": "65 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "",
+            "units": "",
+            "comments": "700 nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "",
+            "units": "",
+            "comments": "2600 nm",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\Polymer_salt_dry_6h.opju",
+    "source_sha256_before": "b0d834d1df92d411212526e5b5698af6e2585da6c3211071038494d8dba58a91",
+    "source_sha256_after": "b0d834d1df92d411212526e5b5698af6e2585da6c3211071038494d8dba58a91",
+    "extracted_at": "2026-10-16T01:20:20.9361517+08:00",
+    "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+    "worksheet_count": 25,
+    "worksheets": [
+      {
+        "sheet_range": "[Book1]未润湿体系数据",
+        "workbook": "Book1",
+        "worksheet": "未润湿体系数据",
+        "worksheet_long_name": "",
+        "origin_rows": 36,
+        "origin_columns": 6,
+        "exported_rows": 36,
+        "exported_columns": 6,
+        "csv_file": "Book1__未润湿体系数据.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "700nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "",
+            "units": "",
+            "comments": "350nm",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "",
+            "units": "",
+            "comments": "200nm",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial1",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial1",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合",
+        "origin_rows": 25,
+        "origin_columns": 25,
+        "exported_rows": 8,
+        "exported_columns": 25,
+        "csv_file": "Book1__FitPolynomial1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve1",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve1",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 307.461074",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitLinear1",
+        "workbook": "Book1",
+        "worksheet": "FitLinear1",
+        "worksheet_long_name": "未润湿体系数据列B的线性拟合",
+        "origin_rows": 25,
+        "origin_columns": 25,
+        "exported_rows": 8,
+        "exported_columns": 25,
+        "csv_file": "Book1__FitLinear1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "斜率",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "斜率",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitLinearCurve1",
+        "workbook": "Book1",
+        "worksheet": "FitLinearCurve1",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitLinearCurve1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的线性拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 307.461074",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial2",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial2",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合 1",
+        "origin_rows": 25,
+        "origin_columns": 29,
+        "exported_rows": 8,
+        "exported_columns": 29,
+        "csv_file": "Book1__FitPolynomial2.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 25,
+            "short_name": "Z",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 26,
+            "short_name": "AA",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 27,
+            "short_name": "AB",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 28,
+            "short_name": "AC",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve2",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve2",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve2.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 50.539374",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial3",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial3",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合 2",
+        "origin_rows": 25,
+        "origin_columns": 31,
+        "exported_rows": 8,
+        "exported_columns": 31,
+        "csv_file": "Book1__FitPolynomial3.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 25,
+            "short_name": "Z",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 26,
+            "short_name": "AA",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 27,
+            "short_name": "AB",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 28,
+            "short_name": "AC",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 29,
+            "short_name": "AD",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 30,
+            "short_name": "AE",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve3",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve3",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve3.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 46.814128",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial4",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial4",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合 3",
+        "origin_rows": 25,
+        "origin_columns": 31,
+        "exported_rows": 8,
+        "exported_columns": 31,
+        "csv_file": "Book1__FitPolynomial4.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 25,
+            "short_name": "Z",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 26,
+            "short_name": "AA",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 27,
+            "short_name": "AB",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 28,
+            "short_name": "AC",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 29,
+            "short_name": "AD",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 30,
+            "short_name": "AE",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve4",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve4",
+        "worksheet_long_name": "",
+        "origin_rows": 45,
+        "origin_columns": 11,
+        "exported_rows": 36,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve4.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 46.814128",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial5",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial5",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合 4",
+        "origin_rows": 25,
+        "origin_columns": 31,
+        "exported_rows": 8,
+        "exported_columns": 31,
+        "csv_file": "Book1__FitPolynomial5.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 25,
+            "short_name": "Z",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 26,
+            "short_name": "AA",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 27,
+            "short_name": "AB",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 28,
+            "short_name": "AC",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 29,
+            "short_name": "AD",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 30,
+            "short_name": "AE",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve5",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve5",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve5.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 46.814128",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial6",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial6",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合 5",
+        "origin_rows": 25,
+        "origin_columns": 25,
+        "exported_rows": 8,
+        "exported_columns": 25,
+        "csv_file": "Book1__FitPolynomial6.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve6",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve6",
+        "worksheet_long_name": "",
+        "origin_rows": 45,
+        "origin_columns": 11,
+        "exported_rows": 36,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve6.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 307.461074",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial7",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial7",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合 6",
+        "origin_rows": 25,
+        "origin_columns": 25,
+        "exported_rows": 8,
+        "exported_columns": 25,
+        "csv_file": "Book1__FitPolynomial7.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve7",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve7",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve7.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 307.461074",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial8",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial8",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合 7",
+        "origin_rows": 25,
+        "origin_columns": 31,
+        "exported_rows": 8,
+        "exported_columns": 31,
+        "csv_file": "Book1__FitPolynomial8.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 25,
+            "short_name": "Z",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 26,
+            "short_name": "AA",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 27,
+            "short_name": "AB",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 28,
+            "short_name": "AC",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 29,
+            "short_name": "AD",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 30,
+            "short_name": "AE",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve8",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve8",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve8.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 46.814128",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial9",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial9",
+        "worksheet_long_name": "未润湿体系数据列D的多项式拟合",
+        "origin_rows": 25,
+        "origin_columns": 31,
+        "exported_rows": 8,
+        "exported_columns": 31,
+        "csv_file": "Book1__FitPolynomial9.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "D",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 25,
+            "short_name": "Z",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 26,
+            "short_name": "AA",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 27,
+            "short_name": "AB",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 28,
+            "short_name": "AC",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 29,
+            "short_name": "AD",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 30,
+            "short_name": "AE",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve9",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve9",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve9.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列D的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列D的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列D的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列D的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列D的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = 0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 0.977204",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial10",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial10",
+        "worksheet_long_name": "未润湿体系数据列F的多项式拟合",
+        "origin_rows": 25,
+        "origin_columns": 31,
+        "exported_rows": 8,
+        "exported_columns": 31,
+        "csv_file": "Book1__FitPolynomial10.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "F",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "B3",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "B4",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 25,
+            "short_name": "Z",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 26,
+            "short_name": "AA",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 27,
+            "short_name": "AB",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 28,
+            "short_name": "AC",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 29,
+            "short_name": "AD",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 30,
+            "short_name": "AE",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve10",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve10",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve10.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列F的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列F的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列F的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列F的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列F的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 0.332176",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomial11",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomial11",
+        "worksheet_long_name": "未润湿体系数据列B的多项式拟合 8",
+        "origin_rows": 25,
+        "origin_columns": 27,
+        "exported_rows": 8,
+        "exported_columns": 27,
+        "csv_file": "Book1__FitPolynomial11.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "输入X源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "输入Y源数据",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "范围",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "备注",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "标准误差",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "t值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 11,
+            "short_name": "L",
+            "long_name": "概率>|t|",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 12,
+            "short_name": "M",
+            "long_name": "B",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 13,
+            "short_name": "N",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 14,
+            "short_name": "O",
+            "long_name": "截距",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 15,
+            "short_name": "P",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 16,
+            "short_name": "Q",
+            "long_name": "B1",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 17,
+            "short_name": "R",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 18,
+            "short_name": "S",
+            "long_name": "B2",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 19,
+            "short_name": "T",
+            "long_name": "统计",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 20,
+            "short_name": "U",
+            "long_name": "DF",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 21,
+            "short_name": "V",
+            "long_name": "平方和",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 22,
+            "short_name": "W",
+            "long_name": "均方",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 23,
+            "short_name": "X",
+            "long_name": "F值",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 24,
+            "short_name": "Y",
+            "long_name": "概率> F",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 25,
+            "short_name": "Z",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          },
+          {
+            "index": 26,
+            "short_name": "AA",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 1,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book1]FitPolynomialCurve11",
+        "workbook": "Book1",
+        "worksheet": "FitPolynomialCurve11",
+        "worksheet_long_name": "",
+        "origin_rows": 1000,
+        "origin_columns": 11,
+        "exported_rows": 1000,
+        "exported_columns": 11,
+        "csv_file": "Book1__FitPolynomialCurve11.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "未润湿体系数据列B的多项式拟合",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "自变量",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "拟合Y值",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "未润湿体系数据列B的常规残差",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "百分位数",
+            "units": "",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 9,
+            "short_name": "J",
+            "long_name": "参照X",
+            "units": "mu = -0.000000",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 10,
+            "short_name": "K",
+            "long_name": "参照线",
+            "units": "sigma = 86.468404",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\Polymer_zeta_origin.opju",
+    "source_sha256_before": "6c4d8805dd0a07e5f16b27fc72bb6e14dc474daa7b1abf7d246d4c230c809ae8",
+    "source_sha256_after": "6c4d8805dd0a07e5f16b27fc72bb6e14dc474daa7b1abf7d246d4c230c809ae8",
+    "extracted_at": "2026-10-16T01:20:31.1501527+08:00",
+    "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+    "worksheet_count": 2,
+    "worksheets": [
+      {
+        "sheet_range": "[Book1]Sheet1",
+        "workbook": "Book1",
+        "worksheet": "Sheet1",
+        "worksheet_long_name": "",
+        "origin_rows": 66,
+        "origin_columns": 3,
+        "exported_rows": 3,
+        "exported_columns": 3,
+        "csv_file": "Book1__Sheet1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "Draw ratio",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "Zeta potential",
+            "units": "mV",
+            "comments": "",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          }
+        ]
+      },
+      {
+        "sheet_range": "[Book2]Sheet1",
+        "workbook": "Book2",
+        "worksheet": "Sheet1",
+        "worksheet_long_name": "",
+        "origin_rows": 54,
+        "origin_columns": 9,
+        "exported_rows": 3,
+        "exported_columns": 9,
+        "csv_file": "Book2__Sheet1.csv",
+        "columns": [
+          {
+            "index": 0,
+            "short_name": "A",
+            "long_name": "pH",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 1,
+            "short_name": "B",
+            "long_name": "Zeta potential",
+            "units": "mV",
+            "comments": "182",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 2,
+            "short_name": "C",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 3,
+            "short_name": "D",
+            "long_name": "pH",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 4,
+            "short_name": "E",
+            "long_name": "Zeta potential",
+            "units": "mV",
+            "comments": "357",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 5,
+            "short_name": "F",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          },
+          {
+            "index": 6,
+            "short_name": "G",
+            "long_name": "pH",
+            "units": "",
+            "comments": "",
+            "designation": 3,
+            "data_format": 9
+          },
+          {
+            "index": 7,
+            "short_name": "H",
+            "long_name": "Zeta potential",
+            "units": "mV",
+            "comments": "604",
+            "designation": 0,
+            "data_format": 9
+          },
+          {
+            "index": 8,
+            "short_name": "I",
+            "long_name": "",
+            "units": "",
+            "comments": "",
+            "designation": 2,
+            "data_format": 9
+          }
+        ]
+      }
+    ]
+  }
+]

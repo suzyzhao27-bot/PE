@@ -1,0 +1,67 @@
+{
+  "sheet_range": "[Book1]未润湿体系数据",
+  "workbook": "Book1",
+  "worksheet": "未润湿体系数据",
+  "worksheet_long_name": "",
+  "origin_rows": 36,
+  "origin_columns": 6,
+  "exported_rows": 36,
+  "exported_columns": 6,
+  "csv_file": "Book1__未润湿体系数据.csv",
+  "columns": [
+    {
+      "index": 0,
+      "short_name": "A",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 1,
+      "short_name": "B",
+      "long_name": "",
+      "units": "",
+      "comments": "700nm",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 2,
+      "short_name": "C",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 3,
+      "short_name": "D",
+      "long_name": "",
+      "units": "",
+      "comments": "350nm",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 4,
+      "short_name": "E",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 5,
+      "short_name": "F",
+      "long_name": "",
+      "units": "",
+      "comments": "200nm",
+      "designation": 0,
+      "data_format": 9
+    }
+  ]
+}

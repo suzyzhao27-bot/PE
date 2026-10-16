@@ -1,0 +1,112 @@
+{
+  "sheet_range": "[Book1]FitPolynomialCurve5",
+  "workbook": "Book1",
+  "worksheet": "FitPolynomialCurve5",
+  "worksheet_long_name": "",
+  "origin_rows": 1000,
+  "origin_columns": 11,
+  "exported_rows": 1000,
+  "exported_columns": 11,
+  "csv_file": "Book1__FitPolynomialCurve5.csv",
+  "columns": [
+    {
+      "index": 0,
+      "short_name": "A",
+      "long_name": "自变量",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 1,
+      "short_name": "B",
+      "long_name": "未润湿体系数据列B的多项式拟合",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 2,
+      "short_name": "C",
+      "long_name": "自变量",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 3,
+      "short_name": "D",
+      "long_name": "未润湿体系数据列B的常规残差",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 4,
+      "short_name": "E",
+      "long_name": "未润湿体系数据列B的常规残差",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 5,
+      "short_name": "F",
+      "long_name": "拟合Y值",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 6,
+      "short_name": "G",
+      "long_name": "未润湿体系数据列B的常规残差",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 7,
+      "short_name": "H",
+      "long_name": "未润湿体系数据列B的常规残差",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 8,
+      "short_name": "I",
+      "long_name": "百分位数",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 9,
+      "short_name": "J",
+      "long_name": "参照X",
+      "units": "mu = -0.000000",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 10,
+      "short_name": "K",
+      "long_name": "参照线",
+      "units": "sigma = 46.814128",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    }
+  ]
+}

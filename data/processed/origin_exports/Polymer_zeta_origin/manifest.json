@@ -1,0 +1,144 @@
+{
+  "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\Polymer_zeta_origin.opju",
+  "source_sha256_before": "6c4d8805dd0a07e5f16b27fc72bb6e14dc474daa7b1abf7d246d4c230c809ae8",
+  "source_sha256_after": "6c4d8805dd0a07e5f16b27fc72bb6e14dc474daa7b1abf7d246d4c230c809ae8",
+  "extracted_at": "2026-10-16T01:20:31.1501527+08:00",
+  "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+  "worksheet_count": 2,
+  "worksheets": [
+    {
+      "sheet_range": "[Book1]Sheet1",
+      "workbook": "Book1",
+      "worksheet": "Sheet1",
+      "worksheet_long_name": "",
+      "origin_rows": 66,
+      "origin_columns": 3,
+      "exported_rows": 3,
+      "exported_columns": 3,
+      "csv_file": "Book1__Sheet1.csv",
+      "columns": [
+        {
+          "index": 0,
+          "short_name": "A",
+          "long_name": "Draw ratio",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 1,
+          "short_name": "B",
+          "long_name": "Zeta potential",
+          "units": "mV",
+          "comments": "",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 2,
+          "short_name": "C",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 2,
+          "data_format": 9
+        }
+      ]
+    },
+    {
+      "sheet_range": "[Book2]Sheet1",
+      "workbook": "Book2",
+      "worksheet": "Sheet1",
+      "worksheet_long_name": "",
+      "origin_rows": 54,
+      "origin_columns": 9,
+      "exported_rows": 3,
+      "exported_columns": 9,
+      "csv_file": "Book2__Sheet1.csv",
+      "columns": [
+        {
+          "index": 0,
+          "short_name": "A",
+          "long_name": "pH",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 1,
+          "short_name": "B",
+          "long_name": "Zeta potential",
+          "units": "mV",
+          "comments": "182",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 2,
+          "short_name": "C",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 2,
+          "data_format": 9
+        },
+        {
+          "index": 3,
+          "short_name": "D",
+          "long_name": "pH",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 4,
+          "short_name": "E",
+          "long_name": "Zeta potential",
+          "units": "mV",
+          "comments": "357",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 5,
+          "short_name": "F",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 2,
+          "data_format": 9
+        },
+        {
+          "index": 6,
+          "short_name": "G",
+          "long_name": "pH",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 7,
+          "short_name": "H",
+          "long_name": "Zeta potential",
+          "units": "mV",
+          "comments": "604",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 8,
+          "short_name": "I",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 2,
+          "data_format": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\AM_nanofiltration_origin.opju",
+  "source_sha256_before": "2e1f8d648725827dabd746bd6c63878d2cc8bc31b7575ad414ffe1854495d2c7",
+  "source_sha256_after": "2e1f8d648725827dabd746bd6c63878d2cc8bc31b7575ad414ffe1854495d2c7",
+  "extracted_at": "2026-10-16T01:19:43.9103249+08:00",
+  "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+  "worksheet_count": 2,
+  "worksheets": [
+    {
+      "sheet_range": "[Book1]Sheet1",
+      "workbook": "Book1",
+      "worksheet": "Sheet1",
+      "worksheet_long_name": "",
+      "origin_rows": 28,
+      "origin_columns": 2,
+      "exported_rows": 8,
+      "exported_columns": 2,
+      "csv_file": "Book1__Sheet1.csv",
+      "columns": [
+        {
+          "index": 0,
+          "short_name": "A",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 1
+        },
+        {
+          "index": 1,
+          "short_name": "B",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 0,
+          "data_format": 9
+        }
+      ]
+    },
+    {
+      "sheet_range": "[Book2]Sheet1",
+      "workbook": "Book2",
+      "worksheet": "Sheet1",
+      "worksheet_long_name": "",
+      "origin_rows": 28,
+      "origin_columns": 2,
+      "exported_rows": 8,
+      "exported_columns": 2,
+      "csv_file": "Book2__Sheet1.csv",
+      "columns": [
+        {
+          "index": 0,
+          "short_name": "A",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 1,
+          "short_name": "B",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 0,
+          "data_format": 9
+        }
+      ]
+    }
+  ]
+}

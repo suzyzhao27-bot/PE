@@ -1,0 +1,41 @@
+{
+  "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\Polymer_KPFM_origin.opju",
+  "source_sha256_before": "7f1a6aa7dd1775b968a2ebc8476fef33d40ccf2d3805952a5ad56d5ddfa1066b",
+  "source_sha256_after": "7f1a6aa7dd1775b968a2ebc8476fef33d40ccf2d3805952a5ad56d5ddfa1066b",
+  "extracted_at": "2026-10-16T01:19:53.5458611+08:00",
+  "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+  "worksheet_count": 1,
+  "worksheets": [
+    {
+      "sheet_range": "[Book1]Sheet1",
+      "workbook": "Book1",
+      "worksheet": "Sheet1",
+      "worksheet_long_name": "",
+      "origin_rows": 76,
+      "origin_columns": 2,
+      "exported_rows": 4,
+      "exported_columns": 2,
+      "csv_file": "Book1__Sheet1.csv",
+      "columns": [
+        {
+          "index": 0,
+          "short_name": "A",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 1,
+          "short_name": "B",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 0,
+          "data_format": 9
+        }
+      ]
+    }
+  ]
+}
