@@ -1,0 +1,31 @@
+{
+  "sheet_range": "[Book1]Sheet1",
+  "workbook": "Book1",
+  "worksheet": "Sheet1",
+  "worksheet_long_name": "",
+  "origin_rows": 28,
+  "origin_columns": 2,
+  "exported_rows": 8,
+  "exported_columns": 2,
+  "csv_file": "Book1__Sheet1.csv",
+  "columns": [
+    {
+      "index": 0,
+      "short_name": "A",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 1
+    },
+    {
+      "index": 1,
+      "short_name": "B",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    }
+  ]
+}

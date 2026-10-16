@@ -1,0 +1,4 @@
+canonical_curve_id,duplicate_curve_id,relationship
+Polymer_salt_2h:Book1:Sheet1:65 nm,Polymer_salt_2h:Book2:Sheet1:65 nm,exact same time and conductivity values; do not count as an independent replicate
+Polymer_salt_2h:Book1:Sheet1:700 nm,Polymer_salt_2h:Book2:Sheet1:700 nm,exact same time and conductivity values; do not count as an independent replicate
+Polymer_salt_2h:Book1:Sheet1:2600 nm,Polymer_salt_2h:Book2:Sheet1:2600 nm,exact same time and conductivity values; do not count as an independent replicate

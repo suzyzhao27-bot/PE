@@ -1,0 +1,238 @@
+{
+  "sheet_range": "[Book1]FitPolynomial6",
+  "workbook": "Book1",
+  "worksheet": "FitPolynomial6",
+  "worksheet_long_name": "未润湿体系数据列B的多项式拟合 5",
+  "origin_rows": 25,
+  "origin_columns": 25,
+  "exported_rows": 8,
+  "exported_columns": 25,
+  "csv_file": "Book1__FitPolynomial6.csv",
+  "columns": [
+    {
+      "index": 0,
+      "short_name": "A",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 1,
+      "short_name": "B",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 2,
+      "short_name": "C",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 3,
+      "short_name": "D",
+      "long_name": "输入X源数据",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 4,
+      "short_name": "E",
+      "long_name": "输入Y源数据",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 5,
+      "short_name": "F",
+      "long_name": "范围",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 6,
+      "short_name": "G",
+      "long_name": "备注",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 7,
+      "short_name": "H",
+      "long_name": "备注",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 8,
+      "short_name": "I",
+      "long_name": "值",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 9,
+      "short_name": "J",
+      "long_name": "标准误差",
+      "units": "",
+      "comments": "",
+      "designation": 2,
+      "data_format": 9
+    },
+    {
+      "index": 10,
+      "short_name": "K",
+      "long_name": "t值",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 11,
+      "short_name": "L",
+      "long_name": "概率>|t|",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 12,
+      "short_name": "M",
+      "long_name": "B",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 13,
+      "short_name": "N",
+      "long_name": "截距",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 14,
+      "short_name": "O",
+      "long_name": "截距",
+      "units": "",
+      "comments": "",
+      "designation": 2,
+      "data_format": 9
+    },
+    {
+      "index": 15,
+      "short_name": "P",
+      "long_name": "B1",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 16,
+      "short_name": "Q",
+      "long_name": "B1",
+      "units": "",
+      "comments": "",
+      "designation": 2,
+      "data_format": 9
+    },
+    {
+      "index": 17,
+      "short_name": "R",
+      "long_name": "统计",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 18,
+      "short_name": "S",
+      "long_name": "DF",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 19,
+      "short_name": "T",
+      "long_name": "平方和",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 20,
+      "short_name": "U",
+      "long_name": "均方",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 21,
+      "short_name": "V",
+      "long_name": "F值",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 22,
+      "short_name": "W",
+      "long_name": "概率> F",
+      "units": "",
+      "comments": "",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 23,
+      "short_name": "X",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    },
+    {
+      "index": 24,
+      "short_name": "Y",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 1,
+      "data_format": 9
+    }
+  ]
+}

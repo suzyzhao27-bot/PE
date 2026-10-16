@@ -1,0 +1,216 @@
+{
+  "source_file": "D:\\超薄 PE 纤维膜的界面荷电、离子选择性与盐输运\\原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\Polymer_salt_2h.opju",
+  "source_sha256_before": "c9446a965bac8b875bff135676b59352ae3e57a35d6f0be51ad860c20b5a596d",
+  "source_sha256_after": "c9446a965bac8b875bff135676b59352ae3e57a35d6f0be51ad860c20b5a596d",
+  "extracted_at": "2026-10-16T01:20:05.1606973+08:00",
+  "read_only_guarantee": "No Save call was issued; pre/post SHA256 hashes match.",
+  "worksheet_count": 2,
+  "worksheets": [
+    {
+      "sheet_range": "[Book1]Sheet1",
+      "workbook": "Book1",
+      "worksheet": "Sheet1",
+      "worksheet_long_name": "",
+      "origin_rows": 54,
+      "origin_columns": 11,
+      "exported_rows": 7,
+      "exported_columns": 11,
+      "csv_file": "Book1__Sheet1.csv",
+      "columns": [
+        {
+          "index": 0,
+          "short_name": "A",
+          "long_name": "Time",
+          "units": "min",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 1,
+          "short_name": "B",
+          "long_name": "Ionic conductivity",
+          "units": "μS/cm",
+          "comments": "65 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 2,
+          "short_name": "C",
+          "long_name": "Time",
+          "units": "min",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 3,
+          "short_name": "D",
+          "long_name": "Ionic conductivity",
+          "units": "μS/cm",
+          "comments": "120 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 4,
+          "short_name": "E",
+          "long_name": "",
+          "units": "",
+          "comments": "200 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 5,
+          "short_name": "F",
+          "long_name": "",
+          "units": "",
+          "comments": "350 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 6,
+          "short_name": "G",
+          "long_name": "",
+          "units": "",
+          "comments": "700 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 7,
+          "short_name": "H",
+          "long_name": "",
+          "units": "",
+          "comments": "2600 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 8,
+          "short_name": "I",
+          "long_name": "",
+          "units": "",
+          "comments": "PC滤膜（75μm 孔径200nm）",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 9,
+          "short_name": "J",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 10,
+          "short_name": "K",
+          "long_name": "",
+          "units": "",
+          "comments": "四教滤纸（100μm 孔径200nm）",
+          "designation": 0,
+          "data_format": 9
+        }
+      ]
+    },
+    {
+      "sheet_range": "[Book2]Sheet1",
+      "workbook": "Book2",
+      "worksheet": "Sheet1",
+      "worksheet_long_name": "",
+      "origin_rows": 32,
+      "origin_columns": 9,
+      "exported_rows": 7,
+      "exported_columns": 9,
+      "csv_file": "Book2__Sheet1.csv",
+      "columns": [
+        {
+          "index": 0,
+          "short_name": "A",
+          "long_name": "Time",
+          "units": "min",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 1,
+          "short_name": "B",
+          "long_name": "Ionic conductivity",
+          "units": "μS/cm",
+          "comments": "R65 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 2,
+          "short_name": "C",
+          "long_name": "",
+          "units": "",
+          "comments": "R700 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 3,
+          "short_name": "D",
+          "long_name": "",
+          "units": "",
+          "comments": "R2600 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 4,
+          "short_name": "E",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 5,
+          "short_name": "F",
+          "long_name": "",
+          "units": "",
+          "comments": "65 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 6,
+          "short_name": "G",
+          "long_name": "",
+          "units": "",
+          "comments": "",
+          "designation": 3,
+          "data_format": 9
+        },
+        {
+          "index": 7,
+          "short_name": "H",
+          "long_name": "",
+          "units": "",
+          "comments": "700 nm",
+          "designation": 0,
+          "data_format": 9
+        },
+        {
+          "index": 8,
+          "short_name": "I",
+          "long_name": "",
+          "units": "",
+          "comments": "2600 nm",
+          "designation": 0,
+          "data_format": 9
+        }
+      ]
+    }
+  ]
+}
