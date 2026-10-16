@@ -156,9 +156,29 @@ $inputs = Get-ChildItem -LiteralPath $src -Filter '*.opju' | Select-Object -Expa
 .\.venv\Scripts\python.exe .\src\data_ingest\normalize_salt_transport.py
 .\.venv\Scripts\python.exe .\src\data_ingest\analyze_salt_transport.py
 .\.venv\Scripts\python.exe .\src\data_ingest\test_origin_ingest.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_mass_balance.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_osw_protocol.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_independent_readouts.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_project_readiness.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_conductivity_calibration.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_osw_randomization.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_salt_transport_runs.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_process_salt_transport_runs.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_blank_registry.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_quality_thresholds.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_experiment_records.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_osw_protocol.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_independent_readouts.py
+.\.venv\Scripts\python.exe .\src\data_ingest\assess_project_readiness.py
+.\.venv\Scripts\python.exe .\src\data_ingest\conductivity_calibration.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_salt_transport_runs.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_blank_registry.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_quality_thresholds.py
 ```
 
 当前长表不具备机制拟合资格：缺失电导-浓度校准、温度、有效面积、两池体积、取样/补液、润湿历史和独立样品映射。`salt_transport_origin_qc.png` 不能解释为浓度、通量或渗透率结果。
+
+`data/processed/salt_transport/salt_transport_record_tracker.csv` 为 17 条曲线逐条登记这些外部记录。未知项必须写 `unknown`；校验通过只表示字段结构有效，不自动授权机制拟合。
 
 ## 未复制的脚本
 

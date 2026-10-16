@@ -32,7 +32,10 @@
 | `data/processed/salt_transport/normalization_audit.json` | 每条曲线的样品、时间列、单位证据与拟合禁入原因 | 不确定性台账 |
 | `data/processed/salt_transport/exact_duplicate_curves.csv` | 3 对完全重复曲线 | 防止把复制曲线当独立重复 |
 | `data/processed/salt_transport/salt_transport_curve_summary.csv` | 曲线范围、起终值、描述性 OLS、单调性检查 | QC，不用于机制拟合 |
+| `data/processed/salt_transport/salt_transport_structural_qc.csv` | 时间轴唯一性、非正值和局部电导下降检查 | 结构/描述性 QC，不修正原值 |
 | `data/processed/figures/salt_transport_origin_qc.png` | 2 h 与 dry/unwetted 源表重建图 | 视觉核查，不代表浓度、通量或渗透率 |
+| `data/processed/salt_transport/salt_transport_record_tracker.csv` | 17 条曲线的外部实验记录登记接口 | 强制 `unknown` 显式化，逐曲线关闭缺口 |
+| `src/data_ingest/validate_experiment_records.py` | 检查曲线覆盖、重复、空字段、状态与单位确认 | 防止不完整记录被误标为 complete |
 
 ## 4. 工程级审计结果
 
@@ -51,6 +54,7 @@
 3. Book1 与 Book2 的 `65 nm`、`700 nm`、`2600 nm` 三条曲线在所有时间和电导数值上完全相同，属于复制关系，不得计为独立实验重复。
 4. 2 h 表中 `Time (min)` 与 `Ionic conductivity (μS/cm)` 对部分列为 Origin 显式标签；其余列按同表相邻/共享时间列继承。dry/unwetted 表仅有 `700/350/200 nm` 注释，时间和电导单位来自伴随盐工程继承，必须在原实验记录中确认。
 5. 当前图和 OLS 仅用于检查转录、时间范围、数量级与异常；未进行电导到浓度、通量或渗透率换算。
+6. 17 条曲线时间均严格递增，无重复时间、负时间或非正电导。dry/unwetted 的 `700 nm` 曲线仅有一次局部下降：`1493 min, 4520` 到 `1520 min, 4500`，差值 `-20`（沿用源表电导单位）。该点保留原值，不作平滑或删除。
 
 ## 6. 质量检查
 
@@ -58,6 +62,7 @@
 - 数据接入测试：4/4 通过，包括哈希、点数、长时文件名冲突和重复曲线检测。
 - 原有科学计算基线：43/43 通过（v2 16、长管 7、surface 10、finite PNP 10）。v2 首次在受限沙箱内因 Python 临时目录 ACL 失败；在正常临时目录权限下重跑 16/16 通过，未修改科学代码。
 - 图形人工检查：QC 图可读，使用对数纵轴；标题明确声明不是浓度、通量或渗透率。
+- 实验记录与结构 QC 测试：数据接入测试扩展后全部通过；当前 17/17 条曲线均为 `pending`，且 17/17 仍有未闭合字段。
 
 ## 7. 未闭合项与准入决定
 
@@ -69,3 +74,7 @@
 - **阶段 1 仍未通过**：缺失的实验记录使这些曲线仍不具备机制拟合资格。
 - **允许继续做**：描述性 QC、重复/异常检查、实验记录追索和 B20 协议草案。
 - **禁止继续做**：把电导直接当浓度，计算通量/渗透率，或用旧曲线反演 `sigma`、润湿分数与孔网参数。
+
+## 8. 外部记录接入规则
+
+收到实验记录后，按曲线填写 `salt_transport_record_tracker.csv`。不得把文件名、图片或模型推断写成确认记录。`status=complete` 要求单位明确确认为 `confirmed`，并为校准、温度、面积、两池体积、取样/补液、润湿、混合、空白和独立重复提供可定位记录 ID。`status=excluded` 必须填写排除理由。即使 17 条曲线的元数据全部完成，仍须经过校准有效性、空白和阶段准入审查，不能由校验脚本自动开放机制拟合。
