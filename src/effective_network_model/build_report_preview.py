@@ -134,7 +134,8 @@ def render(source_path, output_path):
             story.append(Paragraph(plain_markdown(line[2:]), styles["title"]))
         elif line.startswith("## "):
             flush()
-            story.append(CondPageBreak(255 if line.startswith("## 4.") else 90))
+            section_min = 255 if line.startswith("## 4.") else 180 if line.startswith("## 5.") else 90
+            story.append(CondPageBreak(section_min))
             story.append(Paragraph(plain_markdown(line[3:]), styles["h1"]))
         elif line.startswith("### "):
             flush()
@@ -142,7 +143,7 @@ def render(source_path, output_path):
             story.append(Paragraph(plain_markdown(line[4:]), styles["h2"]))
         elif re.match(r"(?:\d+\.|-)\s", line):
             flush()
-            story.append(Paragraph(plain_markdown(line), styles["list"]))
+            story.append(KeepTogether([Paragraph(plain_markdown(line), styles["list"])]))
         else:
             paragraph.append(line)
         i += 1
