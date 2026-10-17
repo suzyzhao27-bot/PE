@@ -20,3 +20,19 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\src\effective_network_mode
 本工作区另增 `boundary_refit_check.py`，用已有 NumPy/SciPy 对预设的六个稳定 Robin 边界分别重拟合六端点，对 `r=0/0.75` 做固定边界留一，并在嵌套留一中每折只用五点选择边界。命令：`python -B .\src\effective_network_model\boundary_refit_check.py`。只打印结果，不改动原始资料、导师程序或参考参数；发现与限制见 `阶段总结/20261017_共享边界离散重拟合.md`。
 
 图3分母口径的独立替代图由 `plot_pnp_baselines.py` 生成。先在仓库外 PNP 工作副本运行 `run_energy_examples.py` 和 `run_fitted_field_check.py`；再把所得 `representative_energy_results.json`、`root_fitted_energy_spatial_check.json` 分别传给脚本的 `--representative-json`、`--fitted-json`，用 `--output` 指定已有输出目录内的 PNG 路径。本工作区审核图为 `data/processed/figures/pnp_same_sigma_baseline.png`。图中普通 24 格工况与另一次强场转移工况均按**同 `σ` 零能场**归一化；它是虚拟几何的数值比较，不替代导师原图，也不是实验通量。
+
+图4的可追溯替代图由 `plot_report_limits.py` 绘制，输入为导师交付包 `fit/results/leave_one_out.csv` 与本目录 `core/inputs/Book1__Sheet1.csv`，输出为现有 `data/processed/figures/v5_report_limits.png`。命令示例（从仓库根目录运行）：
+
+```powershell
+python -B .\src\effective_network_model\plot_report_limits.py --loo-csv '.\原始资料\赵珈绮\08_主模型交接_v5.0.0\02_程序\fit\results\leave_one_out.csv' --book1-csv '.\src\effective_network_model\core\inputs\Book1__Sheet1.csv' --output '.\data\processed\figures\v5_report_limits.png'
+```
+
+左图是六个旧端点的逐点留一预测/观测，右图仅用共同确认的时间标签；灰线为条件模型下界而非拟合。此图不提供独立新样品预测、统计误差或动态机制结论。
+
+图1的可追溯替代图由 `plot_report_endpoints.py` 绘制，仅使用导师交付包 `fit/results/endpoint_fit.csv` 与 `thickness_curve.csv`，输出为现有 `data/processed/figures/v5_report_endpoints.png`。从仓库根目录运行：
+
+```powershell
+python -B .\src\effective_network_model\plot_report_endpoints.py --endpoint-csv '.\原始资料\赵珈绮\08_主模型交接_v5.0.0\02_程序\fit\results\endpoint_fit.csv' --curve-csv '.\原始资料\赵珈绮\08_主模型交接_v5.0.0\02_程序\fit\results\thickness_curve.csv' --output '.\data\processed\figures\v5_report_endpoints.png'
+```
+
+黑点为旧 0–120 min 电导增量，蓝线及空心点为使用全部六点训练的参考模型。图仅覆盖旧标签区间，不绘制导师原图中身份未确认的紫色曲线。
