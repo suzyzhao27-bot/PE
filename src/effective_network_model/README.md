@@ -12,6 +12,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\src\effective_network_mode
 
 模型结论与数值边界见根目录 `复现记录_20261017_v5.md`、`阶段总结/20261017_v5一页推导与正反结果.md`。此处参数是六个旧厚度端点的共享解释性拟合；`ell` 非 Debye 长，局部半径关系为条件假设，空间工况不是独立实验预测。此入口的通过不代表学生已在本人设备完成复算。
 
+每次运行在指定输出目录生成 `run_record.json`，记录实际解释器路径、版本、六步命令与退出码；失败时也保留已执行步骤及失败状态。学生在本人设备运行后，应连同 `core/student_results/run_summary.json`、`core/student_results/shared_model_comparison.csv`、`fit/results/fit_results.json`、`pnp/energy_test_report.json`、`pnp/test_report.json` 和 `pnp/outputs/root_fitted_energy_spatial_check.json` 一起核对。运行记录是可复核的执行轨迹，学生仍须本人说明操作、结果及不一致项，不能仅凭他人机器生成的记录替代本人复算。无需把仓库外整套结果复制进原始资料目录。
+
 本工作区新增的 `time_shape_check.py` 不属于导师原始交付。用 `python -B .\src\effective_network_model\time_shape_check.py` 可只读检查六条旧曲线在共同时间标签 `20/40/60/100 min` 的归一化形状。常 `P`、充分混合有限池且 `theta≥0` 的曲线不低于 `t/120`；负差额只表明与该条件模型不完全一致，不提供误差显著性或迟滞机制。80/85 min 歧义行不参与检查。
 同一入口还输出 `late_over_early_60=[κ(120)−κ(60)]/[κ(60)−κ(0)]`，仅描述前后等长时间窗的电导增量比，不等于渗透率比。数值与限制见 `阶段总结/20261017_旧时间曲线内部检验.md`。
 
