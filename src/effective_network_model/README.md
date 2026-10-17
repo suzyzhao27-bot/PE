@@ -36,3 +36,11 @@ python -B .\src\effective_network_model\plot_report_endpoints.py --endpoint-csv 
 ```
 
 黑点为旧 0–120 min 电导增量，蓝线及空心点为使用全部六点训练的参考模型。图仅覆盖旧标签区间，不绘制导师原图中身份未确认的紫色曲线。
+
+图2的条件扫描替代图由 `plot_report_structure.py` 绘制。输入为导师交付包 `core/student_results/thickness_scan.csv`、`local_confinement_scan.csv` 和本目录 `core/inputs/model_parameters.json`；固定 `ws` 的入口长度对照直接调用同一 `theory_model.log_resistance_nm`。从仓库根目录运行：
+
+```powershell
+python -B .\src\effective_network_model\plot_report_structure.py --thickness-csv '.\原始资料\赵珈绮\08_主模型交接_v5.0.0\02_程序\core\student_results\thickness_scan.csv' --local-csv '.\原始资料\赵珈绮\08_主模型交接_v5.0.0\02_程序\core\student_results\local_confinement_scan.csv' --parameters-json '.\src\effective_network_model\core\inputs\model_parameters.json' --output '.\data\processed\figures\v5_report_structure.png'
+```
+
+图中全部是冻结参数下的模型相对量；`a` 与 `ws(a)` 未经湿态孔道实测证实。
