@@ -11,3 +11,5 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\src\effective_network_mode
 默认使用仓库 `.venv/Scripts/python.exe`；其他已有环境可用 `-PythonExecutable` 指定。运行依次执行 core 12 项、六端点计算、共享拟合、PNP 新增 7 项与旧版 10 项检查，以及六个代表空间工况。输出目录中保留复制的程序和相应结果；原工作副本不会就地运行。单独运行 `pnp/run_energy_examples.py` 可重现交付中的示范能场，但不属于这条最小主模型复算路径。
 
 模型结论与数值边界见根目录 `复现记录_20261017_v5.md`、`阶段总结/20261017_v5一页推导与正反结果.md`。此处参数是六个旧厚度端点的共享解释性拟合；`ell` 非 Debye 长，局部半径关系为条件假设，空间工况不是独立实验预测。此入口的通过不代表学生已在本人设备完成复算。
+
+本工作区新增的 `time_shape_check.py` 不属于导师原始交付。用 `python -B .\src\effective_network_model\time_shape_check.py` 可只读检查六条旧曲线在共同时间标签 `20/40/60/100 min` 的归一化形状。常 `P`、充分混合有限池且 `theta≥0` 的曲线不低于 `t/120`；负差额只表明与该条件模型不完全一致，不提供误差显著性或迟滞机制。80/85 min 歧义行不参与检查。
