@@ -102,7 +102,7 @@ Compare current 32-grid five-row values against the established baseline: flux r
 **Files:**
 - Modify: `项目进展计划与任务看板.md`
 - Modify: `复现记录_20261015.md`
-- Create: `阶段总结/P1_B10_zeta源数据审计.md`
+- Create: `阶段总结/20261015_P1_B10_zeta源数据审计.md`
 
 - [x] **Step 1: Record source-identity and uncertainty audit results**
 
