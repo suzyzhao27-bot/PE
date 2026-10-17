@@ -51,6 +51,18 @@ def main():
             + f" {late_over_early:.5f}"
         )
 
+    print("h_nm delta_0_20 delta_20_40 delta_40_60 ratio_20_40_over_0_20 ratio_40_60_over_20_40")
+    for thickness, column in CURVES:
+        values = [float(rows[index][column]) for index in range(4)]
+        increments = [right - left for left, right in zip(values, values[1:])]
+        if not all(math.isfinite(value) and value > 0 for value in increments):
+            raise ValueError(f"Nonpositive or invalid early 20-minute increment at {thickness} nm.")
+        ratios = [later / earlier for earlier, later in zip(increments, increments[1:])]
+        print(
+            f"{thickness} "
+            + " ".join(f"{value:.5f}" for value in increments + ratios)
+        )
+
 
 if __name__ == "__main__":
     main()
