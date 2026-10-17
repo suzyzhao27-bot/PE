@@ -13,6 +13,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\src\effective_network_mode
 模型结论与数值边界见根目录 `复现记录_20261017_v5.md`、`阶段总结/20261017_v5一页推导与正反结果.md`。此处参数是六个旧厚度端点的共享解释性拟合；`ell` 非 Debye 长，局部半径关系为条件假设，空间工况不是独立实验预测。此入口的通过不代表学生已在本人设备完成复算。
 
 本工作区新增的 `time_shape_check.py` 不属于导师原始交付。用 `python -B .\src\effective_network_model\time_shape_check.py` 可只读检查六条旧曲线在共同时间标签 `20/40/60/100 min` 的归一化形状。常 `P`、充分混合有限池且 `theta≥0` 的曲线不低于 `t/120`；负差额只表明与该条件模型不完全一致，不提供误差显著性或迟滞机制。80/85 min 歧义行不参与检查。
+同一入口还输出 `late_over_early_60=[κ(120)−κ(60)]/[κ(60)−κ(0)]`，仅描述前后等长时间窗的电导增量比，不等于渗透率比。数值与限制见 `阶段总结/20261017_旧时间曲线内部检验.md`。
 
 本工作区另增 `boundary_refit_check.py`，用已有 NumPy/SciPy 对预设的六个稳定 Robin 边界分别重拟合六端点，对 `r=0/0.75` 做固定边界留一，并在嵌套留一中每折只用五点选择边界。命令：`python -B .\src\effective_network_model\boundary_refit_check.py`。只打印结果，不改动原始资料、导师程序或参考参数；发现与限制见 `阶段总结/20261017_共享边界离散重拟合.md`。
 

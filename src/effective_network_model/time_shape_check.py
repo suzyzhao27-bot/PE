@@ -25,7 +25,7 @@ def main():
         if any(float(rows[index][key]) != expected for key in ("col_1_A", "col_3_C")):
             raise ValueError(f"A/C common time labels differ from {expected} min at row {index}.")
 
-    print("h_nm f20 f40 f60 f100 min_minus_t_over_120 at_min")
+    print("h_nm f20 f40 f60 f100 min_minus_t_over_120 at_min late_over_early_60")
     for thickness, column in CURVES:
         start = float(rows[0][column])
         delta = float(rows[6][column]) - start
@@ -37,12 +37,18 @@ def main():
         ]
         if not all(math.isfinite(value) for value in fractions):
             raise ValueError(f"Invalid normalized value at {thickness} nm.")
+        halfway_fraction = fractions[2]
+        if not 0 < halfway_fraction < 1:
+            raise ValueError(f"Invalid 60-minute fraction at {thickness} nm.")
+        # Equal 60-minute windows: ratio of late to early mean increments.
+        late_over_early = (1 - halfway_fraction) / halfway_fraction
         differences = [value - time / 120 for value, time in zip(fractions, COMMON_TIMES)]
         worst_index = min(range(len(differences)), key=differences.__getitem__)
         print(
             f"{thickness} "
             + " ".join(f"{value:.5f}" for value in fractions)
             + f" {differences[worst_index]:+.5f} {COMMON_TIMES[worst_index]}"
+            + f" {late_over_early:.5f}"
         )
 
 
