@@ -46,3 +46,11 @@ python -B .\src\effective_network_model\plot_report_structure.py --thickness-csv
 ```
 
 图中全部是冻结参数下的模型相对量；`a` 与 `ws(a)` 未经湿态孔道实测证实。
+
+`build_report_preview.py` 将现有 `阶段总结/20261017_v5学生报告工作稿.md` 排成 `阶段总结/20261017_v5学生报告审阅预览.pdf`，用于检查正文、表格与四图的阅读顺序。此可选入口需要 ReportLab、Pillow 和 Windows `SimHei` 字体，不属于 core/fit/PNP 科研复算依赖；在无这些排版依赖的设备上直接阅读 Markdown 即可。PDF 页脚明确标记内部审阅稿，不能替代学校模板、学生本人稿或正式提交。命令示例：
+
+仓库既有 `.gitignore` 忽略 `*.pdf`，本机预览 PDF 保留在上述位置；跨设备可由受版本控制的 Markdown、四图和本脚本重新生成。不要为该临时排版件解除现有 PDF 忽略规则。
+
+```powershell
+python -B .\src\effective_network_model\build_report_preview.py --source '.\阶段总结\20261017_v5学生报告工作稿.md' --output '.\阶段总结\20261017_v5学生报告审阅预览.pdf'
+```
