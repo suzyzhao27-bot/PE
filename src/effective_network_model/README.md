@@ -15,3 +15,5 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\src\effective_network_mode
 本工作区新增的 `time_shape_check.py` 不属于导师原始交付。用 `python -B .\src\effective_network_model\time_shape_check.py` 可只读检查六条旧曲线在共同时间标签 `20/40/60/100 min` 的归一化形状。常 `P`、充分混合有限池且 `theta≥0` 的曲线不低于 `t/120`；负差额只表明与该条件模型不完全一致，不提供误差显著性或迟滞机制。80/85 min 歧义行不参与检查。
 
 本工作区另增 `boundary_refit_check.py`，用已有 NumPy/SciPy 对预设的六个稳定 Robin 边界分别重拟合六端点，对 `r=0/0.75` 做固定边界留一，并在嵌套留一中每折只用五点选择边界。命令：`python -B .\src\effective_network_model\boundary_refit_check.py`。只打印结果，不改动原始资料、导师程序或参考参数；发现与限制见 `阶段总结/20261017_共享边界离散重拟合.md`。
+
+图3分母口径的独立替代图由 `plot_pnp_baselines.py` 生成。先在仓库外 PNP 工作副本运行 `run_energy_examples.py` 和 `run_fitted_field_check.py`；再把所得 `representative_energy_results.json`、`root_fitted_energy_spatial_check.json` 分别传给脚本的 `--representative-json`、`--fitted-json`，用 `--output` 指定已有输出目录内的 PNG 路径。本工作区审核图为 `data/processed/figures/pnp_same_sigma_baseline.png`。图中普通 24 格工况与另一次强场转移工况均按**同 `σ` 零能场**归一化；它是虚拟几何的数值比较，不替代导师原图，也不是实验通量。
