@@ -1,7 +1,8 @@
 param(
     [Parameter(Mandatory = $true)]
     [string]$OutputDirectory,
-    [string]$PythonExecutable
+    [string]$PythonExecutable,
+    [switch]$CoreOnly
 )
 
 $ErrorActionPreference = 'Stop'
@@ -56,19 +57,23 @@ $runRecord = [ordered]@{
     output_directory = $outputPath
     python_executable = $PythonExecutable
     python_version = $pythonVersion
+    mode = $(if ($CoreOnly) { 'core_only' } else { 'full' })
     status = 'in_progress'
     steps = @()
 }
 try {
-    foreach ($part in @('core', 'fit', 'pnp')) {
+    $parts = if ($CoreOnly) { @('core') } else { @('core', 'fit', 'pnp') }
+    foreach ($part in $parts) {
         Copy-Item -LiteralPath (Join-Path $moduleRoot $part) -Destination $outputPath -Recurse
     }
     Invoke-ModelCommand (Join-Path $outputPath 'core') @('test_model.py')
     Invoke-ModelCommand (Join-Path $outputPath 'core') @('run_student.py')
-    Invoke-ModelCommand (Join-Path $outputPath 'fit') @('fit_shared_overlap.py')
-    Invoke-ModelCommand (Join-Path $outputPath 'pnp') @('tests_energy.py')
-    Invoke-ModelCommand (Join-Path $outputPath 'pnp') @('legacy_tests.py')
-    Invoke-ModelCommand (Join-Path $outputPath 'pnp') @('run_fitted_field_check.py')
+    if (-not $CoreOnly) {
+        Invoke-ModelCommand (Join-Path $outputPath 'fit') @('fit_shared_overlap.py')
+        Invoke-ModelCommand (Join-Path $outputPath 'pnp') @('tests_energy.py')
+        Invoke-ModelCommand (Join-Path $outputPath 'pnp') @('legacy_tests.py')
+        Invoke-ModelCommand (Join-Path $outputPath 'pnp') @('run_fitted_field_check.py')
+    }
     $runRecord.status = 'completed'
 } catch {
     $runRecord.status = 'failed'
