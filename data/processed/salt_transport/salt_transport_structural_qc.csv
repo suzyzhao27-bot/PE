@@ -1,0 +1,18 @@
+curve_id,n_points,unique_time_count,time_strictly_increasing,negative_time_count,nonpositive_conductivity_count,conductivity_decrease_count,largest_conductivity_decrease,interpretation
+Polymer_salt_2h:Book1:Sheet1:120 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book1:Sheet1:200 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book1:Sheet1:2600 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book1:Sheet1:350 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book1:Sheet1:65 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book1:Sheet1:700 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+"Polymer_salt_2h:Book1:Sheet1:PC filter, 75 μm thick, 200 nm pore",7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+"Polymer_salt_2h:Book1:Sheet1:filter paper, 100 μm thick, 200 nm pore",7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book2:Sheet1:2600 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book2:Sheet1:65 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book2:Sheet1:700 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book2:Sheet1:R2600 nm,6,6,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book2:Sheet1:R65 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_2h:Book2:Sheet1:R700 nm,7,7,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_dry_6h:Book1:未润湿体系数据:200 nm,19,19,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_dry_6h:Book1:未润湿体系数据:350 nm,15,15,True,0,0,0,0.0,structural/descriptive QC only; not a flux or mechanism test
+Polymer_salt_dry_6h:Book1:未润湿体系数据:700 nm,36,36,True,0,0,1,-20.0,structural/descriptive QC only; not a flux or mechanism test

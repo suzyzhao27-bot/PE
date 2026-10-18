@@ -1,0 +1,8 @@
+﻿removed_h_nm,included_label_count,strong_singular_value,weak_singular_value,condition_number,parameter_point,log_parameters,common_amplitude
+none,6,6.477398502980069,1.5274306634539299,4.24071524682694,frozen_full_six_fit,"ln(ws_ref),ln(ell_nm)",centered_out
+65,5,5.7912050237861115,1.3698652496810593,4.227572766835611,frozen_full_six_fit,"ln(ws_ref),ln(ell_nm)",centered_out
+120,5,6.026204210639484,1.4866639146591072,4.053508093671121,frozen_full_six_fit,"ln(ws_ref),ln(ell_nm)",centered_out
+200,5,6.266001451325337,1.5271846396504976,4.102975690457008,frozen_full_six_fit,"ln(ws_ref),ln(ell_nm)",centered_out
+350,5,6.465254651590192,1.4267440579765513,4.531474734690256,frozen_full_six_fit,"ln(ws_ref),ln(ell_nm)",centered_out
+700,5,6.209582136969154,0.913438932963359,6.798026570669767,frozen_full_six_fit,"ln(ws_ref),ln(ell_nm)",centered_out
+2600,5,3.71497930136804,0.16218193286883906,22.906246310262222,frozen_full_six_fit,"ln(ws_ref),ln(ell_nm)",centered_out

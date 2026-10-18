@@ -1,0 +1,84 @@
+{
+  "curve_id": "Polymer_salt_2h:Book1:Sheet1:120 nm",
+  "source_csv": "data/processed/origin_exports/Polymer_salt_2h/Book1__Sheet1.csv",
+  "source_metadata": "data/processed/origin_exports/Polymer_salt_2h/Book1__Sheet1.metadata.json",
+  "x_column": "C",
+  "y_column": "D",
+  "sample_label": "120 nm (Origin column comment; independent membrane ID unknown)",
+  "points": [
+    {
+      "time_min": 0.0,
+      "conductivity_uS_per_cm": 2.38
+    },
+    {
+      "time_min": 20.0,
+      "conductivity_uS_per_cm": 4.64
+    },
+    {
+      "time_min": 40.0,
+      "conductivity_uS_per_cm": 6.98
+    },
+    {
+      "time_min": 60.0,
+      "conductivity_uS_per_cm": 9.42
+    },
+    {
+      "time_min": 80.0,
+      "conductivity_uS_per_cm": 11.65
+    },
+    {
+      "time_min": 100.0,
+      "conductivity_uS_per_cm": 14.14
+    },
+    {
+      "time_min": 120.0,
+      "conductivity_uS_per_cm": 16.87
+    }
+  ],
+  "calculated_from_source": {
+    "delta_time_min": 120.0,
+    "delta_time_s": 7200.0,
+    "delta_conductivity_uS_per_cm": 14.49,
+    "delta_conductivity_S_per_m": 0.001449,
+    "endpoint_average_delta_conductivity_uS_per_cm_per_min": 0.12075
+  },
+  "stages": {
+    "conductivity": {
+      "status": "source_explicit_units; numeric delta available",
+      "meaning": "receiver-side conductivity observation, not concentration"
+    },
+    "concentration": {
+      "status": "unknown",
+      "needed": [
+        "curve-specific salt identity or preparation record",
+        "conductivity-to-concentration calibration with validity range",
+        "measurement temperature and compensation settings"
+      ],
+      "calculation_when_available": "c_R(t) = calibrated_inverse(kappa_R(t), salt, T)"
+    },
+    "flux": {
+      "status": "unknown",
+      "needed_after_concentration": [
+        "receiver volume history",
+        "sampling and replenishment log",
+        "effective exposed membrane area"
+      ],
+      "calculation_when_available": "J_interval = receiver NaCl amount balance / (effective area * interval seconds)"
+    },
+    "cross_membrane_or_charge_mechanism": {
+      "status": "unknown",
+      "needed_after_flux": [
+        "wetting history",
+        "mixing conditions",
+        "parent membrane and coupon identity",
+        "independent replicate mapping"
+      ]
+    }
+  },
+  "related_plan_not_curve_confirmation": {
+    "source": "原始资料/赵珈绮/01_研究框架与资料_v2/05_真实数据_v1核查/Polymer_salt_experiment_plan.txt",
+    "salt_named": "NaCl",
+    "recipe_written": "8.75 g made up to 250 mL = 35 g/L mass per solution volume",
+    "warning": "Plan does not confirm this curve followed it; 35 g/L is not a verified 3.5 wt%."
+  }
+}

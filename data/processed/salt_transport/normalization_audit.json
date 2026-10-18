@@ -36,12 +36,12 @@
       "worksheet": "Sheet1",
       "sample_id": "200 nm",
       "condition": "2h",
-      "time_column": "col_1_A",
+      "time_column": "col_3_C",
       "conductivity_column": "col_5_E",
       "time_unit": "min",
       "conductivity_unit": "μS/cm",
       "sample_id_evidence": "Origin comment on conductivity column",
-      "time_column_evidence": "shared time column inferred from table layout",
+      "time_column_evidence": "saved Origin graph X/Y binding",
       "unit_evidence": "units inherited from explicit columns in same sheet"
     },
     {
@@ -50,12 +50,12 @@
       "worksheet": "Sheet1",
       "sample_id": "350 nm",
       "condition": "2h",
-      "time_column": "col_1_A",
+      "time_column": "col_3_C",
       "conductivity_column": "col_6_F",
       "time_unit": "min",
       "conductivity_unit": "μS/cm",
       "sample_id_evidence": "Origin comment on conductivity column",
-      "time_column_evidence": "shared time column inferred from table layout",
+      "time_column_evidence": "saved Origin graph X/Y binding",
       "unit_evidence": "units inherited from explicit columns in same sheet"
     },
     {
@@ -64,12 +64,12 @@
       "worksheet": "Sheet1",
       "sample_id": "700 nm",
       "condition": "2h",
-      "time_column": "col_1_A",
+      "time_column": "col_3_C",
       "conductivity_column": "col_7_G",
       "time_unit": "min",
       "conductivity_unit": "μS/cm",
       "sample_id_evidence": "Origin comment on conductivity column",
-      "time_column_evidence": "shared time column inferred from table layout",
+      "time_column_evidence": "saved Origin graph X/Y binding",
       "unit_evidence": "units inherited from explicit columns in same sheet"
     },
     {
@@ -78,12 +78,12 @@
       "worksheet": "Sheet1",
       "sample_id": "2600 nm",
       "condition": "2h",
-      "time_column": "col_1_A",
+      "time_column": "col_3_C",
       "conductivity_column": "col_8_H",
       "time_unit": "min",
       "conductivity_unit": "μS/cm",
       "sample_id_evidence": "Origin comment on conductivity column",
-      "time_column_evidence": "shared time column inferred from table layout",
+      "time_column_evidence": "saved Origin graph X/Y binding",
       "unit_evidence": "units inherited from explicit columns in same sheet"
     },
     {
@@ -92,12 +92,12 @@
       "worksheet": "Sheet1",
       "sample_id": "PC filter, 75 μm thick, 200 nm pore",
       "condition": "2h",
-      "time_column": "col_1_A",
+      "time_column": "col_3_C",
       "conductivity_column": "col_9_I",
       "time_unit": "min",
       "conductivity_unit": "μS/cm",
       "sample_id_evidence": "Origin comment on conductivity column",
-      "time_column_evidence": "shared time column inferred from table layout",
+      "time_column_evidence": "saved Origin graph X/Y binding",
       "unit_evidence": "units inherited from explicit columns in same sheet"
     },
     {
@@ -249,7 +249,7 @@
     "sampling/replenishment and mixing log",
     "curve-level wetting history",
     "independent membrane/parent-film replicate mapping",
-    "confirmation of inherited units and shared time-column mappings"
+    "confirmation of inherited units and time-column mappings not fixed by saved graphs"
   ],
   "excluded_origin_sheets": "All FitLinear* and FitPolynomial* sheets are derivative fits, not raw observations."
 }

@@ -1,0 +1,12 @@
+{
+  "ws_ref": 7.039790538093687,
+  "ell_nm": 893.9538847428345,
+  "a_ref_nm": 25.0,
+  "log_amplitude": 20.508460303425917,
+  "robin_r": 0.0,
+  "amplitude_units": "delta conductivity times nm; not absolute permeability",
+  "b_nm": 175.99476345234217,
+  "status": "three-shared-parameter explanatory fit using all six endpoints",
+  "local_radius_closure": "conditional S/V closure ws(a)=ws_ref*a_ref/a; radius dependence not fitted",
+  "interpretation": "ell is effective frozen-network response, not Debye/water dielectric length"
+}

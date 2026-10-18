@@ -2,6 +2,8 @@
 
 本项目由同一位研究者通过两台电脑和两个 Codex 账号维护。`dev-zhao`、`dev-yi` 是设备开发分支，`main` 是统一的权威共享分支。`原始资料/` 保留原始交付包、文献、实验快照、历史版本和既有结果，按根目录 `.gitignore` 规则不进入后续 Git 管理。
 
+2026-10-17 导师将当前任务明确为基于已有实验的纯理论计算，并交付 v5.0.0 主模型。当前路线见[正式看板第 6 节](项目进展计划与任务看板.md)、[导师反馈评阅](阶段总结/20261017_导师反馈与v5主模型接入.md)和[本工作区复现记录](复现记录_20261017_v5.md)；[v5 仓库工作副本及复算入口](src/effective_network_model/README.md)已接入。旧 O/S/W 等新增实验草案保留追溯，不作为当前计算关卡。
+
 ## 项目目录说明
 
 ```text
@@ -29,7 +31,7 @@ AGENTS.md                  两台设备共同遵守的长期工作规范
 | `data/processed/` | 审阅后的轻量 CSV/JSON、审计清单和 QC 图 | 只放可追溯的处理结果；不得替代或覆盖 `原始资料/` |
 | `src/**/outputs/`、`src/outputs/` | 可由代码重新生成的运行输出 | 作为本地运行产物，不作为正式科研记录的唯一副本 |
 | `paper/review-traces/` | 结果到声明等独立审查过程与判定 | 同类审查继续沿用现有层级，不在根目录另建副本 |
-| `阶段总结/` | P0、P1、P2 等阶段或工作包的正式总结 | 每项结论保留一份权威总结；草案在文件名中明确版本 |
+| `阶段总结/` | P0、P1、P2 等阶段或工作包的正式总结 | 文件名采用 `YYYYMMDD_主题`，已有阶段/工作包编号继续保留在主题中；每项结论保留一份权威总结，草案在文件名中明确版本 |
 | `.planning/` | 需要持续规划或跨设备交接的任务过程记录 | 使用 `YYYY-MM-DD-任务名称/`；同一任务持续更新原目录，完成后作为历史保留 |
 | `原始资料/` | 原始交付、文献、实验快照、历史版本和整理记录 | 只读保存；`03_发送用ZIP/`、`90_历史与工作底稿/` 等历史区不接收日常新产出 |
 | 根目录 Markdown | 正式入口、看板、行动清单、资料索引和复现记录 | 不放临时笔记；任务状态只以正式看板为准 |
@@ -156,9 +158,37 @@ $inputs = Get-ChildItem -LiteralPath $src -Filter '*.opju' | Select-Object -Expa
 .\.venv\Scripts\python.exe .\src\data_ingest\normalize_salt_transport.py
 .\.venv\Scripts\python.exe .\src\data_ingest\analyze_salt_transport.py
 .\.venv\Scripts\python.exe .\src\data_ingest\test_origin_ingest.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_mass_balance.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_osw_protocol.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_independent_readouts.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_project_readiness.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_conductivity_calibration.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_osw_randomization.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_salt_transport_runs.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_process_salt_transport_runs.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_blank_registry.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_quality_thresholds.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_liquid_compatibility.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_liquid_compatibility_thresholds.py
+.\.venv\Scripts\python.exe .\src\data_ingest\test_evaluate_liquid_compatibility.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_experiment_records.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_osw_protocol.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_independent_readouts.py
+.\.venv\Scripts\python.exe .\src\data_ingest\assess_project_readiness.py
+.\.venv\Scripts\python.exe .\src\data_ingest\conductivity_calibration.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_salt_transport_runs.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_blank_registry.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_quality_thresholds.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_liquid_compatibility.py
+.\.venv\Scripts\python.exe .\src\data_ingest\validate_liquid_compatibility_thresholds.py
+.\.venv\Scripts\python.exe .\src\data_ingest\evaluate_liquid_compatibility.py
 ```
 
 当前长表不具备机制拟合资格：缺失电导-浓度校准、温度、有效面积、两池体积、取样/补液、润湿历史和独立样品映射。`salt_transport_origin_qc.png` 不能解释为浓度、通量或渗透率结果。
+
+`data/processed/salt_transport/salt_transport_record_tracker.csv` 为 17 条曲线逐条登记这些外部记录。未知项必须写 `unknown`；校验通过只表示字段结构有效，不自动授权机制拟合。
+
+阶段 2 的空表、校验和端到端运行顺序集中见 `阶段总结/20261016_P2_开测前执行清单_v0.md`。该清单是操作草案，不代表协议已冻结或实验已获准开始。
 
 ## 未复制的脚本
 
