@@ -2,6 +2,17 @@
 
 本目录是 `原始资料/赵珈绮/08_主模型交接_v5.0.0/02_程序/` 中核心、共享拟合和有限 PNP 程序及其必要轻量输入的**独立工作副本**。保留导师交付的原有目录结构与源码内容；未复制交付包预生成的结果。`原始资料/` 始终只读。`core/inputs/` 与 `fit/inputs/` 的同表副本是上游两个独立入口所需，不能当作两组独立实验。
 
+## 当前科研计算交付索引
+
+| 对象 | 本仓库交付物 | 来源与复算入口 | 使用边界 |
+|---|---|---|---|
+| 图一，旧六端点与共享模型 | `data/processed/figures/v5_report_endpoints.png` | 旧 Book1 端点、导师 `fit/results/endpoint_fit.csv` 与 `thickness_curve.csv`；`plot_report_endpoints.py` | 两系列各以自身 2600 nm 值归一化；模型线是六点训练，旧端点跨列比较仍有条件 |
+| 图二，厚度与局部尺度 | `data/processed/figures/v5_report_h_a.png` | 冻结的 `core/inputs/model_parameters.json`；`plot_report_structure.py --layout mentor-v5` | `a=20/25/30 nm` 和 `ws∝1/a` 是条件假设，非湿态孔喉测量 |
+| 图三，有限二维 PNP | `data/processed/figures/pnp_same_sigma_baseline.png` | 导师已保存的代表工况及拟合场 PNP JSON；`plot_pnp_baselines.py` | 分母为各自相同 `σ` 的零能场；虚拟网络不是旧膜绝对通量 |
+| 图四，留一与时间限制 | `data/processed/figures/v5_report_limits.png` | 导师 `fit/results/leave_one_out.csv` 与旧 Book1；`plot_report_limits.py` | 留一是旧厚度内部验证；时间曲线不是动态机制拟合 |
+
+冻结参数见 `core/inputs/model_parameters.json`；主模型数值复现使用下文 `run_reproduction.ps1`，增量检查结果集中在 `data/processed/v5_*.csv`，每项假设和实际运行记录见根目录 `复现记录_20261017_v5.md`。物理计算链与每张图的坐标见 `阶段总结/20261018_v5科研通俗说明.md`，模型成功、留一失败和适用范围见 `阶段总结/20261017_共享边界离散重拟合.md`。这份索引交付可复算科研资产；报告与答辩写作仍暂停。
+
 在仓库根目录安装完毕的 Python 环境中运行以下命令；脚本不安装依赖、不写入仓库，要求每次指定一个**尚不存在、且位于仓库外**的非同步输出目录：
 
 ```powershell
@@ -95,6 +106,8 @@ $env:MPLCONFIGDIR = (Resolve-Path -LiteralPath '.venv').Path
 ```
 
 若要量化图二预设 `ws(a)=ws_ref×25/a` 对 200/350 nm 反常排序的要求，可在同一命令加 `--local-scale-threshold-output .\data\processed\v5_local_scale_threshold.csv`。此诊断固定 200 nm 的 `a=25 nm` 与全部参考参数，仅反求 350 nm 达到等传盐及旧端点条件比例所需的 `a`；不是按膜调参后的新模型，更不是实测孔径。
+
+四个参数在同一冻结参考点的局部作用可用既有 `parameter_sensitivity.py` 加 `--local-effects-output .\data\processed\v5_local_effects.csv` 输出；仍需提供原脚本必需的 `--output .\data\processed\v5_parameter_sensitivity.csv`。六行分别列出 `h、a、ws、ell` 的 `∂lnP/∂lnx`；`a` 同时给出图二闭合与固定 `ws` 只改入口几何两种导数。它是小扰动敏感度，不是新增拟合或实测孔径效应。
 
 CSV 对旧六个厚度标签给出膜内阻力占比、路径长度项、双面场减弱项及其和 `dlnP/dlnh`。脚本以既有 `thickness_log_slope` 和数值差分分别核对六点斜率；每个厚度只用冻结的 `r=0, a=25 nm, ws_ref, ell`。正斜率是该位置的条件模型趋势，不是旧实验观测导数。通俗解释和四张导师原图的坐标说明见 `阶段总结/20261018_v5科研通俗说明.md`。
 

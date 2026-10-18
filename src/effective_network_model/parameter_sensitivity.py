@@ -16,7 +16,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "core"))
-from theory_model import log_resistance_nm  # noqa: E402
+from theory_model import log_resistance_nm, thickness_log_slope  # noqa: E402
 
 LABELS = (65, 120, 200, 350, 700, 2600)
 
@@ -38,11 +38,35 @@ def sensitivities(params, step, n=2048):
     return np.column_stack(columns)
 
 
+def local_effect_rows(params, jacobian, step=1e-4, n=4096):
+    """Four log elasticities at the same frozen reference point, no refit."""
+    ws, ell, a = (float(params[key]) for key in ("ws_ref", "ell_nm", "a_ref_nm"))
+    rows = []
+    for index, h in enumerate(LABELS):
+        def logp_at_a(direction, coupled):
+            local_a = a * math.exp(direction * step)
+            local_ws = ws * a / local_a if coupled else ws
+            return -log_resistance_nm(h, local_ws, ell, local_a, n=n)
+
+        radius_closure = (logp_at_a(1, True) - logp_at_a(-1, True)) / (2 * step)
+        radius_geometry = (logp_at_a(1, False) - logp_at_a(-1, False)) / (2 * step)
+        rows.append(dict(h_nm=h, a_ref_nm=a, ws_ref=ws, ell_nm=ell,
+                         dlogP_dlogh=thickness_log_slope(h, ws, ell, a, n=n),
+                         dlogP_dloga_closure=radius_closure,
+                         dlogP_dloga_geometry_only=radius_geometry,
+                         dlogP_dlogws=float(jacobian[index, 0]),
+                         dlogP_dlogell=float(jacobian[index, 1]),
+                         parameter_point="frozen_full_six_fit", robin_r=0))
+    return rows
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--leverage-output", type=Path,
                         help="Optional held-out contrast along each five-label weak direction")
+    parser.add_argument("--local-effects-output", type=Path,
+                        help="Optional per-thickness h/a/ws/ell log elasticities at the frozen fit")
     args = parser.parse_args()
     params = json.loads((ROOT / "core/inputs/model_parameters.json").read_text(encoding="utf-8"))
     if float(params["robin_r"]) != 0:
@@ -94,6 +118,22 @@ def main():
         for row in leverage_rows:
             print(f"heldout={row['heldout_h_nm']}: "
                   f"relative_weak_direction_leverage={row['heldout_to_train_ratio']:.6f}")
+    if args.local_effects_output:
+        effects = local_effect_rows(params, jacobian)
+        half_step = local_effect_rows(params, check, step=5e-5)
+        fields = ("dlogP_dlogh", "dlogP_dloga_closure", "dlogP_dloga_geometry_only",
+                  "dlogP_dlogws", "dlogP_dlogell")
+        if max(abs(float(row[key]) - float(other[key]))
+               for row, other in zip(effects, half_step) for key in fields) > 2e-5:
+            raise AssertionError("Local effect derivatives did not stabilize")
+        with args.local_effects_output.open("w", encoding="utf-8-sig", newline="") as stream:
+            writer = csv.DictWriter(stream, fieldnames=list(effects[0]))
+            writer.writeheader()
+            writer.writerows(effects)
+        for row in effects:
+            print(f"h={row['h_nm']}: h={row['dlogP_dlogh']:.6f}, "
+                  f"a_closure={row['dlogP_dloga_closure']:.6f}, "
+                  f"ws={row['dlogP_dlogws']:.6f}, ell={row['dlogP_dlogell']:.6f}")
 
 
 if __name__ == "__main__":
