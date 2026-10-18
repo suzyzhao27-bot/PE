@@ -1,5 +1,11 @@
 # Progress
 
+## 最近检查点（2026-10-18，B10 zeta 原条件趋势整理）
+
+- **模块与交付：** 承接已验收的 120 nm 单曲线链，复用原资料中已审计的 `zeta_summary.csv`，新增 `src/data_ingest/plot_zeta_trends.py`、`data/processed/zeta_trends.csv` 和 `data/processed/figures/zeta_trends.png`。九个条件按实测均值 pH 与拉伸比标签绘制；误差棒为同条件四次压力 Ramp 的总体 SD（ddof=0），连线仅作阅读辅助。更新 B10、B12 阶段总结、正式看板和本检查点；原始 XLS/OPJU 未改。
+- **验收与科学结论：** 9/9 源行、182/357/604 三标签、每条件 `ramp_n=4` 与 `independent_membrane_n=unknown` 核对通过；脚本退出 0，图像首次底注重叠已修复并目视复验。pH 约 3 时三组 ζ 为 `+17.67…+20.91 mV`，约 pH 7 为 `−52.91…−70.50 mV`，约 pH 10 为 `−75.28…−97.04 mV`；只代表现有测量条件下的电动响应，不能单独确定 PE 荷电来源。四 Ramp 不是四张膜，未做独立膜统计检验。
+- **剩余与下一步：** B12 的 cell、装样面/方向、背景电解质、温度和换算条件仍 unknown；可用对应样品的实验记录、报告、仪器设置或装样照片补证，不限定格式。B11 的实际盐体系/配制批次、κ–c 校准与温度先补；其后再核体积/取样补液/面积，最后核润湿/搅拌/母膜身份。无这些输入时保留描述结果，不启动浓度/通量/荷电来源反演。三个本轮独立模块均已验收；后续只在发现新可定位证据时推进对应关卡。
+
 ## 最近检查点（2026-10-18，B11 Book1 120 nm 单曲线计算链）
 
 - **模块与交付：** 继承 `bbdb438` 的原图时间绑定纠正。选 C/D 列原表显式标注 `min` 和 `μS/cm` 的 Book1 120 nm 曲线；新增 `src/data_ingest/trace_120nm_conductivity.py` 和 `data/processed/salt_transport/book1_120nm_calculation_chain.json`，以源表七点逐步给出电导读数、端点差与单位换算，再列出浓度、通量、跨膜机制所缺输入。更新 B11 阶段总结、正式看板及本检查点；原始资料、实验参数、模型和其他曲线不变。
@@ -280,3 +286,4 @@
 - 2026-10-18（设备分支快进同步）：远端只读查询及 fetch 成功；`origin/dev-zhao` 为本地 `HEAD` 祖先，正常推送 41 个本地提交后两者同为 `81d05e3`。远端 `main` 的新合并是此前 Origin 数据整理，未作为新 v5 实验输入。修改本文件和正式看板记录同步状态；原始资料、模型、数据、图像和受保护分支未改。后续缺旧实验元数据、独立湿态/时间约束和学生本人复算；无新输入时不增加计算模块。
 - 2026-10-18（B11 Book1 时间绑定纠正）：源 OPJU 只读查询 23 条保存图线并保留 JSON，五个目标电导列 E–I 均指向 C=80 min 而非 A=85 min；修改 `src/data_ingest/normalize_salt_transport.py`、`analyze_salt_transport.py`、`test_origin_ingest.py`，重生 `data/processed/salt_transport/` 的受影响长表、审计、描述性汇总、严格重复表、新电导序列匹配表和 `data/processed/figures/salt_transport_origin_qc.png`。更新 B11、旧时间检验说明、模型 README、正式看板和本检查点。验收：17 曲线/167 点、原图绑定、三对相同电导序列与一对严格重复核对通过；定向测试 3/3 通过，QC 图目视可读。未知实验单位、校准和样品身份不回填；下一模块按顶部检查点处理 120 nm 单曲线链。
 - 2026-10-18（B11 120 nm 分段计算）：新增 `src/data_ingest/trace_120nm_conductivity.py` 及同名链式 JSON；直接由 Book1 C/D 显式源列计算 7 点、`Δκ=14.49 μS/cm`、`0.001449 S/m`、7200 s 和端点平均电导增量率 `0.12075 μS/(cm·min)`。源 CSV 独立 7/7 时间及单位核对通过，脚本退出 0。盐方案是候选上下文，未确认本曲线；κ–c 校准、温度和补偿均 unknown，浓度和通量不计算。B11 总结、正式看板和顶部检查点已更新；下一模块按顶部检查点整理 zeta 趋势。
+- 2026-10-18（B10 zeta 描述趋势）：原始 `zeta_summary.csv` 九条件不改，新增 `src/data_ingest/plot_zeta_trends.py`、`data/processed/zeta_trends.csv`、`data/processed/figures/zeta_trends.png`，输出实测均值 pH 与 ζ 及四 Ramp 总体 SD。脚本退出 0，9/9 条件和重复层级核对通过；图底注首次与横轴重叠，调整布局后目视复验可读。更新 B10/B12 总结、正式看板和顶部检查点；原条件趋势不能确定材料荷电来源。B12 可接收可定位实验记录、报告或装样照片；当前缺口与后续顺序见顶部检查点。
