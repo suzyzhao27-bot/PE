@@ -1,4 +1,4 @@
-"""Plot conditional thickness and local-scale scans for report Figure 2."""
+"""Plot the v5 h/a Figure 2 theme or the earlier closure-rule comparison."""
 
 import argparse
 import csv
@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 CORE = Path(__file__).resolve().parent / "core"
 sys.path.insert(0, str(CORE))
-from theory_model import log_resistance_nm  # noqa: E402
+from theory_model import field, log_resistance_nm, relative_permeance  # noqa: E402
 
 
 def read_rows(path):
@@ -23,12 +23,55 @@ def read_rows(path):
         return list(csv.DictReader(source))
 
 
+def plot_mentor_layout(params, output):
+    """Reproduce the v5 Figure 2 comparison axes using the frozen core."""
+    ws, ell, aref = (float(params[key]) for key in ("ws_ref", "ell_nm", "a_ref_nm"))
+    colors = {65: "#21618c", 350: "#148f77", 700: "#c0392b", 2600: "#7d3c98"}
+    fig, (left, right) = plt.subplots(1, 2, figsize=(10.8, 4.8))
+    fig.subplots_adjust(left=0.09, right=0.98, bottom=0.23, top=0.81, wspace=0.32)
+
+    u = [i / 200 for i in range(201)]
+    for h in (65, 350, 700, 2600):
+        left.plot(u, [field(position * h, h, ws, ell) for position in u],
+                  color=colors[h], linewidth=2, label=f"h = {h} nm")
+    left.set_xlabel("Position in membrane z/h")
+    left.set_ylabel("Common entry energy w / kBT")
+    left.set_xlim(0, 1)
+    left.set_ylim(bottom=0)
+    left.set_title("A  Double-sided field overlap", loc="left", fontweight="bold")
+    left.legend(ncol=2, fontsize=8, frameon=False)
+    left.grid(alpha=0.22)
+
+    hs = [65 * (2600 / 65) ** (i / 160) for i in range(161)]
+    for a, color in ((20, "#c65436"), (25, "#17658d"), (30, "#148f77")):
+        ratios = [relative_permeance(h, a, params, reference_h_nm=2600) for h in hs]
+        right.plot(hs, ratios, color=color, linewidth=2, label=f"a = {a} nm")
+    right.set_xscale("log")
+    right.set_yscale("log")
+    right.set_xticks((65, 200, 700, 2600), ("65", "200", "700", "2600"))
+    right.set_xlim(65, 2600)
+    right.set_xlabel("Thickness label h (nm)")
+    right.set_ylabel("Model P(h, a) / P(2600 nm, 25 nm)")
+    right.set_title("B  Conditional local-scale coupling", loc="left", fontweight="bold")
+    right.legend(fontsize=8, frameon=False)
+    right.grid(alpha=0.22)
+
+    fig.text(0.09, 0.91, "Thickness and local scale in the frozen v5 model",
+             fontsize=14, fontweight="bold")
+    fig.text(0.09, 0.07, "Shared r=0 fit; ws(a) = ws(25 nm) * 25 nm / a."
+             "  Curves are conditional model results, not wet-pore measurements.",
+             fontsize=8, color="#454b52")
+    fig.savefig(output, dpi=200)
+    plt.close(fig)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--thickness-csv", required=True, type=Path)
-    parser.add_argument("--local-csv", required=True, type=Path)
+    parser.add_argument("--thickness-csv", type=Path)
+    parser.add_argument("--local-csv", type=Path)
     parser.add_argument("--parameters-json", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--layout", choices=("closure", "mentor-v5"), default="closure")
     args = parser.parse_args()
     params = json.loads(args.parameters_json.read_text(encoding="utf-8"))
     ws, ell, aref = (float(params[key]) for key in ("ws_ref", "ell_nm", "a_ref_nm"))
@@ -36,6 +79,12 @@ def main():
         raise ValueError("Expected positive frozen model parameters")
     if float(params["robin_r"]) != 0 or aref != 25:
         raise ValueError("This figure is limited to the frozen r=0, a_ref=25 nm fit")
+
+    if args.layout == "mentor-v5":
+        plot_mentor_layout(params, args.output)
+        return
+    if args.thickness_csv is None or args.local_csv is None:
+        parser.error("The closure layout requires --thickness-csv and --local-csv")
 
     thickness = read_rows(args.thickness_csv)
     thick_points = [(float(row["h_nm"]), float(row["relative_P_to_2600"]))

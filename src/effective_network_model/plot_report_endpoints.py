@@ -1,4 +1,4 @@
-"""Plot only the audited six old endpoints and the shared r=0 training fit."""
+"""Plot the old thickness series as conditional relative salt-transfer proxies."""
 
 import argparse
 import csv
@@ -46,27 +46,35 @@ def main():
     if len(within) < 2:
         raise ValueError("Fit curve does not span the old thickness-label interval")
 
-    fig, ax = plt.subplots(figsize=(8.5, 5.3))
-    fig.subplots_adjust(left=0.13, right=0.97, top=0.84, bottom=0.23)
-    ax.plot([h for h, _ in within], [y for _, y in within], color="#17658d", linewidth=2.2,
-            label="Shared r=0 model, trained on all six endpoints")
-    ax.scatter(THICKNESS, observed, color="#202a32", s=65, zorder=3,
-               label="Old 0–120 min conductivity increments")
-    ax.scatter(THICKNESS, predicted, facecolors="white", edgecolors="#17658d", s=53,
-               linewidths=1.5, zorder=3, label="Model at the six labels")
+    reference_observed = observed[-1]
+    reference_predicted = predicted[-1]
+    observed_relative = [value / reference_observed for value in observed]
+    predicted_relative = [value / reference_predicted for value in predicted]
+    curve_relative = [(h, y / reference_predicted) for h, y in within]
+
+    fig, ax = plt.subplots(figsize=(8.6, 5.6))
+    fig.subplots_adjust(left=0.14, right=0.97, top=0.83, bottom=0.27)
+    ax.plot([h for h, _ in curve_relative], [y for _, y in curve_relative],
+            color="#17658d", linewidth=2.2, label="Shared r=0 fit (all six points)")
+    ax.scatter(THICKNESS, observed_relative, color="#202a32", s=68, zorder=3,
+               label="Old 0–120 min increments / 2600 nm")
+    ax.scatter(THICKNESS, predicted_relative, facecolors="white", edgecolors="#17658d",
+               s=55, linewidths=1.5, zorder=3, label="Fit at old thickness labels")
+    ax.axhline(1, color="#777d82", linewidth=0.8, linestyle=":")
     ax.set_xscale("log")
     ax.set_yscale("log")
     ax.set_xlim(60, 2800)
-    ax.set_ylim(7, 2100)
+    ax.set_ylim(0.005, 1.6)
     ax.set_xticks(THICKNESS, [str(h) for h in THICKNESS])
     ax.set_xlabel("Old thickness label (nm)")
-    ax.set_ylabel("0–120 min conductivity increment (inherited table units)")
+    ax.set_ylabel("Relative 0–120 min increment (2600 nm = 1)")
     ax.grid(which="major", alpha=0.2)
     ax.legend(loc="upper left", frameon=False, fontsize=9)
-    fig.text(0.13, 0.92, "Old endpoints and the shared effective-field fit", fontsize=14,
+    fig.text(0.14, 0.92, "Figure 1 | Old thickness trend and relative transfer", fontsize=14,
              fontweight="bold")
-    fig.text(0.13, 0.08, "The line uses all six old endpoints for fitting; only the 65–2600 nm label interval is shown."
-             "  No new samples or error bars.", fontsize=8, color="#454b52")
+    fig.text(0.14, 0.13, "Relative salt transfer only if calibration, geometry and volume history are comparable."
+             "\nThe line is a six-point training fit within 65–2600 nm; no independent validation or error bars.",
+             fontsize=8, color="#454b52")
     fig.savefig(args.output, dpi=200)
     plt.close(fig)
 

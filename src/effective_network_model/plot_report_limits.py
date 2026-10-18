@@ -14,6 +14,8 @@ import matplotlib.pyplot as plt
 THICKNESS = (65, 120, 200, 350, 700, 2600)
 COMMON_ROWS = ((0, 0), (1, 20), (2, 40), (3, 60), (5, 100), (6, 120))
 CURVE_COLUMNS = {200: "col_5_E", 350: "col_6_F"}
+ALL_CURVE_COLUMNS = {65: "col_2_B", 120: "col_4_D", 200: "col_5_E",
+                     350: "col_6_F", 700: "col_7_G", 2600: "col_8_H"}
 
 
 def load_loo(path):
@@ -34,7 +36,7 @@ def load_loo(path):
     return ratios
 
 
-def load_shapes(path):
+def load_shapes(path, columns=CURVE_COLUMNS):
     with path.open(encoding="utf-8-sig", newline="") as source:
         rows = list(csv.DictReader(source))
     if len(rows) != 7:
@@ -43,7 +45,7 @@ def load_shapes(path):
         if any(float(rows[index][key]) != time for key in ("col_1_A", "col_3_C")):
             raise ValueError(f"A/C time labels disagree at row {index}")
     shapes = {}
-    for thickness, column in CURVE_COLUMNS.items():
+    for thickness, column in columns.items():
         start = float(rows[0][column])
         delta = float(rows[6][column]) - start
         if not math.isfinite(delta) or delta <= 0:
@@ -55,12 +57,56 @@ def load_shapes(path):
     return shapes
 
 
+def plot_crossings(book1_csv, output):
+    shapes = load_shapes(book1_csv, ALL_CURVE_COLUMNS)
+    times = [time for _, time in COMMON_ROWS]
+    fig, (left, right) = plt.subplots(1, 2, figsize=(10.8, 4.7))
+    fig.subplots_adjust(left=0.08, right=0.98, bottom=0.24, top=0.84, wspace=0.31)
+    colors = {65: "#245b86", 120: "#d05d31", 200: "#7d4c9c",
+              350: "#179275", 700: "#b77826", 2600: "#323a46"}
+    for h in THICKNESS:
+        left.plot(times, shapes[h], marker="o", markersize=4, linewidth=1.5,
+                  color=colors[h], label=f"{h} nm")
+    left.set_xticks(times)
+    left.set_xlim(0, 120)
+    left.set_ylim(-0.03, 1.06)
+    left.set_xlabel("Common time label (min)")
+    left.set_ylabel("Each curve / its own 120 min increment")
+    left.set_title("A  Six old normalized curves", loc="left", fontweight="bold")
+    left.grid(alpha=0.20)
+    left.legend(ncol=3, fontsize=8, frameon=False, loc="upper left")
+
+    gap = [a - b for a, b in zip(shapes[120], shapes[2600])]
+    right.axhline(0, color="#727b83", linewidth=1.2)
+    right.plot(times, gap, marker="o", markersize=5, color="#9d4160", linewidth=1.8)
+    right.axvspan(20, 40, color="#f4e8dc", alpha=0.75)
+    right.set_xticks(times)
+    right.set_xlim(0, 120)
+    right.set_xlabel("Common time label (min)")
+    right.set_ylabel("Fraction at 120 nm minus fraction at 2600 nm")
+    right.set_title("B  Rank reverses between 20 and 40 min", loc="left", fontweight="bold")
+    right.grid(alpha=0.20)
+
+    fig.text(0.08, 0.93, "Old normalized time histories change order",
+             fontsize=14, fontweight="bold")
+    fig.text(0.08, 0.08, "Only common 0, 20, 40, 60, 100, 120 min rows. Lines guide the eye;"
+             " no error bars or dynamic-mechanism fit.", fontsize=8, color="#454b52")
+    fig.savefig(output, dpi=200)
+    plt.close(fig)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--loo-csv", required=True, type=Path)
+    parser.add_argument("--loo-csv", type=Path)
     parser.add_argument("--book1-csv", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--layout", choices=("report", "crossings"), default="report")
     args = parser.parse_args()
+    if args.layout == "crossings":
+        plot_crossings(args.book1_csv, args.output)
+        return
+    if args.loo_csv is None:
+        parser.error("The report layout requires --loo-csv")
     ratios = load_loo(args.loo_csv)
     shapes = load_shapes(args.book1_csv)
     times = [time for _, time in COMMON_ROWS]
