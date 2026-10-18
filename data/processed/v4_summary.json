@@ -1,0 +1,93 @@
+{
+  "model": "Reduced ideal Donnan plus common ion transfer-energy scenarios; no fitted PE mechanism",
+  "source_csv_sha256": "0434fed4716bbdf57081d25bacd03f6b0c2aed210ed0a7c6bf73f67dae819c9e",
+  "endpoint_conditions": "Common affine conductivity calibration and A/V; no unrecorded salt source/events",
+  "conditional_Lambda_conditions": "Additionally common driving or near-sink; negligible external resistance",
+  "Damb_m2_s": 1.6070833333333333e-09,
+  "AM2022": {
+    "P_report_derived_m_s": 1.1962962962962962e-08,
+    "P_reference_m_s": 0.0032127891666666668,
+    "reported_over_reference": 3.7235443542580094e-06,
+    "equivalent_total_log_penalty": 12.50083455988653,
+    "note": "Surface opening is only an ideal reference, not measured wet through-porosity"
+  },
+  "mathematical_checks": {
+    "neutral_exp_minus_w_max_relative_error": 2.220446049250313e-16,
+    "charge_balance_max_abs_mol_m3": 1.7763568394002505e-15,
+    "integration_2048_4096_max_relative_difference": 2.5260660352444906e-09,
+    "ion_exchange_symmetry": "PASS",
+    "partition_product": "PASS"
+  },
+  "scenario_count": 162,
+  "data_targets": [
+    {
+      "label": "65",
+      "endpoint_min": 120,
+      "delta_kappa": 17.08,
+      "relative_transfer_to_2600": 0.012528883183568677,
+      "inverse_transfer_proxy": 79.81557377049181,
+      "relative_Lambda_to_2600": 0.00031322207958921693,
+      "required_extra_log_resistance": 8.068598099559683
+    },
+    {
+      "label": "120",
+      "endpoint_min": 120,
+      "delta_kappa": 14.490000000000002,
+      "relative_transfer_to_2600": 0.01062901155327343,
+      "inverse_transfer_proxy": 94.08212560386472,
+      "relative_Lambda_to_2600": 0.0004905697639972352,
+      "required_extra_log_resistance": 7.619943058701107
+    },
+    {
+      "label": "200",
+      "endpoint_min": 120,
+      "delta_kappa": 13.92,
+      "relative_transfer_to_2600": 0.010210893086374472,
+      "inverse_transfer_proxy": 97.93462643678161,
+      "relative_Lambda_to_2600": 0.0007854533143364979,
+      "required_extra_log_resistance": 7.149249536361434
+    },
+    {
+      "label": "350",
+      "endpoint_min": 120,
+      "delta_kappa": 11.89,
+      "relative_transfer_to_2600": 0.008721804511278197,
+      "inverse_transfer_proxy": 114.6551724137931,
+      "relative_Lambda_to_2600": 0.001174089068825911,
+      "required_extra_log_resistance": 6.747262692629595
+    },
+    {
+      "label": "700",
+      "endpoint_min": 120,
+      "delta_kappa": 87.27000000000001,
+      "relative_transfer_to_2600": 0.06401613790573997,
+      "inverse_transfer_proxy": 15.621061074825253,
+      "relative_Lambda_to_2600": 0.017235114051545375,
+      "required_extra_log_resistance": 4.06080646159712
+    },
+    {
+      "label": "2600",
+      "endpoint_min": 120,
+      "delta_kappa": 1363.25,
+      "relative_transfer_to_2600": 1.0,
+      "inverse_transfer_proxy": 1.0,
+      "relative_Lambda_to_2600": 1.0,
+      "required_extra_log_resistance": -0.0
+    },
+    {
+      "label": "PC",
+      "endpoint_min": 120,
+      "delta_kappa": 479.95,
+      "relative_transfer_to_2600": 0.35206308454061985,
+      "inverse_transfer_proxy": 2.8404000416710073,
+      "relative_Lambda_to_2600": "",
+      "required_extra_log_resistance": ""
+    }
+  ],
+  "limitations": [
+    "No dielectric self-energy calculation or h-to-throat relation is implemented",
+    "No finite-2D PNP replacement, no DI chemistry, no empirical fit",
+    "1 and 3 nm radii are conditional theoretical branches, not observed PE throats",
+    "High-salt scenarios use an ideal model for scale exploration only"
+  ]
+}
