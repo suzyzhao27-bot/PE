@@ -156,6 +156,45 @@ def write_exact_duplicates(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     return duplicates
 
 
+def write_matching_conductivity_sequences(rows: list[dict[str, str]]) -> list[dict[str, object]]:
+    grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for row in rows:
+        grouped[row["curve_id"]].append(row)
+
+    sequences: dict[tuple[float, ...], list[tuple[str, tuple[float, ...]]]] = defaultdict(list)
+    for curve_id, points in grouped.items():
+        ordered = sorted(points, key=lambda item: int(item["point_index"]))
+        signature = tuple(float(point["conductivity"]) for point in ordered)
+        times = tuple(float(point["time"]) for point in ordered)
+        sequences[signature].append((curve_id, times))
+
+    copies: list[dict[str, object]] = []
+    for group in sequences.values():
+        if len(group) < 2:
+            continue
+        canonical_id, canonical_times = group[0]
+        for duplicate_id, duplicate_times in group[1:]:
+            mismatched = [index for index, (left, right) in
+                          enumerate(zip(canonical_times, duplicate_times), start=1)
+                          if left != right]
+            copies.append({
+                "canonical_curve_id": canonical_id,
+                "matching_curve_id": duplicate_id,
+                "same_time_grid": not mismatched,
+                "mismatched_point_indices": ";".join(map(str, mismatched)),
+                "interpretation": "same conductivity sequence; not an independent replicate",
+            })
+
+    path = DATA_ROOT / "matching_conductivity_sequences.csv"
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        fields = ["canonical_curve_id", "matching_curve_id", "same_time_grid",
+                  "mismatched_point_indices", "interpretation"]
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(copies)
+    return copies
+
+
 def plot(rows: list[dict[str, str]]) -> None:
     grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
     for row in rows:
@@ -197,6 +236,7 @@ def main() -> None:
     write_summary(summaries)
     write_structural_qc(qc_rows)
     duplicates = write_exact_duplicates(rows)
+    matching_sequences = write_matching_conductivity_sequences(rows)
     plot(rows)
     max_time = max(float(row["time"]) for row in rows if row["condition"] == "dry_6h")
     print(
@@ -204,6 +244,7 @@ def main() -> None:
             "curves": len(summaries),
             "points": len(rows),
             "exact_duplicate_pairs": len(duplicates),
+            "matching_conductivity_sequence_pairs": len(matching_sequences),
             "curves_with_conductivity_decrease": sum(
                 row["conductivity_decrease_count"] > 0 for row in qc_rows
             ),

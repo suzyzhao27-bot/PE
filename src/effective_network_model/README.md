@@ -29,7 +29,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\src\effective_network_mode
 
 每次运行在指定输出目录生成 `run_record.json`，记录模式、实际解释器路径、版本、已执行命令与退出码；失败时也保留已执行步骤及失败状态。学生在本人设备运行后，先核对 `core/student_results/run_summary.json`、`core/student_results/shared_model_comparison.csv`。完整模式另核对 `fit/results/fit_results.json`、`pnp/energy_test_report.json`、`pnp/test_report.json` 和 `pnp/outputs/root_fitted_energy_spatial_check.json`。运行记录是可复核的执行轨迹，学生仍须本人说明操作、结果及不一致项，不能仅凭他人机器生成的记录替代本人复算。无需把仓库外整套结果复制进原始资料目录。
 
-本工作区新增的 `time_shape_check.py` 不属于导师原始交付。用 `python -B .\src\effective_network_model\time_shape_check.py` 可只读检查六条旧曲线在共同时间标签 `20/40/60/100 min` 的归一化形状。常 `P`、充分混合有限池且 `theta≥0` 的曲线不低于 `t/120`；负差额只表明与该条件模型不完全一致，不提供误差显著性或迟滞机制。80/85 min 歧义行不参与检查。
+本工作区新增的 `time_shape_check.py` 不属于导师原始交付。用 `python -B .\src\effective_network_model\time_shape_check.py` 可只读检查六条旧曲线在共同时间标签 `20/40/60/100 min` 的归一化形状。常 `P`、充分混合有限池且 `theta≥0` 的曲线不低于 `t/120`；负差额只表明与该条件模型不完全一致，不提供误差显著性或迟滞机制。原 Origin 图线绑定已确认 200/350/700/2600 nm 对 C=80 min、65 nm 对 A=85 min；这一非共同时间行未参与既有检验。
 同一入口还输出 `late_over_early_60=[κ(120)−κ(60)]/[κ(60)−κ(0)]`，仅描述前后等长时间窗的电导增量比，不等于渗透率比。数值与限制见 `阶段总结/20261017_旧时间曲线内部检验.md`。
 
 若要检查六条旧曲线能否共享一个非负时间开启过程且只差固定强弱系数，仍用此入口加 `--common-gate-output data/processed/v5_common_gate_order.csv`。它使用 20/40/60/100 min 四个共同时间点，写出 60 项端点排序与中途归一化排序比较；不拟合 `g(t)`。成立需六列初始池状态、体积、面积和读数比例可比，具体推导及结果见同一时间形状阶段总结。
