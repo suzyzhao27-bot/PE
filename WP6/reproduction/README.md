@@ -1,6 +1,6 @@
 # v6 WP1–WP6 复现包说明
 
-本目录包含 `v6_reproduction.zip`、`inventory.csv`、`environment.json`、`requirements.txt`。压缩包保留项目相对路径，可解压到**新的空目录**后从根目录运行；本地工作区的 `原始资料/`、既有结果和历史版本不需覆盖。清单列出相对路径、文件角色与字节数，未额外计算内容哈希；源 OPJU 的既有 SHA256 只在 WP2 运行记录中保留用于既定溯源。
+本地完整交接目录包含 `v6_reproduction.zip`、`inventory.csv`、`environment.json`、`requirements.txt`；按研究者最新要求，GitHub 当前版本不跟踪 ZIP。具备项目原始输入的本地工作区可运行 `python src/effective_network_model/v6_wp6_package.py` 重新生成。压缩包保留项目相对路径，可解压到**新的空目录**后从根目录运行；本地工作区的 `原始资料/`、既有结果和历史版本不需覆盖。清单列出相对路径、文件角色与字节数，未额外计算内容哈希；源 OPJU 的既有 SHA256 只在 WP2 运行记录中保留用于既定溯源。
 
 ## 环境与输入
 
