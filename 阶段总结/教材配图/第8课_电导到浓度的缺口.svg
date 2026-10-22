@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 540" role="img" aria-labelledby="title desc">
+<title id="title">旧电导读数到盐浓度之间缺少校准</title><desc id="desc">左框是真实旧实验 120 nm 电导率读数 2.38 和 16.87 微西门子每厘米，中框是尚缺曲线级盐种温度与实测标准液校准，右框的浓度因而未知。流程为教学示意，没有虚构浓度。</desc>
+<rect width="1080" height="540" fill="#f4f8fc"/><rect x="34" y="27" width="1012" height="485" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="63" y="82" fill="#173956" font-size="32" font-family="Microsoft YaHei, sans-serif" font-weight="700">读数有了，为什么浓度仍是问号？</text>
+<text x="63" y="122" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">左侧为旧实验真数；中间与右侧是证据状态和流程示意</text>
+<rect x="63" y="171" width="278" height="250" rx="23" fill="#e8f4fa" stroke="#8bbad3" stroke-width="3"/>
+<text x="89" y="219" fill="#245879" font-size="25" font-family="Microsoft YaHei, sans-serif" font-weight="700">① 已有：电导率</text>
+<text x="89" y="273" fill="#245879" font-size="22" font-family="Microsoft YaHei, sans-serif">0 min</text><text x="190" y="273" fill="#155f89" font-size="25" font-family="Arial, sans-serif" font-weight="700">2.38</text>
+<text x="89" y="322" fill="#245879" font-size="22" font-family="Microsoft YaHei, sans-serif">120 min</text><text x="190" y="322" fill="#155f89" font-size="25" font-family="Arial, sans-serif" font-weight="700">16.87</text>
+<text x="89" y="381" fill="#4e7890" font-size="20" font-family="Arial, sans-serif">μS/cm · Book1 / 120 nm</text>
+<path d="M354 296 H388 M371 281 L389 296 L371 311" fill="none" stroke="#8aa8bb" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="403" y="171" width="280" height="250" rx="23" fill="#fff6e9" stroke="#ebc793" stroke-width="3"/>
+<text x="430" y="219" fill="#88592d" font-size="25" font-family="Microsoft YaHei, sans-serif" font-weight="700">② 尚缺：校准</text>
+<text x="431" y="270" fill="#795f42" font-size="22" font-family="Microsoft YaHei, sans-serif">这条曲线用什么盐？</text>
+<text x="431" y="310" fill="#795f42" font-size="22" font-family="Microsoft YaHei, sans-serif">测量温度是多少？</text>
+<text x="431" y="350" fill="#795f42" font-size="22" font-family="Microsoft YaHei, sans-serif">标准液对照点在哪？</text>
+<path d="M697 296 H731 M714 281 L732 296 L714 311" fill="none" stroke="#8aa8bb" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="746" y="171" width="270" height="250" rx="23" fill="#f1f5f8" stroke="#bdccd6" stroke-width="3"/>
+<text x="773" y="219" fill="#405c6e" font-size="25" font-family="Microsoft YaHei, sans-serif" font-weight="700">③ 暂不能给出</text>
+<text x="782" y="303" fill="#516d80" font-size="40" font-family="Microsoft YaHei, sans-serif" font-weight="700">盐浓度 ？</text>
+<text x="782" y="371" fill="#697f8d" font-size="20" font-family="Microsoft YaHei, sans-serif">等待对应实测资料</text>
+<text x="65" y="473" fill="#607589" font-size="18" font-family="Microsoft YaHei, sans-serif">来源：旧 Book1 C/D 列；计算链 JSON 的浓度状态为 unknown。问号表示证据缺失，不表示液体没有盐。</text>
+</svg>

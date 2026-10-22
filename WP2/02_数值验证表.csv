@@ -1,0 +1,51 @@
+﻿case,metric,measured,limit,comparator,status,note
+N1,relative_time_lag_error,5.00200009479e-05,0.001,<=,PASS,
+N1,flux_relative_error_0.0001s,4.10407280279e-05,0.001,<=,PASS,
+N1,flux_relative_error_0.0002s,5.9294843231e-06,0.001,<=,PASS,
+N1,flux_relative_error_0.0004s,8.62277398372e-08,0.001,<=,PASS,
+N2,breakthrough_shape_w3,2.91113022577e-10,0.001,<=,PASS,
+N2,permeance_ratio_w3,1.11022302463e-16,0.001,<=,PASS,
+N2,breakthrough_shape_w7,7.00781455087e-09,0.001,<=,PASS,
+N2,permeance_ratio_w7,2.22044604925e-16,0.001,<=,PASS,
+N3,spatial_field_steady_flux_relative_error,7.81636977365e-11,0.001,<=,PASS,
+N3,M0_M1_small_storage_relative_error,0.000158187754887,0.001,<=,PASS,
+N4,equilibrium_flux_dimensionless,4.23516473627e-17,1e-08,<=,PASS,
+N4,equilibrium_derivative_absolute_per_s,1.06248343457e-13,1e-08,<=,PASS,
+N4,closed_mass_relative_error,9.48496727126e-15,1e-08,<=,PASS,
+N4,minimum_concentration,0.000452891665579,-1e-11,>=,PASS,
+N6,max_positive_free_energy_step,0,1e-08,<=,PASS,
+N6,equilibrium_total_free_energy_defined,1.90198061771,1000000,<=,PASS,
+N5,chi_zero_exact_state_difference,0,1e-12,<=,PASS,
+N5,fast_exchange_lag_relative_error,5.00205161456e-05,0.001,<=,PASS,
+N5,slow_exchange_lag_relative_to_M1,1.39313487413e-08,0.001,<=,PASS,
+N7,mass_h65_nx50,5.55111512313e-16,1e-08,<=,PASS,
+N7,mass_h65_nx100,7.77156117238e-16,1e-08,<=,PASS,
+N7,mass_h65_nx200,1.44328993201e-15,1e-08,<=,PASS,
+N7,grid_relative_h65,0.000128150273553,0.01,<=,PASS,
+N7,time_tolerance_relative_h65,2.17792619278e-08,0.01,<=,PASS,
+N7,mass_h200_nx50,8.881784197e-16,1e-08,<=,PASS,
+N7,mass_h200_nx100,1.33226762955e-15,1e-08,<=,PASS,
+N7,mass_h200_nx200,8.881784197e-16,1e-08,<=,PASS,
+N7,grid_relative_h200,0.000127039884466,0.01,<=,PASS,
+N7,time_tolerance_relative_h200,2.74991992864e-10,0.01,<=,PASS,
+N7,mass_h2600_nx50,1.90958360236e-14,1e-08,<=,PASS,
+N7,mass_h2600_nx100,2.39808173319e-14,1e-08,<=,PASS,
+N7,mass_h2600_nx200,1.44328993201e-14,1e-08,<=,PASS,
+N7,grid_relative_h2600,5.50280064922e-05,0.01,<=,PASS,
+N7,time_tolerance_relative_h2600,4.68394686789e-09,0.01,<=,PASS,
+N7,M2_mass_nx50,4.41868763801e-14,1e-08,<=,PASS,
+N7,M2_mass_nx100,1.52766688188e-13,1e-08,<=,PASS,
+N7,M2_mass_nx200,6.64801547146e-13,1e-08,<=,PASS,
+N7,M2_grid_relative,8.76267100982e-06,0.01,<=,PASS,
+N7,M2_time_tolerance_relative,5.19686793763e-11,0.01,<=,PASS,
+N8,nm_to_m_error,2.64697796017e-23,1e-20,<=,PASS,
+N8,minute_to_second_error,0,1e-12,<=,PASS,
+N8,observation_mapping_error,0,1e-12,<=,PASS,Q is conditional raw conductivity scale; no measured molar calibration
+N9,M1_dense_synthetic_rebuild_absolute,2.52905292377e-07,5e-05,<=,PASS,"fixed other parameters; recovered ('log10_dm', 'log10_gamma')=[-17.00000867949918, 5.000002295127934] true=(-17.0, 5.0)"
+N9,M1_real_time_grid_rebuild_absolute,2.52905292377e-07,5e-05,<=,PASS,sampled at Book1 non-65-min time grid; no independent replicate
+N9,M1_sparse_min_singular_value,0.00245250447502,0,>=,OBSERVED,"singular values=[0.08079349025627157, 0.00245250447502269]; absolute noise scale not known"
+N9,M1_full_sparse_sensitivity_singular_min,5.14624985364e-12,0,>=,OBSERVED,"names=['ws', 'log10_ell', 'log10_dm', 'log10_gamma', 'log10_Q']; singular_values=[0.10958836893401597, 0.0031103357978562924, 2.8871749157338154e-06, 4.72556641793987e-07, 5.1462498536388965e-12]; weakest_direction=[-0.7709140333895563, -0.05906139273187333, 1.9488259840605426e-07, -0.6341950054495489, 8.627052686699388e-06]; local analysis only"
+N9,M2_dense_synthetic_rebuild_absolute,1.16450131126e-08,5e-05,<=,PASS,"fixed other parameters; recovered ('log10_chi', 'log10_tau')=[1.0000001384483235, 3.0791862065406135] true=(1.0, np.float64(3.0791812460476247))"
+N9,M2_real_time_grid_rebuild_absolute,1.16450131126e-08,5e-05,<=,PASS,sampled at Book1 non-65-min time grid; no independent replicate
+N9,M2_sparse_min_singular_value,0.00113408953119,0,>=,OBSERVED,"singular values=[0.0180077039833179, 0.0011340895311920877]; absolute noise scale not known"
+N9,M2_full_sparse_sensitivity_singular_min,1.22842627239e-10,0,>=,OBSERVED,"names=['ws', 'log10_ell', 'log10_dm', 'log10_gamma', 'log10_Q', 'log10_chi', 'log10_tau']; singular_values=[0.04766126152110938, 0.0021033371542135853, 0.00017674926778914185, 1.863867495307249e-05, 4.1283251349684334e-08, 1.2284262723872457e-10]; weakest_direction=[0.757291908104795, 0.055887877915739195, 8.800161976962873e-06, 0.6500654177795151, -0.028292464368922784, -1.6078138540542852e-06, -2.850297717377215e-06]; local analysis only"

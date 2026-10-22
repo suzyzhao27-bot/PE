@@ -1,0 +1,54 @@
+{
+  "date_local": "2026-10-22 Asia/Shanghai",
+  "actual_executor": "Codex in local workspace; student independent run and explanation not recorded",
+  "branch": "dev-zhao",
+  "artifact_status": "student-side draft and reproduction handoff; mentor third review pending",
+  "source_inputs": [
+    "WP1/03_数据与参数清单.csv",
+    "WP2/02_数值验证表.csv",
+    "WP3/02_消融及适用域结果.csv",
+    "WP4/01_共享拟合参数表.csv",
+    "WP4/03_残差与模型比较.csv",
+    "WP5/01_厚度留出结果.csv",
+    "WP5/02_早段预测后段结果.csv",
+    "WP5/03_参数辨识与稳健性结果.csv",
+    "WP5/07_固定情景与读数扰动.csv"
+  ],
+  "commands_completed": [
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp6_figures.py",
+    ".venv/Scripts/python.exe -m py_compile src/effective_network_model/v6_wp6_figures.py src/effective_network_model/v6_wp6_package.py",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp6_package.py"
+  ],
+  "figures": [
+    "01_有限时间厚度斜率适用图.png",
+    "02_六厚度全曲线共同拟合.png",
+    "03_时间与厚度留出逐膜误差.png",
+    "04_训练残差的逐膜分解.png",
+    "05_共享参数条件代价剖面.png",
+    "06_固定情景的训练损失变化.png"
+  ],
+  "reproduction_files": [
+    "WP6/reproduction/README.md",
+    "WP6/reproduction/environment.json",
+    "WP6/reproduction/requirements.txt",
+    "WP6/reproduction/inventory.csv",
+    "WP6/reproduction/v6_reproduction.zip"
+  ],
+  "scope": "package structure checked; full WP2-WP5 scientific runs not repeated for packaging",
+  "pending": [
+    "student literature check, independent execution and explanation",
+    "mentor third scientific review and publication decision",
+    "actual geometry, reservoir volume, porosity and conductivity calibration",
+    "AM2022 0.27 m/M notation check"
+  ],
+  "targeted_validation": {
+    "wp5_tables": "18 thickness + 18 time rows; 105 profile points, 44 sensitivity scenarios, 4 worst-case rows",
+    "profiles_unsuccessful": 3,
+    "figures": 6,
+    "claim_links": 8,
+    "literature_rows": 9,
+    "manifest_hash_fields_consistent": true,
+    "archive_zip_test": "passed; all entries decompress, required relative paths present",
+    "full_scientific_rerun_for_wp6": "not performed; uses recorded WP2-WP5 results"
+  }
+}

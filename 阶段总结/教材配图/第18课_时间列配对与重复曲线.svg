@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="690" viewBox="0 0 1240 690" role="img" aria-label="旧 Origin Book1 与 Book2 的 700 nm 标签同电导序列、第五点时间不同的实数据对照">
+  <rect width="1240" height="690" fill="#f7fafc" rx="24"/>
+  <text x="50" y="62" font-family="Microsoft YaHei, sans-serif" font-size="32" font-weight="700" fill="#173047">同一行数字，也要找对它的“时间搭档”</text>
+  <text x="50" y="96" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#537082">导师旧 Polymer_salt_2h.opju 导出；左为实数据表，右为第 60–100 min 段重绘（非新实验）</text>
+  <rect x="45" y="125" width="545" height="480" rx="22" fill="#ffffff" stroke="#d7e4ec" stroke-width="2"/>
+  <text x="74" y="168" font-family="Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#173047">先看 Book1：每个读数要配时间列</text>
+  <rect x="72" y="188" width="490" height="54" rx="10" fill="#e9f3fa"/>
+  <text x="93" y="223" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#1b638a">A 时间 → B 电导：65 nm，第 5 点 85 min</text>
+  <rect x="72" y="251" width="490" height="54" rx="10" fill="#fdf0e5"/>
+  <text x="93" y="286" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#b45d1b">C 时间 → G 电导：700 nm，第 5 点 80 min</text>
+  <text x="75" y="350" font-family="Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#173047">再比 700 nm：Book1 与 Book2</text>
+  <text x="77" y="393" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#537082">行号</text>
+  <text x="172" y="393" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#537082">Book1 时间</text>
+  <text x="322" y="393" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#537082">Book2 时间</text>
+  <text x="480" y="393" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#537082">两表电导</text>
+  <line x1="72" y1="408" x2="562" y2="408" stroke="#ccdce5"/>
+  <text x="91" y="444" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#173047">4</text>
+  <text x="199" y="444" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#173047">60 min</text>
+  <text x="351" y="444" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#173047">60 min</text>
+  <text x="493" y="444" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#173047">56.1</text>
+  <rect x="72" y="459" width="490" height="52" rx="9" fill="#fff0e2"/>
+  <text x="91" y="493" font-family="Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#173047">5</text>
+  <text x="199" y="493" font-family="Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#16658f">80 min</text>
+  <text x="351" y="493" font-family="Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#c8661d">85 min</text>
+  <text x="493" y="493" font-family="Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#173047">66.5</text>
+  <text x="91" y="548" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#173047">6</text>
+  <text x="199" y="548" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#173047">100 min</text>
+  <text x="351" y="548" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#173047">100 min</text>
+  <text x="493" y="548" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#173047">77.2</text>
+  <rect x="610" y="125" width="585" height="480" rx="22" fill="#ffffff" stroke="#d7e4ec" stroke-width="2"/>
+  <text x="639" y="168" font-family="Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#173047">把第 4–6 点放大：数字相同，时间不同</text>
+  <line x1="705" y1="222" x2="1135" y2="222" stroke="#e5edf2"/>
+  <line x1="705" y1="274" x2="1135" y2="274" stroke="#e5edf2"/>
+  <line x1="705" y1="326" x2="1135" y2="326" stroke="#e5edf2"/>
+  <line x1="705" y1="378" x2="1135" y2="378" stroke="#e5edf2"/>
+  <line x1="705" y1="222" x2="705" y2="378" stroke="#9fb5c2" stroke-width="2"/>
+  <line x1="705" y1="378" x2="1135" y2="378" stroke="#9fb5c2" stroke-width="2"/>
+  <text x="663" y="227" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#537082">80</text>
+  <text x="663" y="279" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#537082">70</text>
+  <text x="663" y="331" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#537082">60</text>
+  <text x="663" y="383" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#537082">50</text>
+  <text x="680" y="413" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#537082">60</text>
+  <text x="890" y="413" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#537082">80</text>
+  <text x="1105" y="413" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#537082">100</text>
+  <text x="855" y="447" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#537082">时间 / min</text>
+  <text x="634" y="477" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#537082">纵轴：电导率 / μS·cm⁻¹</text>
+  <text x="634" y="497" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#607989">G/H 列单位沿用同表已标列，曲线级记录待确认</text>
+  <polyline points="705,346.28 920,292.2 1135,236.56" fill="none" stroke="#1678ae" stroke-width="4"/>
+  <polyline points="705,346.28 973.75,292.2 1135,236.56" fill="none" stroke="#e78335" stroke-width="4" stroke-dasharray="10 7"/>
+  <circle cx="705" cy="346.28" r="7" fill="#1678ae"/>
+  <circle cx="920" cy="292.2" r="9" fill="#1678ae" stroke="white" stroke-width="2"/>
+  <circle cx="973.75" cy="292.2" r="9" fill="#e78335" stroke="white" stroke-width="2"/>
+  <circle cx="1135" cy="236.56" r="7" fill="#1678ae"/>
+  <text x="852" y="266" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#1678ae">80 min</text>
+  <text x="973" y="266" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#c8661d">85 min</text>
+  <line x1="649" y1="518" x2="686" y2="518" stroke="#1678ae" stroke-width="4"/>
+  <text x="697" y="524" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#173047">Book1：C 时间 + G 电导</text>
+  <line x1="649" y1="558" x2="686" y2="558" stroke="#e78335" stroke-width="4" stroke-dasharray="9 6"/>
+  <text x="697" y="564" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#173047">Book2：G 时间 + H 电导</text>
+  <text x="51" y="647" font-family="Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#173047">判断：两列电导的 7 个数逐个相同；时间第 5 点有差异，不能算两次独立制膜重复。</text>
+  <text x="51" y="674" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#607989">来源：data/processed/origin_exports/Polymer_salt_2h/Book1__Sheet1.csv、Book2__Sheet1.csv；配对据 Origin 绑定和 tidy 审计。</text>
+</svg>

@@ -1,5 +1,22 @@
 # 导师 v5.0.0 主模型的仓库工作副本
 
+## 2026-10-21 厚度效应适用域
+
+新增 `thickness_regime_map.py` 在导师冻结的 `ws、ell、a` 基础上扫描无量纲 `η=h/ell` 和 `ws`，分别固定 `r=0/0.75`，输出 `data/processed/figures/v5_thickness_regime_map.png`、`data/processed/v5_thickness_regime_map.csv` 和 `data/processed/v5_thickness_regime_boundaries.csv`。后一张表另列 `a=20/30 nm` 且预设 `ws∝1/a` 时的条件分界；它们不是实测材料阈值。一页推导和数值校核见 `阶段总结/20261021_v5厚度效应适用域.md`。在仓库根目录使用已有环境：
+
+```powershell
+$env:MPLCONFIGDIR = (Resolve-Path -LiteralPath '.mplconfig').Path
+.\.venv\Scripts\python.exe -B .\src\effective_network_model\thickness_regime_map.py --figure .\data\processed\figures\v5_thickness_regime_map.png --grid-csv .\data\processed\v5_thickness_regime_map.csv --boundaries-csv .\data\processed\v5_thickness_regime_boundaries.csv
+```
+
+## 2026-10-21 旧时间读数扰动
+
+`time_reading_perturbation.py` 直接从 Book1 C/E 的 200 nm 原始四个电导读数（0、20、40、120 min）求有限池、`k(t)` 非减条件的最小最大读数扰动下确界，并给出略高于门槛的有限 `Qeq` 可行例子。另用相同预算核查 120/2600 nm 在 20–40 min 的归一化交叉。输出 `data/processed/v5_time_reading_perturbation.json`；解释和条件边界见 `阶段总结/20261021_v5时间读数扰动门槛.md`。这不是误差条或新动态拟合。从根目录运行：
+
+```powershell
+.\.venv\Scripts\python.exe -B .\src\effective_network_model\time_reading_perturbation.py --output .\data\processed\v5_time_reading_perturbation.json
+```
+
 本目录是 `原始资料/赵珈绮/08_主模型交接_v5.0.0/02_程序/` 中核心、共享拟合和有限 PNP 程序及其必要轻量输入的**独立工作副本**。保留导师交付的原有目录结构与源码内容；未复制交付包预生成的结果。`原始资料/` 始终只读。`core/inputs/` 与 `fit/inputs/` 的同表副本是上游两个独立入口所需，不能当作两组独立实验。
 
 ## 当前科研计算交付索引

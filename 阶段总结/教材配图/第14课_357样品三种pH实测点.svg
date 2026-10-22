@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img" aria-label="旧357标签在三个实测pH条件下的zeta均值分别为正17.67、负59.06、负91.69毫伏">
+  <rect width="1120" height="540" rx="25" fill="#f7fafc"/>
+  <text x="54" y="58" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#18344b">同一旧样品标签 357：换水的酸碱条件，读数跨过零</text>
+  <text x="54" y="94" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#5a7081">旧 XLS 已审计汇总 · 仅三个测量条件 · zeta 单位 mV</text>
+  <rect x="115" y="128" width="936" height="304" rx="17" fill="#ffffff" stroke="#dce7ee" stroke-width="2"/>
+  <line x1="166" y1="207" x2="1017" y2="207" stroke="#7b8e9d" stroke-width="2"/>
+  <text x="146" y="183" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#617588">+20</text>
+  <text x="146" y="213" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#617588">0</text>
+  <text x="146" y="294" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#617588">−50</text>
+  <text x="146" y="374" text-anchor="end" font-family="Arial, sans-serif" font-size="18" fill="#617588">−100</text>
+  <line x1="167" y1="176" x2="1017" y2="176" stroke="#edf2f5" stroke-width="2"/>
+  <line x1="167" y1="287" x2="1017" y2="287" stroke="#edf2f5" stroke-width="2"/>
+  <line x1="167" y1="367" x2="1017" y2="367" stroke="#edf2f5" stroke-width="2"/>
+  <circle cx="229" cy="179" r="13" fill="#e88843"/>
+  <circle cx="570" cy="301" r="13" fill="#1c929c"/>
+  <circle cx="921" cy="354" r="13" fill="#1c929c"/>
+  <text x="229" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#bd662f">+17.67</text>
+  <text x="570" y="271" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#126d77">−59.06</text>
+  <text x="921" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#126d77">−91.69</text>
+  <text x="229" y="407" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#344f61">pH 3.19</text>
+  <text x="570" y="407" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#344f61">pH 6.93</text>
+  <text x="921" y="407" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#344f61">pH 9.96</text>
+  <text x="54" y="479" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#3c5669">观察：由酸性条件的正读数，变成较高 pH 下的负读数。</text>
+  <text x="54" y="512" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" fill="#657b8b">数据：data/processed/zeta_trends.csv；未测中间 pH，零点位置与原因均未由本图确定。</text>
+</svg>

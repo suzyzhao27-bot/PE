@@ -1,0 +1,78 @@
+{
+  "date_local": "2026-10-21 Asia/Shanghai",
+  "actual_executor": "Codex on local workspace; student independent execution not recorded",
+  "branch": "dev-zhao",
+  "commands": [
+    ".venv/Scripts/python.exe src/effective_network_model/v6_fit_wp4.py M0 --max-nfev 150",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_fit_wp4.py M1 --max-nfev 150",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_fit_wp4.py M2 --max-nfev 150",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_report_wp4.py"
+  ],
+  "runtime": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "input_manifest": "WP1/03_数据与参数清单.csv",
+  "original_opju_sha256_reused_from_wp2": "c9446a965bac8b875bff135676b59352ae3e57a35d6f0be51ad860c20b5a596d",
+  "source_hash_not_recomputed": true,
+  "main_data": "Book1 six PE curves; 42 points total; 36 nonzero fitted points; 65 nm fifth time 85 min, other five 80 min",
+  "fit_rules": {
+    "seed": 20261021,
+    "fixed_starts_per_model": 12,
+    "grid_cells": 50,
+    "BDF_rtol": 1e-07,
+    "BDF_atol": 1e-10,
+    "objective": "mean of six per-film mean squared asinh residuals, s0=1 original unit",
+    "bounds": "mentor v6 04 / WP1 frozen plan",
+    "optimization_max_nfev": 150
+  },
+  "search_results": {
+    "M0": {
+      "started_utc": "2026-10-21T15:43:50.151388+00:00",
+      "finished_utc": "2026-10-21T15:43:52.290926+00:00",
+      "best_loss_eigen": 1.2097156533542643,
+      "success_starts": 12,
+      "failed_starts": 0,
+      "boundary_hits": []
+    },
+    "M1": {
+      "started_utc": "2026-10-21T16:05:21.767263+00:00",
+      "finished_utc": "2026-10-21T16:05:37.205636+00:00",
+      "best_loss_eigen": 0.6671287885283588,
+      "success_starts": 12,
+      "failed_starts": 0,
+      "boundary_hits": [
+        3,
+        4
+      ]
+    },
+    "M2": {
+      "started_utc": "2026-10-21T16:05:46.932342+00:00",
+      "finished_utc": "2026-10-21T16:06:14.346166+00:00",
+      "best_loss_eigen": 0.5524267971655669,
+      "success_starts": 11,
+      "failed_starts": 1,
+      "boundary_hits": []
+    }
+  },
+  "followup_checks": {
+    "BDF_result": "WP4/09_比较核对.json",
+    "grid": "WP4/08_拟合点数值加密.csv; M2 50-cell >1% followed by WP4/12_M2百格精化.json at 100/200 cells",
+    "time_tolerance": "WP4/11_拟合点时间容差.json",
+    "boundary_extension": "WP4/10_M1单参数触界诊断.json; diagnostic only; main results unchanged",
+    "salt_budget": "WP4/07_盐量时间账本.csv",
+    "visual_inspection": "WP4/figures/六厚度全曲线共同拟合.png viewed; all six panels readable"
+  },
+  "provenance_limitations": [
+    "mentor approval relayed by researcher; written decision not archived",
+    "student independent reproduction and explanation not recorded",
+    "conductivity calibration, A, V_R, epsilon and independent membrane identities not confirmed",
+    "model fit is retrospective, no WP5 holdout prediction yet"
+  ],
+  "notes": [
+    "First BDF-only M1 search was interrupted for runtime; fitting changed to reversible-similarity eigensolution of the same operator, with exact t=0 handling, dense matrix-exponential fallback in the stiff M2 region, and BDF final predictions and grid/tolerance checks.",
+    "M2 one fixed start failed numerically; retained in M2_搜索记录.json. The optimized stiff-region rapid-exchange screen was checked against BDF at representative points; final reported trajectories are BDF.",
+    "Matplotlib default cache path was not writable; figure still saved and viewed; subsequent script sets MPLCONFIGDIR to existing WP4 directory."
+  ]
+}

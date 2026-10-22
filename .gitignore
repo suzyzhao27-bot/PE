@@ -26,6 +26,7 @@ __pycache__/
 .pytest_cache/
 .test_tmp/
 .mplconfig/
+fontlist-v*.json
 .mypy_cache/
 .ruff_cache/
 .tox/
@@ -75,6 +76,7 @@ Desktop.ini
 
 # Project archives, raw material, and historical copies
 /原始资料/
+/13_导师第三次审阅材料_20261022/
 /90_历史与工作底稿/
 /03_发送用ZIP/
 /04_开题会_20261014/制作与核验/

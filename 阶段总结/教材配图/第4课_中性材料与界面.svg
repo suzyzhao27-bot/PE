@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 560" role="img" aria-labelledby="title desc">
+<title id="title">PE 纤维接触水和盐离子的界面</title><desc id="desc">概念示意：未指定固定电荷的 PE 纤维浸在含钠离子和氯离子的水中，虚线表示待研究界面。</desc>
+<rect width="1080" height="560" fill="#f4f8fc"/><rect x="34" y="28" width="1012" height="504" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="64" y="84" fill="#173956" font-size="34" font-family="Microsoft YaHei, sans-serif" font-weight="700">PE 本身不必固定带电，界面仍值得研究</text>
+<text x="64" y="123" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">概念示意 · 接触水和盐后的表现，不能只靠材料名称决定</text>
+<rect x="81" y="167" width="922" height="300" rx="25" fill="#e4f5fc" stroke="#89bed5" stroke-width="3"/>
+<rect x="453" y="186" width="170" height="267" rx="82" fill="#c8d3dd" stroke="#72889c" stroke-width="5"/>
+<rect x="431" y="172" width="214" height="294" rx="106" fill="none" stroke="#e5955d" stroke-width="4" stroke-dasharray="13 10"/>
+<text x="493" y="312" fill="#304a60" font-size="32" font-family="Microsoft YaHei, sans-serif" font-weight="700">PE</text>
+<g font-family="Arial, sans-serif" font-size="28" font-weight="700"><text x="192" y="246" fill="#cc6a36">Na⁺</text><text x="284" y="385" fill="#438d76">Cl⁻</text><text x="734" y="269" fill="#438d76">Cl⁻</text><text x="825" y="384" fill="#cc6a36">Na⁺</text></g>
+<text x="666" y="437" fill="#a45f33" font-size="23" font-family="Microsoft YaHei, sans-serif">虚线：待研究的接触区域</text>
+<text x="68" y="506" fill="#607589" font-size="19" font-family="Microsoft YaHei, sans-serif">离子位置只为说明“接触”；不代表测得的吸附、电荷符号或孔内分布。</text>
+</svg>

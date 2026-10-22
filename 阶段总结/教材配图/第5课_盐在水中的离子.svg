@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 560" role="img" aria-labelledby="title desc">
+<title id="title">食盐在水中的两类离子</title><desc id="desc">概念示意：左边是食盐晶体，中间加入水，右边钠离子和氯离子分别分散在水里。并非 PE 膜实验结果。</desc>
+<rect width="1080" height="560" fill="#f4f8fc"/><rect x="34" y="28" width="1012" height="504" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="64" y="85" fill="#173956" font-size="34" font-family="Microsoft YaHei, sans-serif" font-weight="700">盐放进水里后，谁在移动？</text>
+<text x="64" y="125" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">概念示意 · NaCl 溶于水后，分别认识 Na⁺ 和 Cl⁻</text>
+<rect x="78" y="176" width="264" height="278" rx="24" fill="#f8f4ec" stroke="#e8d7b9" stroke-width="3"/>
+<text x="121" y="221" fill="#5b6270" font-size="27" font-family="Microsoft YaHei, sans-serif" font-weight="700">加水前：食盐</text>
+<g fill="#e6b881" stroke="#c98e57" stroke-width="3"><rect x="145" y="280" width="60" height="60" rx="7"/><rect x="207" y="280" width="60" height="60" rx="7"/><rect x="175" y="342" width="60" height="60" rx="7"/></g>
+<text x="172" y="432" fill="#7a664e" font-size="23" font-family="Arial, sans-serif">NaCl</text>
+<path d="M365 317 H468 M445 295 L468 317 L445 339" fill="none" stroke="#74a7bf" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="383" y="282" fill="#4e819a" font-size="25" font-family="Microsoft YaHei, sans-serif">加入水</text>
+<rect x="492" y="176" width="509" height="278" rx="24" fill="#e5f5fc" stroke="#89bed5" stroke-width="3"/>
+<text x="543" y="222" fill="#305c75" font-size="27" font-family="Microsoft YaHei, sans-serif" font-weight="700">水中：带电粒子分别移动</text>
+<g font-family="Arial, sans-serif" font-size="31" font-weight="700"><circle cx="599" cy="300" r="41" fill="#fce6d7" stroke="#e5a273" stroke-width="3"/><text x="571" y="310" fill="#c66a35">Na⁺</text><circle cx="814" cy="286" r="41" fill="#e0f2e8" stroke="#84b39b" stroke-width="3"/><text x="793" y="296" fill="#3f8c70">Cl⁻</text><circle cx="683" cy="389" r="41" fill="#e0f2e8" stroke="#84b39b" stroke-width="3"/><text x="662" y="399" fill="#3f8c70">Cl⁻</text><circle cx="898" cy="384" r="41" fill="#fce6d7" stroke="#e5a273" stroke-width="3"/><text x="870" y="394" fill="#c66a35">Na⁺</text></g>
+<text x="69" y="505" fill="#607589" font-size="19" font-family="Microsoft YaHei, sans-serif">右侧位置只帮助理解“分开”；不是本项目测到的离子数量、位置或穿膜路线。</text>
+</svg>

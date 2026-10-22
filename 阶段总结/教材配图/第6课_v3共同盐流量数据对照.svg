@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 500" role="img" aria-labelledby="title desc">
+<title id="title">导师 v3 虚拟膜共同盐通量比较</title><desc id="desc">真实导师计算结果的可视化：中性基线 0.1006554252，假设局部氯吸附 0.1034308084 mol 每平方米每秒，后者是前者的 1.02757311 倍。坐标从零开始，两条采用同一比例尺，不是膜实测。</desc>
+<rect width="1080" height="500" fill="#f4f8fc"/><rect x="34" y="27" width="1012" height="446" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="65" y="82" fill="#173956" font-size="31" font-family="Microsoft YaHei, sans-serif" font-weight="700">导师 v3：两种离子合起来的盐转移</text>
+<text x="65" y="120" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">30→1 mM · 假设五排纤维几何 · 虚拟计算，不是真实 PE 膜实测</text>
+<text x="66" y="211" fill="#315b72" font-size="25" font-family="Microsoft YaHei, sans-serif">中性基线</text><text x="66" y="318" fill="#9f582e" font-size="25" font-family="Microsoft YaHei, sans-serif">假设界面化学</text>
+<rect x="310" y="171" width="594.78" height="52" rx="9" fill="#4f95bb"/><rect x="310" y="278" width="611.18" height="52" rx="9" fill="#e69a64"/>
+<text x="916" y="206" fill="#315b72" font-size="23" font-family="Arial, sans-serif" font-weight="700">0.100655</text><text x="933" y="313" fill="#9f582e" font-size="23" font-family="Arial, sans-serif" font-weight="700">0.103431</text>
+<path d="M310 357 H960" stroke="#8ca3b3" stroke-width="2"/><path d="M310 357 V365 M605.45 357 V365 M900.91 357 V365 M960 357 V365" stroke="#8ca3b3" stroke-width="2"/>
+<g fill="#607589" font-size="18" font-family="Arial, sans-serif"><text x="303" y="387">0</text><text x="581" y="387">0.05</text><text x="878" y="387">0.10</text><text x="939" y="387">0.11</text></g>
+<text x="311" y="429" fill="#315b72" font-size="20" font-family="Microsoft YaHei, sans-serif">共同盐通量 / mol/(m²·s)；两条从 0 起，比例尺相同</text>
+<text x="69" y="458" fill="#607589" font-size="17" font-family="Microsoft YaHei, sans-serif">后者 / 前者 = 1.02757311（约增加 2.76%）；数值源：导师 v3 的 qa/root_five_row_readout.json。</text>
+</svg>

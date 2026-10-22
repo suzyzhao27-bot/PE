@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 560" role="img" aria-labelledby="title desc">
+<title id="title">表面电荷密度概念与导师 v3 静态模型结果</title><desc id="desc">左边概念示意：同样面积墙面，一个中性一个有负号；右边导师 v3 在等一毫摩尔假设条件下的模型平均表面电荷密度，中性 0，假设界面化学为负 0.0047360405 库仑每平方米。不是 PE 实测电荷。</desc>
+<rect width="1080" height="560" fill="#f4f8fc"/><rect x="34" y="27" width="1012" height="505" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="63" y="82" fill="#173956" font-size="32" font-family="Microsoft YaHei, sans-serif" font-weight="700">“表面带多少电”要说明每块表面有多少</text>
+<text x="63" y="122" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">左：概念示意　右：导师 v3 在特定假设下已算出的数值</text>
+<rect x="62" y="163" width="432" height="302" rx="22" fill="#f3f8fb" stroke="#c5dce9" stroke-width="3"/>
+<text x="87" y="205" fill="#315b73" font-size="25" font-family="Microsoft YaHei, sans-serif" font-weight="700">相同面积的接水表面</text>
+<rect x="103" y="243" width="145" height="151" rx="13" fill="#d8e3ea" stroke="#8ea9ba" stroke-width="4"/>
+<rect x="305" y="243" width="145" height="151" rx="13" fill="#d8e3ea" stroke="#8ea9ba" stroke-width="4"/>
+<g fill="#5c778a" font-size="31" font-family="Arial, sans-serif" font-weight="700"><text x="171" y="292">0</text><text x="321" y="289">−</text><text x="387" y="289">−</text><text x="353" y="340">−</text><text x="320" y="377">−</text><text x="390" y="377">−</text></g>
+<text x="123" y="434" fill="#4a6c80" font-size="20" font-family="Microsoft YaHei, sans-serif">净电荷 0</text><text x="313" y="434" fill="#4a6c80" font-size="20" font-family="Microsoft YaHei, sans-serif">净电荷偏负</text>
+<rect x="524" y="163" width="494" height="302" rx="22" fill="#fff9f1" stroke="#ebd5b4" stroke-width="3"/>
+<text x="549" y="205" fill="#805a34" font-size="25" font-family="Microsoft YaHei, sans-serif" font-weight="700">模型平均 σ · 1 mM 情景</text>
+<text x="550" y="258" fill="#516d80" font-size="20" font-family="Microsoft YaHei, sans-serif">中性对照</text><circle cx="934" cy="252" r="9" fill="#4f95bb"/>
+<text x="550" y="328" fill="#9f5c35" font-size="20" font-family="Microsoft YaHei, sans-serif">假设化学</text>
+<rect x="651" y="303" width="283" height="33" rx="8" fill="#e69a64"/><text x="657" y="327" fill="#fff" font-size="19" font-family="Arial, sans-serif" font-weight="700">−0.004736 C/m²</text>
+<line x1="636" x2="934" y1="368" y2="368" stroke="#91a6b5" stroke-width="2"/>
+<line x1="636" x2="636" y1="368" y2="378" stroke="#91a6b5" stroke-width="2"/><line x1="934" x2="934" y1="368" y2="378" stroke="#91a6b5" stroke-width="2"/>
+<text x="610" y="404" fill="#667e8d" font-size="19" font-family="Arial, sans-serif">−0.005</text><text x="928" y="404" fill="#667e8d" font-size="19" font-family="Arial, sans-serif">0</text>
+<text x="549" y="439" fill="#7b6957" font-size="18" font-family="Microsoft YaHei, sans-serif">负号表示模型平均净电荷偏负；不是实测 PE。</text>
+<text x="64" y="502" fill="#607589" font-size="18" font-family="Microsoft YaHei, sans-serif">数值源：导师 v3 qa/root_five_row_readout.json 的 static_sigma_mean；C/m² 不能与 mV 直接换算。</text>
+</svg>
