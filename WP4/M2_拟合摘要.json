@@ -1,0 +1,264 @@
+{
+  "model_id": "M2",
+  "started_utc": "2026-10-21T16:05:46.932342+00:00",
+  "finished_utc": "2026-10-21T16:06:14.346166+00:00",
+  "actual_executor": "Codex on local workspace; student independent execution not recorded",
+  "python": "3.14.7",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "command": ".venv/Scripts/python.exe src/effective_network_model/v6_fit_wp4.py M2 --max-nfev 150",
+  "manifest": "WP1\\03_数据与参数清单.csv",
+  "raw_source_sha256_reused_from_wp2": "c9446a965bac8b875bff135676b59352ae3e57a35d6f0be51ad860c20b5a596d",
+  "data_scope": "Book1 six PE curves, 42 raw points, 36 nonzero fitted points",
+  "objective": "equal-thickness mean of six-point asinh transformed squared residuals; s0=1 raw unit",
+  "best_start_id": 6,
+  "best_loss": 0.5524267971655669,
+  "best_success": true,
+  "best_message": "`xtol` termination condition is satisfied.",
+  "boundary_hits": [],
+  "parameters": {
+    "ws_ref": 13.253730611969775,
+    "ell_nm": 1744.9250490554725,
+    "dm_ratio": 0.003367118914059783,
+    "gamma_per_m": 581967.497607959,
+    "q_conductivity": 6301393.472593461,
+    "chi": 22317.416419775895,
+    "tau_s": 0.5001839871963097
+  },
+  "parameter_units": {
+    "ws_ref": "1",
+    "ell_nm": "nm",
+    "dm_ratio": "Dm/Db",
+    "gamma_per_m": "m^-1",
+    "q_conductivity": "raw conductivity unit",
+    "chi": "1",
+    "tau_s": "s"
+  },
+  "film_results": [
+    {
+      "model_id": "M2",
+      "thickness_nm": 65,
+      "n_fit_points": 6,
+      "rmse_asinh": 0.6412404726706342,
+      "rmse_raw_unit": 3.909095537880841,
+      "endpoint_observed": 17.08,
+      "endpoint_predicted": 11.005493488756109,
+      "endpoint_pred_over_obs": 0.6443497358756505,
+      "mass_error": 2.220446049250313e-16,
+      "minimum_concentration": 0.0,
+      "left_final": 0.9999982513682064,
+      "right_final": 1.7465174229513055e-06,
+      "mobile_final": 9.473658332914666e-14,
+      "storage_final": 2.1142757803433516e-09,
+      "nfev": 92
+    },
+    {
+      "model_id": "M2",
+      "thickness_nm": 120,
+      "n_fit_points": 6,
+      "rmse_asinh": 0.43977598569507903,
+      "rmse_raw_unit": 3.4394004116020893,
+      "endpoint_observed": 14.490000000000002,
+      "endpoint_predicted": 8.913747648895274,
+      "endpoint_pred_over_obs": 0.6151654692129243,
+      "mass_error": 2.220446049250313e-16,
+      "minimum_concentration": 0.0,
+      "left_final": 0.9999985795897763,
+      "right_final": 1.4145676964410616e-06,
+      "mobile_final": 2.617805532245283e-13,
+      "storage_final": 5.8422656169114005e-09,
+      "nfev": 106
+    },
+    {
+      "model_id": "M2",
+      "thickness_nm": 200,
+      "n_fit_points": 6,
+      "rmse_asinh": 0.6625471229269401,
+      "rmse_raw_unit": 3.025932000635545,
+      "endpoint_observed": 13.92,
+      "endpoint_predicted": 9.449758417485187,
+      "endpoint_pred_over_obs": 0.6788619552791083,
+      "mass_error": 0.0,
+      "minimum_concentration": 0.0,
+      "left_final": 0.9999984831197314,
+      "right_final": 1.4996299562287061e-06,
+      "mobile_final": 7.729183000600542e-13,
+      "storage_final": 1.7249539561992422e-08,
+      "nfev": 134
+    },
+    {
+      "model_id": "M2",
+      "thickness_nm": 350,
+      "n_fit_points": 6,
+      "rmse_asinh": 1.006722245387526,
+      "rmse_raw_unit": 2.5500125260230804,
+      "endpoint_observed": 11.89,
+      "endpoint_predicted": 14.94055235648012,
+      "endpoint_pred_over_obs": 1.2565645379714145,
+      "mass_error": 1.1102230246251565e-16,
+      "minimum_concentration": 0.0,
+      "left_final": 0.9999975446901299,
+      "right_final": 2.37099181656578e-06,
+      "mobile_final": 3.77795861128504e-12,
+      "storage_final": 8.431427554887816e-08,
+      "nfev": 160
+    },
+    {
+      "model_id": "M2",
+      "thickness_nm": 700,
+      "n_fit_points": 6,
+      "rmse_asinh": 0.4847966542887914,
+      "rmse_raw_unit": 20.576365471958695,
+      "endpoint_observed": 87.27000000000001,
+      "endpoint_predicted": 63.00844264426118,
+      "endpoint_pred_over_obs": 0.7219943009540641,
+      "mass_error": 2.220446049250313e-16,
+      "minimum_concentration": 0.0,
+      "left_final": 0.9999884937030514,
+      "right_final": 9.999128433782573e-06,
+      "mobile_final": 6.753026233593177e-11,
+      "storage_final": 1.5071009845954437e-06,
+      "nfev": 236
+    },
+    {
+      "model_id": "M2",
+      "thickness_nm": 2600,
+      "n_fit_points": 6,
+      "rmse_asinh": 1.0111999271164072,
+      "rmse_raw_unit": 761.3703709917266,
+      "endpoint_observed": 1363.25,
+      "endpoint_predicted": 2973.8056088221915,
+      "endpoint_pred_over_obs": 2.1814088456425393,
+      "mass_error": 2.220446049250313e-16,
+      "minimum_concentration": 0.0,
+      "left_final": 0.9906919672505208,
+      "right_final": 0.0004719282523391233,
+      "mobile_final": 3.9593265013975133e-07,
+      "storage_final": 0.008835708564489902,
+      "nfev": 448
+    }
+  ],
+  "start_status": [
+    {
+      "start_id": 1,
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 7,
+      "loss": 15.502794555162836,
+      "boundary_hits": []
+    },
+    {
+      "start_id": 2,
+      "success": true,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied.",
+      "nfev": 27,
+      "loss": 0.5601686512800776,
+      "boundary_hits": []
+    },
+    {
+      "start_id": 3,
+      "success": true,
+      "status": 1,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 2,
+      "loss": 15.50280903689247,
+      "boundary_hits": []
+    },
+    {
+      "start_id": 4,
+      "success": true,
+      "status": 1,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 1,
+      "loss": 15.502809036925052,
+      "boundary_hits": []
+    },
+    {
+      "start_id": 5,
+      "success": true,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied.",
+      "nfev": 36,
+      "loss": 0.6175213865937438,
+      "boundary_hits": []
+    },
+    {
+      "start_id": 6,
+      "success": true,
+      "status": 3,
+      "message": "`xtol` termination condition is satisfied.",
+      "nfev": 37,
+      "loss": 0.5524267971655669,
+      "boundary_hits": []
+    },
+    {
+      "start_id": 7,
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 35,
+      "loss": 3.2777264191610014,
+      "boundary_hits": [
+        5,
+        6
+      ]
+    },
+    {
+      "start_id": 8,
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 35,
+      "loss": 3.2777741742815336,
+      "boundary_hits": [
+        5,
+        6
+      ]
+    },
+    {
+      "start_id": 9,
+      "success": true,
+      "status": 1,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 2,
+      "loss": 15.502809036925052,
+      "boundary_hits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "start_id": 10,
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 32,
+      "loss": 3.2778327326000563,
+      "boundary_hits": [
+        6
+      ]
+    },
+    {
+      "start_id": 11,
+      "success": true,
+      "status": 1,
+      "message": "`gtol` termination condition is satisfied.",
+      "nfev": 1,
+      "loss": 15.502809036971406,
+      "boundary_hits": []
+    },
+    {
+      "start_id": 12,
+      "success": false,
+      "status": -1,
+      "message": "FloatingPointError: nonfinite or negative prediction"
+    }
+  ]
+}

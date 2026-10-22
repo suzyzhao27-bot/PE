@@ -1,0 +1,31 @@
+{
+  "started_utc": "2026-10-21T15:31:50.700043+00:00",
+  "finished_utc": "2026-10-21T15:32:21.927213+00:00",
+  "actual_executor": "Codex on local workspace; not student independent execution",
+  "command": ".venv/Scripts/python.exe src/effective_network_model/v6_regime_map.py",
+  "related_completed_commands": [
+    ".venv/Scripts/python.exe src/effective_network_model/v6_scale_diagnostics.py",
+    "MPLCONFIGDIR=.mplconfig .venv/Scripts/python.exe src/effective_network_model/v6_plot_regime.py"
+  ],
+  "related_outputs": [
+    "WP3/量级反算_20与60min.csv",
+    "WP3/figures/有限时间厚度斜率适用图.png"
+  ],
+  "solver": "WP2/src/transport.py",
+  "source_specification": "导师 v6.0.0 04 section 5",
+  "grid_eta": [
+    0.049999999999999996,
+    20.000000000000004,
+    41
+  ],
+  "grid_omega": [
+    1e-06,
+    1000000.0,
+    41
+  ],
+  "grid_cells": 50,
+  "rows": 13544,
+  "maximum_mass_relative_error": 3.270735238203315e-09,
+  "minimum_state": -2.502724822560559e-46,
+  "scope": "synthetic fixed matrix; no PE fit or measured material map"
+}

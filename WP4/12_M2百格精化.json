@@ -1,0 +1,16 @@
+{
+  "status": "100_cell_refinement_from_12_start_50_cell_best",
+  "success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "nfev": 13,
+  "loss_100cell_eigen": 0.551791949922089,
+  "parameters": {
+    "ws_ref": 13.256482251239698,
+    "ell_nm": 1745.0493302010295,
+    "dm_ratio": 0.003373107713331348,
+    "gamma_per_m": 582230.4524577357,
+    "q_conductivity": 6317039.889238429,
+    "chi": 22332.43900584843,
+    "tau_s": 0.5137071428953889
+  }
+}

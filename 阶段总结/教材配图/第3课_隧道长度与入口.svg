@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 560" role="img" aria-labelledby="title desc">
+<title id="title">隧道长度与入口</title><desc id="desc">概念示意：短隧道可能入口窄并有额外阻力，长隧道可能较宽；并非真实膜孔照片。</desc>
+<rect width="1080" height="560" fill="#f4f8fc"/><rect x="34" y="28" width="1012" height="504" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="64" y="83" fill="#173956" font-size="34" font-family="Microsoft YaHei, sans-serif" font-weight="700">只看隧道长短，能判断通行快慢吗？</text>
+<text x="65" y="121" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">概念示意 · 整膜厚度像路长，局部水路尺度像路宽</text>
+<text x="72" y="195" fill="#255b77" font-size="25" font-family="Microsoft YaHei, sans-serif">短一些，却入口窄</text>
+<rect x="350" y="180" width="280" height="106" rx="20" fill="#d8e4ee" stroke="#6e8497" stroke-width="4"/><rect x="350" y="213" width="280" height="40" fill="#fff"/>
+<rect x="327" y="202" width="25" height="64" rx="7" fill="#edaa72"/><text x="660" y="239" fill="#9a5b30" font-size="24" font-family="Microsoft YaHei, sans-serif">入口额外阻力</text>
+<path d="M81 232h225" stroke="#e48243" stroke-width="7" stroke-linecap="round"/><path d="M306 232l-18 -12v24z" fill="#e48243"/>
+<text x="72" y="362" fill="#255b77" font-size="25" font-family="Microsoft YaHei, sans-serif">长一些，入口较宽</text>
+<rect x="350" y="336" width="530" height="132" rx="22" fill="#d8e4ee" stroke="#6e8497" stroke-width="4"/><rect x="350" y="364" width="530" height="76" fill="#fff"/>
+<path d="M81 401h242" stroke="#e48243" stroke-width="7" stroke-linecap="round"/><path d="M323 401l-18 -12v24z" fill="#e48243"/>
+<text x="69" y="510" fill="#607589" font-size="19" font-family="Microsoft YaHei, sans-serif">图中的宽窄与收费站只是类比；旧实验没有测定这种真实湿态孔道。</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="680" viewBox="0 0 1240 680" role="img" aria-label="导师旧 Origin 65 nm 七个时间电导点从原件到科研结论的教学索引和真实数据曲线">
+  <rect width="1240" height="680" rx="24" fill="#f7fafc"/>
+  <text x="48" y="59" font-family="Microsoft YaHei, sans-serif" font-size="32" font-weight="700" fill="#173047">一条曲线，怎样一步步走到可靠的结论？</text>
+  <text x="49" y="93" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#587286">65 nm 标签：导师旧 Origin 实验读数；路线图为教学索引，曲线点为旧表真实数值</text>
+  <rect x="42" y="126" width="475" height="477" rx="22" fill="#fff" stroke="#d8e4ec" stroke-width="2"/>
+  <text x="69" y="165" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#173047">每一步都能回到具体文件</text>
+  <rect x="69" y="186" width="423" height="63" rx="12" fill="#e4f3f5"/>
+  <text x="87" y="213" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#19758a">① 导师原件：Polymer_salt_2h.opju</text>
+  <text x="87" y="236" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#4b6876">旧实验工程，原位只读保存</text>
+  <text x="274" y="276" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#96acb9">↓</text>
+  <rect x="69" y="292" width="423" height="63" rx="12" fill="#eaf0fb"/>
+  <text x="87" y="319" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#4269a1">② Book1 导出：A 时间 + B 电导</text>
+  <text x="87" y="342" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#4b6876">0 min = 2.01；120 min = 19.09 μS/cm</text>
+  <text x="274" y="382" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#96acb9">↓</text>
+  <rect x="69" y="398" width="423" height="63" rx="12" fill="#fff0e4"/>
+  <text x="87" y="425" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#b55f24">③ Codex 整理长表：7 行、单位与来源</text>
+  <text x="87" y="448" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#4b6876">salt_transport_tidy.csv；不是第二次实验</text>
+  <text x="274" y="488" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#96acb9">↓</text>
+  <rect x="69" y="504" width="423" height="72" rx="12" fill="#e9f4e9"/>
+  <text x="87" y="532" font-family="Microsoft YaHei, sans-serif" font-size="17" font-weight="700" fill="#3b7b48">④ 图与一句话：增量 17.08 μS/cm</text>
+  <text x="87" y="555" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#4b6876">只能说旧接收侧电导率升高</text>
+  <rect x="537" y="126" width="660" height="477" rx="22" fill="#fff" stroke="#d8e4ec" stroke-width="2"/>
+  <text x="565" y="165" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#173047">Book1 的 65 nm：七个真实旧读数</text>
+  <text x="565" y="193" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#587286">横轴：时间 min　　纵轴：接收侧电导率 μS/cm</text>
+  <line x1="620" y1="485" x2="1140" y2="485" stroke="#839ead" stroke-width="2"/>
+  <line x1="620" y1="245" x2="620" y2="485" stroke="#839ead" stroke-width="2"/>
+  <line x1="620" y1="365" x2="1140" y2="365" stroke="#e3edf3"/>
+  <line x1="620" y1="245" x2="1140" y2="245" stroke="#e3edf3"/>
+  <text x="591" y="490" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#587286">0</text>
+  <text x="581" y="370" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#587286">10</text>
+  <text x="581" y="250" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#587286">20</text>
+  <text x="616" y="512" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#587286">0</text>
+  <text x="785" y="512" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#587286">40</text>
+  <text x="955" y="512" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#587286">80</text>
+  <text x="1124" y="512" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#587286">120</text>
+  <polyline points="620,460.88 706.67,459.92 793.33,424.88 880,354.2 988.33,311.96 1053.33,299.24 1140,255.92" fill="none" stroke="#177ea3" stroke-width="4"/>
+  <g fill="#177ea3" stroke="#fff" stroke-width="2">
+    <circle cx="620" cy="460.88" r="7"/><circle cx="706.67" cy="459.92" r="7"/>
+    <circle cx="793.33" cy="424.88" r="7"/><circle cx="880" cy="354.2" r="7"/>
+    <circle cx="988.33" cy="311.96" r="7"/><circle cx="1053.33" cy="299.24" r="7"/>
+    <circle cx="1140" cy="255.92" r="7"/>
+  </g>
+  <text x="633" y="451" font-family="Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#176b8a">2.01</text>
+  <text x="1050" y="238" font-family="Microsoft YaHei, sans-serif" font-size="16" font-weight="700" fill="#176b8a">19.09</text>
+  <text x="952" y="341" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#597688">85 min 点</text>
+  <text x="590" y="555" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#547083">连线只引导看离散点，不表示两次记录之间连续测量。</text>
+  <text x="47" y="643" font-family="Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#173047">边界：盐种校准、接收池体积和膜面积仍待核实；17.08 μS/cm 不是已换算的盐通量。</text>
+  <text x="48" y="668" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#607989">数据：data/processed/origin_exports/Polymer_salt_2h/Book1__Sheet1.csv 的 A/B 列；整理：data/processed/salt_transport/salt_transport_tidy.csv。</text>
+</svg>

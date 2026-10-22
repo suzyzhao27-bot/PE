@@ -72,8 +72,8 @@ def main():
     ax.legend(loc="upper left", frameon=False, fontsize=9)
     fig.text(0.14, 0.92, "Figure 1 | Old thickness trend and relative transfer", fontsize=14,
              fontweight="bold")
-    fig.text(0.14, 0.13, "Relative salt transfer only if calibration, geometry and volume history are comparable."
-             "\nThe line is a six-point training fit within 65–2600 nm; no independent validation or error bars.",
+    fig.text(0.14, 0.13, "Old points / old 2600 nm; model / its own 2600 nm. Both equal 1 there by definition."
+             "\nRelative transfer requires comparable calibration, geometry and volume history; line = six-point training fit.",
              fontsize=8, color="#454b52")
     fig.savefig(args.output, dpi=200)
     plt.close(fig)

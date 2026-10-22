@@ -1,0 +1,2142 @@
+{
+  "model": "M0",
+  "started_utc": "2026-10-21T15:56:05.039491+00:00",
+  "updated_utc": "2026-10-21T15:56:25.089365+00:00",
+  "seed": 20261021,
+  "fixed_starts_per_split": 12,
+  "max_nfev": 150,
+  "details": {
+    "train_0_60": {
+      "best": {
+        "start_id": 8,
+        "initial_vector": [
+          14.166666666666668,
+          1.875,
+          -4.5,
+          5.666666666666667,
+          3.6666666666666665
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 21,
+        "loss": 1.925943527399943,
+        "vector": [
+          5.738220797333657,
+          2.8032515795721444,
+          -6.818541275042551,
+          3.0245635842916854,
+          7.140085723260863
+        ],
+        "boundary_hits": []
+      },
+      "runs": [
+        {
+          "start_id": 1,
+          "initial_vector": [
+            10.833333333333332,
+            1.625,
+            -5.5,
+            3.0,
+            1.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 17,
+          "loss": 3.5802179577165125,
+          "vector": [
+            12.507614255213943,
+            1.4061704026409927,
+            -3.2145936285350176,
+            2.468369211421098,
+            4.107567925323237
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 2,
+          "initial_vector": [
+            2.5,
+            3.625,
+            -7.5,
+            -1.0,
+            5.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 18,
+          "loss": 1.9259571965158937,
+          "vector": [
+            5.738008641092029,
+            2.8032277033519497,
+            -4.209588892153753,
+            1.3114145976565108,
+            6.244108628859488
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 3,
+          "initial_vector": [
+            5.833333333333334,
+            2.375,
+            -1.5,
+            5.0,
+            3.0
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 2,
+          "loss": 10.19142652206184,
+          "vector": [
+            13.767621570750949,
+            3.2828546620266468,
+            -7.378787396806172,
+            1.0803856286271154,
+            1.8168374356895518
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 4,
+          "initial_vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 10.191426522078213,
+          "vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 5,
+          "initial_vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            4.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 7,
+          "loss": 4.508289991538792,
+          "vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            1.0316223706965866
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 6,
+          "initial_vector": [
+            9.166666666666666,
+            2.125,
+            -6.5,
+            1.0,
+            5.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 20,
+          "loss": 1.9259984362991454,
+          "vector": [
+            5.739515176027697,
+            2.8036838710926886,
+            -4.615636675452401,
+            2.292857558946375,
+            5.670487741071261
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 7,
+          "initial_vector": [
+            17.5,
+            2.625,
+            -3.5,
+            3.666666666666667,
+            1.6666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 22,
+          "loss": 1.9259492911221865,
+          "vector": [
+            5.738011123000079,
+            2.8032245008902685,
+            -1.4455923394935666,
+            -1.7525295313500224,
+            6.544052734792324
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 8,
+          "initial_vector": [
+            14.166666666666668,
+            1.875,
+            -4.5,
+            5.666666666666667,
+            3.6666666666666665
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.925943527399943,
+          "vector": [
+            5.738220797333657,
+            2.8032515795721444,
+            -6.818541275042551,
+            3.0245635842916854,
+            7.140085723260863
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 9,
+          "initial_vector": [
+            4.166666666666667,
+            3.875,
+            -9.5,
+            -0.33333333333333326,
+            7.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 19,
+          "loss": 1.9259436812240776,
+          "vector": [
+            5.738015082054983,
+            2.80327899714707,
+            -5.505034874084893,
+            1.7442646687745602,
+            7.106807960362629
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 10,
+          "initial_vector": [
+            19.166666666666668,
+            1.125,
+            -2.5,
+            4.333333333333333,
+            2.3333333333333335
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 25,
+          "loss": 3.580232352621474,
+          "vector": [
+            12.513075124382631,
+            1.4060330659792213,
+            -2.7467713825605444,
+            2.029185628524755,
+            4.080915066104666
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 11,
+          "initial_vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 10.191426522076886,
+          "vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 12,
+          "initial_vector": [
+            7.5,
+            1.375,
+            -10.5,
+            1.6666666666666665,
+            7.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 18,
+          "loss": 3.579969956030885,
+          "vector": [
+            12.488895996047049,
+            1.4062869463808734,
+            -7.569988124113753,
+            3.103144135825935,
+            7.820684881941736
+          ],
+          "boundary_hits": []
+        }
+      ]
+    },
+    "hold_65nm": {
+      "best": {
+        "start_id": 9,
+        "initial_vector": [
+          4.166666666666667,
+          3.875,
+          -9.5,
+          -0.33333333333333326,
+          7.666666666666667
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 18,
+        "loss": 1.367508561374824,
+        "vector": [
+          6.306162716211039,
+          2.851672372940306,
+          -5.670759672922445,
+          1.8435051773467361,
+          7.811961459908479
+        ],
+        "boundary_hits": []
+      },
+      "runs": [
+        {
+          "start_id": 1,
+          "initial_vector": [
+            10.833333333333332,
+            1.625,
+            -5.5,
+            3.0,
+            1.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 25,
+          "loss": 1.3676366573923147,
+          "vector": [
+            6.306360098966246,
+            2.851724889426293,
+            -4.253002456738579,
+            2.40513268099658,
+            5.8328333866006075
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 2,
+          "initial_vector": [
+            2.5,
+            3.625,
+            -7.5,
+            -1.0,
+            5.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 20,
+          "loss": 1.3675172250677505,
+          "vector": [
+            6.3064655787282415,
+            2.8518651389568643,
+            -4.434335153673803,
+            1.4872000262913068,
+            6.932420771807974
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 3,
+          "initial_vector": [
+            5.833333333333334,
+            2.375,
+            -1.5,
+            5.0,
+            3.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.367634322418964,
+          "vector": [
+            6.306528943945304,
+            2.85171893878819,
+            -4.22551484242058,
+            2.3698966966280266,
+            5.8406747745813155
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 4,
+          "initial_vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 17.094337055529078,
+          "vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 5,
+          "initial_vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            4.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 7,
+          "loss": 4.991201941302916,
+          "vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            1.5104781646278167
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 6,
+          "initial_vector": [
+            9.166666666666666,
+            2.125,
+            -6.5,
+            1.0,
+            5.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.3676157134220635,
+          "vector": [
+            6.306908312439968,
+            2.851950345935968,
+            -4.432643685589844,
+            2.510135671969872,
+            5.908244040852475
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 7,
+          "initial_vector": [
+            17.5,
+            2.625,
+            -3.5,
+            3.666666666666667,
+            1.6666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 18,
+          "loss": 1.3675375076837042,
+          "vector": [
+            6.306401185714005,
+            2.851776529721061,
+            -5.456565295850634,
+            2.9805978944908036,
+            6.461045583239373
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 8,
+          "initial_vector": [
+            14.166666666666668,
+            1.875,
+            -4.5,
+            5.666666666666667,
+            3.6666666666666665
+          ],
+          "success": true,
+          "status": 4,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "nfev": 21,
+          "loss": 1.3675206733443581,
+          "vector": [
+            6.306691632568093,
+            2.8517452730944384,
+            -7.155162361642605,
+            4.330056070854828,
+            6.810305418458392
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 9,
+          "initial_vector": [
+            4.166666666666667,
+            3.875,
+            -9.5,
+            -0.33333333333333326,
+            7.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 18,
+          "loss": 1.367508561374824,
+          "vector": [
+            6.306162716211039,
+            2.851672372940306,
+            -5.670759672922445,
+            1.8435051773467361,
+            7.811961459908479
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 10,
+          "initial_vector": [
+            19.166666666666668,
+            1.125,
+            -2.5,
+            4.333333333333333,
+            2.3333333333333335
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 31,
+          "loss": 1.3675165611247573,
+          "vector": [
+            6.306453332500794,
+            2.851945323566579,
+            -4.442471758151551,
+            1.4678182204965333,
+            6.960086499789274
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 11,
+          "initial_vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 17.094337055525752,
+          "vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 12,
+          "initial_vector": [
+            7.5,
+            1.375,
+            -10.5,
+            1.6666666666666665,
+            7.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.3675127334470165,
+          "vector": [
+            6.305997383077192,
+            2.851636471329435,
+            -6.443452460113276,
+            3.2182760102815413,
+            7.209707225248379
+          ],
+          "boundary_hits": []
+        }
+      ]
+    },
+    "hold_120nm": {
+      "best": {
+        "start_id": 9,
+        "initial_vector": [
+          4.166666666666667,
+          3.875,
+          -9.5,
+          -0.33333333333333326,
+          7.666666666666667
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 18,
+        "loss": 1.40034943357011,
+        "vector": [
+          6.415395183852833,
+          2.8393525754237623,
+          -5.26686555692632,
+          1.733501053751779,
+          7.537830375909865
+        ],
+        "boundary_hits": []
+      },
+      "runs": [
+        {
+          "start_id": 1,
+          "initial_vector": [
+            10.833333333333332,
+            1.625,
+            -5.5,
+            3.0,
+            1.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 16,
+          "loss": 3.801223155344598,
+          "vector": [
+            13.860660449207204,
+            1.4145979755646312,
+            -3.9448357952026005,
+            3.225761278789212,
+            4.89171918874254
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 2,
+          "initial_vector": [
+            2.5,
+            3.625,
+            -7.5,
+            -1.0,
+            5.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 20,
+          "loss": 1.400358134134563,
+          "vector": [
+            6.415814596450832,
+            2.8395325431829748,
+            -4.31285303803353,
+            1.438824665448556,
+            6.879124746548438
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 3,
+          "initial_vector": [
+            5.833333333333334,
+            2.375,
+            -1.5,
+            5.0,
+            3.0
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 2,
+          "loss": 17.127313651540074,
+          "vector": [
+            14.427915748079391,
+            3.370296516437964,
+            -7.9023519489314005,
+            0.7351183843014555,
+            2.000785515307581
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 4,
+          "initial_vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 17.127313651541055,
+          "vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 5,
+          "initial_vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            4.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 7,
+          "loss": 5.269995779412337,
+          "vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            1.4950257626391774
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 6,
+          "initial_vector": [
+            9.166666666666666,
+            2.125,
+            -6.5,
+            1.0,
+            5.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 17,
+          "loss": 3.801081307919841,
+          "vector": [
+            13.701684391908033,
+            1.4163825366511233,
+            -4.3508037093145235,
+            2.6833520793710166,
+            5.778338372999713
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 7,
+          "initial_vector": [
+            17.5,
+            2.625,
+            -3.5,
+            3.666666666666667,
+            1.6666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.4004244347288848,
+          "vector": [
+            6.415334398306039,
+            2.839390150602618,
+            -3.569907037846516,
+            1.5173005484422042,
+            6.057135794644634
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 8,
+          "initial_vector": [
+            14.166666666666668,
+            1.875,
+            -4.5,
+            5.666666666666667,
+            3.6666666666666665
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.400563655928022,
+          "vector": [
+            6.417718949790827,
+            2.8397312472275527,
+            -7.372391276665309,
+            5.770441905572954,
+            5.608671777491411
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 9,
+          "initial_vector": [
+            4.166666666666667,
+            3.875,
+            -9.5,
+            -0.33333333333333326,
+            7.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 18,
+          "loss": 1.40034943357011,
+          "vector": [
+            6.415395183852833,
+            2.8393525754237623,
+            -5.26686555692632,
+            1.733501053751779,
+            7.537830375909865
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 10,
+          "initial_vector": [
+            19.166666666666668,
+            1.125,
+            -2.5,
+            4.333333333333333,
+            2.3333333333333335
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 27,
+          "loss": 3.8012333445674873,
+          "vector": [
+            13.430586874518355,
+            1.4195812161269248,
+            -2.669709070511915,
+            1.7483519194194124,
+            4.927526205888387
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 11,
+          "initial_vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 17.12731365153773,
+          "vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 12,
+          "initial_vector": [
+            7.5,
+            1.375,
+            -10.5,
+            1.6666666666666665,
+            7.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 20,
+          "loss": 3.8010643555086783,
+          "vector": [
+            13.884964725081456,
+            1.4142906966035846,
+            -5.56027192177091,
+            2.924269302469995,
+            6.817938054481684
+          ],
+          "boundary_hits": []
+        }
+      ]
+    },
+    "hold_200nm": {
+      "best": {
+        "start_id": 9,
+        "initial_vector": [
+          4.166666666666667,
+          3.875,
+          -9.5,
+          -0.33333333333333326,
+          7.666666666666667
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 18,
+        "loss": 1.3560102059155048,
+        "vector": [
+          6.1878405470812305,
+          2.8650069344421385,
+          -5.046653630228839,
+          1.4576325356198654,
+          7.552922442918136
+        ],
+        "boundary_hits": []
+      },
+      "runs": [
+        {
+          "start_id": 1,
+          "initial_vector": [
+            10.833333333333332,
+            1.625,
+            -5.5,
+            3.0,
+            1.0
+          ],
+          "success": true,
+          "status": 2,
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 30,
+          "loss": 3.2529529720748753,
+          "vector": [
+            8.8483251814928,
+            1.609134997247185,
+            -4.769177577342108,
+            2.4129501028900973,
+            4.9476256418072575
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 2,
+          "initial_vector": [
+            2.5,
+            3.625,
+            -7.5,
+            -1.0,
+            5.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 20,
+          "loss": 1.3560181039720922,
+          "vector": [
+            6.188774494800102,
+            2.8652571388506867,
+            -4.401739327058904,
+            1.4544295436596275,
+            6.912259393948341
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 3,
+          "initial_vector": [
+            5.833333333333334,
+            2.375,
+            -1.5,
+            5.0,
+            3.0
+          ],
+          "success": true,
+          "status": 2,
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 17,
+          "loss": 1.3561503892422258,
+          "vector": [
+            6.188704711620595,
+            2.8651770237910377,
+            -4.330393919373804,
+            2.5038313463547004,
+            5.791366848252118
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 4,
+          "initial_vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 17.53241393376822,
+          "vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 5,
+          "initial_vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            4.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 7,
+          "loss": 4.824549895090805,
+          "vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            1.547828908238503
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 6,
+          "initial_vector": [
+            9.166666666666666,
+            2.125,
+            -6.5,
+            1.0,
+            5.0
+          ],
+          "success": true,
+          "status": 2,
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 33,
+          "loss": 3.252901765355949,
+          "vector": [
+            8.810038206176714,
+            1.6110022675292914,
+            -4.017301390194301,
+            1.4324337512292793,
+            5.16478165011077
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 7,
+          "initial_vector": [
+            17.5,
+            2.625,
+            -3.5,
+            3.666666666666667,
+            1.6666666666666667
+          ],
+          "success": true,
+          "status": 2,
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 18,
+          "loss": 3.25296768311615,
+          "vector": [
+            8.889239242141697,
+            1.6070105082633246,
+            -4.827336356374902,
+            2.530717302516782,
+            4.900017640117842
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 8,
+          "initial_vector": [
+            14.166666666666668,
+            1.875,
+            -4.5,
+            5.666666666666667,
+            3.6666666666666665
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 26,
+          "loss": 3.2529528437180977,
+          "vector": [
+            8.871035591950156,
+            1.6079106769061997,
+            -7.215164092177708,
+            4.873643184970444,
+            4.93948193517375
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 9,
+          "initial_vector": [
+            4.166666666666667,
+            3.875,
+            -9.5,
+            -0.33333333333333326,
+            7.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 18,
+          "loss": 1.3560102059155048,
+          "vector": [
+            6.1878405470812305,
+            2.8650069344421385,
+            -5.046653630228839,
+            1.4576325356198654,
+            7.552922442918136
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 10,
+          "initial_vector": [
+            19.166666666666668,
+            1.125,
+            -2.5,
+            4.333333333333333,
+            2.3333333333333335
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 38,
+          "loss": 3.252979454637116,
+          "vector": [
+            8.858253707492869,
+            1.6085684781572036,
+            -4.483169385251664,
+            2.201392962412722,
+            4.876005086910126
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 11,
+          "initial_vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 17.532413933764897,
+          "vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 12,
+          "initial_vector": [
+            7.5,
+            1.375,
+            -10.5,
+            1.6666666666666665,
+            7.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 17,
+          "loss": 3.2527928713511534,
+          "vector": [
+            8.891383004146165,
+            1.6070151306234408,
+            -7.343422985830145,
+            2.8553880428496816,
+            7.092173315744985
+          ],
+          "boundary_hits": []
+        }
+      ]
+    },
+    "hold_350nm": {
+      "best": {
+        "start_id": 9,
+        "initial_vector": [
+          4.166666666666667,
+          3.875,
+          -9.5,
+          -0.33333333333333326,
+          7.666666666666667
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 19,
+        "loss": 1.1996175714179262,
+        "vector": [
+          6.0086064046817755,
+          2.789006340699859,
+          -5.758001484077082,
+          1.9484502312188152,
+          7.574478485295711
+        ],
+        "boundary_hits": []
+      },
+      "runs": [
+        {
+          "start_id": 1,
+          "initial_vector": [
+            10.833333333333332,
+            1.625,
+            -5.5,
+            3.0,
+            1.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 27,
+          "loss": 1.1997327812878757,
+          "vector": [
+            6.009000551118859,
+            2.789070427144901,
+            -4.47384441550669,
+            2.363775361793784,
+            5.875382985306307
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 2,
+          "initial_vector": [
+            2.5,
+            3.625,
+            -7.5,
+            -1.0,
+            5.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 18,
+          "loss": 1.1996314208332044,
+          "vector": [
+            6.0089550713613455,
+            2.789059256995173,
+            -4.517996432697817,
+            1.550172827307446,
+            6.733072678833074
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 3,
+          "initial_vector": [
+            5.833333333333334,
+            2.375,
+            -1.5,
+            5.0,
+            3.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.1996360998526088,
+          "vector": [
+            6.008997340398361,
+            2.789068764404067,
+            -4.809893962492096,
+            1.9518413935468342,
+            6.6233467267280535
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 4,
+          "initial_vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 17.426548501829824,
+          "vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 5,
+          "initial_vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            4.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 7,
+          "loss": 4.724517758295123,
+          "vector": [
+            0.8333333333333333,
+            3.40135019347392,
+            -0.5,
+            2.333333333333333,
+            1.547472967116623
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 6,
+          "initial_vector": [
+            9.166666666666666,
+            2.125,
+            -6.5,
+            1.0,
+            5.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.1997606566711823,
+          "vector": [
+            6.009518513488335,
+            2.7891386080996385,
+            -4.300065044807402,
+            2.283146139351159,
+            5.782682561776168
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 7,
+          "initial_vector": [
+            17.5,
+            2.625,
+            -3.5,
+            3.666666666666667,
+            1.6666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 23,
+          "loss": 1.1997373122567807,
+          "vector": [
+            6.00895811675628,
+            2.7890636048944697,
+            -4.316259936229978,
+            2.222498284134699,
+            5.859037947589632
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 8,
+          "initial_vector": [
+            14.166666666666668,
+            1.875,
+            -4.5,
+            5.666666666666667,
+            3.6666666666666665
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 22,
+          "loss": 1.1997730984655233,
+          "vector": [
+            6.009527444999613,
+            2.789149488672413,
+            -6.035728132318324,
+            4.054428484028418,
+            5.747094710536883
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 9,
+          "initial_vector": [
+            4.166666666666667,
+            3.875,
+            -9.5,
+            -0.33333333333333326,
+            7.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 19,
+          "loss": 1.1996175714179262,
+          "vector": [
+            6.0086064046817755,
+            2.789006340699859,
+            -5.758001484077082,
+            1.9484502312188152,
+            7.574478485295711
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 10,
+          "initial_vector": [
+            19.166666666666668,
+            1.125,
+            -2.5,
+            4.333333333333333,
+            2.3333333333333335
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 32,
+          "loss": 1.1997627389546015,
+          "vector": [
+            6.009217614905061,
+            2.7891491614479373,
+            -4.495050281497705,
+            2.483943841132546,
+            5.776692182992102
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 11,
+          "initial_vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 17.4265485018265,
+          "vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 12,
+          "initial_vector": [
+            7.5,
+            1.375,
+            -10.5,
+            1.6666666666666665,
+            7.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 23,
+          "loss": 1.1996181937148134,
+          "vector": [
+            6.0094550203283905,
+            2.7891373311701186,
+            -6.800948445576206,
+            3.1299473217666094,
+            7.436687804981653
+          ],
+          "boundary_hits": []
+        }
+      ]
+    },
+    "hold_700nm": {
+      "best": {
+        "start_id": 9,
+        "initial_vector": [
+          4.166666666666667,
+          3.875,
+          -9.5,
+          -0.33333333333333326,
+          7.666666666666667
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 25,
+        "loss": 1.2587472327709084,
+        "vector": [
+          9.20181843890291,
+          3.3280895420424645,
+          -3.0085186991898736,
+          2.9326053103500804,
+          6.855459733023506
+        ],
+        "boundary_hits": []
+      },
+      "runs": [
+        {
+          "start_id": 1,
+          "initial_vector": [
+            10.833333333333332,
+            1.625,
+            -5.5,
+            3.0,
+            1.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 24,
+          "loss": 3.724946528497278,
+          "vector": [
+            12.792680420750749,
+            1.384265608108755,
+            -3.789730909757297,
+            2.808320549269185,
+            4.534739706047383
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 2,
+          "initial_vector": [
+            2.5,
+            3.625,
+            -7.5,
+            -1.0,
+            5.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 24,
+          "loss": 1.2588652639943545,
+          "vector": [
+            9.235507705821739,
+            3.3306782905507064,
+            -1.7870761930260444,
+            2.8774878868295626,
+            5.7190365766905265
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 3,
+          "initial_vector": [
+            5.833333333333334,
+            2.375,
+            -1.5,
+            5.0,
+            3.0
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 2,
+          "loss": 14.609796907146446,
+          "vector": [
+            14.309929870446457,
+            3.3454856661793935,
+            -7.781096182333805,
+            0.8122585187805491,
+            1.93713846422202
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 4,
+          "initial_vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 14.609796907148738,
+          "vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 5,
+          "initial_vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            4.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 7,
+          "loss": 4.984925879047571,
+          "vector": [
+            0.8333333333333333,
+            3.1540954690483924,
+            -0.5,
+            2.333333333333333,
+            1.3464761284630378
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 6,
+          "initial_vector": [
+            9.166666666666666,
+            2.125,
+            -6.5,
+            1.0,
+            5.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 3.7247309579001016,
+          "vector": [
+            12.863342307613369,
+            1.383382918978411,
+            -4.371603606386476,
+            2.4385596348435525,
+            5.513278119442272
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 7,
+          "initial_vector": [
+            17.5,
+            2.625,
+            -3.5,
+            3.666666666666667,
+            1.6666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 24,
+          "loss": 1.2588327998615354,
+          "vector": [
+            9.294379114323222,
+            3.33522001023527,
+            -2.3702088429538146,
+            3.5740768513509327,
+            5.657890492269575
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 8,
+          "initial_vector": [
+            14.166666666666668,
+            1.875,
+            -4.5,
+            5.666666666666667,
+            3.6666666666666665
+          ],
+          "success": true,
+          "status": 2,
+          "message": "`ftol` termination condition is satisfied.",
+          "nfev": 31,
+          "loss": 1.2587728011590407,
+          "vector": [
+            9.78297874449246,
+            3.3709205884154416,
+            -3.9917510532091662,
+            5.9981960627896305,
+            5.2883812215968105
+          ],
+          "boundary_hits": [
+            3
+          ]
+        },
+        {
+          "start_id": 9,
+          "initial_vector": [
+            4.166666666666667,
+            3.875,
+            -9.5,
+            -0.33333333333333326,
+            7.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 25,
+          "loss": 1.2587472327709084,
+          "vector": [
+            9.20181843890291,
+            3.3280895420424645,
+            -3.0085186991898736,
+            2.9326053103500804,
+            6.855459733023506
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 10,
+          "initial_vector": [
+            19.166666666666668,
+            1.125,
+            -2.5,
+            4.333333333333333,
+            2.3333333333333335
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 25,
+          "loss": 3.724922400562803,
+          "vector": [
+            12.970712045149837,
+            1.3819461721581083,
+            -3.4184119804630533,
+            2.4885865465629116,
+            4.5511012108699145
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 11,
+          "initial_vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 14.609796907145414,
+          "vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 12,
+          "initial_vector": [
+            7.5,
+            1.375,
+            -10.5,
+            1.6666666666666665,
+            7.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 19,
+          "loss": 3.7247065605994503,
+          "vector": [
+            12.877692833471794,
+            1.3830716486572299,
+            -6.25736577497062,
+            3.011016329629269,
+            6.831832576137482
+          ],
+          "boundary_hits": []
+        }
+      ]
+    },
+    "hold_2600nm": {
+      "best": {
+        "start_id": 9,
+        "initial_vector": [
+          4.166666666666667,
+          3.875,
+          -9.5,
+          -0.33333333333333326,
+          7.666666666666667
+        ],
+        "success": true,
+        "status": 3,
+        "message": "`xtol` termination condition is satisfied.",
+        "nfev": 36,
+        "loss": 0.4642148046322686,
+        "vector": [
+          16.246747655146596,
+          3.361389107804328,
+          -8.573709454666825e-05,
+          4.715918221324195,
+          7.999998700786343
+        ],
+        "boundary_hits": [
+          2,
+          4
+        ]
+      },
+      "runs": [
+        {
+          "start_id": 1,
+          "initial_vector": [
+            10.833333333333332,
+            1.625,
+            -5.5,
+            3.0,
+            1.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 19,
+          "loss": 1.0438764756274352,
+          "vector": [
+            13.2658898093031,
+            1.229051164168334,
+            -3.2329402215753316,
+            2.375299821176486,
+            4.207048114143447
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 2,
+          "initial_vector": [
+            2.5,
+            3.625,
+            -7.5,
+            -1.0,
+            5.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 35,
+          "loss": 0.46519384576586836,
+          "vector": [
+            15.600763996708187,
+            3.341796938315981,
+            -2.5642406640013843e-05,
+            5.99619550235292,
+            6.157281078388226
+          ],
+          "boundary_hits": [
+            2,
+            3
+          ]
+        },
+        {
+          "start_id": 3,
+          "initial_vector": [
+            5.833333333333334,
+            2.375,
+            -1.5,
+            5.0,
+            3.0
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 2,
+          "loss": 9.226444171733341,
+          "vector": [
+            14.001807746794782,
+            3.3099007451797244,
+            -7.5525172773357605,
+            0.9645997137961313,
+            1.8687872914659194
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 4,
+          "initial_vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 9.226444171733368,
+          "vector": [
+            12.5,
+            2.875,
+            -11.5,
+            0.3333333333333335,
+            0.3333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 5,
+          "initial_vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            4.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 7,
+          "loss": 1.8761667129412642,
+          "vector": [
+            0.8333333333333333,
+            3.125,
+            -0.5,
+            2.333333333333333,
+            1.17551037607596
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 6,
+          "initial_vector": [
+            9.166666666666666,
+            2.125,
+            -6.5,
+            1.0,
+            5.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 24,
+          "loss": 1.0438178278444659,
+          "vector": [
+            12.734521832452469,
+            1.2331388796556504,
+            -3.6704517942386814,
+            1.9868735791482952,
+            4.825892703265089
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 7,
+          "initial_vector": [
+            17.5,
+            2.625,
+            -3.5,
+            3.666666666666667,
+            1.6666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 19,
+          "loss": 1.0438638597859278,
+          "vector": [
+            14.380406613003032,
+            1.2207011728347483,
+            -3.2359602116525554,
+            2.929849195261723,
+            4.092580279538304
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 8,
+          "initial_vector": [
+            14.166666666666668,
+            1.875,
+            -4.5,
+            5.666666666666667,
+            3.6666666666666665
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.043775860825357,
+          "vector": [
+            13.131195353681393,
+            1.2299026040535572,
+            -3.9505887073296533,
+            2.608537368264894,
+            4.638551799135049
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 9,
+          "initial_vector": [
+            4.166666666666667,
+            3.875,
+            -9.5,
+            -0.33333333333333326,
+            7.666666666666667
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 36,
+          "loss": 0.4642148046322686,
+          "vector": [
+            16.246747655146596,
+            3.361389107804328,
+            -8.573709454666825e-05,
+            4.715918221324195,
+            7.999998700786343
+          ],
+          "boundary_hits": [
+            2,
+            4
+          ]
+        },
+        {
+          "start_id": 10,
+          "initial_vector": [
+            19.166666666666668,
+            1.125,
+            -2.5,
+            4.333333333333333,
+            2.3333333333333335
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 19,
+          "loss": 1.0437179287422564,
+          "vector": [
+            18.225743400049023,
+            1.1966246212792078,
+            -1.9277760118072507,
+            2.5144902069309634,
+            4.733997945996157
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 11,
+          "initial_vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "success": true,
+          "status": 1,
+          "message": "`gtol` termination condition is satisfied.",
+          "nfev": 1,
+          "loss": 9.226444171733364,
+          "vector": [
+            15.833333333333332,
+            3.375,
+            -8.5,
+            -1.6666666666666667,
+            6.333333333333333
+          ],
+          "boundary_hits": []
+        },
+        {
+          "start_id": 12,
+          "initial_vector": [
+            7.5,
+            1.375,
+            -10.5,
+            1.6666666666666665,
+            7.0
+          ],
+          "success": true,
+          "status": 3,
+          "message": "`xtol` termination condition is satisfied.",
+          "nfev": 21,
+          "loss": 1.0438137296480918,
+          "vector": [
+            12.562508314789847,
+            1.2345064794996088,
+            -5.601876263740242,
+            2.569419669325078,
+            6.107979859302513
+          ],
+          "boundary_hits": []
+        }
+      ]
+    }
+  }
+}

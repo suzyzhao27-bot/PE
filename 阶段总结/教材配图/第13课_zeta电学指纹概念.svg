@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440" role="img" aria-label="zeta 是水与表面相互作用的电动响应的概念示意，不是表面电荷直接计数">
+  <rect width="1120" height="440" rx="26" fill="#f7fafc"/>
+  <text x="54" y="58" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#18344b">仪器读到的是“被推动的水留下的电学线索”</text>
+  <text x="54" y="92" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" fill="#607486">概念示意 · 旧样品的实际 cell 与装样路径尚未确认</text>
+  <rect x="54" y="128" width="302" height="224" rx="20" fill="#e4f2f5" stroke="#b9d8e0" stroke-width="2"/>
+  <rect x="409" y="128" width="302" height="224" rx="20" fill="#eef1fa" stroke="#d3d9eb" stroke-width="2"/>
+  <rect x="764" y="128" width="302" height="224" rx="20" fill="#fdf0e6" stroke="#f0d7bf" stroke-width="2"/>
+  <text x="205" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176c78">① 推动液体</text>
+  <text x="205" y="230" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" fill="#365f69">水经过样品附近</text>
+  <text x="205" y="271" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#365f69">原表有压力扫描记录</text>
+  <text x="560" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#455f9b">② 记录响应</text>
+  <text x="560" y="230" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" fill="#4d6386">读到电学变化</text>
+  <text x="560" y="271" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#4d6386">原表有电流/压力斜率</text>
+  <text x="915" y="178" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#a45d27">③ 得到 zeta</text>
+  <text x="915" y="230" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" fill="#825a39">旧表给出 mV 读数</text>
+  <text x="915" y="271" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#825a39">不是直接数表面电荷</text>
+  <path d="M365 240h32m-11-11 11 11-11 11M720 240h32m-11-11 11 11-11 11" fill="none" stroke="#718a9a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="560" y="393" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#5b6d7c">这是测量逻辑的示意，不是旧实验真实装置图或已认证的测量几何</text>
+</svg>

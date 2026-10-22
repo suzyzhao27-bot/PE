@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="570" viewBox="0 0 1120 570" role="img" aria-label="导师 v3 模型中近壁与外侧 Na 和 Cl 浓度比较">
+  <rect width="1120" height="570" rx="26" fill="#f7fafc"/>
+  <text x="56" y="62" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="700" fill="#172d43">同一片虚拟水域，两处位置的离子数量</text>
+  <text x="56" y="100" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#526779">导师 v3 已有计算 · pH 7 · 盐浓度 1 mM · 假设 H/OH 表面化学</text>
+  <rect x="55" y="132" width="490" height="335" rx="20" fill="#ffffff" stroke="#dbe6ed" stroke-width="2"/>
+  <rect x="575" y="132" width="490" height="335" rx="20" fill="#ffffff" stroke="#dbe6ed" stroke-width="2"/>
+  <rect x="78" y="155" width="444" height="52" rx="13" fill="#e5f4f3"/>
+  <text x="300" y="190" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#176d70">靠近模型纤维</text>
+  <rect x="598" y="155" width="444" height="52" rx="13" fill="#edf2fb"/>
+  <text x="820" y="190" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" fill="#425f9a">虚拟水域外侧</text>
+  <circle cx="105" cy="259" r="16" fill="#1b9b9e"/>
+  <text x="142" y="269" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#173b46">Na⁺</text>
+  <text x="495" y="271" text-anchor="end" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#116b70">10.56</text>
+  <circle cx="625" cy="259" r="16" fill="#1b9b9e"/>
+  <text x="662" y="269" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#173b46">Na⁺</text>
+  <text x="1015" y="271" text-anchor="end" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#116b70">1.22</text>
+  <line x1="83" y1="309" x2="517" y2="309" stroke="#e5edf1" stroke-width="2"/>
+  <line x1="603" y1="309" x2="1037" y2="309" stroke="#e5edf1" stroke-width="2"/>
+  <circle cx="105" cy="362" r="16" fill="#e98b45"/>
+  <text x="142" y="372" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#65442f">Cl⁻</text>
+  <text x="495" y="374" text-anchor="end" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#b7652e">0.095</text>
+  <circle cx="625" cy="362" r="16" fill="#e98b45"/>
+  <text x="662" y="372" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" fill="#65442f">Cl⁻</text>
+  <text x="1015" y="374" text-anchor="end" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#b7652e">0.823</text>
+  <text x="300" y="433" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#516476">单位：mol/m³</text>
+  <text x="820" y="433" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" fill="#516476">单位：mol/m³</text>
+  <text x="560" y="506" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" fill="#263d50">负表面附近：Na⁺ 较多，Cl⁻ 较少</text>
+  <text x="560" y="540" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" fill="#657788">模型两处网格点的计算值；非真实 PE 实测，也不是无限远的本体水</text>
+</svg>

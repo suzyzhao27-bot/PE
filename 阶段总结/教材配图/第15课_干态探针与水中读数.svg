@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="490" viewBox="0 0 1120 490" role="img" aria-label="干态KPFM探针与水中zeta电动测量对象不同的概念示意">
+  <rect width="1120" height="490" rx="24" fill="#f7fafc"/>
+  <text x="55" y="61" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#18344b">同叫“电位”，问的却是两个不同场景</text>
+  <text x="55" y="95" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" fill="#657888">概念示意；真实仪器与样品状态以对应原文和实验记录为准</text>
+  <rect x="55" y="128" width="481" height="286" rx="20" fill="#fef1e9" stroke="#edcfb8" stroke-width="2"/>
+  <rect x="584" y="128" width="481" height="286" rx="20" fill="#e5f3f5" stroke="#b9dce0" stroke-width="2"/>
+  <text x="295" y="174" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#a85e2b">KPFM：转移样品的表面</text>
+  <text x="824" y="174" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#177680">zeta：液体与样品界面</text>
+  <path d="M277 200v58m-23-15 23 18 23-18" fill="none" stroke="#b77344" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="277" cy="201" rx="39" ry="11" fill="#d79664"/>
+  <rect x="137" y="285" width="304" height="17" rx="8" fill="#c89c77"/>
+  <rect x="137" y="305" width="304" height="15" rx="7" fill="#8695a2"/>
+  <text x="295" y="353" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" fill="#704a31">探针相对电势 · V</text>
+  <text x="295" y="384" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" fill="#7a6759">论文样品转移到 wafer 后测量</text>
+  <rect x="662" y="221" width="322" height="93" rx="18" fill="#ffffff" stroke="#8fc6cb" stroke-width="3"/>
+  <path d="M680 266h268m-19-15 19 15-19 15" fill="none" stroke="#35a4ad" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M790 232v72m11-72v72m11-72v72" stroke="#a4a8aa" stroke-width="5" stroke-linecap="round"/>
+  <text x="824" y="353" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" fill="#146773">流动相关电学响应 · mV</text>
+  <text x="824" y="384" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" fill="#56797d">旧 zeta 实际 cell 与安装方式尚待核实</text>
+  <text x="560" y="458" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="700" fill="#385062">单位可以换算；测量对象、环境和参考基准不会因此变成相同</text>
+</svg>

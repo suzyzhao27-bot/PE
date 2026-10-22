@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 600" role="img" aria-labelledby="title desc">
+<title id="title">两种离子分别移动又相互影响</title><desc id="desc">概念示意：左边 Na 和 Cl 离子分别移动，中间一方先走使两侧电荷环境改变，右边需要同时计算两种离子的共同转移。不是膜中实测分布。</desc>
+<rect width="1080" height="600" fill="#f4f8fc"/><rect x="34" y="28" width="1012" height="544" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="64" y="84" fill="#173956" font-size="32" font-family="Microsoft YaHei, sans-serif" font-weight="700">两种离子，为什么要放进同一本账？</text>
+<text x="64" y="123" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">概念示意 · 能分别移动，也会相互影响</text>
+<rect x="68" y="166" width="293" height="322" rx="23" fill="#f1f8fc" stroke="#bad4e4" stroke-width="3"/>
+<text x="97" y="210" fill="#255471" font-size="25" font-family="Microsoft YaHei, sans-serif" font-weight="700">① 分别出发</text>
+<circle cx="150" cy="285" r="37" fill="#fce6d7" stroke="#e5a273" stroke-width="3"/><text x="123" y="296" fill="#c66a35" font-size="27" font-family="Arial, sans-serif" font-weight="700">Na⁺</text>
+<circle cx="150" cy="385" r="37" fill="#e0f2e8" stroke="#84b39b" stroke-width="3"/><text x="131" y="395" fill="#3f8c70" font-size="27" font-family="Arial, sans-serif" font-weight="700">Cl⁻</text>
+<path d="M213 285 H297 M275 269 L297 285 L275 301" fill="none" stroke="#d68a5b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M213 385 H267 M245 369 L267 385 L245 401" fill="none" stroke="#70a38b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="95" y="450" fill="#607589" font-size="18" font-family="Microsoft YaHei, sans-serif">箭头长短不是实测速度</text>
+<path d="M369 324 H397 M385 310 L399 324 L385 338" fill="none" stroke="#86adc1" stroke-width="5"/>
+<rect x="405" y="166" width="289" height="322" rx="23" fill="#fff8ef" stroke="#ebd7b7" stroke-width="3"/>
+<text x="431" y="210" fill="#845b30" font-size="25" font-family="Microsoft YaHei, sans-serif" font-weight="700">② 一方先跑</text>
+<rect x="439" y="248" width="88" height="132" rx="17" fill="#e6f5fc"/><rect x="571" y="248" width="88" height="132" rx="17" fill="#e6f5fc"/>
+<text x="462" y="322" fill="#438d76" font-size="38" font-family="Arial, sans-serif" font-weight="700">−</text><text x="594" y="322" fill="#cc6a36" font-size="38" font-family="Arial, sans-serif" font-weight="700">+</text>
+<path d="M544 250 V379" stroke="#708da0" stroke-width="17" stroke-linecap="round" stroke-dasharray="8 14"/>
+<text x="446" y="438" fill="#765d3f" font-size="18" font-family="Microsoft YaHei, sans-serif">两边电学环境随之改变</text>
+<path d="M702 324 H729 M715 310 L730 324 L715 338" fill="none" stroke="#86adc1" stroke-width="5"/>
+<rect x="739" y="166" width="272" height="322" rx="23" fill="#f1f8fc" stroke="#bad4e4" stroke-width="3"/>
+<text x="763" y="210" fill="#255471" font-size="25" font-family="Microsoft YaHei, sans-serif" font-weight="700">③ 一起算结果</text>
+<circle cx="825" cy="296" r="38" fill="#fce6d7" stroke="#e5a273" stroke-width="3"/><text x="798" y="307" fill="#c66a35" font-size="27" font-family="Arial, sans-serif" font-weight="700">Na⁺</text>
+<circle cx="922" cy="296" r="38" fill="#e0f2e8" stroke="#84b39b" stroke-width="3"/><text x="902" y="306" fill="#3f8c70" font-size="27" font-family="Arial, sans-serif" font-weight="700">Cl⁻</text>
+<text x="776" y="391" fill="#315c76" font-size="26" font-family="Microsoft YaHei, sans-serif" font-weight="700">看整份盐转移</text>
+<text x="763" y="439" fill="#607589" font-size="18" font-family="Microsoft YaHei, sans-serif">不等于始终结伴同行</text>
+<text x="67" y="537" fill="#607589" font-size="18" font-family="Microsoft YaHei, sans-serif">圆圈和位置是概念示意；不是 PE 膜孔、离子数量、真实电场或穿膜路线的测量图。</text>
+</svg>

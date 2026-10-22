@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 600" role="img" aria-labelledby="title desc">
+<title id="title">浓度、盐量与通量的三个不同问题</title><desc id="desc">教学概念图：浓度问每升水多咸，盐量问整个容器总量，通量问每单位膜面积每单位时间转移多少。底部真实旧120纳米曲线只得到电导率增量14.49微西门子每厘米，后三量未知。</desc>
+<rect width="1080" height="600" fill="#f4f8fc"/><rect x="34" y="27" width="1012" height="545" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="63" y="82" fill="#173956" font-size="32" font-family="Microsoft YaHei, sans-serif" font-weight="700">同样咸，不等于盐一样多</text>
+<text x="63" y="122" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">上面是教学例子；底部蓝框是本项目已核对的旧读数</text>
+<rect x="63" y="167" width="290" height="297" rx="22" fill="#e8f4fa" stroke="#8bbad3" stroke-width="3"/>
+<text x="92" y="213" fill="#245879" font-size="27" font-family="Microsoft YaHei, sans-serif" font-weight="700">① 浓度</text>
+<text x="92" y="257" fill="#4a7188" font-size="21" font-family="Microsoft YaHei, sans-serif">每升水有多咸？</text>
+<path d="M140 300 V384 Q140 407 163 407 H247 Q270 407 270 384 V300" fill="#fff" stroke="#79adca" stroke-width="5"/>
+<path d="M145 350 H265 V383 Q265 401 246 401 H164 Q145 401 145 383 Z" fill="#c9e9f7"/>
+<text x="174" y="374" fill="#255b77" font-size="23" font-family="Arial, sans-serif" font-weight="700">1 g/L</text>
+<text x="92" y="443" fill="#607589" font-size="18" font-family="Microsoft YaHei, sans-serif">假设例子 · 不是 PE 数值</text>
+<path d="M360 310 H389 M375 296 L391 310 L375 324" fill="none" stroke="#8aa8bb" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="396" y="167" width="290" height="297" rx="22" fill="#fff4e9" stroke="#ebc793" stroke-width="3"/>
+<text x="425" y="213" fill="#895a30" font-size="27" font-family="Microsoft YaHei, sans-serif" font-weight="700">② 盐量</text>
+<text x="425" y="257" fill="#8a6c4d" font-size="21" font-family="Microsoft YaHei, sans-serif">整杯总共有多少？</text>
+<text x="433" y="329" fill="#965e36" font-size="26" font-family="Arial, sans-serif" font-weight="700">1 g/L × 0.2 L</text>
+<text x="470" y="379" fill="#965e36" font-size="33" font-family="Arial, sans-serif" font-weight="700">= 0.2 g</text>
+<text x="425" y="443" fill="#8a7764" font-size="18" font-family="Microsoft YaHei, sans-serif">假设例子 · 水量也要知道</text>
+<path d="M693 310 H722 M708 296 L724 310 L708 324" fill="none" stroke="#8aa8bb" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="729" y="167" width="290" height="297" rx="22" fill="#eef2f7" stroke="#b7c7d7" stroke-width="3"/>
+<text x="758" y="213" fill="#405e76" font-size="27" font-family="Microsoft YaHei, sans-serif" font-weight="700">③ 通量</text>
+<text x="758" y="257" fill="#5b7287" font-size="21" font-family="Microsoft YaHei, sans-serif">每块膜、每段时间？</text>
+<text x="763" y="329" fill="#3d6580" font-size="24" font-family="Arial, sans-serif" font-weight="700">0.2 g ÷</text>
+<text x="763" y="369" fill="#3d6580" font-size="22" font-family="Arial, sans-serif" font-weight="700">(10 cm² × 2 h)</text>
+<text x="763" y="416" fill="#3d6580" font-size="24" font-family="Arial, sans-serif" font-weight="700">= 0.01 g/(cm²·h)</text>
+<rect x="63" y="490" width="956" height="57" rx="14" fill="#e7f3fa" stroke="#b6d4e5"/>
+<text x="86" y="526" fill="#245879" font-size="21" font-family="Microsoft YaHei, sans-serif" font-weight="700">PE 旧 120 nm：电导率增量 14.49 μS/cm；浓度、盐量、实验通量目前均未知。</text>
+</svg>

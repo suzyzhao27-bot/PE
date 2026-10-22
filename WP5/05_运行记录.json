@@ -1,0 +1,73 @@
+{
+  "date_local": "2026-10-22 Asia/Shanghai",
+  "actual_executor": "Codex in local workspace; student independent run and explanation not recorded",
+  "branch": "dev-zhao",
+  "environment": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "commands_completed": [
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp5_holdouts.py M0 --max-nfev 120",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp5_holdouts.py M1 --max-nfev 120",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp5_holdouts.py M2 --max-nfev 120 (resumed search, then --rebuild-only for final rows)",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp5_report.py",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp5_identifiability.py",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp5_sensitivity.py --max-nfev 120",
+    ".venv/Scripts/python.exe src/effective_network_model/v6_wp5_worst_cases.py",
+    ".venv/Scripts/python.exe WP2/src/validate.py (46 PASS, 4 OBSERVED, 0 FAIL after external-layer change)"
+  ],
+  "input_manifest": "WP1/03_数据与参数清单.csv",
+  "data_manifest_hash_recorded_once": "550cca87c80fda62fefa0b2ac9b14cefc5e8ea71d7bf09c946af00676512f2ce",
+  "manifest_hash_not_recomputed": true,
+  "raw_opju_sha256_reused_from_wp2": "c9446a965bac8b875bff135676b59352ae3e57a35d6f0be51ad860c20b5a596d",
+  "source_hash_not_recomputed": true,
+  "holdout_rule": "each model and split refit with 12 fixed Latin-hypercube starts in same frozen search box; BDF final evaluation; sixfold whole-film holdout plus 0-60 min train/later times test",
+  "row_counts": {
+    "thickness": 18,
+    "time": 18,
+    "profile": 105,
+    "sensitivity": 44,
+    "worst_retests": 4
+  },
+  "profile_failures": [
+    {
+      "model_id": "M1",
+      "parameter": "ws_ref",
+      "point_id": "1",
+      "status": "The maximum number of function evaluations is exceeded."
+    },
+    {
+      "model_id": "M2",
+      "parameter": "log10_chi",
+      "point_id": "14",
+      "status": "FloatingPointError: nonfinite or negative prediction"
+    },
+    {
+      "model_id": "M2",
+      "parameter": "log10_chi",
+      "point_id": "15",
+      "status": "FloatingPointError: nonfinite or negative prediction"
+    }
+  ],
+  "sensitivity_all_tasks_completed": true,
+  "max_sensitivity_mass_error": 3.383959779057477e-13,
+  "minimum_sensitivity_concentration": 0.0,
+  "critical_outputs": [
+    "WP5/09_留出门槛核对.json",
+    "WP5/06_局部灵敏度与奇异值.json",
+    "WP5/08_敏感性搜索记录.json",
+    "WP5/11_最不利情景搜索记录.json"
+  ],
+  "numerical_notes": [
+    "M2 stiff-region eigensolution uses dense matrix-exponential fallback or checked rapid-exchange optimization screen; final CSV predictions use BDF.",
+    "M2 2600 nm leaveout endpoint factor 50/100/200 cells: 1.88105/1.87973/1.87940.",
+    "Profile points that fail or hit max_nfev are preserved, not silently discarded."
+  ],
+  "provenance_and_scientific_limits": [
+    "Internal retrospective holdouts on known old curves, no independent validation.",
+    "Boundary, pore size, volume ratio, preload and reading budgets are conditional scenarios, not measurements.",
+    "M2 extreme capacity lacks measured A, V_R and epsilon.",
+    "WP1/WP3 mentor pass was relayed by researcher; written mentor rationale not archived."
+  ]
+}
