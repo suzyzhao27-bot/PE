@@ -1,0 +1,14 @@
+{
+  "overall": "TECHNICAL_NOT_PASSED",
+  "PB_1D_reference_run": true,
+  "finite_fiber_PB_run": false,
+  "calibration_run": false,
+  "zero_potential_abs_mV": 0.0,
+  "Grahame_surface_potential_rel_error": 0.00014839765381829284,
+  "fixed_charge_sign_symmetry_abs_mV": 0.0,
+  "chemistry_state_reversal_abs_C_m2": 0.0,
+  "v3_radial_sigma_rel_error": 2.2898798410322828e-12,
+  "v3_radial_psi_rel_error": 1.2334518157410608e-11,
+  "max_1D_Gauss_relative": 5.941367144503233e-12,
+  "one_dimensional_results_do_not_validate_finite_fiber_or_zeta": true
+}

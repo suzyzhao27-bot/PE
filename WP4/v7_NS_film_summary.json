@@ -1,0 +1,196 @@
+{
+  "model": "NS",
+  "status": "all_folds_multi_start_stable",
+  "E_h": 2.428798823100934,
+  "worst_holdout_membrane_by_asinh_E": 2600,
+  "folds": [
+    {
+      "hold_h_nm": 65,
+      "status": "multi_start_stable",
+      "initial_four_start_status_counts": {
+        "solver_success": 4
+      },
+      "extension_status_counts": {},
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 405,
+      "best_start_index": 2,
+      "best_transformed": [
+        4.999999999999986,
+        1.69354927841576,
+        5.486291862323333
+      ],
+      "alpha_m_inv": 99999.99999999673,
+      "Q_uS_cm_per_unit_uR": 49.3797945210588,
+      "beta": 5.486291862323333,
+      "boundary_within_one_percent": [
+        "log10_alpha"
+      ],
+      "L_train_recomputed": 4.386849885238551,
+      "E_train": 2.0944808151994496,
+      "E_holdout": 1.8679744754579315,
+      "RMSE_holdout_uS_cm": 16.634751699648803,
+      "endpoint_ratio_pred_over_obs": 1.4455323505649906,
+      "max_mass_relative_error": 2.1423989123933697e-13,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 120,
+      "status": "multi_start_stable",
+      "initial_four_start_status_counts": {
+        "solver_success": 4
+      },
+      "extension_status_counts": {},
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 400,
+      "best_start_index": 2,
+      "best_transformed": [
+        4.999999999975977,
+        1.6680193827106249,
+        5.45187475324948
+      ],
+      "alpha_m_inv": 99999.9999944686,
+      "Q_uS_cm_per_unit_uR": 46.560687325256644,
+      "beta": 5.45187475324948,
+      "boundary_within_one_percent": [
+        "log10_alpha"
+      ],
+      "L_train_recomputed": 4.696823196539451,
+      "E_train": 2.167215539935853,
+      "E_holdout": 1.3365086839179865,
+      "RMSE_holdout_uS_cm": 15.53655661653344,
+      "endpoint_ratio_pred_over_obs": 1.6066238016498164,
+      "max_mass_relative_error": 1.2710308999165145e-13,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 200,
+      "status": "multi_start_stable",
+      "initial_four_start_status_counts": {
+        "solver_success": 4
+      },
+      "extension_status_counts": {},
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 424,
+      "best_start_index": 2,
+      "best_transformed": [
+        4.999999999999787,
+        1.725577639752956,
+        5.476662579396776
+      ],
+      "alpha_m_inv": 99999.99999995092,
+      "Q_uS_cm_per_unit_uR": 53.159102467637474,
+      "beta": 5.476662579396776,
+      "boundary_within_one_percent": [
+        "log10_alpha"
+      ],
+      "L_train_recomputed": 4.183870809621621,
+      "E_train": 2.0454512484099006,
+      "E_holdout": 2.1801159290434864,
+      "RMSE_holdout_uS_cm": 20.130551246058204,
+      "endpoint_ratio_pred_over_obs": 1.9087833899778215,
+      "max_mass_relative_error": 8.833750519472217e-14,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 350,
+      "status": "multi_start_stable",
+      "initial_four_start_status_counts": {
+        "max_eval": 4
+      },
+      "extension_status_counts": {
+        "solver_success": 2
+      },
+      "four_start_status_counts": {
+        "max_eval": 2,
+        "solver_success": 2
+      },
+      "actual_objective_calls_total": 970,
+      "best_start_index": 2,
+      "best_transformed": [
+        3.5241540328245957,
+        1.5649783699647122,
+        3.0661684067272104
+      ],
+      "alpha_m_inv": 3343.1359123497264,
+      "Q_uS_cm_per_unit_uR": 36.72640084597995,
+      "beta": 3.0661684067272104,
+      "boundary_within_one_percent": [],
+      "L_train_recomputed": 4.663103496505717,
+      "E_train": 2.1594220283459453,
+      "E_holdout": 1.7823994658975402,
+      "RMSE_holdout_uS_cm": 9.349410650431954,
+      "endpoint_ratio_pred_over_obs": 1.511516497977627,
+      "max_mass_relative_error": 5.639784751279562e-14,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 700,
+      "status": "multi_start_stable",
+      "initial_four_start_status_counts": {
+        "solver_success": 4
+      },
+      "extension_status_counts": {},
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 414,
+      "best_start_index": 1,
+      "best_transformed": [
+        4.999999999999899,
+        1.47914016989658,
+        5.535531166392624
+      ],
+      "alpha_m_inv": 99999.99999997669,
+      "Q_uS_cm_per_unit_uR": 30.139786382126477,
+      "beta": 5.535531166392624,
+      "boundary_within_one_percent": [
+        "log10_alpha"
+      ],
+      "L_train_recomputed": 4.4840409415838245,
+      "E_train": 2.117555416413895,
+      "E_holdout": 1.7968469645096194,
+      "RMSE_holdout_uS_cm": 51.87976293100408,
+      "endpoint_ratio_pred_over_obs": 0.12753604318654355,
+      "max_mass_relative_error": 1.5152670512728074e-13,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 2600,
+      "status": "multi_start_stable",
+      "initial_four_start_status_counts": {
+        "solver_success": 4
+      },
+      "extension_status_counts": {},
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 569,
+      "best_start_index": 2,
+      "best_transformed": [
+        4.99999997620489,
+        1.2367553669226738,
+        4.950306452742333
+      ],
+      "alpha_m_inv": 99999.99452097362,
+      "Q_uS_cm_per_unit_uR": 17.24866021139818,
+      "beta": 4.950306452742333,
+      "boundary_within_one_percent": [
+        "log10_alpha"
+      ],
+      "L_train_recomputed": 1.6977907776961858,
+      "E_train": 1.3029930075392522,
+      "E_holdout": 4.354341041014123,
+      "RMSE_holdout_uS_cm": 888.2529305299335,
+      "endpoint_ratio_pred_over_obs": 0.006319248957848745,
+      "max_mass_relative_error": 9.581093167662824e-13,
+      "minimum_u": 0.0
+    }
+  ],
+  "scope": "six whole-membrane holdouts, each fitted on other five B curves"
+}

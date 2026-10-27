@@ -1,0 +1,63 @@
+{
+  "model": "ND",
+  "status": "multi_start_stable",
+  "four_start_status_counts": {
+    "solver_success": 4
+  },
+  "actual_objective_calls_total": 135,
+  "best_start_index": 1,
+  "best_transformed": [
+    4.999999999999999,
+    2.1256892331808475
+  ],
+  "alpha_L_m_inv": 99999.9999999998,
+  "Q_L_uS_cm_per_unit_uR": 133.56394349531053,
+  "fixed_beta_tau0_b_from_full_B": [
+    3.9639066871046236,
+    4657.400412780182,
+    1.6395826849792154
+  ],
+  "fixed_full_B_status": "multi_start_stable",
+  "boundary_within_one_percent": [
+    "log10_alpha_L"
+  ],
+  "L_early_recomputed": 2.0111025456260134,
+  "E_early": 1.4181334724298744,
+  "E_Llate": 2.3622940169223194,
+  "per_membrane": [
+    {
+      "h_nm": 200,
+      "n_early_train": 6,
+      "n_late_prediction": 12,
+      "E_early": 1.6920661012194327,
+      "E_late": 0.667946885978915,
+      "RMSE_late_uS_cm": 77.3445679921824,
+      "endpoint_ratio_pred_over_obs": 0.2661668229991098,
+      "max_mass_relative_error": 1.372233090404122e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 350,
+      "n_early_train": 10,
+      "n_late_prediction": 4,
+      "E_early": 0.27712136442946755,
+      "E_late": 0.7507713958156436,
+      "RMSE_late_uS_cm": 101.0937769967488,
+      "endpoint_ratio_pred_over_obs": 0.25552744386729453,
+      "max_mass_relative_error": 2.1372142086768238e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 700,
+      "n_early_train": 11,
+      "n_late_prediction": 24,
+      "E_early": 1.7588131496434916,
+      "E_late": 3.9662940304391276,
+      "RMSE_late_uS_cm": 4260.985939370242,
+      "endpoint_ratio_pred_over_obs": 0.009714886739011129,
+      "max_mass_relative_error": 1.8964543820690333e-15,
+      "minimum_u": 0.0
+    }
+  ],
+  "scope": "L early<=240 min fitted; late>240 min conditional transfer; endpoint-normalized shapes descriptive only"
+}

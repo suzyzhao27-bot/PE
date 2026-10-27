@@ -1,0 +1,31 @@
+{
+  "model": "Tcal",
+  "h_nm": 350,
+  "seed": 7001,
+  "q": 0.5,
+  "r_s_nm": 0.35,
+  "alpha_m_inv": 100,
+  "tau_s": 300,
+  "C0_molm3": 600,
+  "times_s": [
+    0.0,
+    1200.0,
+    3600.0,
+    7200.0
+  ],
+  "G_m3s": 9.664459846657634e-17,
+  "P_m_s": 0.00014895416687503346,
+  "spanning_nodes": 864,
+  "linear_residual_relative": 9.565422051244639e-16,
+  "conservation_relative": 8.38967225744582e-16,
+  "mass_relative_error": 1.5987211554602254e-14,
+  "minimum_activity": 0.0,
+  "delta_uScm": [
+    0.0,
+    9921.390050866865,
+    20280.929785028526,
+    26255.188045689887
+  ],
+  "refinement_max_abs_uScm": 1.9639250240288675e-05,
+  "observation_status": "synthetic model probe; not fitted to B350"
+}

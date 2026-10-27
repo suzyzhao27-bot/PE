@@ -51,6 +51,7 @@ Desktop.ini
 *.tar.gz
 *.tgz
 *.gz
+!WP2/v7_network_tables.jsonl.gz
 
 # Source documents and raw office files
 *.pdf

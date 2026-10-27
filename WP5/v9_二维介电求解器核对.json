@@ -1,0 +1,20 @@
+{
+  "zero_psi_abs_mV": 0.0,
+  "zero_sigma_C_m2": 0.0,
+  "small_epsilon_PE_r": 0.001,
+  "small_epsilon_limit_sigma_relative_error": 1.3217981002022889e-08,
+  "representative_case": "182_pH7_backed",
+  "epsilon_PE_r": 2.3,
+  "sigma_base_C_m2": -0.006749535074704061,
+  "sigma_refined_C_m2": -0.00675810290778228,
+  "sigma_double_L_C_m2": -0.006749535074704061,
+  "max_sigma_change_relative": 0.0012693960374144798,
+  "zeta_base_mV": -57.35195145954334,
+  "zeta_refined_mV": -56.988074484922194,
+  "zeta_double_L_mV": -57.35195145695188,
+  "max_zeta_change_mV": 0.36387697462114943,
+  "max_Gauss_relative": 3.8346189373829375e-15,
+  "max_species_M": 0.013885476846306257,
+  "additional_refinement_PB_fields": 2,
+  "status": "PASS"
+}

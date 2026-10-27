@@ -1,0 +1,13 @@
+﻿panel,series,h_nm,x,y,metric,source
+2b,straight_chain_no_access,200,32,0.0004882812499986275,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,200,64,0.00012207031249618568,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,200,128,3.0517578133030685e-05,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,200,32,0.0004882812499986275,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,200,64,0.00012207031249618568,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,200,128,3.0517578133030685e-05,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,2600,32,0.0004882812499987581,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,2600,64,0.0001220703125004628,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,2600,128,3.0517578123994474e-05,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,2600,32,0.00048828124999844883,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,2600,64,0.00012207031250061743,lag_relative_error,WP2/v7_straight_chain_benchmark.csv
+2b,straight_chain_no_access,2600,128,3.0517578123994474e-05,lag_relative_error,WP2/v7_straight_chain_benchmark.csv

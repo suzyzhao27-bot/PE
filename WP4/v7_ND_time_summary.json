@@ -1,0 +1,102 @@
+{
+  "model": "ND",
+  "status": "multi_start_stable",
+  "four_start_status_counts": {
+    "solver_success": 4
+  },
+  "actual_objective_calls_total": 253,
+  "best_start_index": 2,
+  "best_transformed": [
+    4.80469237234667,
+    1.1541172733457616,
+    4.0402446562690555,
+    3.5394521758835547,
+    0.2515252888200822
+  ],
+  "alpha_m_inv": 63781.153945215425,
+  "Q_uS_cm_per_unit_uR": 14.259926050494588,
+  "beta": 4.0402446562690555,
+  "tau0_s": 3462.9974829276416,
+  "b": 0.2515252888200822,
+  "boundary_within_one_percent": [],
+  "L_train_recomputed": 4.124076017560484,
+  "E_train": 2.0307821196673177,
+  "L_time": 5.355967965127634,
+  "E_time": 2.31429642983081,
+  "per_membrane": [
+    {
+      "h_nm": 65,
+      "n_train": 3,
+      "n_holdout": 3,
+      "E_train_asinh": 1.5736204073957225,
+      "E_time_asinh": 0.6976174099074031,
+      "RMSE_train_uS_cm": 4.825417935728913,
+      "RMSE_time_uS_cm": 7.46287307628687,
+      "endpoint_ratio_pred_over_obs": 0.4174379103877718,
+      "max_mass_relative_error": 1.0940326248473024e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 120,
+      "n_train": 3,
+      "n_holdout": 3,
+      "E_train_asinh": 0.6812044601421836,
+      "E_time_asinh": 0.5205596404327366,
+      "RMSE_train_uS_cm": 3.1320068776789936,
+      "RMSE_time_uS_cm": 5.170220130802752,
+      "endpoint_ratio_pred_over_obs": 0.4920453515578413,
+      "max_mass_relative_error": 1.9692587247251445e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 200,
+      "n_train": 3,
+      "n_holdout": 3,
+      "E_train_asinh": 1.6719046139504279,
+      "E_time_asinh": 0.48263011349715,
+      "RMSE_train_uS_cm": 5.770174326133038,
+      "RMSE_time_uS_cm": 4.670654346664285,
+      "endpoint_ratio_pred_over_obs": 0.5121822662121435,
+      "max_mass_relative_error": 1.5316456747862234e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 350,
+      "n_train": 3,
+      "n_holdout": 3,
+      "E_train_asinh": 1.1461984874240503,
+      "E_time_asinh": 0.5128313344059066,
+      "RMSE_train_uS_cm": 2.135557560137667,
+      "RMSE_time_uS_cm": 4.517938823503023,
+      "endpoint_ratio_pred_over_obs": 0.5838226107392288,
+      "max_mass_relative_error": 2.4233597948003295e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 700,
+      "n_train": 3,
+      "n_holdout": 3,
+      "E_train_asinh": 1.6781020826059938,
+      "E_time_asinh": 2.362563790812181,
+      "RMSE_train_uS_cm": 31.932393723299654,
+      "RMSE_time_uS_cm": 69.42101281176159,
+      "endpoint_ratio_pred_over_obs": 0.08165269152511324,
+      "max_mass_relative_error": 2.2982029289636494e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 2600,
+      "n_train": 3,
+      "n_holdout": 3,
+      "E_train_asinh": 3.857340118774145,
+      "E_time_asinh": 5.029962219664557,
+      "RMSE_train_uS_cm": 545.1227544197084,
+      "RMSE_time_uS_cm": 1133.8550293694775,
+      "endpoint_ratio_pred_over_obs": 0.005223316795424454,
+      "max_mass_relative_error": 2.8426419448329386e-15,
+      "minimum_u": 0.0
+    }
+  ],
+  "worst_holdout_membrane_by_asinh_E": 2600,
+  "scope": "B t<=60 min training, t>60 min time predictions; no full-data warm start"
+}

@@ -1,0 +1,58 @@
+{
+  "case": "S14",
+  "model": "NS",
+  "changed": {
+    "D_b_multiplier": 1.3
+  },
+  "status_by_start": {
+    "0": "solver_success",
+    "1": "solver_success",
+    "2": "solver_success"
+  },
+  "actual_objective_calls": 271,
+  "extension_start_indices": [],
+  "best_start_index": 1,
+  "main_transformed": [
+    4.999999999971809,
+    1.552027230822947,
+    5.318383406883053
+  ],
+  "fit_transformed": [
+    4.999999999992879,
+    1.5536255236387573,
+    5.45683887876358
+  ],
+  "L": {
+    "main_parameters": 4.170120765233697,
+    "refit": 4.154260948074372
+  },
+  "P_m_s_by_h": {
+    "65": {
+      "main_parameters": 6.718662541772956e-07,
+      "refit": 5.497545917411305e-07
+    },
+    "120": {
+      "main_parameters": 6.457682556438637e-08,
+      "refit": 5.160131680193999e-08
+    },
+    "200": {
+      "main_parameters": 2.0379276446815606e-08,
+      "refit": 1.6002427382169775e-08
+    },
+    "350": {
+      "main_parameters": 9.9493718695898e-10,
+      "refit": 7.394195158756021e-10
+    },
+    "700": {
+      "main_parameters": 1.8931716922732473e-09,
+      "refit": 1.4462387644068076e-09
+    },
+    "2600": {
+      "main_parameters": 6.082977577845433e-09,
+      "refit": 4.930456200606216e-09
+    }
+  },
+  "max_mass_relative_error": 7.909768130973894e-13,
+  "minimum_u": 0.0,
+  "point_count": 42
+}

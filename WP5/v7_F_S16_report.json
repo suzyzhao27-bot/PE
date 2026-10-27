@@ -1,0 +1,58 @@
+{
+  "case": "S16",
+  "model": "NS",
+  "changed": {
+    "preload_membrane_u": 0.25
+  },
+  "status_by_start": {
+    "0": "solver_success",
+    "1": "solver_success",
+    "2": "solver_success"
+  },
+  "actual_objective_calls": 239,
+  "extension_start_indices": [],
+  "best_start_index": 2,
+  "main_transformed": [
+    4.999999999971809,
+    1.552027230822947,
+    5.318383406883053
+  ],
+  "fit_transformed": [
+    4.999999956062299,
+    1.5520281206958773,
+    5.318423367584815
+  ],
+  "L": {
+    "main_parameters": 4.158770836919058,
+    "refit": 4.158770838287824
+  },
+  "P_m_s_by_h": {
+    "65": {
+      "main_parameters": 5.168201955209967e-07,
+      "refit": 5.167902451750197e-07
+    },
+    "120": {
+      "main_parameters": 4.96744812033741e-08,
+      "refit": 4.967126109395734e-08
+    },
+    "200": {
+      "main_parameters": 1.5676366497550487e-08,
+      "refit": 1.5675271495262537e-08
+    },
+    "350": {
+      "main_parameters": 7.653362976607583e-10,
+      "refit": 7.652706895824311e-10
+    },
+    "700": {
+      "main_parameters": 1.4562859171332962e-09,
+      "refit": 1.4561726695022826e-09
+    },
+    "2600": {
+      "main_parameters": 4.679213521419393e-09,
+      "refit": 4.678929638048155e-09
+    }
+  },
+  "max_mass_relative_error": 7.423030462199974e-13,
+  "minimum_u": 0.0,
+  "point_count": 42
+}

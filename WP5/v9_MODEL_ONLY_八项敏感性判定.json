@@ -1,0 +1,117 @@
+{
+  "parameter_role": "MODEL_ONLY_LEGACY_REFERENCE_NOT_PE_FIT",
+  "raw_rows": 144,
+  "delta_rows": 126,
+  "all_numeric_valid": true,
+  "aggregates": {
+    "g_x0.5": {
+      "rows": 18,
+      "max_abs_delta_sigma_relative": 0.029037441400004894,
+      "max_abs_delta_zeta_mV": 1.142037424886297,
+      "changed_layer_count": 18
+    },
+    "g_x2": {
+      "rows": 18,
+      "max_abs_delta_sigma_relative": 0.0008820002195660625,
+      "max_abs_delta_zeta_mV": 0.13881790171227237,
+      "changed_layer_count": 18
+    },
+    "H_x0.9": {
+      "rows": 9,
+      "max_abs_delta_sigma_relative": 0.0,
+      "max_abs_delta_zeta_mV": 0.07756788476687859,
+      "changed_layer_count": 0
+    },
+    "H_x1.1": {
+      "rows": 9,
+      "max_abs_delta_sigma_relative": 0.0,
+      "max_abs_delta_zeta_mV": 0.06346991007595193,
+      "changed_layer_count": 0
+    },
+    "cs_x0.8": {
+      "rows": 18,
+      "max_abs_delta_sigma_relative": 0.02400544579480864,
+      "max_abs_delta_zeta_mV": 4.492896572644256,
+      "changed_layer_count": 0
+    },
+    "cs_x1.2": {
+      "rows": 18,
+      "max_abs_delta_sigma_relative": 0.021095417311308023,
+      "max_abs_delta_zeta_mV": 3.576963210567058,
+      "changed_layer_count": 0
+    },
+    "PE_eps_2.3": {
+      "rows": 18,
+      "max_abs_delta_sigma_relative": 5.265150132371377e-05,
+      "max_abs_delta_zeta_mV": 0.014612270073200762,
+      "changed_layer_count": 0,
+      "exceeds_frozen_5mV_or_10percent": false
+    },
+    "aligned_layers": {
+      "rows": 18,
+      "max_abs_delta_sigma_relative": 0.0003463504845590662,
+      "max_abs_delta_zeta_mV": 0.02863343502161797,
+      "changed_layer_count": 0
+    }
+  },
+  "neutral_604_minus182_proxy_trends": {
+    "baseline": {
+      "free_abs_sigma_604_minus182_C_m2": -4.463474510615819e-05,
+      "backed_zeta_604_minus182_mV": 0.03535972105082408,
+      "free_abs_sigma_sign": -1,
+      "backed_zeta_sign": 1,
+      "free_sigma_direction_changed_from_baseline": false,
+      "backed_zeta_direction_changed_from_baseline": false
+    },
+    "g_x0.5": {
+      "free_abs_sigma_604_minus182_C_m2": -4.4093587979283574e-05,
+      "backed_zeta_604_minus182_mV": -0.1259734917905604,
+      "free_abs_sigma_sign": -1,
+      "backed_zeta_sign": -1,
+      "free_sigma_direction_changed_from_baseline": false,
+      "backed_zeta_direction_changed_from_baseline": true
+    },
+    "g_x2": {
+      "free_abs_sigma_604_minus182_C_m2": -4.3508009886139044e-05,
+      "backed_zeta_604_minus182_mV": 0.24947567753353184,
+      "free_abs_sigma_sign": -1,
+      "backed_zeta_sign": 1,
+      "free_sigma_direction_changed_from_baseline": false,
+      "backed_zeta_direction_changed_from_baseline": false
+    },
+    "cs_x0.8": {
+      "free_abs_sigma_604_minus182_C_m2": -4.996771624149986e-05,
+      "backed_zeta_604_minus182_mV": 0.045107306416653614,
+      "free_abs_sigma_sign": -1,
+      "backed_zeta_sign": 1,
+      "free_sigma_direction_changed_from_baseline": false,
+      "backed_zeta_direction_changed_from_baseline": false
+    },
+    "cs_x1.2": {
+      "free_abs_sigma_604_minus182_C_m2": -4.056004074258143e-05,
+      "backed_zeta_604_minus182_mV": 0.0379731898893354,
+      "free_abs_sigma_sign": -1,
+      "backed_zeta_sign": 1,
+      "free_sigma_direction_changed_from_baseline": false,
+      "backed_zeta_direction_changed_from_baseline": false
+    },
+    "PE_eps_2.3": {
+      "free_abs_sigma_604_minus182_C_m2": -4.4647402793532125e-05,
+      "backed_zeta_604_minus182_mV": 0.035401737440899694,
+      "free_abs_sigma_sign": -1,
+      "backed_zeta_sign": 1,
+      "free_sigma_direction_changed_from_baseline": false,
+      "backed_zeta_direction_changed_from_baseline": false
+    },
+    "aligned_layers": {
+      "free_abs_sigma_604_minus182_C_m2": -4.5635503857982714e-05,
+      "backed_zeta_604_minus182_mV": 0.03954402744093244,
+      "free_abs_sigma_sign": -1,
+      "backed_zeta_sign": 1,
+      "free_sigma_direction_changed_from_baseline": false,
+      "backed_zeta_direction_changed_from_baseline": false
+    }
+  },
+  "dielectric_physics_unresolved_by_frozen_threshold": false,
+  "material_specific_support": false
+}

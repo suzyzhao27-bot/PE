@@ -1,0 +1,3 @@
+﻿figure_id,title,svg,png,source_csv,generation_script,role
+v9_F1,冻结182校准与门槛,data/processed/figures/v9_calibration_gate.svg,data/processed/figures/v9_calibration_gate.png,WP4/v9_校准七档汇总.csv,src/surface_pb/v9_plot_evidence.py,NO_COMPATIBLE_WITNESS; not material validation
+v9_F2,旧示例纯厚度与固定敏感性,data/processed/figures/v9_model_only_thickness_sensitivity.svg,data/processed/figures/v9_model_only_thickness_sensitivity.png,WP5/v9_MODEL_ONLY_精简厚度图.csv | WP5/v9_MODEL_ONLY_N4_N11数值误差.csv | WP5/v9_MODEL_ONLY_八项敏感性差值.csv,src/surface_pb/v9_plot_evidence.py,MODEL_ONLY; not PE parameter fit

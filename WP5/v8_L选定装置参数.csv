@@ -1,0 +1,4 @@
+﻿model,material_q,material_beta,alpha_L_m_inv,tau_L_s,E_L_train,time_evidence_level
+Ncal,0.5,0,1.0,1200,5.39415883519837,inferred_minute_unconfirmed
+Scal,0.5,4.25,6.309573444801933,1200,2.0306737924045994,inferred_minute_unconfirmed
+Tcal,0.031294541878833716,0,4.641588833612778,1200,1.838833561792783,inferred_minute_unconfirmed

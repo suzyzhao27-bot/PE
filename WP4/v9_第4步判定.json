@@ -1,0 +1,8 @@
+{
+  "calibration_E_min": 1.0037187778271328,
+  "compatible_gamma_count": 0,
+  "calibration_state": "OPTIMIZATION_UNRESOLVED_NO_COMPATIBLE_WITNESS",
+  "actual_objective_calls": 556,
+  "maximum_PB_fields_from_objective_calls": 1668,
+  "prediction_set_chosen_without_holdouts": true
+}

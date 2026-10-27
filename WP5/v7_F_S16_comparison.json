@@ -1,0 +1,75 @@
+{
+  "case": "S16",
+  "model": "NS",
+  "status": "multi_start_stable",
+  "boundary_within_one_percent": [
+    "log10_alpha"
+  ],
+  "base_main_L": 4.1587531270409706,
+  "S16_L": {
+    "main_parameters": 4.158770836919058,
+    "refit": 4.158770838287824
+  },
+  "by_h": {
+    "65": {
+      "P_main_m_s": 5.168201955209967e-07,
+      "P_S16_main_over_main": 1.0,
+      "P_S16_refit_over_main": 0.99994204880878,
+      "y120_main_uS_cm": 17.82350499006433,
+      "y120_S16_main_uS_cm": 17.823504990063505,
+      "y120_S16_refit_uS_cm": 17.82354151608976,
+      "y120_observed_uS_cm": 17.08
+    },
+    "120": {
+      "P_main_m_s": 4.96744812033741e-08,
+      "P_S16_main_over_main": 1.0,
+      "P_S16_refit_over_main": 0.9999351757816336,
+      "y120_main_uS_cm": 17.823364713875428,
+      "y120_S16_main_uS_cm": 17.823364689886994,
+      "y120_S16_refit_uS_cm": 17.823401219999234,
+      "y120_observed_uS_cm": 14.490000000000002
+    },
+    "200": {
+      "P_main_m_s": 1.5676366497550487e-08,
+      "P_S16_main_over_main": 1.0,
+      "P_S16_refit_over_main": 0.999930149484058,
+      "y120_main_uS_cm": 17.822576617453993,
+      "y120_S16_main_uS_cm": 17.822576669972406,
+      "y120_S16_refit_uS_cm": 17.8226128214877,
+      "y120_observed_uS_cm": 13.92
+    },
+    "350": {
+      "P_main_m_s": 7.653362976607583e-10,
+      "P_S16_main_over_main": 1.0,
+      "P_S16_refit_over_main": 0.9999142754910126,
+      "y120_main_uS_cm": 10.88532859933703,
+      "y120_S16_main_uS_cm": 10.885395657135117,
+      "y120_S16_refit_uS_cm": 10.884925747065978,
+      "y120_observed_uS_cm": 11.89
+    },
+    "700": {
+      "P_main_m_s": 1.4562859171332962e-09,
+      "P_S16_main_over_main": 1.0,
+      "P_S16_refit_over_main": 0.9999222353044267,
+      "y120_main_uS_cm": 15.476231153585065,
+      "y120_S16_main_uS_cm": 15.476324111611728,
+      "y120_S16_refit_uS_cm": 15.47599482708693,
+      "y120_observed_uS_cm": 87.27000000000001
+    },
+    "2600": {
+      "P_main_m_s": 4.679213521419393e-09,
+      "P_S16_main_over_main": 1.0,
+      "P_S16_refit_over_main": 0.999939330964501,
+      "y120_main_uS_cm": 17.78010757593478,
+      "y120_S16_main_uS_cm": 17.780119806249825,
+      "y120_S16_refit_uS_cm": 17.780145874779997,
+      "y120_observed_uS_cm": 1363.25
+    }
+  },
+  "ratio_200_over_350_at_120": {
+    "main": 1.637302581617929,
+    "S16_main": 1.6372925000930152,
+    "S16_refit": 1.6373665044331394,
+    "observed": 1.170731707317073
+  }
+}

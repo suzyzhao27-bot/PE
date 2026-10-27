@@ -1,0 +1,6 @@
+﻿N,h_pure_nm,d_fixed_nm,g_fixed_nm,edge_layer_fraction_2_over_N,h_over_min_conditional_lambda_D,h_over_max_conditional_lambda_D,meaning
+1,24.54128,24.54128,52,NA,3.5886873835159303,2.741662260254514,geometry/algebra only; no PB charge prediction
+4,254.16512,24.54128,52,0.5,37.16673129819685,28.394399859219234,geometry/algebra only; no PB charge prediction
+11,789.9540800000001,24.54128,52,0.18181818181818182,115.51550043245236,88.25078759013692,geometry/algebra only; no PB charge prediction
+20,1478.8256,24.54128,52,0.1,216.24963217649508,165.20900038703107,geometry/algebra only; no PB charge prediction
+40,3009.6512,24.54128,52,0.05,440.1032582743679,336.22725104679586,geometry/algebra only; no PB charge prediction

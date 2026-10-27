@@ -1,0 +1,22 @@
+﻿sample_id,point_index,book1_time_min,book2_time_min,book1_kappa,book2_kappa,conductivity_equal,time_equal
+65 nm,1,0.0,0.0,2.01,2.01,true,true
+65 nm,2,20.0,20.0,2.09,2.09,true,true
+65 nm,3,40.0,40.0,5.01,5.01,true,true
+65 nm,4,60.0,60.0,10.9,10.9,true,true
+65 nm,5,85.0,85.0,14.42,14.42,true,true
+65 nm,6,100.0,100.0,15.48,15.48,true,true
+65 nm,7,120.0,120.0,19.09,19.09,true,true
+700 nm,1,0.0,0.0,1.63,1.63,true,true
+700 nm,2,20.0,20.0,6.1,6.1,true,true
+700 nm,3,40.0,40.0,34.2,34.2,true,true
+700 nm,4,60.0,60.0,56.1,56.1,true,true
+700 nm,5,80.0,85.0,66.5,66.5,true,false
+700 nm,6,100.0,100.0,77.2,77.2,true,true
+700 nm,7,120.0,120.0,88.9,88.9,true,true
+2600 nm,1,0.0,0.0,1.75,1.75,true,true
+2600 nm,2,20.0,20.0,2.15,2.15,true,true
+2600 nm,3,40.0,40.0,635.0,635.0,true,true
+2600 nm,4,60.0,60.0,715.0,715.0,true,true
+2600 nm,5,80.0,85.0,798.0,798.0,true,false
+2600 nm,6,100.0,100.0,1190.0,1190.0,true,true
+2600 nm,7,120.0,120.0,1365.0,1365.0,true,true

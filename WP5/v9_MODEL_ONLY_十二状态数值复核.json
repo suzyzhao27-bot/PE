@@ -1,0 +1,10 @@
+{
+  "overall": "PASS",
+  "states": 12,
+  "new_PB_fields_total": 23,
+  "max_epsilon_sigma_relative": 0.0017885363541355985,
+  "max_epsilon_zeta_mV": 0.5840610881900687,
+  "max_Gauss_relative": 5.562791012409866e-11,
+  "max_species_M": 0.01893204619556633,
+  "full_step5_status": "IN_PROGRESS_SENSITIVITIES_NOT_COMPLETE"
+}

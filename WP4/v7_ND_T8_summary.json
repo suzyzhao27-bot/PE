@@ -1,0 +1,36 @@
+{
+  "model": "ND",
+  "full_B_fit_status": "multi_start_stable",
+  "n_fitted_and_tau_bound_network_runs": 144,
+  "max_mass_relative_error": 3.6122945223478196e-13,
+  "minimum_u": 0.0,
+  "max_negative_salt_fraction": 0.0,
+  "max_free_energy_positive_drift_normalized": 8.974905047719773e-15,
+  "limit_cases_h200_seed7001": {
+    "f0_one": {
+      "scaled_output_error": 0.0,
+      "max_mass_relative_error": 3.6122945223478196e-13,
+      "minimum_u": 0.0,
+      "max_negative_salt_fraction": 0.0,
+      "free_energy_positive_drift_normalized": 0.0
+    },
+    "tau0_zero": {
+      "scaled_output_error": 0.0,
+      "max_mass_relative_error": 3.6122945223478196e-13,
+      "minimum_u": 0.0,
+      "max_negative_salt_fraction": 0.0,
+      "free_energy_positive_drift_normalized": 0.0
+    },
+    "b_zero": {
+      "scaled_output_error": 3.318411567878634e-07,
+      "max_mass_relative_error": 6.836287892406925e-16,
+      "minimum_u": 0.0,
+      "max_negative_salt_fraction": 0.0,
+      "free_energy_positive_drift_normalized": 1.0938060627851082e-15
+    }
+  },
+  "core_checks_passed": true,
+  "T6_status": "PASS",
+  "status": "PASS",
+  "scope": "B six h x eight S seeds at fitted tau0 and both frozen tau0 bounds; NS and b=0 limits at h200 seed7001; ND formal T6 separate"
+}

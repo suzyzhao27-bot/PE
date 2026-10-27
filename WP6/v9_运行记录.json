@@ -1,0 +1,22 @@
+{
+  "execution_os": "Windows 11",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "python": "3.14.7",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.2",
+  "per_stage_start_end_times": "NOT_RECORDED_AT_EXECUTION; do not infer from file times",
+  "project_branch_at_handoff": "dev-zhao",
+  "frozen_input_hashes_existing_manifest": "原始资料/赵珈绮/18_薄化荷电主线任务书_v9.0.0/file_sha256.csv",
+  "original_package_source_manifest": "原始资料/赵珈绮/18_薄化荷电主线任务书_v9.0.0/source_manifest.csv",
+  "original_package_verifier": "原始资料/赵珈绮/18_薄化荷电主线任务书_v9.0.0/preparation/verify_inputs.py",
+  "new_file_content_hashes_computed": false,
+  "geometry_hashes_computed_as_required_by_taskbook": true,
+  "calibration_actual_objective_calls": 556,
+  "calibration_PB_fields": 1668,
+  "model_only_map_and_control_PB_fields": 62,
+  "final_numerical_additional_PB_fields": 25,
+  "sensitivity_PB_fields": 126,
+  "technical_cases_excluded_from_research_PB_budget": true,
+  "mentor_review": "NOT_OCCURRED"
+}

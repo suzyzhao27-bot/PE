@@ -1,0 +1,3 @@
+﻿r_s_nm,q_mapped,alpha_mapped_m_inv,within_q_box,within_alpha_box,scope
+0.25,0.02235324419916694,2.116359318162311,True,True,approximate throat-dominated uncapped limit; port access breaks exact equivalence
+0.45,0.0402358395585005,0.6531973204204662,True,False,approximate throat-dominated uncapped limit; port access breaks exact equivalence

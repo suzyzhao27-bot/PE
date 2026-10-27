@@ -1,0 +1,12 @@
+{
+  "rows": 144,
+  "expected_rows": 144,
+  "PB_fields_total": 126,
+  "H_only_observations": 18,
+  "PB_fields_computed_this_run": 0,
+  "valid_rows": 144,
+  "unresolved_rows": 0,
+  "max_Gauss_relative": 1.858839787085616e-08,
+  "max_species_M": 0.019242075386852714,
+  "step5_status": "SENSITIVITY_RAW_COMPLETE_PENDING_INTERPRETATION"
+}
