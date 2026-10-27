@@ -1,0 +1,83 @@
+{
+  "model": "NS",
+  "status": "multi_start_stable",
+  "12_start_status_counts": {
+    "solver_success": 12
+  },
+  "actual_objective_calls_total": 1143,
+  "best_start_index": 5,
+  "best_transformed": [
+    4.999999999971809,
+    1.552027230822947,
+    5.318383406883053
+  ],
+  "alpha_m_inv": 99999.99999350883,
+  "Q_uS_cm_per_unit_uR": 35.64734840717581,
+  "beta": 5.318383406883053,
+  "boundary_within_one_percent": [
+    "log10_alpha"
+  ],
+  "L_recomputed": 4.1587531270409706,
+  "E_sqrt_L": 2.039302117647351,
+  "best_vs_worst_success_L_relative": 6.390470265821932e-09,
+  "per_membrane": [
+    {
+      "h_nm": 65,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 10.513385297763554,
+      "E_asinh": 1.632292155996474,
+      "endpoint_ratio_pred_over_obs": 1.0435307371232043,
+      "max_mass_relative_error": 1.8988275387234516e-13,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 120,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 10.415491701772844,
+      "E_asinh": 1.1072296149821397,
+      "endpoint_ratio_pred_over_obs": 1.2300458739734592,
+      "max_mass_relative_error": 1.2247180331061828e-13,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 200,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 12.35995565179356,
+      "E_asinh": 1.8600632860255935,
+      "endpoint_ratio_pred_over_obs": 1.2803575156216949,
+      "max_mass_relative_error": 3.5712366175449195e-13,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 350,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 2.5639821541280887,
+      "E_asinh": 1.0801322922423218,
+      "endpoint_ratio_pred_over_obs": 0.9155028258483624,
+      "max_mass_relative_error": 7.24278148449022e-14,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 700,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 48.21452029168107,
+      "E_asinh": 1.4335275852058174,
+      "endpoint_ratio_pred_over_obs": 0.1773373570939047,
+      "max_mass_relative_error": 1.8926614731820433e-13,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 2600,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 880.590286666661,
+      "E_asinh": 3.792184215608955,
+      "endpoint_ratio_pred_over_obs": 0.013042440913944457,
+      "max_mass_relative_error": 3.407158425172659e-13,
+      "minimum_u": 0.0
+    }
+  ],
+  "worst_membrane_by_asinh_E": 2600,
+  "endpoint_350_over_200_observed": 0.8541666666666667,
+  "endpoint_350_over_200_predicted": 0.6107606567210274,
+  "scope": "full B training only; no time or whole-membrane holdout"
+}

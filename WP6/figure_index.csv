@@ -1,0 +1,13 @@
+﻿group,location,status,vector,preview,source_csv,caption
+1,main,present,data/processed/figures/v7_Fig1_material_observation.svg,data/processed/figures/v7_Fig1_material_observation.png,data/processed/figures/v7_Fig1_material_observation.csv,B/L观察曲线与四结构锚点；两类试片未认证配对
+2,main,present,data/processed/figures/v7_Fig2_model_benchmark.svg,data/processed/figures/v7_Fig2_model_benchmark.png,data/processed/figures/v7_Fig2_model_benchmark.csv,储量节点和对称导通示意、无access直孔迟滞收敛
+3,main,present,data/processed/figures/v7_Fig3_structure_vs_thickness.svg,data/processed/figures/v7_Fig3_structure_vs_thickness.png,data/processed/figures/v7_Fig3_structure_vs_thickness.csv,H固定结构与S条件映射、八种子均值；非实验置信区间
+4a,main,present,data/processed/figures/v7_B_full_curve_panel.svg,data/processed/figures/v7_B_full_curve_panel.png,data/processed/figures/v7_B_full_comparison_panel.csv,六膜全B训练曲线；μS/cm；非预测认证
+4b,main,present,data/processed/figures/v7_B_full_residual_panel.svg,data/processed/figures/v7_B_full_residual_panel.png,data/processed/figures/v7_B_full_comparison_panel.csv,六膜全B原单位残差
+5a,main,present,data/processed/figures/v7_B_time_holdout_panel.svg,data/processed/figures/v7_B_time_holdout_panel.png,data/processed/figures/v7_B_time_holdout_panel.csv,t≤60 min训练后段回顾性预测
+5b,main,present,data/processed/figures/v7_B_film_holdout_panel.svg,data/processed/figures/v7_B_film_holdout_panel.png,data/processed/figures/v7_B_film_holdout_panel.csv,整膜留出；ND三折局部最优不稳以†标记
+5c,main,present,data/processed/figures/v7_L_conditional_transfer_panel.svg,data/processed/figures/v7_L_conditional_transfer_panel.png,data/processed/figures/v7_L_conditional_transfer_panel.csv,L早期校准后晚期条件转移；未认证同膜
+6a,supplement,present,data/processed/figures/v7_G_H_static_regime.svg,data/processed/figures/v7_G_H_static_regime.png,data/processed/figures/v7_G_static_regime.csv,H静态代理网适用图；八种子分位非实验置信区间
+6b,supplement,present,data/processed/figures/v7_G_S_static_regime.svg,data/processed/figures/v7_G_S_static_regime.png,data/processed/figures/v7_G_static_regime.csv,S条件映射静态代理网适用图
+6c,supplement,present,data/processed/figures/v7_E1_equivalent_B_curves.svg,data/processed/figures/v7_E1_equivalent_B_curves.png,WP5/v7_E1_equivalent_B_curves.csv,参数近等价B曲线；非统计置信区间
+6d,supplement,present,data/processed/figures/v7_E1_equivalent_L_late.svg,data/processed/figures/v7_E1_equivalent_L_late.png,WP5/v7_E1_equivalent_L_points.csv,近等价解L晚期不能修复强失配

@@ -1,0 +1,15 @@
+{
+  "overall": "TECHNICAL_NOT_PASSED",
+  "finite_fiber_four_states_all_pass_non_dielectric_subset": true,
+  "finite_dielectric_check6_run": false,
+  "empty_slit_Poiseuille_rel_error": 1.4579516912887332e-08,
+  "planar_HS_rel_error": 0.00026538668624313566,
+  "states": {
+    "182_pH7_backed": "PASS_NON_DIELECTRIC_SUBSET",
+    "604_pH3_backed": "PASS_NON_DIELECTRIC_SUBSET",
+    "604_pH10_backed": "PASS_NON_DIELECTRIC_SUBSET",
+    "pure_N1_pH7_free": "PASS_NON_DIELECTRIC_SUBSET"
+  },
+  "total_elapsed_s": 29.47307730000466,
+  "calibration_run": false
+}

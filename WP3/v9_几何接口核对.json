@@ -1,0 +1,14 @@
+{
+  "status": "PASS_GEOMETRY_ONLY",
+  "PB_solver_run": false,
+  "geometry_cases": 20,
+  "layer_rows": 212,
+  "family_N": {
+    "182": 11,
+    "357": 6,
+    "604": 4
+  },
+  "free_N1_outer_count": 1,
+  "free_N1_core_count": 0,
+  "supported_bottom_wet_face": false
+}

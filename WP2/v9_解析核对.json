@@ -1,0 +1,22 @@
+{
+  "status": "PASS_ANALYTIC_ONLY",
+  "PB_solver_run": false,
+  "charge_regulation_cases": 63,
+  "max_derivative_relative_error": 3.6461001301719575e-07,
+  "lambda_D_conditional_nm_range": [
+    6.838511516139996,
+    8.951241134173026
+  ],
+  "dry_projected_gap_nm_range": [
+    43.0,
+    52.4
+  ],
+  "linear_parallel_wall_relative_potential_correction_range": [
+    0.0009407164858123984,
+    0.01653255801722242
+  ],
+  "pure_N4_h_nm": 254.16512,
+  "pure_N11_h_nm": 789.9540800000001,
+  "symmetric_dense_PE_slab_single_face_sigma_h_dependence": "zero under identical baths and chemistry, symmetric stable solution",
+  "parameter_status": "legacy fallback used for algebraic illustration only"
+}

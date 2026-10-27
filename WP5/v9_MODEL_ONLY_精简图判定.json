@@ -1,0 +1,16 @@
+{
+  "parameter_role": "MODEL_ONLY_LEGACY_REFERENCE_NOT_PE_FIT",
+  "reduced_map_fields": 34,
+  "constant_charge_fields": 24,
+  "N4_N11_extra_fields": 4,
+  "sigma_N4_C_m2": -0.006630189781554005,
+  "sigma_N11_C_m2": -0.006629881703328476,
+  "signed_sigma_N4_minus_N11_C_m2": -3.0807822552943176e-07,
+  "magnitude_difference_C_m2": 3.0807822552943176e-07,
+  "N4_error_C_m2": 1.1203687183418236e-05,
+  "N11_error_C_m2": 1.117446083800152e-05,
+  "five_times_sum_error_C_m2": 0.00011189074010709878,
+  "ten_percent_sigma_N11_C_m2": 0.0006629881703328476,
+  "model_only_enhancement_exceeds_both_thresholds": false,
+  "not_material_validation": true
+}

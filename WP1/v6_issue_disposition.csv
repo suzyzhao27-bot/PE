@@ -1,0 +1,6 @@
+issue_id,original_evidence,retained_failure,v7_closure_task,status,new_evidence
+M2_mesh,"14包/references/review/13第三次审阅意见_20261022_v1.0.0.md §4; v6 WP4/08、12","正式M2五十格点与百格精化未统一，50→200格最大差2.198%",第4步仅在同定义比较需要时按04规定统一一次；未统一前不认证旧M2细微优劣,open,
+N9_sparse_inverse,"同上§4-5；v6 WP2/src/validate.py","旧N9密集恢复后抽稀，不是稀疏输入反演",第5步E2实际稀疏与密集反演，保留恢复失败,open,
+M2_capacity,"同上§4-6；v6 WP3及WP5","旧M2慢库条件容量不合物理量级；原定容量乘积界缺完成证据",第2步直孔容量乘积界与实际几何盐储量上界；旧M2仅作历史基线,open,
+equivalent_curves,"同上§4-5；v6 WP5参数剖面","代表性近等价参数逐点曲线未交",第5步E1输出最多三组近等价逐点曲线,open,
+profile_failures,"同上§4-5；v6 WP5剖面记录","三个未成功剖面尝试仍须保留；无场重拟合无收敛证据",第5步E1保留全部优化终止及失败点，不连线掩盖,open,

@@ -1,0 +1,11 @@
+{
+  "model": "N0",
+  "n_runs": 72,
+  "max_scaled_output_error": 4.341228553706298e-07,
+  "max_absolute_output_error_uS_cm": 1.627289581307423e-05,
+  "max_mass_relative_error": 2.5617782034017817e-13,
+  "minimum_u": 0.0,
+  "threshold_scaled_output": 0.01,
+  "status": "PASS",
+  "scope": "B six and L three observed h values, eight fixed S seeds, formal fitted alpha/Q and beta"
+}

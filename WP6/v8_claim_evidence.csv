@@ -1,0 +1,9 @@
+claim_id,claim,evidence_file,calculation_level,support_status,condition,unsupported_part,manuscript_location
+V8-C1,2600 endpoint is far from equal-bath equilibrium,WP1/v8_量级复核.json,conditional_conversion,SUPPORTED_CONDITIONALLY,C0 600 molm3 and equal 10mL pools,actual concentration not measured,3.1
+V8-C2,passive membrane inventory alone gives seconds lag bound,WP1/量纲与假设表.csv,analytical_necessary_bound,SUPPORTED_CONDITIONALLY,alpha 10 per m epsilon 0.35 K<=1 and endpoint-equivalent P,strict lag not measured,3.2
+V8-C3,49 q prescreen leaves 28 not excluded,WP2/预筛可行集.json,necessary_upper_bound,SUPPORTED_AS_SCREEN,alpha<=100 per m and declared conversion,remaining q not proven feasible,3.3
+V8-C4,Tcal local and network code passes eight checks,WP3/v8_技术检查.csv,numerical_validation,PASS_TECHNICAL,frozen test cases,not scientific support,3.4
+V8-C5,Tcal predicts all six B curves jointly,WP4/v8_模型比较.csv,retrospective_prediction,NOT_SUPPORTED,frozen observation and geometry,2600 film endpoint ratio 0.002239,3.5
+V8-C6,Tcal provides robust material-specific throat mechanism,WP5/v8_主张判定.json,conditional_model_validation,NOT_SUPPORTED,unpaired SEM and unknown wet throat,parameter and area not independently identified,3.6
+V8-C7,B and L share one material model,WP5/v8_L条件转移汇总.csv,conditional_transfer,NOT_SUPPORTED,L minutes inferred and sample identity unpaired,L700 endpoint ratio 0.146681,3.5
+V8-C8,neglecting >5pct water-volume change is supported by chosen hydraulic bound,WP5/v8_水力上界逐种子.csv,conditional_hydraulic_bound,SUPPORTED_CONDITIONALLY,no slip zero hydraulic entrance fixed initial volumes,actual wetting slip and flow unknown,3.6

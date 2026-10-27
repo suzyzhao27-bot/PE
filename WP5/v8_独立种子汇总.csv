@@ -1,0 +1,4 @@
+﻿model,E_fullB_independent,E_time_independent,E_film_independent,film_2600_endpoint_pred_over_obs,film_endpoint_ratio_min,film_endpoint_ratio_max,max_abs_primary_to_independent_uScm,seed_count,linear_solves,interpretation
+Ncal,6.391742502242762,5.906733968355552,6.391742502242762,4.30365006921161,4.30365006921161,961.6395298163142,80.13559248005367,24,432,"geometry seed variability, not experimental uncertainty"
+Scal,3.0186422447999,3.189371955621151,3.817542496758115,0.0014051880681202314,0.0014051880681202314,148.7071490933465,90.11486717902244,24,432,"geometry seed variability, not experimental uncertainty"
+Tcal,2.923119148149198,3.0884097157759807,3.414967448163165,0.0022562631192681046,0.0022562631192681046,70.74035620875645,58.416098315201,24,432,"geometry seed variability, not experimental uncertainty"

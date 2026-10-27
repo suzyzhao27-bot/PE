@@ -1,0 +1,56 @@
+{
+  "model": "N0",
+  "status": "multi_start_stable",
+  "four_start_status_counts": {
+    "solver_success": 4
+  },
+  "actual_objective_calls_total": 180,
+  "best_start_index": 2,
+  "best_transformed": [
+    0.40226113206629566,
+    2.026171475299384
+  ],
+  "alpha_L_m_inv": 2.5249985442355016,
+  "Q_L_uS_cm_per_unit_uR": 106.21148360906611,
+  "fixed_beta_from_full_B": 0.0,
+  "boundary_within_one_percent": [],
+  "L_early_recomputed": 2.1542923557798876,
+  "E_early": 1.4677507812227142,
+  "E_Llate": 2.5179920907707896,
+  "per_membrane": [
+    {
+      "h_nm": 200,
+      "n_early_train": 6,
+      "n_late_prediction": 12,
+      "E_early": 1.519122443127163,
+      "E_late": 0.7551353165261208,
+      "RMSE_late_uS_cm": 83.76586270994277,
+      "endpoint_ratio_pred_over_obs": 0.21167784270730228,
+      "max_mass_relative_error": 2.12456864717473e-13,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 350,
+      "n_early_train": 10,
+      "n_late_prediction": 4,
+      "E_early": 0.617444064978572,
+      "E_late": 0.9342472855016424,
+      "RMSE_late_uS_cm": 110.64896724731939,
+      "endpoint_ratio_pred_over_obs": 0.20321331197004527,
+      "max_mass_relative_error": 9.234523021659188e-14,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 700,
+      "n_early_train": 11,
+      "n_late_prediction": 24,
+      "E_early": 1.942654600475792,
+      "E_late": 4.192589315783334,
+      "RMSE_late_uS_cm": 4273.366683374414,
+      "endpoint_ratio_pred_over_obs": 0.0077272345227453266,
+      "max_mass_relative_error": 1.9864936137620292e-13,
+      "minimum_u": 0.0
+    }
+  ],
+  "scope": "L early<=240 min fitted; late>240 min conditional transfer; endpoint-normalized shapes descriptive only"
+}

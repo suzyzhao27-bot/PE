@@ -1,0 +1,376 @@
+{
+  "schema": "zhaojiaqi.physics_taskbook.v8.0.1",
+  "date": "2026-10-25",
+  "status": "DESIGN_ONLY_STUDENT_TO_IMPLEMENT_AND_RUN",
+  "new_physics_models_run_by_author": false,
+  "no_new_experiments": true,
+  "student_runs_code": true,
+  "main_role": "B",
+  "L_role": "conditional_transfer_only",
+  "C_role": "shape_diagnostic",
+  "U_role": "unknown_not_fit",
+  "D_role": "duplicate_not_independent",
+  "protocol": {
+    "source": "Polymer2023 section 2.3.7, family-level conditional scenario",
+    "C0_molm3": 600,
+    "V_D_m3": 1e-05,
+    "V_R_m3": 1e-05,
+    "same_film_identity_confirmed": false,
+    "area_bound_is_measured": false
+  },
+  "conductivity": {
+    "source_doi": "10.1029/2024WR037771",
+    "equation": 10,
+    "table": 2,
+    "temperature_C": 25,
+    "salt": "NaCl",
+    "MW_gmol": 58.44,
+    "poly_log10_C_gL_vs_log10_SC_uScm": [
+      0.0165,
+      0.9398,
+      -3.2793
+    ],
+    "low_SC_cutoff_uScm": 10,
+    "low_rule": "continuous linear through origin",
+    "background": "constant additive; SC=raw kappa minus initial kappa",
+    "gamma": 1,
+    "free_Q": false,
+    "segment_values": [
+      "zero",
+      "linear_0_10",
+      "poly"
+    ],
+    "SC_join_uScm": 10,
+    "C_at_SC10_g_L": 0.004753352259428049
+  },
+  "Dna_m2s": 1.33e-09,
+  "Dcl_m2s": 2.03e-09,
+  "D_amb_m2s": 1.6070833333333333e-09,
+  "geometry": {
+    "source": "inputs/legacy_v7_spec.json geometry; explicit overrides below",
+    "series_main": "S",
+    "nxy_main": 12,
+    "nxy_check": 24,
+    "p_z": 0.65,
+    "sigma_ln": 0.35,
+    "epsilon_rule": "phi_A proxy, not measured volume porosity",
+    "S_extrapolation": "nearest_endpoint",
+    "B_h_nm": [
+      65,
+      120,
+      200,
+      350,
+      700,
+      2600
+    ],
+    "main_seeds": [
+      7001,
+      7002,
+      7003,
+      7004,
+      7005,
+      7006,
+      7007,
+      7008
+    ],
+    "validation_seeds": [
+      7009,
+      7010,
+      7011,
+      7012,
+      7013,
+      7014,
+      7015,
+      7016,
+      7017,
+      7018,
+      7019,
+      7020,
+      7021,
+      7022,
+      7023,
+      7024,
+      7025,
+      7026,
+      7027,
+      7028,
+      7029,
+      7030,
+      7031,
+      7032
+    ],
+    "keep_disconnected_zero_conductance": true,
+    "same_film_pairing": false,
+    "port": {
+      "a_p": "min(q*r_i,sqrt(epsilon*s*s/pi))",
+      "L_p": "dz/2",
+      "A_port": "s*s",
+      "resistance": "half-layer throat resistance plus one-side access resistance; both terms required"
+    }
+  },
+  "models": {
+    "Ncal": {
+      "q": 0.5,
+      "beta": 0,
+      "type": "corrected scalar baseline"
+    },
+    "Scal": {
+      "q": 0.5,
+      "beta_grid": [
+        0,
+        0.04,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        1.75,
+        2.0,
+        2.25,
+        2.5,
+        2.75,
+        3.0,
+        3.25,
+        3.5,
+        3.75,
+        4.0,
+        4.25,
+        4.5,
+        4.75,
+        5.0,
+        5.25,
+        5.5,
+        5.75,
+        6.0
+      ],
+      "type": "phenomenological control"
+    },
+    "Tcal": {
+      "q_grid": [
+        0.003,
+        0.0033374115940609256,
+        0.0037127720493907623,
+        0.004130349494580691,
+        0.004594892096912427,
+        0.005111682052564816,
+        0.005686595649127655,
+        0.006326170083378351,
+        0.007037677794089425,
+        0.007829209155086388,
+        0.008709764468837752,
+        0.009689356306613002,
+        0.010779123358892527,
+        0.01199145709059362,
+        0.013340142641277083,
+        0.014840515572474889,
+        0.01650963624447313,
+        0.01836648380534437,
+        0.020432171998029505,
+        0.022730189239356883,
+        0.02528666570087619,
+        0.02813067042841564,
+        0.031294541878833716,
+        0.03481425563241495,
+        0.03872983346207417,
+        0.043085798410791715,
+        0.047931681051849334,
+        0.05332258268842412,
+        0.05931980189653969,
+        0.06599153153563625,
+        0.07341363415228988,
+        0.0816705045939998,
+        0.09085602964160697,
+        0.10107465557208074,
+        0.11244257579065901,
+        0.12508905203660653,
+        0.13915788418568703,
+        0.1548090453620998,
+        0.17222050095232516,
+        0.19159023220442356,
+        0.21313848742262273,
+        0.2371102863549565,
+        0.26377820625071263,
+        0.2934454812672409,
+        0.32644945046869245,
+        0.36316539362301076,
+        0.40401079841304527,
+        0.4494501075831694,
+        0.5
+      ],
+      "beta": 0,
+      "r_s_nm": 0.35,
+      "kernel": "Renkin hard-sphere conditional salt surrogate",
+      "a_access": "max(a-r_s,0)",
+      "fit_per_film": false
+    }
+  },
+  "cell": {
+    "alpha_m_inv_grid": [
+      1.0,
+      1.0797751623277096,
+      1.1659144011798317,
+      1.2589254117941673,
+      1.3593563908785256,
+      1.4677992676220695,
+      1.5848931924611136,
+      1.7113283041617808,
+      1.847849797422291,
+      1.9952623149688795,
+      2.154434690031884,
+      2.326305067153626,
+      2.51188643150958,
+      2.712272579332028,
+      2.9286445646252366,
+      3.1622776601683795,
+      3.4145488738336014,
+      3.686945064519575,
+      3.9810717055349722,
+      4.298662347082277,
+      4.641588833612778,
+      5.011872336272722,
+      5.411695265464636,
+      5.843414133735177,
+      6.309573444801933,
+      6.812920690579613,
+      7.3564225445964135,
+      7.943282347242816,
+      8.576958985908941,
+      9.261187281287935,
+      10.0,
+      10.7977516232771,
+      11.659144011798316,
+      12.589254117941675,
+      13.593563908785255,
+      14.677992676220699,
+      15.848931924611133,
+      17.11328304161781,
+      18.478497974222908,
+      19.952623149688797,
+      21.544346900318832,
+      23.263050671536263,
+      25.118864315095795,
+      27.12272579332028,
+      29.286445646252357,
+      31.622776601683793,
+      34.14548873833603,
+      36.869450645195755,
+      39.810717055349734,
+      42.986623470822764,
+      46.4158883361278,
+      50.11872336272722,
+      54.116952654646376,
+      58.434141337351754,
+      63.09573444801933,
+      68.12920690579611,
+      73.56422544596414,
+      79.43282347242814,
+      85.76958985908941,
+      92.61187281287933,
+      100.0
+    ],
+    "tau_m_s_grid": [
+      0,
+      300,
+      1200
+    ],
+    "near_receiver_fraction": 0.05,
+    "phi_is_measured": false,
+    "fit_phi": false,
+    "predict_each_seed_before_average": true,
+    "same_effective_area_across_B_assumed": true
+  },
+  "splits": [
+    "full_B",
+    "time_B",
+    "film_65",
+    "film_120",
+    "film_200",
+    "film_350",
+    "film_700",
+    "film_2600"
+  ],
+  "time_train_max_min": 60,
+  "L_train_max_min": 240,
+  "L_fit_only": [
+    "shared_alpha_L",
+    "shared_tau_L"
+  ],
+  "L_material_from": "full_B chosen point",
+  "objective": "equal-film mean squared asinh difference, s0=1uS/cm; E=sqrt(loss)",
+  "tie_absolute_loss": 1e-10,
+  "tie_order": [
+    "lower tau",
+    "lower beta or larger q",
+    "lower alpha"
+  ],
+  "near_optimal_rule": "E_train <= 1.05 E_min + 0.01; not a confidence set",
+  "sensitivity_fullB_no_refit": [
+    {
+      "r_s_nm": 0.25
+    },
+    {
+      "r_s_nm": 0.45
+    },
+    {
+      "all_dp_factor": 0.8
+    },
+    {
+      "all_dp_factor": 1.2
+    },
+    {
+      "sigma_ln": 0.25
+    },
+    {
+      "sigma_ln": 0.45
+    },
+    {
+      "p_z": 0.5
+    },
+    {
+      "p_z": 0.8
+    },
+    {
+      "gamma": 0.8
+    },
+    {
+      "gamma": 1.2
+    }
+  ],
+  "gates": {
+    "prescreen": "all q mean upper endpoint < observed/3 -> stop Tcal",
+    "technical_max_repair_acceptance_rounds": 2,
+    "E_time_max": 0.7,
+    "E_film_max": 0.7,
+    "improvement_vs_Ncal_min": 0.2,
+    "improvement_vs_Scal_min": 0.1,
+    "each_film_holdout_endpoint_ratio_range": [
+      0.3333333333333333,
+      3
+    ],
+    "domain_relative_P_mean_max": 0.1,
+    "water_volume_bound_fraction_max": 0.05,
+    "no_automatic_parameter_box_expansion": true
+  },
+  "budgets": {
+    "prescreen_rows": 2352,
+    "main_steady_salt_solves_max": 3600,
+    "independent_seed_solves_max": 1296,
+    "domain_check_solves_max": 240,
+    "sensitivity_solves_max": 480,
+    "total_salt_network_solves_max": 5616,
+    "hydraulic_estimates_max": 144,
+    "new_PNP_runs": 0,
+    "new_MD_runs": 0
+  },
+  "delivery": "17_学生物理约束接续成果_v8.0.1",
+  "publication": "teacher evidence review required; no publication guarantee; no automatic project closure",
+  "patch_of": "v8.0.0",
+  "patch_changes_scope": false,
+  "L_time": {
+    "unit": "min",
+    "evidence": "inferred from companion project; unconfirmed",
+    "dry_6h_meaning": "UNCONFIRMED",
+    "train_and_late_split_conditional_on_unit": true
+  }
+}

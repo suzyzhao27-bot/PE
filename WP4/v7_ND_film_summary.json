@@ -1,0 +1,199 @@
+{
+  "model": "ND",
+  "status": "some_folds_unstable",
+  "E_h": 2.4003999158496936,
+  "worst_holdout_membrane_by_asinh_E": 2600,
+  "folds": [
+    {
+      "hold_h_nm": 65,
+      "status": "multi_start_stable",
+      "any_success_pair_within_one_percent": true,
+      "selected_best_reproduced_within_one_percent": true,
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 352,
+      "best_start_index": 0,
+      "best_transformed": [
+        4.998457366784038,
+        1.7686865335870265,
+        4.33603327162218,
+        3.548445419024486,
+        1.8223336057548138
+      ],
+      "alpha_m_inv": 99645.42567993951,
+      "Q_uS_cm_per_unit_uR": 58.70654656453566,
+      "beta": 4.33603327162218,
+      "tau0_s": 3535.4558563920314,
+      "b": 1.8223336057548138,
+      "boundary_within_one_percent": [
+        "log10_alpha"
+      ],
+      "L_train_recomputed": 4.05235630467772,
+      "E_train": 2.0130465232273496,
+      "E_holdout": 2.0034067661483386,
+      "RMSE_holdout_uS_cm": 21.055485302968155,
+      "endpoint_ratio_pred_over_obs": 1.7185393773424167,
+      "max_mass_relative_error": 8.546046901588621e-16,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 120,
+      "status": "local_optimum_unstable",
+      "any_success_pair_within_one_percent": true,
+      "selected_best_reproduced_within_one_percent": false,
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 346,
+      "best_start_index": 2,
+      "best_transformed": [
+        4.9471936463249975,
+        1.724187220090025,
+        4.662834117733506,
+        3.4717108313109795,
+        0.892389039359487
+      ],
+      "alpha_m_inv": 88551.03595001413,
+      "Q_uS_cm_per_unit_uR": 52.989182582854326,
+      "beta": 4.662834117733506,
+      "tau0_s": 2962.8579565598143,
+      "b": 0.892389039359487,
+      "boundary_within_one_percent": [],
+      "L_train_recomputed": 4.423016959064998,
+      "E_train": 2.1030969923103875,
+      "E_holdout": 1.4282788288971038,
+      "RMSE_holdout_uS_cm": 18.173701769371576,
+      "endpoint_ratio_pred_over_obs": 1.8284262406229723,
+      "max_mass_relative_error": 1.518908271502183e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 200,
+      "status": "multi_start_stable",
+      "any_success_pair_within_one_percent": true,
+      "selected_best_reproduced_within_one_percent": true,
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 248,
+      "best_start_index": 0,
+      "best_transformed": [
+        4.412245026340765,
+        1.7455939700827552,
+        3.9707083608969413,
+        3.2226861955836474,
+        1.4907088308676277
+      ],
+      "alpha_m_inv": 25837.174974028603,
+      "Q_uS_cm_per_unit_uR": 55.66650691381641,
+      "beta": 3.9707083608969413,
+      "tau0_s": 1669.88358491394,
+      "b": 1.4907088308676277,
+      "boundary_within_one_percent": [],
+      "L_train_recomputed": 3.9697103248156975,
+      "E_train": 1.9924131912873138,
+      "E_holdout": 2.137585029829159,
+      "RMSE_holdout_uS_cm": 20.0296257228085,
+      "endpoint_ratio_pred_over_obs": 1.999465326903061,
+      "max_mass_relative_error": 1.7727313230961689e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 350,
+      "status": "multi_start_stable",
+      "any_success_pair_within_one_percent": true,
+      "selected_best_reproduced_within_one_percent": true,
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 351,
+      "best_start_index": 0,
+      "best_transformed": [
+        3.249561087651877,
+        1.5904809537748268,
+        1.5123589127589867,
+        3.759704358026067,
+        1.2958921152791607
+      ],
+      "alpha_m_inv": 1776.4831299735845,
+      "Q_uS_cm_per_unit_uR": 38.94762266333555,
+      "beta": 1.5123589127589867,
+      "tau0_s": 5750.4834519418455,
+      "b": 1.2958921152791607,
+      "boundary_within_one_percent": [],
+      "L_train_recomputed": 4.5240259559330855,
+      "E_train": 2.126975776997257,
+      "E_holdout": 1.5997695442928737,
+      "RMSE_holdout_uS_cm": 9.237746644218385,
+      "endpoint_ratio_pred_over_obs": 1.636305346824508,
+      "max_mass_relative_error": 2.0249199929889224e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 700,
+      "status": "local_optimum_unstable",
+      "any_success_pair_within_one_percent": false,
+      "selected_best_reproduced_within_one_percent": false,
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 239,
+      "best_start_index": 2,
+      "best_transformed": [
+        4.943491071986669,
+        1.5183273929545922,
+        4.666938526594601,
+        3.488724903564611,
+        1.0769225871901849
+      ],
+      "alpha_m_inv": 87799.30375599975,
+      "Q_uS_cm_per_unit_uR": 32.9858282184567,
+      "beta": 4.666938526594601,
+      "tau0_s": 3081.2355758211597,
+      "b": 1.0769225871901849,
+      "boundary_within_one_percent": [],
+      "L_train_recomputed": 4.2436380978687245,
+      "E_train": 2.0600092470347615,
+      "E_holdout": 1.8038754445470682,
+      "RMSE_holdout_uS_cm": 50.44984738328222,
+      "endpoint_ratio_pred_over_obs": 0.1642333468160444,
+      "max_mass_relative_error": 2.6641179896108194e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "hold_h_nm": 2600,
+      "status": "local_optimum_unstable",
+      "any_success_pair_within_one_percent": false,
+      "selected_best_reproduced_within_one_percent": false,
+      "four_start_status_counts": {
+        "solver_success": 4
+      },
+      "actual_objective_calls_total": 251,
+      "best_start_index": 2,
+      "best_transformed": [
+        4.979157912891686,
+        1.2713049740782736,
+        4.138079679752408,
+        3.4905742726458997,
+        0.9044163698663749
+      ],
+      "alpha_m_inv": 95314.2671200316,
+      "Q_uS_cm_per_unit_uR": 18.676907766297685,
+      "beta": 4.138079679752408,
+      "tau0_s": 3094.3844690102233,
+      "b": 0.9044163698663749,
+      "boundary_within_one_percent": [
+        "log10_alpha"
+      ],
+      "L_train_recomputed": 1.6093666171225154,
+      "E_train": 1.2686081416743766,
+      "E_holdout": 4.258567890536212,
+      "RMSE_holdout_uS_cm": 887.6927189115092,
+      "endpoint_ratio_pred_over_obs": 0.006837694230302697,
+      "max_mass_relative_error": 2.9065476816642278e-15,
+      "minimum_u": 0.0
+    }
+  ],
+  "scope": "six whole-membrane holdouts, each fitted on other five B curves"
+}

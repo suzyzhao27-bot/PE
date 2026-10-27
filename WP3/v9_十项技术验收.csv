@@ -1,0 +1,11 @@
+﻿check_id,status,observed_evidence
+1,PASS,"9 groups, 36 ramps"
+2,PASS,"63 examples, derivative relative error 3.6461e-07"
+3,PASS,"2D zero ψ=0 mV, σ=0, ζ=2.3345e-12 mV"
+4,PASS,"Grahame relative 0.000148398, reversal checked"
+5,PASS,v3 σ/ψ relative 2.28988e-12/1.23345e-11
+6,PASS,εPE=2.3 dense slab h=20/200/2000 nm; σ range relative 0; symmetric E_PE=0; asymmetric E_PE=-505062 V/m
+7,PASS,four free/backed states; max Gauss relative 1.10707e-11; face capacity asserted in solver
+8,PASS,Poiseuille relative 1.45795e-08; ±HS relative 0.000265387; zero current checked
+9,PASS,four states; max Δσ relative 0.00178854; max Δζ 0.536161 mV
+10,PASS,four states L doubled; top |ψ| max 5.39596e-16 mV; top velocity spread max 6.9468e-14

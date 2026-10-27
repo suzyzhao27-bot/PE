@@ -1,0 +1,12 @@
+{
+  "alpha_m_inv": 23.30439218494877,
+  "Q_original_unit": 27.710662449130805,
+  "beta": 0.0,
+  "workers": 6,
+  "serial_seconds": 10.123409900000297,
+  "parallel_first_seconds": 7.412440800000695,
+  "parallel_warm_seconds": 2.933054600000105,
+  "parallel_total_with_shutdown_seconds": 10.602641500000573,
+  "max_absolute_prediction_difference": 0.0,
+  "status": "PASS"
+}

@@ -1,0 +1,22 @@
+{
+  "h_nm": 200.0,
+  "K": 0.1,
+  "cells": 32,
+  "alpha_m_inv": 1000.0,
+  "times_min": [
+    0,
+    20,
+    60,
+    120
+  ],
+  "right_activity": [
+    0.0,
+    0.49999500005358966,
+    0.499995000059204,
+    0.49999500006664965
+  ],
+  "max_mass_relative_error": 3.3301059369462607e-11,
+  "min_u": 0.0,
+  "equilibrium_u": 0.49999500005000014,
+  "solver": "scipy.solve_ivp.BDF"
+}
