@@ -1,5 +1,11 @@
 # Stage 2 · B1 进度
 
+## 最近检查点（2026-10-28，22号计算成果设备分支同步）
+
+- **交付：** 已将既有WP1–WP4代码、轻量结果、封存JSON/PDF、阶段总结、审阅轨迹和看板共70个文件提交到`dev-zhao`，提交`3fb0bf9`（`feat: freeze Stage 2 B1 mechanism predictions`），并以普通快进推送到`origin/dev-zhao`；正式看板同步本状态。不改受保护`main`。
+- **验收与真实运行：** 暂存清单核70个文件，`git diff --cached --check`退出码0；推送前远端`dev-zhao`头与本地跟踪头同为`d4858be`，推送退出码0（`d4858be..3fb0bf9`）。推送后`git status --short --branch`显示本地与远端`dev-zhao`一致。未新增PB调用，仍437/444。
+- **边界与下一步：** 根目录两份用途未确认的`00_*.txt`留原位、未纳入提交。22号任务包和20号Book2在Git忽略的`原始资料/`，Git同步**不等于**原件或封存直接输入已在另一设备/学生处送达；学生本人/导师验收及23号目录同意仍待。下一步先核对原件交接途径及研究者对执行者要求的决定，避免重复437次PB求解。
+
 ## 最近检查点（2026-10-28，22号W/C/WC处理响应差距）
 
 - **交付：** `src/mechanism_signature_separation.py`、`data/processed/salt_transport/22_W_C_WC_处理响应差距_20261028.csv`（162行）、`阶段总结/20261028_22号WP4_W_C_WC处理响应差距.md`；正式看板同步。只读封存54对，原JSON/PDF不改。
