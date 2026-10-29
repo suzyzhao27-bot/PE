@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import math
 
+from mechanism_wp5_mass_inventory import EXPECTED_SAMPLE_KEYS, validate_sample_events
+
 
 Interval = tuple[float, float]
 
@@ -35,12 +37,15 @@ def inventory_interval(items: list[tuple[float, Interval]]) -> Interval:
 
 def recovery_interval(initial_pools: list[tuple[float, Interval]],
                       final_pools: list[tuple[float, Interval]],
-                      removed_samples: list[tuple[float, Interval]]) -> dict[str, float | str]:
+                      removed_samples: list[dict[str, object]]) -> dict[str, float | str]:
     """Use post-240-minute-withdrawal final pools and all six samples exactly once."""
-    if len(initial_pools) != 2 or len(final_pools) != 2 or len(removed_samples) != 6:
-        raise ValueError("Require two pools and six measured sample intervals")
+    if len(initial_pools) != 2 or len(final_pools) != 2:
+        raise ValueError("Require two pools")
+    validate_sample_events(removed_samples)
     initial_low, initial_high = inventory_interval(initial_pools)
-    recovered_low, recovered_high = inventory_interval(final_pools + removed_samples)
+    sample_intervals = [(float(s["volume_m3"]), s["concentration_interval_mol_m3"])
+                        for s in removed_samples]
+    recovered_low, recovered_high = inventory_interval(final_pools + sample_intervals)
     if initial_high <= 0:
         raise ValueError("Initial analyte inventory cannot be zero")
     if initial_low == 0:
@@ -61,7 +66,10 @@ def synthetic_method_check() -> tuple[str, str]:
         raise ArithmeticError("LOQ censoring identity failed")
     base = [(1e-5, (1.0, 1.0)), (1e-5, (0.0, 0.0))]
     final = [(9.4e-6, (0.5, 0.5))] * 2
-    samples = [(0.2e-6, (0.5, 0.5))] * 6
+    samples = [{"nominal_time_min": minute, "actual_time_min": minute,
+                "side": side, "volume_m3": 0.2e-6,
+                "concentration_interval_mol_m3": (0.5, 0.5)}
+               for minute, side in sorted(EXPECTED_SAMPLE_KEYS)]
     certain = recovery_interval(base, final, samples)["status"]
     uncertain = recovery_interval(base, [(9.4e-6, (0.0, 1.0))] * 2, samples)["status"]
     if certain != "WHOLE_INTERVAL_WITHIN_90_110" or uncertain != "UNDETERMINED_INTERVAL_CROSSES_GATE":
