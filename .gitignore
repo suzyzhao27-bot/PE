@@ -16,6 +16,7 @@
 *api_key*
 
 # Python environments, caches, and local tooling
+.claude/
 .venv/
 venv/
 env/
