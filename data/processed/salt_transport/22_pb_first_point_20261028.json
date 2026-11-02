@@ -1,0 +1,18 @@
+{
+  "id": "PB_a2_s02_c00",
+  "a_nm": 2,
+  "sigma_C_m2": -0.002,
+  "c_mM": 0.0001,
+  "c_mol_m3": 0.0001,
+  "cells": 96,
+  "psi_axis": -12.187334531072771,
+  "psi_wall_cell": -12.296477506607765,
+  "k_plus": 207285.41874214547,
+  "k_minus": 4.829064199038185e-06,
+  "D_s_local_m2_s": 1.9606000647397883e-14,
+  "max_fv_residual": 5.486413268140922e-10,
+  "gauss_relative": 1.2352516234386713e-07,
+  "newton_iterations": 3,
+  "status": "MODEL_ONLY_NUMERIC_POINT",
+  "note": "First 96-cell fixed matrix point; no refinement or material validation"
+}

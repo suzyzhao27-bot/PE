@@ -1,0 +1,16 @@
+{
+  "source_rule": "22_04_section_6_parent_film_n3_log_effect_95pct_t_df2",
+  "n_independent_parent_films": 3,
+  "df": 2,
+  "two_sided_95pct_t_critical": 4.302652729749464,
+  "log_interval_halfwidth_per_sample_sd": 2.484137711750331,
+  "positive_log_gain_lower_bound_condition": "mean_log_gain > halfwidth_per_sample_sd * sample_sd_log_gain",
+  "pi_band": [
+    0.5,
+    2.0
+  ],
+  "log_pi_band_halfwidth": 0.6931471805599453,
+  "max_sample_sd_log_pi_for_95pct_interval_inside_band_when_mean_pi_is_1": 0.2790292894316039,
+  "general_pi_band_condition": "abs(mean_log_pi) + halfwidth_per_sample_sd * sample_sd_log_pi < log(2)",
+  "note": "Analytic design boundary only. No experimental SD, gain, or confidence interval estimated."
+}

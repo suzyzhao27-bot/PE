@@ -16,6 +16,7 @@
 *api_key*
 
 # Python environments, caches, and local tooling
+.claude/
 .venv/
 venv/
 env/
@@ -55,6 +56,7 @@ Desktop.ini
 
 # Source documents and raw office files
 *.pdf
+!paper/20261028_22号实验前预测封存摘要.pdf
 *.doc
 *.docx
 *.ppt
