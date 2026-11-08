@@ -1,0 +1,7 @@
+﻿heldout_h_nm,included_label_count,train_rms_logP_sensitivity,heldout_contrast_logP_sensitivity,heldout_to_train_ratio,parameter_point,direction
+65,5,0.6126223636603141,0.8327531996453006,1.3593254981253742,frozen_full_six_fit,weak singular vector of five included labels
+120,5,0.6648563145747419,0.4145365643081663,0.6234979727511709,frozen_full_six_fit,weak singular vector of five included labels
+200,5,0.6829777336904066,0.031106153165748496,0.045544900853017996,frozen_full_six_fit,weak singular vector of five included labels
+350,5,0.6380593400258939,0.5986199427919199,0.9381885120083447,frozen_full_six_fit,weak singular vector of five included labels
+700,5,0.4085023094801888,1.4001385279123306,3.4274923186945494,frozen_full_six_fit,weak singular vector of five included labels
+2600,5,0.07252996532340632,2.9027683252398084,40.02164225912085,frozen_full_six_fit,weak singular vector of five included labels

@@ -1,0 +1,85 @@
+{
+  "model": "ND",
+  "status": "multi_start_stable",
+  "12_start_status_counts": {
+    "solver_success": 12
+  },
+  "actual_objective_calls_total": 1367,
+  "best_start_index": 5,
+  "best_transformed": [
+    4.901512438454777,
+    1.600665394176481,
+    3.9639066871046236,
+    3.6681435773326534,
+    1.6395826849792154
+  ],
+  "alpha_m_inv": 79709.93196665886,
+  "Q_uS_cm_per_unit_uR": 39.871758868318594,
+  "beta": 3.9639066871046236,
+  "tau0_s": 4657.400412780182,
+  "b": 1.6395826849792154,
+  "boundary_within_one_percent": [],
+  "L_recomputed": 3.9391579610835463,
+  "E_sqrt_L": 1.984731206255282,
+  "best_vs_worst_success_L_relative": 1.0247056805764023,
+  "per_membrane": [
+    {
+      "h_nm": 65,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 12.31282791098209,
+      "E_asinh": 1.709940309269446,
+      "endpoint_ratio_pred_over_obs": 1.1671791143586139,
+      "max_mass_relative_error": 1.6407090941776622e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 120,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 12.062105276498325,
+      "E_asinh": 1.181431020643287,
+      "endpoint_ratio_pred_over_obs": 1.37577901353405,
+      "max_mass_relative_error": 1.5039833363295237e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 200,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 13.079652773045465,
+      "E_asinh": 1.8578879909732662,
+      "endpoint_ratio_pred_over_obs": 1.4320718594998785,
+      "max_mass_relative_error": 8.203545470888311e-16,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 350,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 2.0115187032325688,
+      "E_asinh": 0.7585381121336441,
+      "endpoint_ratio_pred_over_obs": 1.2486116509914236,
+      "max_mass_relative_error": 3.2178582065785696e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 700,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 46.35008387620847,
+      "E_asinh": 1.4049787582167705,
+      "endpoint_ratio_pred_over_obs": 0.2192807991773379,
+      "max_mass_relative_error": 1.965161247043735e-15,
+      "minimum_u": 0.0
+    },
+    {
+      "h_nm": 2600,
+      "n_train": 6,
+      "RMSE_original_uS_cm": 879.0937577537094,
+      "E_asinh": 3.648860025144327,
+      "endpoint_ratio_pred_over_obs": 0.01459834228085125,
+      "max_mass_relative_error": 4.674429712354048e-15,
+      "minimum_u": 0.0
+    }
+  ],
+  "worst_membrane_by_asinh_E": 2600,
+  "endpoint_350_over_200_observed": 0.8541666666666667,
+  "endpoint_350_over_200_predicted": 0.7447408765234509,
+  "scope": "ND full B training only; T8 formal point and all holdouts pending"
+}

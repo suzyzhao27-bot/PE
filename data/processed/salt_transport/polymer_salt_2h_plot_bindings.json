@@ -1,0 +1,144 @@
+{
+    "source_file":  "Polymer_salt_2h.opju",
+    "method":  "Origin saved graph plot ranges; read-only COM Load, no Save",
+    "plots":  [
+                  {
+                      "graph":  "Graph1",
+                      "dataset":  "Book1_B",
+                      "x_range":  "[Book1]Sheet1!A\"Time\"",
+                      "y_range":  "[Book1]Sheet1!B\"Ionic conductivity\""
+                  },
+                  {
+                      "graph":  "Graph1",
+                      "dataset":  "Book1_D",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!D\"Ionic conductivity\""
+                  },
+                  {
+                      "graph":  "Graph1",
+                      "dataset":  "Book1_E",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!E"
+                  },
+                  {
+                      "graph":  "Graph1",
+                      "dataset":  "Book1_F",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!F"
+                  },
+                  {
+                      "graph":  "Graph1",
+                      "dataset":  "Book1_G",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!G"
+                  },
+                  {
+                      "graph":  "Graph1",
+                      "dataset":  "Book1_H",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!H"
+                  },
+                  {
+                      "graph":  "Graph1",
+                      "dataset":  "Book1_I",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!I"
+                  },
+                  {
+                      "graph":  "Graph1",
+                      "dataset":  "Book1_K",
+                      "x_range":  "[Book1]Sheet1!J",
+                      "y_range":  "[Book1]Sheet1!K"
+                  },
+                  {
+                      "graph":  "Graph2",
+                      "dataset":  "Book1_B",
+                      "x_range":  "[Book1]Sheet1!A\"Time\"",
+                      "y_range":  "[Book1]Sheet1!B\"Ionic conductivity\""
+                  },
+                  {
+                      "graph":  "Graph2",
+                      "dataset":  "Book1_D",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!D\"Ionic conductivity\""
+                  },
+                  {
+                      "graph":  "Graph2",
+                      "dataset":  "Book1_E",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!E"
+                  },
+                  {
+                      "graph":  "Graph2",
+                      "dataset":  "Book1_F",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!F"
+                  },
+                  {
+                      "graph":  "Graph2",
+                      "dataset":  "Book1_G",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!G"
+                  },
+                  {
+                      "graph":  "Graph4",
+                      "dataset":  "Book1_B",
+                      "x_range":  "[Book1]Sheet1!A\"Time\"",
+                      "y_range":  "[Book1]Sheet1!B\"Ionic conductivity\""
+                  },
+                  {
+                      "graph":  "Graph4",
+                      "dataset":  "Book1_D",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!D\"Ionic conductivity\""
+                  },
+                  {
+                      "graph":  "Graph4",
+                      "dataset":  "Book1_E",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!E"
+                  },
+                  {
+                      "graph":  "Graph4",
+                      "dataset":  "Book1_F",
+                      "x_range":  "[Book1]Sheet1!C\"Time\"",
+                      "y_range":  "[Book1]Sheet1!F"
+                  },
+                  {
+                      "graph":  "Graph3",
+                      "dataset":  "Book2_B",
+                      "x_range":  "[Book2]Sheet1!A\"Time\"",
+                      "y_range":  "[Book2]Sheet1!B\"Ionic conductivity\""
+                  },
+                  {
+                      "graph":  "Graph3",
+                      "dataset":  "Book2_C",
+                      "x_range":  "[Book2]Sheet1!A\"Time\"",
+                      "y_range":  "[Book2]Sheet1!C"
+                  },
+                  {
+                      "graph":  "Graph3",
+                      "dataset":  "Book2_D",
+                      "x_range":  "[Book2]Sheet1!A\"Time\"",
+                      "y_range":  "[Book2]Sheet1!D"
+                  },
+                  {
+                      "graph":  "Graph3",
+                      "dataset":  "Book2_F",
+                      "x_range":  "[Book2]Sheet1!E",
+                      "y_range":  "[Book2]Sheet1!F"
+                  },
+                  {
+                      "graph":  "Graph3",
+                      "dataset":  "Book2_H",
+                      "x_range":  "[Book2]Sheet1!G",
+                      "y_range":  "[Book2]Sheet1!H"
+                  },
+                  {
+                      "graph":  "Graph3",
+                      "dataset":  "Book2_I",
+                      "x_range":  "[Book2]Sheet1!G",
+                      "y_range":  "[Book2]Sheet1!I"
+                  }
+              ]
+}

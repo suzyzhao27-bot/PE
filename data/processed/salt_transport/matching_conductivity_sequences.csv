@@ -1,0 +1,4 @@
+canonical_curve_id,matching_curve_id,same_time_grid,mismatched_point_indices,interpretation
+Polymer_salt_2h:Book1:Sheet1:65 nm,Polymer_salt_2h:Book2:Sheet1:65 nm,True,,same conductivity sequence; not an independent replicate
+Polymer_salt_2h:Book1:Sheet1:700 nm,Polymer_salt_2h:Book2:Sheet1:700 nm,False,5,same conductivity sequence; not an independent replicate
+Polymer_salt_2h:Book1:Sheet1:2600 nm,Polymer_salt_2h:Book2:Sheet1:2600 nm,False,5,same conductivity sequence; not an independent replicate

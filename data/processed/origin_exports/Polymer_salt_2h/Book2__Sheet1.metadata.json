@@ -1,0 +1,94 @@
+{
+  "sheet_range": "[Book2]Sheet1",
+  "workbook": "Book2",
+  "worksheet": "Sheet1",
+  "worksheet_long_name": "",
+  "origin_rows": 32,
+  "origin_columns": 9,
+  "exported_rows": 7,
+  "exported_columns": 9,
+  "csv_file": "Book2__Sheet1.csv",
+  "columns": [
+    {
+      "index": 0,
+      "short_name": "A",
+      "long_name": "Time",
+      "units": "min",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 1,
+      "short_name": "B",
+      "long_name": "Ionic conductivity",
+      "units": "μS/cm",
+      "comments": "R65 nm",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 2,
+      "short_name": "C",
+      "long_name": "",
+      "units": "",
+      "comments": "R700 nm",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 3,
+      "short_name": "D",
+      "long_name": "",
+      "units": "",
+      "comments": "R2600 nm",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 4,
+      "short_name": "E",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 5,
+      "short_name": "F",
+      "long_name": "",
+      "units": "",
+      "comments": "65 nm",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 6,
+      "short_name": "G",
+      "long_name": "",
+      "units": "",
+      "comments": "",
+      "designation": 3,
+      "data_format": 9
+    },
+    {
+      "index": 7,
+      "short_name": "H",
+      "long_name": "",
+      "units": "",
+      "comments": "700 nm",
+      "designation": 0,
+      "data_format": 9
+    },
+    {
+      "index": 8,
+      "short_name": "I",
+      "long_name": "",
+      "units": "",
+      "comments": "2600 nm",
+      "designation": 0,
+      "data_format": 9
+    }
+  ]
+}

@@ -1,143 +1,190 @@
-# 超薄 PE 纤维膜的界面荷电、离子选择性与盐输运
+# 超薄 PE 纤维膜：界面状态、离子选择性与盐输运
 
-本目录用于双人协作维护代码、说明文档和轻量配置。`原始资料/` 保留原始交付包、文献、实验快照、历史版本和既有结果，按根目录 `.gitignore` 规则不进入后续 Git 管理。
+本仓库研究一个反常的传质问题：为什么历史实验中，名义厚度更小的超薄 UHMWPE 纤维膜，盐迁移反而可能显著低于厚膜？项目不预设“荷电必然排盐”，而是把共同传质能力、界面荷电、离子额外响应、装置外阻和实验状态放入同一套可核验框架。
 
-## 目录结构
+> 当前阶段（2026-11-03）：中文论文初稿已按导师确定的五图逻辑重构为原创研究Article，正文依次回答“本批现象—替代解释—双探针分解—独立能力约束—留出预测”。历史百至千倍能力必要界作为图4的数量参照，不取代同批盐/尿素、外阻和留出实测；最终中心结论由真实实验结果决定。
+
+![第一轮 Figure 1 面板布局示例](data/processed/salt_transport/20261102_first_round_Fig1.png)
+
+图中 `DATA PENDING` 是主动保留的实测位置，不是零值，也不是模拟数据。
+
+## 一眼看懂项目
+
+### 科学问题
+
+历史 B/R 盐曲线提示，65 nm 组的盐迁移可远低于 2600 nm 组，乙醇预湿后又可能出现强响应。单纯的“膜越薄、路径越短”关系无法解释这一组合现象。
+
+本项目因此追问：
+
+1. 盐和中性小分子共同经历的有效传质限制贡献多少？
+2. 盐相对于中性探针是否还有稳定的离子额外响应？
+3. 厚度、预湿状态和盐度变化能否由同一组受约束参数解释？
+4. 模型能否预测未参与校准的留出条件，而不是逐曲线自由拟合？
+
+### 理论框架
+
+总传递阻力分为装置外阻、孔口阻力和膜内阻力。膜内迁移同时考虑扩散、分配和带电孔中的离子电迁移。组合能力
 
 ```text
-src/
-  v2_training/             标准库训练、情景扫描与测试
-  long_tube_diagnostic/    长管 PB-NP 受限诊断
-  surface_pb/              纤维外水域 PB 与荷电调节
-  finite_pnp/              有限二维 PNP 与五排纤维计算
-原始资料/                  原始交付和数据，只读参考，不纳入 Git
-项目说明与行动清单.md      研究背景、边界与待办
-资料分类索引.md            资料地图
+b = εf / τ
 ```
 
-本次仅创建 `src/`。未创建独立 `scripts/`，因为现有入口脚本依赖同目录中的模块；保持同目录可避免改变其导入方式。
+表示可达面积、连通性和曲折度等共同作用。`b` 不是实测湿孔数、润湿率或单一微观机制。
 
-## 代码来源与复制映射
+中性尿素用于独立约束共同传质能力，再以盐数据检验剩余的离子响应。ζ 电位和 KPFM 只作为辅助电性背景，不能直接替代高盐孔内表面电荷密度。
 
-| 共享副本 | 原始位置 |
+### 关键术语
+
+| 术语 | 含义 |
 |---|---|
-| `src/v2_training/models.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/03_学生计算_v1训练/models.py` |
-| `src/v2_training/pipeline.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/03_学生计算_v1训练/pipeline.py` |
-| `src/v2_training/run_demo.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/03_学生计算_v1训练/run_demo.py` |
-| `src/v2_training/run_scenario.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/03_学生计算_v1训练/run_scenario.py` |
-| `src/v2_training/test_models.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/03_学生计算_v1训练/test_models.py` |
-| `src/v2_training/tests_pipeline.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/03_学生计算_v1训练/tests_pipeline.py` |
-| `src/long_tube_diagnostic/long_tube_np.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/02_长管PB_NP诊断/long_tube_np.py` |
-| `src/long_tube_diagnostic/pb_v1_readonly_copy.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/02_长管PB_NP诊断/pb_v1_readonly_copy.py` |
-| `src/long_tube_diagnostic/run_diagnostic.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/02_长管PB_NP诊断/run_diagnostic.py` |
-| `src/long_tube_diagnostic/test_diagnostic.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/02_长管PB_NP诊断/test_diagnostic.py` |
-| `src/long_tube_diagnostic/plot_charge_flux.py` | `原始资料/赵珈绮/01_研究框架与资料_v2/02_长管PB_NP诊断/plot_charge_flux.py` |
-| `src/surface_pb/fibre_pb.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/surface/fibre_pb.py` |
-| `src/surface_pb/run_surface.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/surface/run_surface.py` |
-| `src/surface_pb/test_surface.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/surface/test_surface.py` |
-| `src/surface_pb/plot_surface.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/surface/plot_surface.py` |
-| `src/finite_pnp/solver.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/finite_pnp/solver.py` |
-| `src/finite_pnp/run.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/finite_pnp/run.py` |
-| `src/finite_pnp/run_multifiber.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/finite_pnp/run_multifiber.py` |
-| `src/finite_pnp/refine_multifiber.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/finite_pnp/refine_multifiber.py` |
-| `src/finite_pnp/tests.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/finite_pnp/tests.py` |
-| `src/finite_pnp/plot_fields.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/finite_pnp/plot_fields.py` |
-| `src/finite_pnp/plot_multifiber_fields.py` | `原始资料/赵珈绮/02_荷电与选择性实算_v3/finite_pnp/plot_multifiber_fields.py` |
+| 历史 B/R | 历史基线组与乙醇预湿组；未认证为同母膜配对 |
+| 新批 B/E | 新实验设计中的基线裁片与乙醇预湿裁片；以同一母膜为配对单位 |
+| C1/C2 | 将历史电导读数换算为盐转移量的两种条件情景，不是两张独立母膜 |
+| W2 | 历史曲线的 60–100 min 分析窗口，不是新实验的 100 min 取样点 |
+| G1 | 归档带电孔迁移算子族；G0 为零电荷参照，G2 为小孔/短孔压力情景 |
+| `δ = 0.20` | 历史区间等效速率使用的 20% 操作性容差，不是统计误差条 |
+| E1 | 同组曲线共享非负装置外阻的条件；逐曲线自由外阻属于另一取消分支 |
+| `Γ` | 允许的厚薄几何尺度比；`Γ = 10` 是试探情景，不是实测值 |
+| T12 | 10 mM 高盐算子中的未决数值子集，尚未达到原定误差门槛 |
 
-还复制了三个运行所需的小型文件：
+### 当前最重要的结果
 
-- `src/v2_training/scenario_template.json`：`run_scenario.py` 的示例输入。
-- `src/v2_training/DATA_TEMPLATE.csv`：真实实验数据输入模板，不含原始实验数据。
-- `src/long_tube_diagnostic/pb_source_identity.json`：PB 只读副本的身份登记；其中的旧绝对路径仅为溯源文本，计算代码不读取该旧位置。
+在已声明的双池、共享外阻和归档模型范围内，历史 W2 盐数据要求很大的厚薄有效能力差异：
 
-## 模块说明与运行
+- G1、`δ = 0.20`、E1 条件下，`b(B2600)/b(B65)` 的 C1/C2 必要下界为 **1358.48/1369.88**。
+- 即使允许试探几何比 `Γ = 10`，相应下界仍为 **135.85/136.99**。
+- 这些值是模型域内的必要条件，不是新膜的实测 `b`，也不是对所有荷电机制的排除。
+- 若允许每条曲线拥有独立自由外阻，单窗口正下界可以被取消。这说明外阻实测是机制识别的必要条件。
 
-### 运行环境（Windows）
+当前最稳健的论文价值不是宣布某个唯一微观机制，而是把历史反常现象转化为强数量级约束，并提出可由中性探针和留出预测直接检验的路径。
 
-已在 Python 3.14.7 下验证。建议在项目根目录创建隔离环境；Windows 请使用 `py -3.14`，而非可能指向 Microsoft Store 占位程序的 `python`。
+## 当前证据边界
+
+| 已完成并可复核 | 尚缺、不能写成实测结论 |
+|---|---|
+| 历史盐数据整理与身份审查 | 新批次同母膜 B/E 配对结果 |
+| 串联阻力与有效能力模型 | 每次运行同测 NaCl/尿素的完整时程 |
+| A：历史盐曲线的必要能力界 | 无 PE 外阻、库存、净流和质量回收闭合 |
+| B：固定状态速率范围诊断 | 九张母膜的实测厚度与身份闭合 |
+| D：旧盐条件下的尿素响应范围预测 | 2 个校准条件和 8 个留出条件的实测检验 |
+| 第一轮中英文稿、五图20面板布局及图件 QA | T12 高盐数值误差的最终裁定 |
+
+历史 B/R 未认证为同母膜配对；逐运行池体积、取样补液和净流也未完全恢复。因此历史曲线用于提出问题和约束模型，不作为新批次机制验证。
+
+## 从哪里开始读
+
+| 读者目标 | 首选入口 |
+|---|---|
+| 快速了解论文要讲什么 | [第一轮逻辑、图组与数据缺口](paper/20261102_论文第一轮_逻辑图组与缺口.md) |
+| 阅读当前中文论文初稿 | [PE 超薄膜论文中文初稿（高分刊逻辑重构版）](paper/20261103_PE超薄膜论文中文初稿_高分刊逻辑重构版.md) |
+| 阅读英文讨论稿 | [English first-round draft](paper/20261102_PE_ultrathin_membrane_first_round_draft.md) |
+| 查看当前正式状态 | [项目进展计划与任务看板](项目进展计划与任务看板.md) |
+| 理解研究背景和长期边界 | [项目说明与行动清单](项目说明与行动清单.md) |
+| 复现导师 v5 主模型 | [effective network model](src/effective_network_model/README.md) |
+| 核查结果如何进入论文主张 | [paper/review-traces](paper/review-traces/) |
+| 查看阶段性科研结论 | [阶段总结](阶段总结/) |
+
+## 五张主图各自证明什么
+
+| 主图 | 论证任务 | 当前状态 |
+|---|---|---|
+| Fig. 1 | 建立本批材料、H 池设计、厚度和盐迁移现象 | 设计示意已完成；材料身份和本批盐曲线待测 |
+| Fig. 2 | 排查装置外阻、尿素扰动、等待时间和层数等替代解释 | 四组控制均待实测 |
+| Fig. 3 | 用同次盐/尿素测量拆分共同响应与离子额外响应 | 三个核心数据面板待实测 |
+| Fig. 4 | 将历史盐现象转化为有效能力必要界，并与中性探针约束比较 | 模型、解析参照和历史界已完成；尿素约束待测 |
+| Fig. 5 | 用 2 个校准和 8 个留出条件检验跨厚度、跨盐度预测 | 条件矩阵已冻结；预测、残差和判别待实测 |
+
+完整 PNG/SVG 和图件审计位于 `data/processed/salt_transport/20261102_first_round_Fig*`。五张图的 alignment 和 collision 审计均为 `PASS`。
+
+## 仓库结构
+
+```text
+.
+├─ paper/                         论文草稿、图组说明和审阅轨迹
+├─ src/                           模型、数据接入、机制核验和绘图代码
+│  ├─ effective_network_model/   导师 v5 主模型及后续诊断
+│  ├─ data_ingest/               Origin 只读解码、长表整理和质量检查
+│  ├─ surface_pb/                纤维外水域 PB 与荷电调节
+│  ├─ finite_pnp/                有限二维 PNP 与多排纤维计算
+│  ├─ long_tube_diagnostic/      长管 PB-NP 受限诊断
+│  └─ mechanism_*.py             当前论文范围的解析与数值核验
+├─ data/processed/               可追溯的轻量 CSV/JSON/PNG/SVG 结果
+├─ WP1/ ... WP6/                 问题、求解、拟合、留出和写作工作包
+├─ 阶段总结/                     各阶段的正式科研结论
+├─ .planning/                    跨会话任务检查点
+├─ 复现记录_*.md                 环境、命令和验证证据
+├─ 项目进展计划与任务看板.md     唯一正式任务状态来源
+├─ 项目说明与行动清单.md         背景、边界和长期行动入口
+└─ AGENTS.md                     双设备协作与科研文件规范
+```
+
+`原始资料/` 保存原始交付、实验快照、文献和历史版本。该目录受 `.gitignore` 保护，不上传 GitHub，也不应被处理结果覆盖。
+
+## 环境与复现
+
+项目当前在 Windows、Python 3.14.7 下维护。已验证依赖：
+
+```text
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+```
+
+创建环境：
 
 ```powershell
 py -3.14 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-之后，所有需要科学计算库的命令均用 `..\..\.venv\Scripts\python.exe` 执行。绘图前，可在相应模块目录将 Matplotlib 缓存置于本地工作目录，避免默认缓存目录权限警告：
+### 推荐复现入口
+
+| 目标 | 入口 | GitHub 克隆版状态 | 说明 |
+|---|---|---|---|
+| 导师 v5 主模型 | `src/effective_network_model/run_reproduction.ps1` | **公开可跑** | 必要轻量输入已跟踪；输出到仓库外的新目录 |
+| 第一轮论文组图 | `src/render_first_round_manuscript_figures.py` | **仅代码和结果公开** | 脚本启动时会导入本机固定路径下的 `nature-figure` 对齐审计工具；没有该工具会直接失败，不能按普通 Matplotlib 脚本独立运行 |
+| A 主条件解析核对 | `src/mechanism_paper_a_main_certificates.py` | **本地输入必需** | 依赖受 Git 忽略的原始任务包；用于项目内部复核 |
+| D 中性探针条件范围 | `src/mechanism_paper_d_neutral_projection.py` | **本地输入必需** | 依赖受 Git 忽略的原始任务包；输出条件预测，不是实测结果 |
+| 旧数据接入与质量检查 | `src/data_ingest/` | **本地输入和 Origin 必需** | 原始 OPJU 只读处理；部分脚本还需要 Windows Origin COM |
+
+主模型最小复现示例：
 
 ```powershell
-New-Item -ItemType Directory -Force .mplconfig | Out-Null
-$env:MPLCONFIGDIR = (Resolve-Path .mplconfig).Path
+powershell -NoProfile -ExecutionPolicy Bypass `
+  -File .\src\effective_network_model\run_reproduction.ps1 `
+  -OutputDirectory 'D:\CodexWorkspaces\pe-v5-run-001'
 ```
 
-### `src/v2_training`
+只复现标准库 core 时，在命令末尾添加 `-CoreOnly`。每次使用新的仓库外输出目录。
 
-这是标准库训练模块，提供圆柱 PB、Donnan/中性对照、储液池曲线、参数情景和训练/冻结演示。
+部分当前论文脚本需要 `原始资料/` 中的受限输入。GitHub 克隆版保留代码、轻量结果和审查轨迹，但不包含全部原始输入，因此不能把“脚本可读”误解为“所有内部计算可由公开克隆独立重跑”。
 
-```powershell
-cd src/v2_training
-python -m unittest -v test_models tests_pipeline
-python run_demo.py
-python run_scenario.py --config scenario_template.json --out my_scenario_001
-python pipeline.py demo
-```
+## 数据与结论规范
 
-依赖：Python 标准库。`run_demo.py` 和 `pipeline.py` 默认生成 synthetic 输出。若要处理真实数据，需由使用者提供符合 `DATA_TEMPLATE.csv` 字段的轻量 CSV；真实数据来源、样品身份和实验边界均待确认。
+- 不编造缺失实验值、误差条、文献或参数。
+- 区分实验事实、理论预测、模型假设和待验证推测。
+- `model envelope` 是条件参数范围，不等于统计置信区间。
+- 低于检测限的数据以区间处理，不代入 0 或半检测限。
+- 同一盐曲线不能同时自由拟合机制参数并充当独立验证。
+- 图中的连线、示意和空白位置不构成新增观测。
+- 原始资料、历史记录和不同实验版本不删除、不覆盖、不擅自移动。
 
-### `src/long_tube_diagnostic`
+## 分支与协作
 
-这是受限长圆管 PB-NP 诊断，用于说明固定表面电荷不必然降低共同盐通量。它不是有限长度真实膜模型。
+本项目由同一研究者通过两台设备维护：
 
-```powershell
-cd src/long_tube_diagnostic
-python test_diagnostic.py
-python run_diagnostic.py
-python plot_charge_flux.py  # 可选，需要已有 matplotlib
-```
+- `main`：受保护的权威共享分支。
+- `dev-zhao`、`dev-yi`：设备开发分支，不代表不同研究者。
+- 不得直接修改受保护的 `main`，不得强推、擅自合并、变基、重写历史或覆盖另一设备工作。
 
-依赖：核心测试与计算只用 Python 标准库；绘图需要已有 matplotlib。`run_diagnostic.py` 会在本目录创建 `outputs/`。
+切换设备前，先更新正式看板和当前 `.planning/` 检查点，再提交并推送设备分支。详细规则见 [AGENTS.md](AGENTS.md)。
 
-### `src/surface_pb`
+## 当前下一步
 
-这是纤维外水域的非线性 PB 与自洽荷电调节模块，包含固定电荷、H/OH 或 Na/Cl 吸附、酸性位点等假设边界。
+1. 由导师审阅核心叙事、五图顺序和旧计算进入正文的程度。
+2. 按既定 WP5 质量门完成检测限、探针扰动、外阻、质量回收、净流和库存核验。
+3. 取得同母膜 B/E 的 NaCl/尿素双探针数据及实测厚度。
+4. 先用尿素约束共同能力，再运行预定的 2 校准/8 留出盐条件检验。
+5. 依据真实结果收缩或确认论文主张，不为填图增加虚构数据或自由参数。
 
-```powershell
-cd src/surface_pb
-python test_surface.py
-python run_surface.py
-python plot_surface.py  # 可选，需要已有 matplotlib
-```
-
-依赖：NumPy、SciPy；绘图额外需要 matplotlib。`run_surface.py` 会生成 `src/outputs/`。模型位点密度、结合参数和化学机制均为待实验约束的假设，不得表述为实测 PE 性质。
-
-### `src/finite_pnp`
-
-这是有限二维 Poisson-Nernst-Planck 主模型，计算实体纤维、间隙、入口和外水域的 Na+/Cl- 输运、理论开路电位及五排纤维结果。
-
-```powershell
-cd src/finite_pnp
-python tests.py
-python run.py
-python run_multifiber.py
-python refine_multifiber.py
-python plot_fields.py             # 可选，需要已有 matplotlib 和 run.py 输出
-python plot_multifiber_fields.py  # 可选，需要已有 matplotlib 和 refine_multifiber.py 输出
-```
-
-依赖：NumPy、SciPy；绘图额外需要 matplotlib。`run.py` 首次创建本目录 `outputs/`；因此请先执行 `run.py`，再运行 `run_multifiber.py` 或 `refine_multifiber.py`。后两者与绘图脚本都依赖此前生成的 JSON/CSV/NPZ 输出，但不依赖原始论文或实验数据。
-
-## 未复制的脚本
-
-以下脚本留在 `原始资料/`，因为它们服务于原始资料溯源、文献获取、数据审计或制报环境，而不是当前共享计算入口：
-
-- `04_文献_v1阅读包` 的文献获取/构建脚本；它们涉及来源资产和版权资料。
-- `05_真实数据_v1核查/audit_sources.py` 与 `verify_original_conversion.py`；它们依赖原始 XLS、OPJU、PDF、DOCX 快照。
-- v2/v3 的 `build_*_report.py`、`research/` 脚本与验收脚本；它们依赖制报资源、原机来源或研究数据登记。
-
-若需要将其中某一类脚本纳入协作，先确认其原始数据是否可公开、是否需要去标识化，以及其输入是否应当在仓库外通过配置路径提供。
-
-## 路径、数据与协作注意事项
-
-- 当前复制的主计算脚本未发现会打开原机绝对路径的代码。原始 README 中的 macOS 解释器路径仅是历史运行记录。
-- 代码使用同目录导入，例如 `from solver import ...` 和 `from models import ...`。请在对应模块目录内运行，或保持脚本与同目录模块一起移动。
-- 已有 `.gitignore` 会忽略 `*.npz`、原始 Office/PDF/Origin 文件、压缩包和 `原始资料/`。新运行产生的 CSV/JSON/PNG 是否进入版本库，须在代码审阅时按“可复现、小型、非敏感”原则逐项决定。
-- 已提供 `requirements.txt`；在 Windows/Python 3.14.7 环境中已验证 NumPy 2.5.4、SciPy 1.18.1 与 Matplotlib 3.11.2。虚拟环境 `.venv/` 会被 Git 忽略。
-- 复制后代码与原始副本分别演化。每次共同修改前，应在提交说明中记录对应原始版本/文件哈希和物理假设变化。
+当前稿件已具备第一轮导师讨论条件，尚不具备结果完整的投稿条件。

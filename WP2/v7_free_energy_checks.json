@@ -1,0 +1,117 @@
+{
+  "config_sha256": "43ee34e2a671bf52284d41e2fdb72925535f6406b305be5d48980e6bba3a31ab",
+  "runs": [
+    {
+      "beta": 0.0,
+      "initial": "main_zero",
+      "times_min": [
+        0.0,
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        60.0,
+        120.0
+      ],
+      "normalized_F": [
+        -1.0,
+        -1.0876351691835282,
+        -1.4208700877142546,
+        -1.6927522021262387,
+        -1.693176380133621,
+        -1.6931763801333988,
+        -1.693176380132472,
+        -1.693176380131864
+      ],
+      "max_upward_F_step_over_scale": 9.267335355220046e-13,
+      "mass_relative_error": 2.5451710390118603e-12,
+      "minimum_u": 0.0,
+      "normalization": "max(abs(F_initial),initial_total_salt); F/(RT*C0) in volume units"
+    },
+    {
+      "beta": 0.0,
+      "initial": "positive",
+      "times_min": [
+        0.0,
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        60.0,
+        120.0
+      ],
+      "normalized_F": [
+        -1.0,
+        -1.0032062822132501,
+        -1.0235541510485644,
+        -1.045971842405828,
+        -1.046010121575096,
+        -1.0460101215751019,
+        -1.0460101215748303,
+        -1.0460101215746531
+      ],
+      "max_upward_F_step_over_scale": 2.7163791667527664e-13,
+      "mass_relative_error": 1.9120863453990143e-12,
+      "minimum_u": 0.24999999999999997,
+      "normalization": "max(abs(F_initial),initial_total_salt); F/(RT*C0) in volume units"
+    },
+    {
+      "beta": 3.0,
+      "initial": "main_zero",
+      "times_min": [
+        0.0,
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        60.0,
+        120.0
+      ],
+      "normalized_F": [
+        -1.0,
+        -1.000174153497959,
+        -1.0014183820803095,
+        -1.0108566711241207,
+        -1.074548158559667,
+        -1.3772070443945565,
+        -1.6773397902702223,
+        -1.6926535816153923
+      ],
+      "max_upward_F_step_over_scale": -0.00017415349795893144,
+      "mass_relative_error": 1.2906708455516226e-14,
+      "minimum_u": 0.0,
+      "normalization": "max(abs(F_initial),initial_total_salt); F/(RT*C0) in volume units"
+    },
+    {
+      "beta": 3.0,
+      "initial": "positive",
+      "times_min": [
+        0.0,
+        0.001,
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        60.0,
+        120.0
+      ],
+      "normalized_F": [
+        -1.0,
+        -1.0000029694544414,
+        -1.0000273089823004,
+        -1.0002699827029848,
+        -1.002626027610039,
+        -1.020378984759507,
+        -1.044583967548834,
+        -1.0459594464800248
+      ],
+      "max_upward_F_step_over_scale": -2.969454441401809e-06,
+      "mass_relative_error": 1.9333499031188893e-14,
+      "minimum_u": 0.24999999999999997,
+      "normalization": "max(abs(F_initial),initial_total_salt); F/(RT*C0) in volume units"
+    }
+  ]
+}

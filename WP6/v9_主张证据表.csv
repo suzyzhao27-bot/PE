@@ -1,0 +1,8 @@
+﻿claim_id,claim,status,evidence,boundary
+C1,输入为9组36Ramp且保留反向流量/低R²,DATA_AUDIT_PASS,WP1/v9_数据审计.json,独立膜数、真实盐、仪器法向未认证
+C2,四物种PB/荷电调节/观察算子在冻结案例技术通过,TECHNICAL_PASS,WP3/v9_技术验收.json,技术PASS不证明真实PE化学
+C3,182三组存在冻结相容化学,NOT_SUPPORTED_OPTIMIZATION_UNRESOLVED,WP4/v9_第4步判定.json,最小E=1.0037188>1；8起点未证稳定
+C4,共同化学预测357/604六组,NOT_RUN_PREDECLARED_GATE,WP4/v9_182校准与固定分支.md,没有相容集合，不按留出集调参
+C5,薄化增强真实PE界面荷电,NOT_SUPPORTED,WP5/v9_第5步验收.json,旧示例N4/N11差低于10%和五倍误差，仅MODEL_ONLY
+C6,有限PE介电敏感性触发预定物理风险界,NO_TRIGGER_MODEL_ONLY,WP5/v9_MODEL_ONLY_八项敏感性判定.json,差值低于网格误差；不能据此测得真实ε或位点
+C7,现有证据支持正面材料机制投稿,NOT_SUPPORTED_MENTOR_REVIEW_PENDING,WP6/v9_论文中文稿.md,导师审阅未发生；理论边界稿也未获材料解释证据

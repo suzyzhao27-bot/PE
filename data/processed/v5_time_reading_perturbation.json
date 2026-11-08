@@ -1,0 +1,73 @@
+{
+  "source": "src\\effective_network_model\\core\\inputs\\Book1__Sheet1.csv",
+  "curve": "Book1 C/E, 200 nm label",
+  "times_min": [
+    0,
+    20,
+    40,
+    120
+  ],
+  "raw_conductivity_readings": [
+    1.53,
+    2.35,
+    2.7,
+    15.45
+  ],
+  "unit_status": "Book1 E column inherits table conductivity unit; curve-level confirmation pending",
+  "original_endpoint_increment": 13.92,
+  "assumption": "Fixed-volume well-mixed finite bath; affine conductivity-to-concentration map; no sampling or extra salt; k(t)>=0 and nondecreasing",
+  "epsilon_infimum_raw_table_units": 0.1109722413460339,
+  "epsilon_over_original_endpoint_increment": 0.007972143774858756,
+  "boundary_delta_pattern_0_20_40_120": [
+    1,
+    -1,
+    1,
+    -1
+  ],
+  "boundary_perturbed_readings": [
+    1.640972241346034,
+    2.2390277586539664,
+    2.8109722413460343,
+    15.339027758653966
+  ],
+  "boundary_q20_q40_q120": [
+    0.5980555173079325,
+    1.1700000000000004,
+    13.698055517307932
+  ],
+  "boundary_first_condition_margin": -3.941291737419306e-15,
+  "attainment": "Infimum only: at the exact boundary Qeq=q120 gives divergent X120; any slightly larger epsilon admits a finite-Q witness",
+  "finite_witness": {
+    "epsilon_raw_table_units": 0.1110722413460339,
+    "readings_0_20_40_120": [
+      1.641072241346034,
+      2.238927758653966,
+      2.811072241346034,
+      15.338927758653965
+    ],
+    "Qeq_raw_table_increment_units": 13.718256027381862,
+    "Qeq_allowed_upper_bound": 13.901860618047246,
+    "transformed_segment_slopes_per_min": [
+      0.002227959638951134,
+      0.0022293307886198563,
+      0.08027221335975632
+    ]
+  },
+  "conditional_120_2600_crossing_at_same_epsilon": [
+    {
+      "time_min": 20,
+      "normalized_gap_lower": 0.14019633279612856,
+      "normalized_gap_upper": 0.17115610272888046,
+      "guaranteed_positive": true,
+      "guaranteed_negative": false
+    },
+    {
+      "time_min": 40,
+      "normalized_gap_lower": -0.16253451340739722,
+      "normalized_gap_upper": -0.13157474347464526,
+      "guaranteed_positive": false,
+      "guaranteed_negative": true
+    }
+  ],
+  "interpretation": "Hypothetical robustness threshold, not measured instrument error, confidence interval, or proof about all dynamic transport models"
+}

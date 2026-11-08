@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "checked_manifest_files": 62,
+  "prediction_groups": 54,
+  "experiment_rows": 54,
+  "sensitivity_rows": 648,
+  "pdf_pages": 1,
+  "issues": [],
+  "scope": "Manifest, source-row, pair identity, pool state, experiment map, PB budget and PDF linkage; no model rerun."
+}

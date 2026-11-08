@@ -16,6 +16,7 @@
 *api_key*
 
 # Python environments, caches, and local tooling
+.claude/
 .venv/
 venv/
 env/
@@ -24,7 +25,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+.test_tmp/
 .mplconfig/
+fontlist-v*.json
 .mypy_cache/
 .ruff_cache/
 .tox/
@@ -49,9 +52,11 @@ Desktop.ini
 *.tar.gz
 *.tgz
 *.gz
+!WP2/v7_network_tables.jsonl.gz
 
 # Source documents and raw office files
 *.pdf
+!paper/20261028_22号实验前预测封存摘要.pdf
 *.doc
 *.docx
 *.ppt
@@ -74,6 +79,7 @@ Desktop.ini
 
 # Project archives, raw material, and historical copies
 /原始资料/
+/13_导师第三次审阅材料_20261022/
 /90_历史与工作底稿/
 /03_发送用ZIP/
 /04_开题会_20261014/制作与核验/

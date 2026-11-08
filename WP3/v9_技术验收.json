@@ -1,0 +1,81 @@
+{
+  "overall": "TECHNICAL_PASS",
+  "passed_checks": 10,
+  "total_checks": 10,
+  "calibration_run": false,
+  "dense_slab_scope": "1D coupled finite dielectric only; 2D fiber dielectric sensitivity remains step 5",
+  "dielectric": [
+    {
+      "h_nm": 20,
+      "sigma_left_C_m2": -0.006432074647364514,
+      "sigma_right_C_m2": -0.006432074647364514,
+      "psi_left_mV": -67.75365299943175,
+      "psi_right_mV": -67.75365299943175,
+      "E_PE_V_m": -0.0,
+      "displacement_PE_C_m2": 0.0,
+      "total_Gauss_absolute_C_m2": 2.937530919417404e-14,
+      "newton_iterations": 5,
+      "scaled_residual": 4.718447854656915e-14
+    },
+    {
+      "h_nm": 200,
+      "sigma_left_C_m2": -0.006432074647364514,
+      "sigma_right_C_m2": -0.006432074647364514,
+      "psi_left_mV": -67.75365299943175,
+      "psi_right_mV": -67.75365299943175,
+      "E_PE_V_m": -0.0,
+      "displacement_PE_C_m2": 0.0,
+      "total_Gauss_absolute_C_m2": 2.937530918093915e-14,
+      "newton_iterations": 5,
+      "scaled_residual": 4.718447854656915e-14
+    },
+    {
+      "h_nm": 2000,
+      "sigma_left_C_m2": -0.006432074647364514,
+      "sigma_right_C_m2": -0.006432074647364514,
+      "psi_left_mV": -67.75365299943175,
+      "psi_right_mV": -67.75365299943175,
+      "E_PE_V_m": -0.0,
+      "displacement_PE_C_m2": 0.0,
+      "total_Gauss_absolute_C_m2": 2.937530919417404e-14,
+      "newton_iterations": 5,
+      "scaled_residual": 4.718447854656915e-14
+    }
+  ],
+  "asymmetric_dielectric_probe": {
+    "h_nm": 20,
+    "sigma_left_C_m2": -0.006786751836802694,
+    "sigma_right_C_m2": -0.005370026314090966,
+    "psi_left_mV": -70.09206838254856,
+    "psi_right_mV": -59.990830109526485,
+    "E_PE_V_m": -505061.91365110327,
+    "displacement_PE_C_m2": 1.0285399993285802e-05,
+    "total_Gauss_absolute_C_m2": 1.8553856768441024e-13,
+    "newton_iterations": 5,
+    "scaled_residual": 5.548755899198454e-13
+  },
+  "zero_case": {
+    "psi_abs_mV": 0.0,
+    "sigma_C_m2": 0.0,
+    "zeta_mV": 2.3344959512069077e-12,
+    "I_half_A": -6.134927177213992e-33
+  },
+  "top_tail": {
+    "182_pH7_backed": {
+      "psi_abs_mV": 5.395959254893666e-16,
+      "net_ion_mol_m3": 2.220446049250313e-16
+    },
+    "604_pH3_backed": {
+      "psi_abs_mV": 2.0446903155635337e-22,
+      "net_ion_mol_m3": 0.0
+    },
+    "604_pH10_backed": {
+      "psi_abs_mV": 6.569997713256528e-18,
+      "net_ion_mol_m3": 0.0
+    },
+    "pure_N1_pH7_free": {
+      "psi_abs_mV": 2.8423142880440845e-16,
+      "net_ion_mol_m3": 0.0
+    }
+  }
+}

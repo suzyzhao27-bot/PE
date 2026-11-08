@@ -1,0 +1,54 @@
+{
+  "model": "NS_static_limit",
+  "combination_count": 1728,
+  "geometry_count": 192,
+  "P_positive_range_m_s": [
+    9.35831182247024e-12,
+    0.0017854826074687577
+  ],
+  "log10_P_color_limits": [
+    -12,
+    -2
+  ],
+  "series": {
+    "H": {
+      "mean_P_range_m_s": [
+        1.1905626213306896e-11,
+        0.0016701636664543519
+      ],
+      "spanning_realization_fraction_range": [
+        1.0,
+        1.0
+      ],
+      "access_dissipation_fraction_range": [
+        7.744576431503084e-09,
+        0.21908151609716736
+      ],
+      "access_contour_levels": [
+        0.01,
+        0.05,
+        0.1
+      ]
+    },
+    "S": {
+      "mean_P_range_m_s": [
+        1.859785071777911e-10,
+        0.001629745347417001
+      ],
+      "spanning_realization_fraction_range": [
+        1.0,
+        1.0
+      ],
+      "access_dissipation_fraction_range": [
+        1.4052503286403245e-07,
+        0.25361809284085934
+      ],
+      "access_contour_levels": [
+        0.01,
+        0.05,
+        0.1,
+        0.25
+      ]
+    }
+  }
+}

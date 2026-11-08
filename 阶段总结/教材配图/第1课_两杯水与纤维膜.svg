@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 560" role="img" aria-labelledby="title desc">
+<title id="title">两杯水与 PE 纤维膜</title><desc id="desc">概念示意：左侧盐较多，右侧盐较少，中间是纤维膜；箭头只表示可能的移动方向。</desc>
+<rect width="1080" height="560" fill="#f4f8fc"/><rect x="34" y="28" width="1012" height="504" rx="26" fill="#fff" stroke="#dce7f0"/>
+<text x="64" y="86" fill="#173956" font-size="34" font-family="Microsoft YaHei, sans-serif" font-weight="700">两杯水之间，放一张 PE 纤维膜</text>
+<text x="65" y="125" fill="#64788a" font-size="19" font-family="Microsoft YaHei, sans-serif">概念示意 · 盐多的一侧 → 盐少的一侧</text>
+<rect x="85" y="197" width="328" height="253" rx="18" fill="#d9f1fc" stroke="#6aa8c7" stroke-width="4"/>
+<rect x="669" y="197" width="328" height="253" rx="18" fill="#e8f6fc" stroke="#6aa8c7" stroke-width="4"/>
+<text x="175" y="182" fill="#255b77" font-size="26" font-family="Microsoft YaHei, sans-serif">左侧：盐较多</text><text x="760" y="182" fill="#255b77" font-size="26" font-family="Microsoft YaHei, sans-serif">右侧：盐较少</text>
+<g fill="#e48243"><circle cx="145" cy="263" r="12"/><circle cx="222" cy="285" r="12"/><circle cx="315" cy="250" r="12"/><circle cx="165" cy="358" r="12"/><circle cx="280" cy="374" r="12"/><circle cx="344" cy="330" r="12"/><circle cx="226" cy="226" r="12"/><circle cx="316" cy="411" r="12"/><circle cx="128" cy="414" r="12"/><circle cx="376" cy="393" r="12"/><circle cx="740" cy="310" r="12"/><circle cx="910" cy="382" r="12"/></g>
+<g stroke="#668296" stroke-width="9" stroke-linecap="round"><path d="M474 205 L609 440"/><path d="M517 205 L652 440"/><path d="M609 205 L474 440"/><path d="M652 205 L517 440"/></g>
+<path d="M429 316 L463 316 M621 316 L654 316" stroke="#e48243" stroke-width="6" stroke-linecap="round"/><path d="M654 316 l-16 -11 v22z" fill="#e48243"/>
+<text x="491" y="485" fill="#51687b" font-size="24" font-family="Microsoft YaHei, sans-serif">PE 纤维膜</text>
+<circle cx="100" cy="493" r="10" fill="#e48243"/><text x="118" y="499" fill="#607589" font-size="18" font-family="Microsoft YaHei, sans-serif">橙点代表盐离子；画法不代表真实孔道或测量值</text>
+</svg>

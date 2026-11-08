@@ -1,0 +1,200 @@
+{
+  "source_status": "MODEL_ONLY_AND_CONDITIONAL_OLD_DATA",
+  "question_1_fixed_structure": {
+    "neutral_P": {
+      "salt_zero_charge|zero": {
+        "P_total_m_s_by_h_nm": {
+          "65": 0.00018988411475009834,
+          "700": 2.233192432094751e-05,
+          "2600": 6.134760611692566e-06
+        },
+        "P_2600_over_P_65": 0.032307919068250486
+      },
+      "salt_zero_charge|reference_2600_neutral": {
+        "P_total_m_s_by_h_nm": {
+          "65": 5.9427623273777965e-06,
+          "700": 4.812678751727843e-06,
+          "2600": 3.067380305846283e-06
+        },
+        "P_2600_over_P_65": 0.5161539595341252
+      },
+      "urea|zero": {
+        "P_total_m_s_by_h_nm": {
+          "65": 0.00015936166609400806,
+          "700": 1.862980957627438e-05,
+          "2600": 5.11479376552838e-06
+        },
+        "P_2600_over_P_65": 0.032095508856635216
+      },
+      "urea|reference_2600_neutral": {
+        "P_total_m_s_by_h_nm": {
+          "65": 5.0993440267308944e-06,
+          "700": 4.106674419703273e-06,
+          "2600": 2.5951113224021057e-06
+        },
+        "P_2600_over_P_65": 0.5089108145672198
+      }
+    },
+    "old_Book2_100min": {
+      "65": {
+        "increment_100_uScm": {
+          "B": 13.47,
+          "R": 1796.88
+        },
+        "R_over_B_increment_100": 133.39866369710467
+      },
+      "700": {
+        "increment_100_uScm": {
+          "B": 75.57000000000001,
+          "R": 2088.46
+        },
+        "R_over_B_increment_100": 27.636098981077144
+      },
+      "2600": {
+        "increment_100_uScm": {
+          "B": 1188.25,
+          "R": 1975.83
+        },
+        "R_over_B_increment_100": 1.6628066484325688
+      }
+    },
+    "comparison_boundary": "Old conductivity increments are not membrane permeability or paired treatment effects."
+  },
+  "question_2_charge_only": {
+    "1": {
+      "E_s_initial_range": [
+        2.4875106402688054,
+        3.3054215973227703
+      ],
+      "E_u_initial_range": [
+        1.0,
+        1.0
+      ],
+      "Pi_initial_range": [
+        2.4875106402688054,
+        3.3054215973227703
+      ],
+      "numeric_statuses": [
+        "MODEL_ONLY_TARGET_CHECK"
+      ]
+    },
+    "10": {
+      "E_s_initial_range": [
+        0.7145084138640686,
+        1.0428832648284099
+      ],
+      "E_u_initial_range": [
+        1.0,
+        1.0
+      ],
+      "Pi_initial_range": [
+        0.7145084138640686,
+        1.0428832648284099
+      ],
+      "numeric_statuses": [
+        "NUMERIC_UNRESOLVED_T12"
+      ]
+    },
+    "600": {
+      "E_s_initial_range": [
+        0.7648111234241827,
+        0.989164670358923
+      ],
+      "E_u_initial_range": [
+        1.0,
+        1.0
+      ],
+      "Pi_initial_range": [
+        0.7648111234241827,
+        0.989164670358923
+      ],
+      "numeric_statuses": [
+        "MODEL_ONLY_TARGET_CHECK"
+      ]
+    }
+  },
+  "question_3_legacy_urea_targets": {
+    "65": {
+      "R100_W_receiver_mM_C1_C2": [
+        0.21479569687711475,
+        0.2148323488688353
+      ],
+      "B100_C_anchor_receiver_mM_C1_C2": [
+        0.0015108166927552125,
+        0.001503838168269711
+      ],
+      "condition": "CONDITIONAL_SHARED_GEOMETRY_EXTERNAL_SCALING_NOT_VERIFIED"
+    },
+    "700": {
+      "R100_W_receiver_mM_C1_C2": [
+        0.2516604288444635,
+        0.25168035714588977
+      ],
+      "B100_C_anchor_receiver_mM_C1_C2": [
+        0.00832403666639725,
+        0.008319713610423496
+      ],
+      "condition": "CONDITIONAL_SHARED_GEOMETRY_EXTERNAL_SCALING_NOT_VERIFIED"
+    },
+    "2600": {
+      "R100_W_receiver_mM_C1_C2": [
+        0.23737323843734615,
+        0.23753254721906092
+      ],
+      "B100_C_anchor_receiver_mM_C1_C2": [
+        0.13925119497042338,
+        0.13926649045588768
+      ],
+      "condition": "CONDITIONAL_SHARED_GEOMETRY_EXTERNAL_SCALING_NOT_VERIFIED"
+    }
+  },
+  "question_4_paired_signatures_700nm_1mM_zero_external": {
+    "W": {
+      "pair_id": "PRED_019",
+      "initial_E_s": 100.0,
+      "initial_E_u": 99.99999999999997,
+      "initial_Pi": 1.0000000000000002,
+      "salt_B_receiver_60_mM": 0.007975204337148644,
+      "salt_B_LOQ_ceiling_60_uM": 1.5950408674297287,
+      "salt_E_receiver_60_mM": 0.39984594461718315,
+      "salt_E_LOQ_ceiling_60_uM": 79.96918892343663,
+      "urea_B_receiver_60_mM": 0.06661951641771512,
+      "urea_B_LOQ_ceiling_60_uM": 13.323903283543023,
+      "urea_E_receiver_60_mM": 3.692533067786692,
+      "urea_E_LOQ_ceiling_60_uM": 738.5066135573384
+    },
+    "C": {
+      "pair_id": "PRED_021",
+      "initial_E_s": 3.2384216574925357,
+      "initial_E_u": 1.0,
+      "initial_Pi": 3.2384216574925357,
+      "salt_B_receiver_60_mM": 0.1960164599044343,
+      "salt_B_LOQ_ceiling_60_uM": 39.20329198088686,
+      "salt_E_receiver_60_mM": 0.39984594461718315,
+      "salt_E_LOQ_ceiling_60_uM": 79.96918892343663,
+      "urea_B_receiver_60_mM": 3.692533067786692,
+      "urea_B_LOQ_ceiling_60_uM": 738.5066135573384,
+      "urea_E_receiver_60_mM": 3.692533067786692,
+      "urea_E_LOQ_ceiling_60_uM": 738.5066135573384
+    },
+    "WC": {
+      "pair_id": "PRED_023",
+      "initial_E_s": 323.84216574925364,
+      "initial_E_u": 99.99999999999997,
+      "initial_Pi": 3.2384216574925375,
+      "salt_B_receiver_60_mM": 0.0024560702592866246,
+      "salt_B_LOQ_ceiling_60_uM": 0.4912140518573249,
+      "salt_E_receiver_60_mM": 0.39984594461718315,
+      "salt_E_LOQ_ceiling_60_uM": 79.96918892343663,
+      "urea_B_receiver_60_mM": 0.06661951641771512,
+      "urea_B_LOQ_ceiling_60_uM": 13.323903283543023,
+      "urea_E_receiver_60_mM": 3.692533067786692,
+      "urea_E_LOQ_ceiling_60_uM": 738.5066135573384
+    }
+  },
+  "boundaries": [
+    "W/C/WC use prescribed b and sigma, not fitted material parameters.",
+    "10 mM charged cases remain T12 numeric unresolved.",
+    "Actual LOQ, flow and shared geometry/external scaling are unmeasured."
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "first_condition": true,
+  "second_condition": true,
+  "ND_enabled_by_frozen_D2": true,
+  "NS_full_B_status": "multi_start_stable",
+  "NS_time_status": "multi_start_stable",
+  "NS_time_E": 2.363660003999745,
+  "residual_window_threshold_strict": 0.3,
+  "residual_windows": [
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:65 nm",
+      "h_nm": 65,
+      "point_indices": [
+        1,
+        2
+      ],
+      "time_min": [
+        20.0,
+        40.0
+      ],
+      "asinh_residuals": [
+        3.494536394964772,
+        1.7560048472392795
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:65 nm",
+      "h_nm": 65,
+      "point_indices": [
+        2,
+        3
+      ],
+      "time_min": [
+        40.0,
+        60.0
+      ],
+      "asinh_residuals": [
+        1.7560048472392795,
+        0.693228709582157
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:65 nm",
+      "h_nm": 65,
+      "point_indices": [
+        3,
+        4
+      ],
+      "time_min": [
+        60.0,
+        85.0
+      ],
+      "asinh_residuals": [
+        0.693228709582157,
+        0.3611821739098686
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:120 nm",
+      "h_nm": 120,
+      "point_indices": [
+        1,
+        2
+      ],
+      "time_min": [
+        20.0,
+        40.0
+      ],
+      "asinh_residuals": [
+        2.0141546597113007,
+        1.3433385444551567
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:120 nm",
+      "h_nm": 120,
+      "point_indices": [
+        2,
+        3
+      ],
+      "time_min": [
+        40.0,
+        60.0
+      ],
+      "asinh_residuals": [
+        1.3433385444551567,
+        0.9246675778623694
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:120 nm",
+      "h_nm": 120,
+      "point_indices": [
+        3,
+        4
+      ],
+      "time_min": [
+        60.0,
+        80.0
+      ],
+      "asinh_residuals": [
+        0.9246675778623694,
+        0.6516155778193871
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:120 nm",
+      "h_nm": 120,
+      "point_indices": [
+        4,
+        5
+      ],
+      "time_min": [
+        80.0,
+        100.0
+      ],
+      "asinh_residuals": [
+        0.6516155778193871,
+        0.4147894795089968
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:200 nm",
+      "h_nm": 200,
+      "point_indices": [
+        1,
+        2
+      ],
+      "time_min": [
+        20.0,
+        40.0
+      ],
+      "asinh_residuals": [
+        2.7519499550294815,
+        2.5645528815793215
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:200 nm",
+      "h_nm": 200,
+      "point_indices": [
+        2,
+        3
+      ],
+      "time_min": [
+        40.0,
+        60.0
+      ],
+      "asinh_residuals": [
+        2.5645528815793215,
+        2.4336037278138205
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:200 nm",
+      "h_nm": 200,
+      "point_indices": [
+        3,
+        4
+      ],
+      "time_min": [
+        60.0,
+        80.0
+      ],
+      "asinh_residuals": [
+        2.4336037278138205,
+        0.6048544604200794
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:200 nm",
+      "h_nm": 200,
+      "point_indices": [
+        4,
+        5
+      ],
+      "time_min": [
+        80.0,
+        100.0
+      ],
+      "asinh_residuals": [
+        0.6048544604200794,
+        0.5096531498246026
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:350 nm",
+      "h_nm": 350,
+      "point_indices": [
+        1,
+        2
+      ],
+      "time_min": [
+        20.0,
+        40.0
+      ],
+      "asinh_residuals": [
+        1.6528314333994005,
+        2.0440228142976373
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:700 nm",
+      "h_nm": 700,
+      "point_indices": [
+        2,
+        3
+      ],
+      "time_min": [
+        40.0,
+        60.0
+      ],
+      "asinh_residuals": [
+        -1.2950322394888656,
+        -1.5563575365461748
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:700 nm",
+      "h_nm": 700,
+      "point_indices": [
+        3,
+        4
+      ],
+      "time_min": [
+        60.0,
+        80.0
+      ],
+      "asinh_residuals": [
+        -1.5563575365461748,
+        -1.5847137807862057
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:700 nm",
+      "h_nm": 700,
+      "point_indices": [
+        4,
+        5
+      ],
+      "time_min": [
+        80.0,
+        100.0
+      ],
+      "asinh_residuals": [
+        -1.5847137807862057,
+        -1.6453509021742998
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:700 nm",
+      "h_nm": 700,
+      "point_indices": [
+        5,
+        6
+      ],
+      "time_min": [
+        100.0,
+        120.0
+      ],
+      "asinh_residuals": [
+        -1.6453509021742998,
+        -1.7286920609171226
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:2600 nm",
+      "h_nm": 2600,
+      "point_indices": [
+        2,
+        3
+      ],
+      "time_min": [
+        40.0,
+        60.0
+      ],
+      "asinh_residuals": [
+        -3.687105666497173,
+        -3.7276017662834966
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:2600 nm",
+      "h_nm": 2600,
+      "point_indices": [
+        3,
+        4
+      ],
+      "time_min": [
+        60.0,
+        80.0
+      ],
+      "asinh_residuals": [
+        -3.7276017662834966,
+        -3.8124746014979167
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:2600 nm",
+      "h_nm": 2600,
+      "point_indices": [
+        4,
+        5
+      ],
+      "time_min": [
+        80.0,
+        100.0
+      ],
+      "asinh_residuals": [
+        -3.8124746014979167,
+        -4.204297942027434
+      ]
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:2600 nm",
+      "h_nm": 2600,
+      "point_indices": [
+        5,
+        6
+      ],
+      "time_min": [
+        100.0,
+        120.0
+      ],
+      "asinh_residuals": [
+        -4.204297942027434,
+        -4.338756815952222
+      ]
+    }
+  ],
+  "B_curves_with_residual_windows": [
+    "Polymer_salt_2h:Book1:Sheet1:120 nm",
+    "Polymer_salt_2h:Book1:Sheet1:200 nm",
+    "Polymer_salt_2h:Book1:Sheet1:2600 nm",
+    "Polymer_salt_2h:Book1:Sheet1:350 nm",
+    "Polymer_salt_2h:Book1:Sheet1:65 nm",
+    "Polymer_salt_2h:Book1:Sheet1:700 nm"
+  ],
+  "PE_curves_meeting_shape_condition": [
+    "Polymer_salt_2h:Book1:Sheet1:65 nm",
+    "Polymer_salt_2h:Book1:Sheet1:120 nm",
+    "Polymer_salt_2h:Book1:Sheet1:200 nm",
+    "Polymer_salt_2h:Book1:Sheet1:350 nm",
+    "Polymer_salt_2h:Book1:Sheet1:700 nm",
+    "Polymer_salt_2h:Book1:Sheet1:2600 nm",
+    "Polymer_salt_dry_6h:Book1:未润湿体系数据:700 nm",
+    "Polymer_salt_dry_6h:Book1:未润湿体系数据:350 nm",
+    "Polymer_salt_dry_6h:Book1:未润湿体系数据:200 nm"
+  ],
+  "control_shape_diagnostics": [
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:PC filter, 75 μm thick, 200 nm pore",
+      "role": "C",
+      "sse_reduction": 0.7041155093431068,
+      "positive_interval_rate_ratio": 1.2585714285714285
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book1:Sheet1:filter paper, 100 μm thick, 200 nm pore",
+      "role": "C",
+      "sse_reduction": 0.056516613841549296,
+      "positive_interval_rate_ratio": 91.83333333333334
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book2:Sheet1:R65 nm",
+      "role": "U",
+      "sse_reduction": 0.5674013831990975,
+      "positive_interval_rate_ratio": 1.5703275529865126
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book2:Sheet1:R700 nm",
+      "role": "U",
+      "sse_reduction": 0.8313269716796547,
+      "positive_interval_rate_ratio": 13.722846441947565
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book2:Sheet1:R2600 nm",
+      "role": "U",
+      "sse_reduction": 0.08651856353986902,
+      "positive_interval_rate_ratio": 1.7361111111111112
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book2:Sheet1:65 nm",
+      "role": "D",
+      "sse_reduction": 0.21343941113886192,
+      "positive_interval_rate_ratio": 73.62499999999994
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book2:Sheet1:700 nm",
+      "role": "D",
+      "sse_reduction": 0.41755379548417754,
+      "positive_interval_rate_ratio": 6.286353467561522
+    },
+    {
+      "curve_id": "Polymer_salt_2h:Book2:Sheet1:2600 nm",
+      "role": "D",
+      "sse_reduction": 0.09185269249732458,
+      "positive_interval_rate_ratio": 1582.1250000000002
+    }
+  ],
+  "interpretation_limit": "Curvature is also seen in controls; D2 does not prove PE-specific wetting."
+}

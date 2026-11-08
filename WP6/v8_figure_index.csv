@@ -1,0 +1,7 @@
+figure_id,title,svg,png,primary_source,manuscript_section,status
+Fig1,B original curves,data/processed/figures/v8_Fig1_B_observations.svg,data/processed/figures/v8_Fig1_B_observations.png,WP4/v8_全部逐点预测.csv,3.1,rendered_and_viewed
+Fig2,Conditional lag and chi requirements,data/processed/figures/v8_Fig2_constraints.svg,data/processed/figures/v8_Fig2_constraints.png,WP1/量纲与假设表.csv,3.2,rendered_and_viewed
+Fig3,Necessary q prescreen,data/processed/figures/v8_Fig3_prescreen.svg,data/processed/figures/v8_Fig3_prescreen.png,WP2/预筛全部记录.csv,3.3,rendered_and_viewed
+Fig4,Full B curves and residual scale,data/processed/figures/v8_Fig4_fullB_comparison.svg,data/processed/figures/v8_Fig4_fullB_comparison.png,WP4/v8_全部逐点预测.csv,3.4,rendered_and_viewed
+Fig5,Holdouts and 2600 endpoint,data/processed/figures/v8_Fig5_prediction.svg,data/processed/figures/v8_Fig5_prediction.png,WP4/v8_模型比较.csv,3.5,rendered_and_viewed
+Fig6,Fixed scenarios and domain,data/processed/figures/v8_Fig6_robustness.svg,data/processed/figures/v8_Fig6_robustness.png,WP5/v8_固定十情景汇总.csv + WP5/v8_域尺寸汇总.csv,3.6,rendered_and_viewed

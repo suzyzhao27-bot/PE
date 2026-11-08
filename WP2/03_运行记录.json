@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-21T16:24:11.278164+00:00",
+  "finished_utc": "2026-10-21T16:24:24.859715+00:00",
+  "actual_executor": "Codex on local workspace; not student independent execution",
+  "command": ".venv/Scripts/python.exe WP2/src/validate.py",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "configuration": "WP2\\configs\\technical_validation.json",
+  "sample_time_source": "data\\processed\\origin_exports\\Polymer_salt_2h\\Book1__Sheet1.csv",
+  "raw_source": "原始资料\\赵珈绮\\01_研究框架与资料_v2\\05_真实数据_v1核查\\source_snapshots\\Polymer_salt_2h.opju",
+  "raw_source_sha256": "c9446a965bac8b875bff135676b59352ae3e57a35d6f0be51ad860c20b5a596d",
+  "raw_source_hash_status": "reused recorded provenance; not recomputed in this run",
+  "validation_table": "WP2\\02_数值验证表.csv",
+  "summary": {
+    "PASS": 46,
+    "OBSERVED": 4,
+    "FAIL": 0
+  },
+  "scope": "synthetic technical validation; no PE fit or inference",
+  "limitations": [
+    "N7 <1% grid/tolerance criterion checked; smaller-than-model-improvement criterion awaits WP4 fitted comparison",
+    "N9 recovers two selected parameters with all other values fixed; full five/seven-parameter identifiability belongs to WP5"
+  ]
+}

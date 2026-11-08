@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="690" viewBox="0 0 1240 690" role="img" aria-label="只改变路长的简单扩散假设与导师旧350及2600 nm原表端点数值分开对照的教学图">
+  <rect width="1240" height="690" rx="24" fill="#f7fafc"/>
+  <text x="48" y="59" font-family="Microsoft YaHei, sans-serif" font-size="31" font-weight="700" fill="#173047">如果只把通道拉长，扩散应该怎样变？</text>
+  <text x="49" y="94" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#557386">左：概念示意与最简模型　　右：导师旧 Book1 端点数值；两栏不是同一种测量量</text>
+  <rect x="42" y="126" width="560" height="476" rx="22" fill="#fff" stroke="#d9e5ec" stroke-width="2"/>
+  <text x="70" y="166" font-family="Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#173047">虚拟实验：其他条件全相同，只换长度</text>
+  <text x="72" y="205" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#557386">相同浓度差、同样宽的湿通路、同样的 D</text>
+  <rect x="80" y="243" width="112" height="99" rx="13" fill="#d8edfa"/>
+  <text x="102" y="300" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#21668b">盐多</text>
+  <rect x="213" y="266" width="156" height="52" rx="19" fill="#e4f3ea" stroke="#72ae86" stroke-width="2"/>
+  <text x="235" y="299" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#397b50">短路 h=350</text>
+  <text x="375" y="301" font-family="Microsoft YaHei, sans-serif" font-size="27" fill="#7a95a4">→</text>
+  <rect x="423" y="243" width="112" height="99" rx="13" fill="#e9f2fa"/>
+  <text x="445" y="300" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#21668b">盐少</text>
+  <rect x="80" y="367" width="112" height="99" rx="13" fill="#d8edfa"/>
+  <text x="102" y="424" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#21668b">盐多</text>
+  <rect x="205" y="391" width="267" height="52" rx="19" fill="#fdf1df" stroke="#d8a05e" stroke-width="2"/>
+  <text x="252" y="424" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#a56425">长路 h=2600</text>
+  <text x="477" y="425" font-family="Microsoft YaHei, sans-serif" font-size="27" fill="#7a95a4">→</text>
+  <rect x="508" y="367" width="52" height="99" rx="11" fill="#e9f2fa"/>
+  <text x="522" y="423" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#21668b">淡</text>
+  <text x="75" y="514" font-family="Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#346c88">同样的浓度落差，被摊在更长的路上：每段推动更缓。</text>
+  <rect x="72" y="536" width="496" height="45" rx="10" fill="#e8f1f7"/>
+  <text x="91" y="565" font-family="Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#205d84">最简模型：J₂₆₀₀/J₃₅₀ = 350/2600 ≈ 0.135</text>
+  <rect x="623" y="126" width="574" height="476" rx="22" fill="#fff" stroke="#d9e5ec" stroke-width="2"/>
+  <text x="653" y="166" font-family="Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#173047">旧 Book1：接收侧电导原表端点</text>
+  <text x="653" y="199" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#557386">同一旧工程；F/H 列的单位沿用同表标注，曲线级待核</text>
+  <rect x="652" y="224" width="516" height="83" rx="13" fill="#eaf1f9"/>
+  <text x="675" y="255" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#274f6e">350 nm：1.62 → 13.51</text>
+  <text x="675" y="287" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#254e73">原表增量 11.89</text>
+  <rect x="652" y="322" width="516" height="83" rx="13" fill="#fff0e3"/>
+  <text x="675" y="353" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#a66127">2600 nm：1.75 → 1365</text>
+  <text x="675" y="385" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#a66127">原表增量 1363.25</text>
+  <text x="654" y="449" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#557386">只比较原表数字：</text>
+  <rect x="652" y="464" width="516" height="57" rx="11" fill="#f5f0fb"/>
+  <text x="674" y="501" font-family="Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#684d92">Δκ₂₆₀₀/Δκ₃₅₀ = 1363.25/11.89 ≈ 114.66</text>
+  <text x="655" y="556" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#6b7280">它是电导读数的比值，不是已换算的真实盐通量比。</text>
+  <text x="48" y="642" font-family="Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#173047">新问题：最简“只变路长”的方向与旧读数方向相反；需要核实实验可比性，并研究其他阻力。</text>
+  <text x="49" y="671" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#627d8c">旧数来源：data/processed/origin_exports/Polymer_salt_2h/Book1__Sheet1.csv 的 F/H 列；模型比值仅由给定厚度标签求得。</text>
+</svg>

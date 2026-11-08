@@ -1,0 +1,13 @@
+{
+  "model": "ND",
+  "n_runs": 72,
+  "full_B_fit_status": "multi_start_stable",
+  "L_fit_status": "multi_start_stable",
+  "max_scaled_output_error": 6.763017855703813e-07,
+  "max_absolute_output_error_uS_cm": 3.644446793771294e-05,
+  "max_mass_relative_error": 5.048384089342372e-15,
+  "minimum_u": 0.0,
+  "threshold_scaled_output": 0.01,
+  "status": "PASS",
+  "scope": "B six and L three observed h values, eight fixed S seeds, ND fitted alpha/Q with B beta/tau0/b"
+}

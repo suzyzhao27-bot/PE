@@ -1,0 +1,18 @@
+curve_id,status,source_record_reference,parent_membrane_id,coupon_id,time_unit_confirmation,conductivity_unit_confirmation,conductivity_calibration_id,temperature_record_id,effective_area_record_id,left_volume_record_id,right_volume_record_id,sampling_replenishment_record_id,wetting_record_id,mixing_record_id,blank_record_id,independent_replicate_id,exclusion_reason,notes
+Polymer_salt_2h:Book1:Sheet1:65 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book1:Sheet1:120 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book1:Sheet1:200 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book1:Sheet1:350 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book1:Sheet1:700 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book1:Sheet1:2600 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+"Polymer_salt_2h:Book1:Sheet1:PC filter, 75 μm thick, 200 nm pore",pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+"Polymer_salt_2h:Book1:Sheet1:filter paper, 100 μm thick, 200 nm pore",pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book2:Sheet1:R65 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book2:Sheet1:R700 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book2:Sheet1:R2600 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book2:Sheet1:65 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book2:Sheet1:700 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_2h:Book2:Sheet1:2600 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_dry_6h:Book1:未润湿体系数据:700 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_dry_6h:Book1:未润湿体系数据:350 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown
+Polymer_salt_dry_6h:Book1:未润湿体系数据:200 nm,pending,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown,unknown

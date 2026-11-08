@@ -1,0 +1,26 @@
+{
+  "input_rows": {
+    "pb_main": 372,
+    "neutral": 288,
+    "paired_curves": 864,
+    "paired_effects": 54,
+    "target_recheck": 12,
+    "pb_calls": 437
+  },
+  "T02_T07_neutral_D_relative_error": 0.0,
+  "T05_exchange_max_relative_error_372": 0.0,
+  "T06_zero_current_max_relative_error_372": 2.1517331777208032e-16,
+  "T06_naive_electric_reconstruction_max_relative_error_372": 0.00010739926521986157,
+  "T06_stored_coefficient_max_relative_error_372": 4.0101756931921033e-16,
+  "T08_uniform_donnan_max_relative_error_5": 1.462413221943101e-16,
+  "T09_paired_max_mass_relative_error_864": 1.4907779871675686e-15,
+  "T09_neutral_max_mass_relative_error_288": 2.8912057932946783e-16,
+  "T11_Es_Eu_Pi_max_relative_error_54": 1.36802199338725e-16,
+  "T11_known_Eu_max_absolute_error_54": 2.842170943040401e-14,
+  "T12_target_status_counts": {
+    "NUMERIC_UNRESOLVED_OVER_2_PERCENT": 10,
+    "PASS_AFTER_ENDPOINT": 2
+  },
+  "T12_target_max_updated_31_16_relative_difference": 0.03778213721351062,
+  "note": "Existing artifacts only; no PB calls. Algebraic checks are module checks, not material validation."
+}

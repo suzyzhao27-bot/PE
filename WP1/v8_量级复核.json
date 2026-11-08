@@ -1,0 +1,46 @@
+{
+  "status": "v8_step1_existing_data_arithmetic_only",
+  "source": "16_物理诊断与接续任务_v8.0.1/inputs/salt; frozen_spec_v8.json",
+  "assumptions": "C0=600 mol/m3, two 10 mL baths, alpha=10 m^-1 endpoint example, 25 C conversion, epsilon=0.35 and K<=1 for lag bound",
+  "Db_m2_s": 1.6070833333333333e-09,
+  "NE_Q_uScm": 75708.40927806833,
+  "B2600_c_molm3": 11.5341515416347,
+  "B2600_receiver_fraction": 0.019223585902724497,
+  "B2600_donor_remaining_fraction": 0.9807764140972755,
+  "B2600_concentration_gradient_remaining_fraction": 0.961552828194551,
+  "molality_3p5wt_mol_kg_water": 0.6206267976011888,
+  "alpha_1e5_effective_pool_depth_m": 1e-05,
+  "alpha_lag_20_40min_epsilon035_m_inv": {
+    "350": {
+      "1200": 873.3957261547868,
+      "2400": 1746.7914523095735
+    },
+    "2600": {
+      "1200": 14361.088623651536,
+      "2400": 28722.177247303072
+    }
+  },
+  "role_point_counts": {
+    "B": 42,
+    "C": 14,
+    "U": 20,
+    "D": 21,
+    "L": 70
+  },
+  "alpha_1_10_100_area_cm2": [
+    0.1,
+    1,
+    10
+  ],
+  "lag_upper_alpha1_to100_all_B_s": [
+    0.0835591250390098,
+    137.39476437366162
+  ],
+  "chi_ratio_2600_350": 907.3752040917086,
+  "sigma_C_m2_for_1pct_Donnan_a25nm": 72.356762690091,
+  "conversion_join_c_molm3": 0.08133730765619523,
+  "roundtrip_count": 7,
+  "audit_B_endpoint_rows_compared": 6,
+  "new_network_solver_run": false,
+  "optimization_run": false
+}

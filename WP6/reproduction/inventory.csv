@@ -1,0 +1,118 @@
+﻿project_relative_path,role,bytes
+WP1/01_论文问题与拟检验主张.md,frozen input or recorded output,5909
+WP1/02_原始文献比较表.csv,frozen input or recorded output,6983
+WP1/03_数据与参数清单.csv,frozen input or recorded output,91799
+WP1/04_冻结分析方案.md,frozen input or recorded output,5162
+WP1/05_第一次导师审阅单.md,frozen input or recorded output,2588
+WP2/01_方程与边界推导.md,frozen input or recorded output,4038
+WP2/02_数值验证表.csv,frozen input or recorded output,4529
+WP2/03_运行记录.json,frozen input or recorded output,1350
+WP2/04_求解器说明.md,frozen input or recorded output,4847
+WP2/05_完成表.md,frozen input or recorded output,1467
+WP2/configs/technical_validation.json,frozen input or recorded output,889
+WP2/src/transport.py,frozen input or recorded output,9369
+WP2/src/validate.py,frozen input or recorded output,14841
+WP3/01_尺度分析与机制分工.md,frozen input or recorded output,5268
+WP3/02_消融及适用域结果.csv,frozen input or recorded output,5267045
+WP3/03_M2最小诊断与量级资格.md,frozen input or recorded output,3168
+WP3/04_运行记录.json,frozen input or recorded output,1093
+WP3/05_第二次导师审阅单.md,frozen input or recorded output,2893
+WP3/figures/有限时间厚度斜率适用图.png,frozen input or recorded output,249980
+WP3/量级反算_20与60min.csv,frozen input or recorded output,5060
+WP4/01_共享拟合参数表.csv,frozen input or recorded output,891
+WP4/02_全部观测与预测.csv,frozen input or recorded output,39930
+WP4/03_残差与模型比较.csv,frozen input or recorded output,3879
+WP4/04_三个原问题的结果判断.md,frozen input or recorded output,4471
+WP4/05_运行记录.json,frozen input or recorded output,3770
+WP4/06_M2触发或合格停止记录.md,frozen input or recorded output,1898
+WP4/07_盐量时间账本.csv,frozen input or recorded output,18367
+WP4/08_拟合点数值加密.csv,frozen input or recorded output,4146
+WP4/09_比较核对.json,frozen input or recorded output,432
+WP4/10_M1单参数触界诊断.json,frozen input or recorded output,525
+WP4/11_拟合点时间容差.json,frozen input or recorded output,1098
+WP4/12_M2百格精化.json,frozen input or recorded output,484
+WP4/M0_拟合摘要.json,frozen input or recorded output,7394
+WP4/M0_搜索记录.json,frozen input or recorded output,6630
+WP4/M0_观测预测.csv,frozen input or recorded output,13467
+WP4/M0_逐膜残差.csv,frozen input or recorded output,1102
+WP4/M1_拟合摘要.json,frozen input or recorded output,7736
+WP4/M1_搜索记录.json,frozen input or recorded output,6810
+WP4/M1_观测预测.csv,frozen input or recorded output,13473
+WP4/M1_逐膜残差.csv,frozen input or recorded output,1347
+WP4/M2_拟合摘要.json,frozen input or recorded output,7840
+WP4/M2_搜索记录.json,frozen input or recorded output,7701
+WP4/M2_观测预测.csv,frozen input or recorded output,13460
+WP4/M2_逐膜残差.csv,frozen input or recorded output,1461
+WP4/figures/六厚度全曲线共同拟合.png,frozen input or recorded output,311413
+WP5/01_厚度留出结果.csv,frozen input or recorded output,15735
+WP5/02_早段预测后段结果.csv,frozen input or recorded output,15767
+WP5/03_参数辨识与稳健性结果.csv,frozen input or recorded output,42775
+WP5/04_支持与不支持的结论.md,frozen input or recorded output,5265
+WP5/05_运行记录.json,frozen input or recorded output,3525
+WP5/06_局部灵敏度与奇异值.json,frozen input or recorded output,4898
+WP5/07_固定情景与读数扰动.csv,frozen input or recorded output,25489
+WP5/08_敏感性搜索记录.json,frozen input or recorded output,341727
+WP5/09_留出门槛核对.json,frozen input or recorded output,2667
+WP5/10_最不利情景重复留出.csv,frozen input or recorded output,1237
+WP5/11_最不利情景搜索记录.json,frozen input or recorded output,37190
+WP5/M0_厚度留出.csv,frozen input or recorded output,5337
+WP5/M0_厚度留出逐点.csv,frozen input or recorded output,6136
+WP5/M0_早段预测.csv,frozen input or recorded output,5367
+WP5/M0_早段预测逐点.csv,frozen input or recorded output,6158
+WP5/M0_留出搜索记录.json,frozen input or recorded output,57085
+WP5/M1_厚度留出.csv,frozen input or recorded output,5481
+WP5/M1_厚度留出逐点.csv,frozen input or recorded output,6130
+WP5/M1_参数剖面.csv,frozen input or recorded output,30289
+WP5/M1_早段预测.csv,frozen input or recorded output,5453
+WP5/M1_早段预测逐点.csv,frozen input or recorded output,6159
+WP5/M1_留出搜索记录.json,frozen input or recorded output,58956
+WP5/M2_厚度留出.csv,frozen input or recorded output,5655
+WP5/M2_厚度留出逐点.csv,frozen input or recorded output,6156
+WP5/M2_早段预测.csv,frozen input or recorded output,5685
+WP5/M2_早段预测逐点.csv,frozen input or recorded output,6152
+WP5/M2_留出搜索记录.json,frozen input or recorded output,65565
+WP5/figures/时间与厚度留出逐膜误差.png,frozen input or recorded output,69203
+WP6/01_论文初稿.md,"manuscript, figure or reproduction guide",10390
+WP6/02_补充材料.md,"manuscript, figure or reproduction guide",5658
+WP6/03_论文主张与证据对应表.csv,"manuscript, figure or reproduction guide",1954
+WP6/04_投稿准备度判断.md,"manuscript, figure or reproduction guide",2423
+WP6/05_学生讲解提纲.md,"manuscript, figure or reproduction guide",1711
+WP6/06_第三次导师审阅单.md,"manuscript, figure or reproduction guide",1900
+WP6/07_运行记录.json,"manuscript, figure or reproduction guide",2399
+WP6/figures/01_有限时间厚度斜率适用图.png,"manuscript, figure or reproduction guide",249980
+WP6/figures/02_六厚度全曲线共同拟合.png,"manuscript, figure or reproduction guide",311413
+WP6/figures/03_时间与厚度留出逐膜误差.png,"manuscript, figure or reproduction guide",69203
+WP6/figures/04_训练残差的逐膜分解.png,"manuscript, figure or reproduction guide",58590
+WP6/figures/05_共享参数条件代价剖面.png,"manuscript, figure or reproduction guide",161565
+WP6/figures/06_固定情景的训练损失变化.png,"manuscript, figure or reproduction guide",63437
+WP6/reproduction/README.md,"manuscript, figure or reproduction guide",3657
+WP6/reproduction/environment.json,"manuscript, figure or reproduction guide",354
+WP6/reproduction/requirements.txt,"manuscript, figure or reproduction guide",49
+data/processed/origin_exports/Polymer_salt_2h/Book1__Sheet1.csv,audited upstream input,620
+data/processed/salt_transport/salt_transport_tidy.csv,audited upstream input,74476
+src/data_ingest/build_wp1_manifest.py,versioned executable source,6684
+src/effective_network_model/v6_fit_wp4.py,versioned executable source,15291
+src/effective_network_model/v6_plot_regime.py,versioned executable source,2710
+src/effective_network_model/v6_regime_map.py,versioned executable source,8759
+src/effective_network_model/v6_report_wp4.py,versioned executable source,8081
+src/effective_network_model/v6_scale_diagnostics.py,versioned executable source,2260
+src/effective_network_model/v6_wp5_holdouts.py,versioned executable source,8743
+src/effective_network_model/v6_wp5_identifiability.py,versioned executable source,6191
+src/effective_network_model/v6_wp5_report.py,versioned executable source,4231
+src/effective_network_model/v6_wp5_sensitivity.py,versioned executable source,7395
+src/effective_network_model/v6_wp5_worst_cases.py,versioned executable source,5309
+src/effective_network_model/v6_wp6_figures.py,versioned executable source,4105
+src/effective_network_model/v6_wp6_package.py,versioned executable source,3167
+原始资料/赵珈绮/01_研究框架与资料_v2/05_真实数据_v1核查/source_snapshots/Polymer_salt_2h.opju,read-only source or mentor specification,140258
+原始资料/赵珈绮/12_论文导向研究总方案_v6.0.0/00_导师与学生先读.md,read-only source or mentor specification,6567
+原始资料/赵珈绮/12_论文导向研究总方案_v6.0.0/01_物理模型与推导规格.md,read-only source or mentor specification,14286
+原始资料/赵珈绮/12_论文导向研究总方案_v6.0.0/02_学生六步任务与完成标准.md,read-only source or mentor specification,17559
+原始资料/赵珈绮/12_论文导向研究总方案_v6.0.0/03_论文定位与原始文献.md,read-only source or mentor specification,15570
+原始资料/赵珈绮/12_论文导向研究总方案_v6.0.0/04_计算矩阵与验收规则.md,read-only source or mentor specification,14869
+原始资料/赵珈绮/12_论文导向研究总方案_v6.0.0/05_三次导师审阅单.md,read-only source or mentor specification,2882
+阶段总结/20261021_v6_WP2数值验收.md,formal status or scientific stage conclusion,1797
+阶段总结/20261021_v6_WP3机制分工与M2资格.md,formal status or scientific stage conclusion,2317
+阶段总结/20261021_v6_WP4全曲线比较.md,formal status or scientific stage conclusion,2867
+阶段总结/20261022_v6_WP5预测辨识与稳健性.md,formal status or scientific stage conclusion,2925
+阶段总结/20261022_v6_WP6论文证据与交接.md,formal status or scientific stage conclusion,2350
+项目进展计划与任务看板.md,formal status or scientific stage conclusion,39335

@@ -1,0 +1,5 @@
+﻿draw,h_nm,SEM_count,SEM_mean_nm,SEM_version,SEM_base_historical_nm,dp_nm,dp_low_nm,dp_high_nm,phi_A,phi_low,phi_high,source_type,digitization_file,changed_before_fit,reason
+81,1860,100,29.51265,main,,66,65,67,0.31,0.305,0.315,plot_estimate,inputs/geometry/Polymer2023_p7.png Fig.9c,false,source-based midpoint retained; not fitted to salt
+182,770,100,24.54128,main,,52,51,53,0.286,0.281,0.291,plot_estimate,inputs/geometry/Polymer2023_p7.png Fig.9c,false,source-based midpoint retained; not fitted to salt
+357,370,100,22.55544,main,,43,42,44,0.292,0.287,0.297,plot_estimate,inputs/geometry/Polymer2023_p7.png Fig.9c,false,source-based midpoint retained; not fitted to salt
+604,230,100,26.57962,cal2,21.06047,52.4,52.4,52.4,0.345,0.345,0.345,reported_text_cal2_SEM,Polymer2023 main text and SEM cal2,false,source-based midpoint retained; not fitted to salt

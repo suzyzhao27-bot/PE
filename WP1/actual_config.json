@@ -1,0 +1,623 @@
+{
+  "source_config": "原始资料/赵珈绮/14_论文补强学生任务书_v7.0.0/configs/frozen_spec.json",
+  "source_config_sha256": "43ee34e2a671bf52284d41e2fdb72925535f6406b305be5d48980e6bba3a31ab",
+  "difference_from_frozen": {},
+  "frozen_spec": {
+    "schema": "zhaojiaqi.taskbook.v7.0.0",
+    "date": "2026-10-22",
+    "status": "DESIGN_ONLY_STUDENT_TO_IMPLEMENT_AND_RUN",
+    "no_new_experiments": true,
+    "new_physics_models_executed_by_author": false,
+    "authoritative_documents": [
+      "00_学生先读与本轮范围.md",
+      "01_六步执行任务与完成标准.md",
+      "02_静态孔网与动态扩展规格.md",
+      "03_已有数据合同.md",
+      "04_固定计算矩阵与决策规则.md",
+      "05_论文证据与提交要求.md",
+      "06_理论来源与版本说明.md"
+    ],
+    "observations": {
+      "file": "inputs/salt/salt_transport_tidy.csv",
+      "sha256": "f92a4a167305c13262bbd86354b39c7ac550c0ebbb7d75be9581c3a4d3e75d48",
+      "roles_file": "inputs/salt/curve_roles_v7.csv",
+      "points": 167,
+      "curves": 17,
+      "units": "original μS/cm; not molar concentration",
+      "fit_geometry": "S",
+      "B_h_nm": [
+        65,
+        120,
+        200,
+        350,
+        700,
+        2600
+      ],
+      "B_nonzero_points": 36,
+      "B_time_train_max_min": 60,
+      "L_time_train_max_min": 240,
+      "B_L_share_material_parameters_only": true,
+      "L_fit_only": [
+        "alpha",
+        "Q"
+      ],
+      "keep_original_eligibility_metadata": true,
+      "no_per_film_parameters": true
+    },
+    "models": {
+      "N0": {
+        "parameters": [
+          "alpha",
+          "Q"
+        ],
+        "beta": 0,
+        "required": true
+      },
+      "NS": {
+        "parameters": [
+          "alpha",
+          "Q",
+          "beta"
+        ],
+        "required": true
+      },
+      "ND": {
+        "parameters": [
+          "alpha",
+          "Q",
+          "beta",
+          "tau0_s",
+          "b"
+        ],
+        "required": "conditional_D2"
+      }
+    },
+    "geometry": {
+      "anchors": [
+        {
+          "draw": 81,
+          "h_nm": 1860,
+          "df_nm": 29.51265,
+          "dp_nm": 66,
+          "phi_A": 0.31,
+          "dp_interval_nm": [
+            65,
+            67
+          ],
+          "phi_interval": [
+            0.305,
+            0.315
+          ],
+          "source_type": "plot_estimate"
+        },
+        {
+          "draw": 182,
+          "h_nm": 770,
+          "df_nm": 24.54128,
+          "dp_nm": 52,
+          "phi_A": 0.286,
+          "dp_interval_nm": [
+            51,
+            53
+          ],
+          "phi_interval": [
+            0.281,
+            0.291
+          ],
+          "source_type": "plot_estimate"
+        },
+        {
+          "draw": 357,
+          "h_nm": 370,
+          "df_nm": 22.55544,
+          "dp_nm": 43,
+          "phi_A": 0.292,
+          "dp_interval_nm": [
+            42,
+            44
+          ],
+          "phi_interval": [
+            0.287,
+            0.297
+          ],
+          "source_type": "plot_estimate"
+        },
+        {
+          "draw": 604,
+          "h_nm": 230,
+          "df_nm": 26.57962,
+          "dp_nm": 52.4,
+          "phi_A": 0.345,
+          "dp_interval_nm": [
+            52.4,
+            52.4
+          ],
+          "phi_interval": [
+            0.345,
+            0.345
+          ],
+          "source_type": "reported_text_cal2_SEM"
+        }
+      ],
+      "H_anchor_draw": 357,
+      "S_interpolation": "piecewise_linear_in_log_h",
+      "S_extrapolation": "nearest_endpoint",
+      "same_film_pairing_confirmed": false,
+      "nx": 6,
+      "ny": 6,
+      "periodic_xy": true,
+      "s_rule": "df_plus_dp",
+      "spacing_factor": 1,
+      "nz_rule": "max(1,ceil(h/s))",
+      "node_volume_rule": "epsilon*s*s*dz",
+      "kappa_V": 1,
+      "sigma_ln": 0.35,
+      "p_z": 0.65,
+      "q": 0.5,
+      "radius_mean": "dp/2",
+      "radius_truncation": "[0.25*rbar,min(2*rbar,0.49*s)]",
+      "solve_underlying_lognormal_mean": true,
+      "throat_area_cap": "epsilon*A_face",
+      "keep_disconnected_realizations": true,
+      "rng": "PCG64",
+      "independent_radius_topology_substreams": true,
+      "main_seeds": [
+        7001,
+        7002,
+        7003,
+        7004,
+        7005,
+        7006,
+        7007,
+        7008
+      ],
+      "validation_seeds": [
+        7009,
+        7010,
+        7011,
+        7012,
+        7013,
+        7014,
+        7015,
+        7016,
+        7017,
+        7018,
+        7019,
+        7020,
+        7021,
+        7022,
+        7023,
+        7024,
+        7025,
+        7026,
+        7027,
+        7028,
+        7029,
+        7030,
+        7031,
+        7032
+      ],
+      "save_node_edge_tables_and_hashes": true
+    },
+    "physics": {
+      "D_Na_m2_s": 1.33e-09,
+      "D_Cl_m2_s": 2.03e-09,
+      "D_b_rule": "2*D_Na*D_Cl/(D_Na+D_Cl)",
+      "a_ref_m": 2.5e-08,
+      "w_node": "beta*a_ref/r_i",
+      "w_edge": "beta*a_ref/a_e",
+      "K_node": "exp(-w_node)",
+      "g_internal": "D_b*A_e*exp(-w_edge)/L_e",
+      "g_port": "1/(L_e*exp(w_edge)/(D_b*A_e)+1/(4*D_b*a_e))",
+      "reservoir_ratio": 1,
+      "alpha_unit": "1/m",
+      "initial_u_L": 1,
+      "initial_u_R": 0,
+      "initial_membrane_u": 0,
+      "observation": "Q*u_R",
+      "preload_conserves_total_salt": true,
+      "dynamic": {
+        "f0": 0,
+        "tau_edge": "tau0*exp(b*(a_ref/a_e-1))",
+        "f_edge": "1-(1-f0)*exp(-t/tau_edge)",
+        "changes_conductance_only": true,
+        "changes_volume": false,
+        "literal_wetting_claim": false
+      }
+    },
+    "parameter_bounds": {
+      "alpha": {
+        "min": 1,
+        "max": 100000.0,
+        "transform": "log10"
+      },
+      "Q": {
+        "min": 1,
+        "max": 1000000.0,
+        "transform": "log10"
+      },
+      "beta": {
+        "min": 0,
+        "max": 6,
+        "transform": "identity"
+      },
+      "tau0_s": {
+        "min": 1,
+        "max": 1000000.0,
+        "transform": "log10"
+      },
+      "b": {
+        "min": 0,
+        "max": 2,
+        "transform": "identity"
+      }
+    },
+    "optimization": {
+      "loss": "L = mean_curve(mean_point((asinh(y_pred/s0)-asinh(y_obs/s0))**2)); E=sqrt(L)",
+      "loss_clarification": "square each residual before point mean; L=mean_curve(mean_point(r^2)), E=sqrt(L)",
+      "asinh_s0_raw_unit": 1,
+      "average_predictions_over_networks_before_loss": true,
+      "starts_main": 12,
+      "starts_holdout": 4,
+      "starts_profile_sensitivity": 3,
+      "starts_noise": 4,
+      "seed": 20261022,
+      "main_first_start": "transformed_interval_midpoints",
+      "other_starts": "11 stratified per-coordinate permutations in transformed box",
+      "max_nfev_per_start": 200,
+      "retry_max_starts_per_job": 2,
+      "retry_total_nfev_per_start": 400,
+      "best_two_successful_loss_relative_tolerance": 0.01,
+      "boundary_flag_fraction": 0.01,
+      "warm_start_from_full_fit_for_holdout": false
+    },
+    "numerics": {
+      "rtol": 1e-07,
+      "atol_normalized_salt": 1e-11,
+      "tight_rtol": 1e-09,
+      "tight_atol": 1e-13,
+      "mass_relative_tolerance": 1e-08,
+      "negative_salt_fraction_tolerance": 1e-12,
+      "scaled_output_error_tolerance": 0.01,
+      "output_error_denominator": "max(1,abs(reference_y))",
+      "straight_chain_cells": [
+        32,
+        64,
+        128
+      ]
+    },
+    "dynamic_trigger": {
+      "logic": "both conditions in D2; exclude documented reading/time-binding error",
+      "B_curves_with_two_consecutive_same_sign_abs_r_gt_0_3_min": 2,
+      "NS_E_time_gt": 0.3,
+      "PE_B_or_L_shape_curves_min": 2,
+      "shape_condition": "piecewise_SSE_reduction>=0.30 OR positive_interval_rate_ratio>=3",
+      "controls_must_be_reported": true,
+      "unknown_metadata_allows_conditional_analysis": true
+    },
+    "prediction_rule": {
+      "time_error_reduction_min": 0.2,
+      "thickness_error_max_relative_worsening": 0.05,
+      "L_late_error_max_relative_worsening": 0.1,
+      "endpoint_ratio_target": [
+        0.5,
+        2
+      ],
+      "candidate_selection": "lowest valid E_time; within 5% choose fewer parameters; not scientific approval"
+    },
+    "matrices": {
+      "C1": {
+        "series": [
+          "H",
+          "S"
+        ],
+        "h_nm": [
+          65,
+          120,
+          200,
+          350,
+          700,
+          2600
+        ],
+        "beta": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "seeds": 8,
+        "combinations": 384,
+        "alpha": 1000.0,
+        "Q": 1,
+        "readout_min": 120
+      },
+      "C1_ablation": {
+        "beta": 3,
+        "changes": [
+          "remove_external_access",
+          "q=1",
+          "p_z=1"
+        ],
+        "combinations": 288
+      },
+      "C2": {
+        "h_nm": [
+          65,
+          350,
+          2600
+        ],
+        "series": [
+          "H",
+          "S"
+        ],
+        "beta": [
+          0,
+          3
+        ],
+        "lateral_sizes": [
+          4,
+          6,
+          8
+        ],
+        "one_conditional_lateral_size": 12,
+        "scaled_difference_trigger": 0.1,
+        "main_fit_stays_nx6": true
+      },
+      "C3": {
+        "a_nm": [
+          5,
+          25,
+          50
+        ],
+        "length_over_radius": 10,
+        "c_R_mol_m3": [
+          1,
+          100
+        ],
+        "sigma_mC_m2": [
+          0,
+          -0.1,
+          -1
+        ],
+        "c_L_over_c_R": [
+          1.01,
+          10
+        ],
+        "transport_cases": 36,
+        "equilibrium_parameter_sets": 18,
+        "T_K": 298.15,
+        "epsilon_r": 78.5,
+        "external_reservoir_domain": false,
+        "access_included": false,
+        "zero_current": true,
+        "radial_axial_grid_main": [
+          24,
+          240
+        ],
+        "refinement": [
+          48,
+          480
+        ],
+        "last_refinement": [
+          96,
+          960
+        ],
+        "equilibrium_capacity_relative_steps": [
+          0.01,
+          0.005
+        ],
+        "conductance_capacity_change_tolerance": 0.01,
+        "relative_current_tolerance": 1e-06,
+        "static_closure_comparison_tolerance": 0.2
+      },
+      "D1": {
+        "per_model": {
+          "full_B": 1,
+          "time_B": 1,
+          "thickness_B": 6,
+          "early_L_observation": 1
+        },
+        "max_fit_jobs": 27
+      },
+      "E1": {
+        "profile_positions": 9,
+        "max_jobs": 45,
+        "equivalent_loss_abs": 0.01,
+        "equivalent_loss_rel": 0.05,
+        "max_other_curves": 3
+      },
+      "E2": {
+        "truth_sets": 2,
+        "noise_eta": [
+          0,
+          0.01
+        ],
+        "sparse_tasks": 8,
+        "dense_tasks": 8,
+        "dense_interval_min": 1,
+        "noise_seed": 20261023,
+        "startset_seeds": [
+          20261024,
+          20261025
+        ],
+        "starts_per_set": 4,
+        "max_jobs": 16
+      },
+      "E3": {
+        "eta": [
+          0.01,
+          0.05
+        ],
+        "sigma_floor_raw": 0.01,
+        "seeds": [
+          8101,
+          8102,
+          8103,
+          8104,
+          8105,
+          8106
+        ],
+        "max_jobs": 12,
+        "perturb_raw_then_subtract_shared_baseline": true
+      },
+      "F": {
+        "max_jobs": 18,
+        "factorial_crosses": false,
+        "cases": [
+          {
+            "id": "S01",
+            "key": "q",
+            "value": 0.25,
+            "conditional": null
+          },
+          {
+            "id": "S02",
+            "key": "q",
+            "value": 1,
+            "conditional": null
+          },
+          {
+            "id": "S03",
+            "key": "p_z",
+            "value": 0.35,
+            "conditional": null
+          },
+          {
+            "id": "S04",
+            "key": "p_z",
+            "value": 1,
+            "conditional": null
+          },
+          {
+            "id": "S05",
+            "key": "sigma_ln",
+            "value": 0,
+            "conditional": null
+          },
+          {
+            "id": "S06",
+            "key": "sigma_ln",
+            "value": 0.7,
+            "conditional": null
+          },
+          {
+            "id": "S07",
+            "key": "kappa_V",
+            "value": 0.25,
+            "conditional": null
+          },
+          {
+            "id": "S08",
+            "key": "extrapolation",
+            "value": "linear_in_log_h",
+            "conditional": null
+          },
+          {
+            "id": "S09",
+            "key": "plot_anchor_joint_endpoint",
+            "value": "low",
+            "conditional": null
+          },
+          {
+            "id": "S10",
+            "key": "plot_anchor_joint_endpoint",
+            "value": "high",
+            "conditional": null
+          },
+          {
+            "id": "S11",
+            "key": "spacing_factor",
+            "value": 0.75,
+            "conditional": null
+          },
+          {
+            "id": "S12",
+            "key": "layers_rule",
+            "value": "round_half_up",
+            "conditional": null
+          },
+          {
+            "id": "S13",
+            "key": "D_b_multiplier",
+            "value": 0.7,
+            "conditional": null
+          },
+          {
+            "id": "S14",
+            "key": "D_b_multiplier",
+            "value": 1.3,
+            "conditional": null
+          },
+          {
+            "id": "S15",
+            "key": "reservoir_ratio",
+            "value": 2,
+            "conditional": null
+          },
+          {
+            "id": "S16",
+            "key": "preload_membrane_u",
+            "value": 0.25,
+            "conditional": null
+          },
+          {
+            "id": "S17",
+            "key": "external_layer_m",
+            "value": 1e-05,
+            "conditional": null
+          },
+          {
+            "id": "S18",
+            "key": "f0",
+            "value": 0.5,
+            "conditional": "ND only"
+          }
+        ]
+      },
+      "G": {
+        "series": [
+          "H",
+          "S"
+        ],
+        "h_logspace_nm": [
+          65,
+          2600,
+          12
+        ],
+        "beta_linspace": [
+          0,
+          6,
+          9
+        ],
+        "seeds": 8,
+        "steady_combinations": 1728,
+        "fit_each_point": false,
+        "extra_dynamic_2D_sweep": false
+      }
+    },
+    "result_state": {
+      "computation": "not_started",
+      "numerical_validation": "not_tested",
+      "scientific_support": "not_evaluated",
+      "manuscript_readiness": "not_evaluated"
+    },
+    "handoff": {
+      "estimated_student_weeks": [
+        4,
+        8
+      ],
+      "steps": 6,
+      "teacher_review_after_steps": [
+        1,
+        3,
+        6
+      ],
+      "return_folder": "15_学生论文补强成果_v7.0.0",
+      "no_automatic_next_batch": true
+    }
+  },
+  "execution": {
+    "WP1_data_audit": "completed",
+    "N0_NS_ND": "not_started"
+  }
+}

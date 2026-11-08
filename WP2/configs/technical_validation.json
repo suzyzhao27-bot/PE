@@ -1,0 +1,28 @@
+{
+  "model_version": "v6.0.0-WP2",
+  "purpose": "synthetic numerical checks only; not PE parameter estimates",
+  "source_specification": "原始资料/赵珈绮/12_论文导向研究总方案_v6.0.0/01_物理模型与推导规格.md;04_计算矩阵与验收规则.md",
+  "reference": {
+    "a_m": 2.5e-8,
+    "ell_m": 8.93953885e-7,
+    "ws_ref": 7.039790538,
+    "robin_r": 0.0,
+    "db_m2_s": 1.6070833333333333e-9,
+    "volume_ratio": 1.0
+  },
+  "solver": {
+    "method": "SciPy BDF, constant sparse Jacobian",
+    "rtol": 1e-9,
+    "atol": 1e-12,
+    "cells": [50, 100, 200]
+  },
+  "observation": {
+    "time_unit_input": "min",
+    "time_unit_solver": "s",
+    "length_unit_input": "nm",
+    "length_unit_solver": "m",
+    "conductivity_prediction": "Q*C_R/C0",
+    "book1_times_65_min": [0, 20, 40, 60, 85, 100, 120],
+    "book1_times_other_min": [0, 20, 40, 60, 80, 100, 120]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS_DATA_AUDIT",
+  "model_run": false,
+  "fit_run": false,
+  "workbooks": 3,
+  "groups": 9,
+  "ramps": 36,
+  "reverse_flow_ramps": 18,
+  "min_I_R2": 0.782977163770707,
+  "min_Q_R2": 0.926514527768843,
+  "max_abs_HS_minus_reported_mV": 4.967951752774994,
+  "max_abs_HS_minus_taskbook_mV": 2.842170943040401e-14,
+  "max_abs_summary_recompute_difference": 4.973799150320701e-14,
+  "conditional_NaCl_range_mM": [
+    1.0604794237171828,
+    1.377349816089133
+  ],
+  "independent_film_n": "unknown",
+  "H_full_gap": "assumed",
+  "HS_sign_convention": "matches delivered reconstruction with reported current sign and abs(flow slope); section 02 displayed formula has opposite leading sign; instrument orientation unresolved",
+  "bath_identity": "conditional NaCl+HCl/NaOH, not measured composition"
+}
