@@ -1,0 +1,7 @@
+﻿item,status,evidence,claim_limit
+zeta_site_density_reference,REPRODUCED_FROM_SUPPLIED_CSV,pH~7 rows in 02_九组计算与实验.csv,conditional reference only; not measured adsorbate identity
+dry_neutral_octanoic_acid_w_of_z,BLOCKED_MISSING_MD_INPUTS,"no atomic surface coordinates, octanoic-acid topology, or GROMACS executable in E:\PE","do not report K_dry, R_dry, or W(z)"
+wet_HA_and_A_minus,NOT_STARTED_BY_DESIGN,task brief gates wet calculation on a dry-state direction result,do not report K_wet or R_wet
+structure_surface_area_and_ordered_fraction,BLOCKED_MISSING_ATOMIC_STRUCTURES,only macro constraints are supplied; no three independent surface realizations,no group-specific surface morphology claim
+legacy_square_fiber_geometry_proxy,REPRODUCED_GEOMETRY_PROXY,WP3/v9_几何层表.csv; layer counts 11/6/4 for 182/357/604,structural scenario only; not atomic accessible area or adsorption capacity
+simple_noncrystalline_mixture_bound,REPRODUCED_FROM_TASK_BRIEF,(1-0.4083)/(1-0.5399),upper bound under fixed phase-specific adsorption; not a surface measurement

@@ -1,0 +1,13 @@
+{
+  "package_number": 32,
+  "package_name": "32_拉伸结构与小分子吸附_导师侧计算审阅包_20261109_v1.0.1",
+  "date": "2026-11-09",
+  "role": "ADVISOR_SIDE_COMPUTATIONAL_PROGRESS",
+  "dry_md_status": "BLOCKED_UNTIL_ATOMIC_SURFACES_FORCE_FIELD_AND_MD_TOOLCHAIN",
+  "wet_md_status": "NOT_STARTED_BY_DESIGN",
+  "face_charge_reproduction": "PASS",
+  "geometry_proxy_status": "COMPUTED_STRUCTURAL_SCENARIO_ONLY",
+  "source_inputs_unchanged": true,
+  "experimental_claims_added": false,
+  "synthetic_adsorption_curves_added": false
+}

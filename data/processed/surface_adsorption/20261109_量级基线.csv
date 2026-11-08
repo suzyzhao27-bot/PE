@@ -1,0 +1,7 @@
+﻿comparison,numerator,denominator,ratio,delta_delta_g_kj_mol,reference_or_role,formula
+thin_over_thick,604,182,1.8373448688786695,-1.508002916792034,zeta-inverted effective site-density ratio,Gamma_604/Gamma_182; -RT ln(R)
+middle_over_thick,357,182,1.1786830627378397,-0.40753499942281335,zeta-inverted effective site-density ratio,Gamma_357/Gamma_182; -RT ln(R)
+thin_over_middle,604,357,1.558811632204923,-1.1004679173692204,zeta-inverted effective site-density ratio,Gamma_604/Gamma_357; -RT ln(R)
+noncrystalline_bound,604 noncrystalline fraction,182 noncrystalline fraction,1.2860247772223432,,fixed phase-specific adsorption upper bound,(1-Xc_604)/(1-Xc_182)
+engineering_target_low,task brief,task brief,1.5,,pre-declared interpretation scale,target interval lower edge
+engineering_target_high,task brief,task brief,2.3,,pre-declared interpretation scale,target interval upper edge

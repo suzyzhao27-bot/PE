@@ -1,0 +1,4 @@
+﻿draw,second_draw_ratio,thickness_nm,dsc_crystallinity_mass_frac,xrd_crystallinity_frac,coherent_110_nm,coherent_200_nm,fiber_diameter_nm,afm_roughness_nm,surface_energy_mJ_m2,zeta_mV,site_density_per_nm2,evidence_role
+182,1.5,770.0,0.5399,0.549,16.2,14.79,24.54,18.1,42.3,-52.9,0.04318916524277331,task_brief_constraint
+357,2.1,370.0,0.5108,0.511,15.07,13.68,22.56,16.0,43.3,-59.1,0.0509063375654427,task_brief_constraint
+604,2.73,230.0,0.4083,0.406,14.48,12.85,26.58,23.2,43.4,-70.5,0.07935339114996252,task_brief_constraint
