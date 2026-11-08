@@ -154,6 +154,10 @@ def build_package(destination_root: Path | None = None) -> Path:
             folder = "figures" if source.suffix.lower() in {".png", ".svg", ".pdf"} else "figure_data"
             _copy(source, package / folder / source.name)
 
+    geometry_input = ROOT / "WP3" / "v9_几何层表.csv"
+    if geometry_input.is_file():
+        _copy(geometry_input, package / "figure_data" / "20261109_几何层表_输入.csv")
+
     check_files = {
         ROOT / "阶段总结/20261109_表面吸附任务_基线复算与模拟边界.md": "checks/20261109_表面吸附任务_基线复算与模拟边界.md",
         ROOT / "data/processed/surface_adsorption/20261109_干态吸附计算输入合同.md": "checks/20261109_干态吸附计算输入合同.md",
@@ -187,6 +191,7 @@ def build_package(destination_root: Path | None = None) -> Path:
         "wet_md_status": "NOT_STARTED_BY_DESIGN",
         "face_charge_reproduction": "PASS",
         "geometry_proxy_status": "COMPUTED_STRUCTURAL_SCENARIO_ONLY",
+        "geometry_input_packaged": True,
         "source_inputs_unchanged": True,
         "experimental_claims_added": False,
         "synthetic_adsorption_curves_added": False,

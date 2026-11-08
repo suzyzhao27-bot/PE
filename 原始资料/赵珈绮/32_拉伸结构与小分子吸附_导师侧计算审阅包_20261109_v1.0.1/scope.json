@@ -9,5 +9,6 @@
   "geometry_proxy_status": "COMPUTED_STRUCTURAL_SCENARIO_ONLY",
   "source_inputs_unchanged": true,
   "experimental_claims_added": false,
-  "synthetic_adsorption_curves_added": false
+  "synthetic_adsorption_curves_added": false,
+  "geometry_input_packaged": true
 }

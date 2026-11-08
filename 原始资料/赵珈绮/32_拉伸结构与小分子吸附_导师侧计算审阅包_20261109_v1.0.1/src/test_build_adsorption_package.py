@@ -52,6 +52,7 @@ class AdsorptionPackageContractTests(unittest.TestCase):
             self.assertTrue((package / "figures/图3_几何外层代理.png").is_file())
             self.assertTrue((package / "figure_data/20261109_几何外层代理_自由膜.csv").is_file())
             self.assertTrue((package / "figure_data/20261109_几何代理合同.json").is_file())
+            self.assertTrue((package / "figure_data/20261109_几何层表_输入.csv").is_file())
             self.assertEqual(package.name, "32_拉伸结构与小分子吸附_导师侧计算审阅包_20261109_v1.0.1")
 
 
