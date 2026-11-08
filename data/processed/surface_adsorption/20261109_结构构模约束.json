@@ -1,0 +1,62 @@
+{
+  "status": "INPUT_CONTRACT_ONLY",
+  "source": "20261109_珈绮计算任务_拉伸结构与小分子吸附.md",
+  "temperature_K": 298.15,
+  "probe": {
+    "name": "octanoic_acid",
+    "state": "neutral_HA",
+    "topology": "unknown"
+  },
+  "groups": [
+    {
+      "draw": "182",
+      "second_draw_ratio": 1.5,
+      "thickness_nm": 770.0,
+      "dsc_crystallinity_mass_frac": 0.5399,
+      "xrd_crystallinity_frac": 0.549,
+      "coherent_110_nm": 16.2,
+      "coherent_200_nm": 14.79,
+      "fiber_diameter_nm": 24.54,
+      "afm_roughness_nm": 18.1,
+      "replicate_count": 3,
+      "replicate_seeds": "unknown",
+      "atomic_surface_coordinates": "unknown"
+    },
+    {
+      "draw": "357",
+      "second_draw_ratio": 2.1,
+      "thickness_nm": 370.0,
+      "dsc_crystallinity_mass_frac": 0.5108,
+      "xrd_crystallinity_frac": 0.511,
+      "coherent_110_nm": 15.07,
+      "coherent_200_nm": 13.68,
+      "fiber_diameter_nm": 22.56,
+      "afm_roughness_nm": 16.0,
+      "replicate_count": 3,
+      "replicate_seeds": "unknown",
+      "atomic_surface_coordinates": "unknown"
+    },
+    {
+      "draw": "604",
+      "second_draw_ratio": 2.73,
+      "thickness_nm": 230.0,
+      "dsc_crystallinity_mass_frac": 0.4083,
+      "xrd_crystallinity_frac": 0.406,
+      "coherent_110_nm": 14.48,
+      "coherent_200_nm": 12.85,
+      "fiber_diameter_nm": 26.58,
+      "afm_roughness_nm": 23.2,
+      "replicate_count": 3,
+      "replicate_seeds": "unknown",
+      "atomic_surface_coordinates": "unknown"
+    }
+  ],
+  "surface_normal": "unknown",
+  "force_field": "unknown",
+  "water_model": "not_applicable_for_dry_stage",
+  "gas_standard_state": "same_across_groups",
+  "surface_area_algorithm": "unknown",
+  "first_adsorption_layer_boundary": "unknown",
+  "gromacs_version": "not_available",
+  "wham_or_mbar": "not_available"
+}

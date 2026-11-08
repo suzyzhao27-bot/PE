@@ -1,0 +1,24 @@
+{
+  "status": "GEOMETRY_PROXY_ONLY",
+  "source_table": "E:\\PE-sync\\WP3\\v9_几何层表.csv",
+  "shell_thickness_nm": 1.0,
+  "groups": [
+    "182",
+    "357",
+    "604"
+  ],
+  "derived_quantities": [
+    "layer_count_N",
+    "wet_to_projected_area_ratio",
+    "outer_layer_perimeter_fraction",
+    "one_nm_shell_fraction"
+  ],
+  "not_computed": [
+    "atomic_accessible_area",
+    "W(z)",
+    "K_dry",
+    "R_dry",
+    "R_wet"
+  ],
+  "interpretation": "structural scenario proxy; not an atomistic surface or adsorption prediction"
+}
