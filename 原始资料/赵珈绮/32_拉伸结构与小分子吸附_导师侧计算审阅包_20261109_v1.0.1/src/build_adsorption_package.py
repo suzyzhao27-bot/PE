@@ -15,11 +15,28 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WORK_ROOT = ROOT.parent
 PACKAGE_NAME = "32_拉伸结构与小分子吸附_导师侧计算审阅包_20261109_v1.0.1"
 OUTPUT_ROOT = ROOT / "原始资料" / "赵珈绮"
 DATA_ROOT = ROOT / "data" / "processed" / "surface_adsorption"
 BASELINE_MODULE = ROOT / "src" / "mechanism_surface_adsorption_baseline.py"
+
+
+def _resolve_work_root() -> Path:
+    """Find the sibling directory that holds the supplied task materials.
+
+    The working copy is commonly ``E:/PE/PE-main`` while a GitHub clone may
+    be placed directly under ``E:/``.  Supporting both layouts keeps the
+    package builder reproducible without copying source inputs into the repo.
+    """
+    candidates = (ROOT.parent, ROOT.parent / "PE")
+    marker = "20261109_珈绮计算任务_拉伸结构与小分子吸附.md"
+    for candidate in candidates:
+        if (candidate / marker).is_file():
+            return candidate
+    return ROOT.parent
+
+
+WORK_ROOT = _resolve_work_root()
 
 
 def _load_baseline_module():
@@ -137,6 +154,10 @@ def build_package(destination_root: Path | None = None) -> Path:
             folder = "figures" if source.suffix.lower() in {".png", ".svg", ".pdf"} else "figure_data"
             _copy(source, package / folder / source.name)
 
+    geometry_input = ROOT / "WP3" / "v9_几何层表.csv"
+    if geometry_input.is_file():
+        _copy(geometry_input, package / "figure_data" / "20261109_几何层表_输入.csv")
+
     check_files = {
         ROOT / "阶段总结/20261109_表面吸附任务_基线复算与模拟边界.md": "checks/20261109_表面吸附任务_基线复算与模拟边界.md",
         ROOT / "data/processed/surface_adsorption/20261109_干态吸附计算输入合同.md": "checks/20261109_干态吸附计算输入合同.md",
@@ -170,6 +191,7 @@ def build_package(destination_root: Path | None = None) -> Path:
         "wet_md_status": "NOT_STARTED_BY_DESIGN",
         "face_charge_reproduction": "PASS",
         "geometry_proxy_status": "COMPUTED_STRUCTURAL_SCENARIO_ONLY",
+        "geometry_input_packaged": True,
         "source_inputs_unchanged": True,
         "experimental_claims_added": False,
         "synthetic_adsorption_curves_added": False,

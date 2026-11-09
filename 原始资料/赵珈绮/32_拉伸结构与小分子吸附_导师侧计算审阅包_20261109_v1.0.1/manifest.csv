@@ -46,3 +46,4 @@ src/surface_geometry_proxy.py,src,COPIED_OR_GENERATED
 src/test_build_adsorption_package.py,src,COPIED_OR_GENERATED
 src/test_surface_adsorption_baseline.py,src,COPIED_OR_GENERATED
 src/test_surface_geometry_proxy.py,src,COPIED_OR_GENERATED
+figure_data/20261109_几何层表_输入.csv,figure_data,COPIED_OR_GENERATED
